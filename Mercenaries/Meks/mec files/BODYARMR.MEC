@@ -1,0 +1,192 @@
+#   bodyarmr.MEC
+#   geometry for the bodyarmr 'Mech
+#   last modified 4/11/94 JB
+#   finishing touches added 4/11 JB
+
+#       size = 1375cm
+#       750 to put bodyarmr's feet on ground
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+object bodyarmr=dummy        1,1,1   0,0,0   0,0,0   0   hidden  world
+
+rep
+
+Object b_hips=ba1_hips   1,1,1   0,0,0   0,130,0   0      .      bodyarmr
+Object b_luleg=ba1luleg   1,1,1   0,0,0   -10,-17,0   0      .      b_hips
+Object b_llleg=ba1llleg   1,1,1   0,0,0   -11,-42,0   0      .      b_luleg
+Object b_lfoot=ba1lfoot   1,1,1   0,0,0   -5,-53,0   0      .      b_llleg
+Object b_ruleg=ba1ruleg   1,1,1   0,0,0   11,-17,0   0      .      b_hips
+Object b_rlleg=ba1rlleg   1,1,1   0,0,0   12,-42,0   0      .      b_ruleg
+Object b_rfoot=ba1rfoot   1,1,1   0,0,0   4,-53,0   0      .      b_rlleg
+Object b_head=ba1_head   1,1,1   0,0,0   0,0,0   0      .      b_hips
+Object b_winsh=ba1winsh   1,1,1   0,0,0   0,70,0   0      .      b_head
+Object b_decl=ba1_decl   1,1,1   0,0,0   0,26,34   0      .      b_head
+Object b_rtpof=DUMMY   1,1,1   0,0,0   28,67,30   0   hidden   b_head
+Object b_rjpof=DUMMY   1,1,1   0,0,0   14,14,-31   0   hidden   b_head
+Object b_cppov=DUMMY   1,1,1   0,0,0   0,67,-1   0   hidden   b_head
+Object b_ltpof=DUMMY   1,1,1   0,0,0   -29,69,30   0   hidden   b_head
+Object b_ljpof=DUMMY   1,1,1   0,0,0   -13,14,-31   0   hidden   b_head
+Object b_hdpof=DUMMY   1,1,1   0,0,0   0,84,19   0   hidden   b_head
+Object b_ctpof=DUMMY   1,1,1   0,0,0   0,36,44   0   hidden   b_head
+Object b_daddy=DUMMY   1,1,1   0,0,0   0,56,0   0   hidden   b_head
+Object b_larm=ba1_larm   1,1,1   0,0,0   -34,1,0   0      .      b_daddy
+Object b_lapof=DUMMY   1,1,1   0,0,0   -9,-46,65   0   hidden   b_larm
+Object b_rarm=ba1_rarm   1,1,1   0,0,0   34,1,0   0      .      b_daddy
+Object b_rapof=DUMMY   1,1,1   0,0,0   9,-46,65   0   hidden   b_rarm
+
+rep
+
+Object b_hips=ba2_hips   1,1,1   0,0,0   0,130,0   0      .      bodyarmr
+Object b_luleg=ba2luleg   1,1,1   0,0,0   -10,-17,0   0      .      b_hips
+Object b_llleg=ba2llleg   1,1,1   0,0,0   -11,-42,0   0      .      b_luleg
+Object b_lfoot=ba2lfoot   1,1,1   0,0,0   -5,-53,0   0      .      b_llleg
+Object b_ruleg=ba2ruleg   1,1,1   0,0,0   11,-17,0   0      .      b_hips
+Object b_rlleg=ba2rlleg   1,1,1   0,0,0   12,-42,0   0      .      b_ruleg
+Object b_rfoot=ba2rfoot   1,1,1   0,0,0   4,-53,0   0      .      b_rlleg
+Object b_head=ba2_head   1,1,1   0,0,0   0,0,0   0      .      b_hips
+Object b_winsh=ba2winsh   1,1,1   0,0,0   0,70,0   0      .      b_head
+Object b_decl=ba2_decl   1,1,1   0,0,0   0,26,34   0      .      b_head
+Object b_rtpof=DUMMY   1,1,1   0,0,0   28,67,30   0   hidden   b_head
+Object b_rjpof=DUMMY   1,1,1   0,0,0   14,14,-31   0   hidden   b_head
+Object b_cppov=DUMMY   1,1,1   0,0,0   0,67,-1   0   hidden   b_head
+Object b_ltpof=DUMMY   1,1,1   0,0,0   -29,69,30   0   hidden   b_head
+Object b_ljpof=DUMMY   1,1,1   0,0,0   -13,14,-31   0   hidden   b_head
+Object b_hdpof=DUMMY   1,1,1   0,0,0   0,84,19   0   hidden   b_head
+Object b_ctpof=DUMMY   1,1,1   0,0,0   0,36,44   0   hidden   b_head
+Object b_daddy=DUMMY   1,1,1   0,0,0   0,56,0   0   hidden   b_head
+Object b_larm=ba2_larm   1,1,1   0,0,0   -34,1,0   0      .      b_daddy
+Object b_lapof=DUMMY   1,1,1   0,0,0   -9,-46,65   0   hidden   b_larm
+Object b_rarm=ba2_rarm   1,1,1   0,0,0   34,1,0   0      .      b_daddy
+Object b_rapof=DUMMY   1,1,1   0,0,0   9,-46,65   0   hidden   b_rarm
+
+rep
+
+Object b_hips=ba3_hips   1,1,1   0,0,0   0,130,0   0      .      bodyarmr
+Object b_luleg=ba3luleg   1,1,1   0,0,0   -10,-17,0   0      .      b_hips
+Object b_llleg=ba3llleg   1,1,1   0,0,0   -11,-42,0   0      .      b_luleg
+Object b_lfoot=ba3lfoot   1,1,1   0,0,0   -5,-53,0   0      .      b_llleg
+Object b_ruleg=ba3ruleg   1,1,1   0,0,0   11,-17,0   0      .      b_hips
+Object b_rlleg=ba3rlleg   1,1,1   0,0,0   12,-42,0   0      .      b_ruleg
+Object b_rfoot=ba3rfoot   1,1,1   0,0,0   4,-53,0   0      .      b_rlleg
+Object b_head=ba3_head   1,1,1   0,0,0   0,0,0   0      .      b_hips
+Object b_winsh=ba3winsh   1,1,1   0,0,0   0,70,0   0      .      b_head
+Object b_decl=ba3_decl   1,1,1   0,0,0   0,26,34   0      .      b_head
+Object b_rtpof=DUMMY   1,1,1   0,0,0   28,67,30   0   hidden   b_head
+Object b_rjpof=DUMMY   1,1,1   0,0,0   14,14,-31   0   hidden   b_head
+Object b_cppov=DUMMY   1,1,1   0,0,0   0,67,-1   0   hidden   b_head
+Object b_ltpof=DUMMY   1,1,1   0,0,0   -29,69,30   0   hidden   b_head
+Object b_ljpof=DUMMY   1,1,1   0,0,0   -13,14,-31   0   hidden   b_head
+Object b_hdpof=DUMMY   1,1,1   0,0,0   0,84,19   0   hidden   b_head
+Object b_ctpof=DUMMY   1,1,1   0,0,0   0,36,44   0   hidden   b_head
+Object b_daddy=DUMMY   1,1,1   0,0,0   0,56,0   0   hidden   b_head
+Object b_larm=ba3_larm   1,1,1   0,0,0   -34,1,0   0      .      b_daddy
+Object b_lapof=DUMMY   1,1,1   0,0,0   -9,-46,65   0   hidden   b_larm
+Object b_rarm=ba3_rarm   1,1,1   0,0,0   34,1,0   0      .      b_daddy
+Object b_rapof=DUMMY   1,1,1   0,0,0   9,-46,65   0   hidden   b_rarm
+
+rep
+
+Object b_hips=ba4_hips   1,1,1   0,0,0   0,130,0   0      .      bodyarmr
+Object b_luleg=ba4luleg   1,1,1   0,0,0   -10,-17,0   0      .      b_hips
+Object b_llleg=ba4llleg   1,1,1   0,0,0   -11,-42,0   0      .      b_luleg
+Object b_lfoot=ba4lfoot   1,1,1   0,0,0   -5,-53,0   0      .      b_llleg
+Object b_ruleg=ba4ruleg   1,1,1   0,0,0   11,-17,0   0      .      b_hips
+Object b_rlleg=ba4rlleg   1,1,1   0,0,0   12,-42,0   0      .      b_ruleg
+Object b_rfoot=ba4rfoot   1,1,1   0,0,0   4,-53,0   0      .      b_rlleg
+Object b_head=ba4_head   1,1,1   0,0,0   0,0,0   0      .      b_hips
+Object b_winsh=ba4winsh   1,1,1   0,0,0   0,70,0   0      .      b_head
+Object b_decl=ba4_decl   1,1,1   0,0,0   0,26,34   0      .      b_head
+Object b_rtpof=DUMMY   1,1,1   0,0,0   28,67,30   0   hidden   b_head
+Object b_rjpof=DUMMY   1,1,1   0,0,0   14,14,-31   0   hidden   b_head
+Object b_cppov=DUMMY   1,1,1   0,0,0   0,67,-1   0   hidden   b_head
+Object b_ltpof=DUMMY   1,1,1   0,0,0   -29,69,30   0   hidden   b_head
+Object b_ljpof=DUMMY   1,1,1   0,0,0   -13,14,-31   0   hidden   b_head
+Object b_hdpof=DUMMY   1,1,1   0,0,0   0,84,19   0   hidden   b_head
+Object b_ctpof=DUMMY   1,1,1   0,0,0   0,36,44   0   hidden   b_head
+Object b_daddy=DUMMY   1,1,1   0,0,0   0,56,0   0   hidden   b_head
+Object b_larm=ba4_larm   1,1,1   0,0,0   -34,1,0   0      .      b_daddy
+Object b_lapof=DUMMY   1,1,1   0,0,0   -9,-46,65   0   hidden   b_larm
+Object b_rarm=ba4_rarm   1,1,1   0,0,0   34,1,0   0      .      b_daddy
+Object b_rapof=DUMMY   1,1,1   0,0,0   9,-46,65   0   hidden   b_rarm
+
+rep
+
+Object b_hips=DUMMY   1,1,1   0,0,0   0,130,0   0     hidden  bodyarmr
+Object b_luleg=DUMMY   1,1,1   0,0,0   -10,-17,0   0  hidden     b_hips
+Object b_llleg=DUMMY   1,1,1   0,0,0   -11,-42,0   0  hidden     b_luleg
+Object b_lfoot=DUMMY   1,1,1   0,0,0   -5,-53,0   0   hidden    b_llleg
+Object b_ruleg=DUMMY   1,1,1   0,0,0   11,-17,0   0   hidden    b_hips
+Object b_rlleg=DUMMY   1,1,1   0,0,0   12,-42,0   0   hidden    b_ruleg
+Object b_rfoot=DUMMY   1,1,1   0,0,0   4,-53,0   0    hidden   b_rlleg
+Object b_head=ba5_head   1,1,1   0,0,0   0,0,0   0    near     b_hips
+Object b_winsh=DUMMY   1,1,1   0,0,0   0,70,0   0     hidden  b_head
+Object b_decl=DUMMY   1,1,1   0,0,0   0,26,34   0     hidden  b_head
+Object b_rtpof=DUMMY   1,1,1   0,0,0   28,67,30   0   hidden   b_head
+Object b_rjpof=DUMMY   1,1,1   0,0,0   14,14,-31   0   hidden   b_head
+Object b_cppov=DUMMY   1,1,1   0,0,0   0,67,-1   0   hidden   b_head
+Object b_ltpof=DUMMY   1,1,1   0,0,0   -29,69,30   0   hidden   b_head
+Object b_ljpof=DUMMY   1,1,1   0,0,0   -13,14,-31   0   hidden   b_head
+Object b_hdpof=DUMMY   1,1,1   0,0,0   0,84,19   0   hidden   b_head
+Object b_ctpof=DUMMY   1,1,1   0,0,0   0,36,44   0   hidden   b_head
+Object b_daddy=DUMMY   1,1,1   0,0,0   0,56,0   0   hidden   b_head
+Object b_larm=DUMMY   1,1,1   0,0,0   -34,1,0   0     hidden  b_daddy
+Object b_lapof=DUMMY   1,1,1   0,0,0   -9,-46,65   0   hidden   b_larm
+Object b_rarm=DUMMY   1,1,1   0,0,0   34,1,0   0      hidden b_daddy
+Object b_rapof=DUMMY   1,1,1   0,0,0   9,-46,65   0   hidden   b_rarm
+
+endrep
+
+thing b_head
+thing b_daddy
+
+gamepiece bodyarmr mw2mech 
+
+objloc b_head   ct
+objloc b_winsh  ct
+objloc b_larm   ct
+objloc b_rarm   ct
+objloc b_luleg  ct
+objloc b_ruleg  ct
+objloc b_llleg  ct
+objloc b_rlleg  ct
+objloc b_lfoot  ct
+objloc b_rfoot  ct
+
+animfile elemanim
+
+task animator 0    b_hips;27,129,0
+task animator 0    b_hips;27,1,1
+task animator 0    b_luleg;27,1,2
+task animator 0    b_llleg;27,1,3
+task animator 0    b_lfoot;27,1,4
+task animator 0    b_ruleg;27,1,5
+task animator 0    b_rlleg;27,1,6
+task animator 0    b_rfoot;27,1,7
+task animator 0    b_head;27,1,8
+task animator 0    b_larm;27,1,9
+task animator 0    b_rarm;27,1,10
+
+hdpof b_hdpof
+ctpof b_ctpof
+ltpof b_ltpof
+rtpof b_rtpof
+lapof b_lapof
+rapof b_rapof
+ljpof b_ljpof
+rjpof b_rjpof
+
+eyeobj b_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile bodyarmr
+pitfile mw2pit
+
+mangle_off
+
+AnimSound meclight
+
+# end of bodyarmr.mec

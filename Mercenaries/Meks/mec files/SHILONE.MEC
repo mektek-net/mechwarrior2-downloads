@@ -1,0 +1,69 @@
+#     Ouput for shilone.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object shilone=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object s_main=si1_main   1,1,1   0,0,0   0,124,-259   0      .      shilone
+Object s_winsh=si1winsh   1,1,1   0,0,0   0,39,519   0      .      s_main
+Object s_rfslg=si1rfslg   1,1,1   0,0,0   307,-58,153   0      .      s_main
+Object s_lfslg=si1lfslg   1,1,1   0,0,0   -307,-58,153   0      .      s_main
+Object s_rhfin=si1rhfin   1,1,1   0,0,0   212,112,-178   0      .      s_main
+Object s_lhfin=si1lhfin   1,1,1   0,0,0   -201,112,-178   0      .      s_main
+Object s_rwing=si1rwing   1,1,1   0,0,0   1074,-58,82   0      .      s_main
+Object s_rwlgo=si1rwlgo   1,1,1   0,0,0   -423,5,-63   0      .      s_rwing
+Object s_lwing=si1lwing   1,1,1   0,0,0   -1074,-58,82   0      .      s_main
+Object s_lwlgo=si1lwlgo   1,1,1   0,0,0   458,5,-63   0      .      s_lwing
+Object s_dummy=DUMMY   1,1,1   0,0,0   0,-5,177   0   hidden   s_main
+Object s_daddy=DUMMY   1,1,1   0,0,0   0,0,102   0   hidden   s_dummy
+Object s_ctpof=DUMMY   1,1,1   0,0,0   0,-118,303   0   hidden   s_daddy
+Object s_hdpof=DUMMY   1,1,1   0,0,0   0,50,211   0   hidden   s_daddy
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -228,11,461   0   hidden   s_daddy
+Object s_rtpof=DUMMY   1,1,1   0,0,0   219,11,461   0   hidden   s_daddy
+Object s_rwpof=DUMMY   1,1,1   0,0,0   628,-52,420   0   hidden   s_daddy
+Object s_lwpof=DUMMY   1,1,1   0,0,0   -625,-52,419   0   hidden   s_daddy
+
+endrep
+
+thing s_dummy
+thing s_daddy
+
+gamepiece shilone mw2truck
+
+objloc s_main   ct
+objloc s_winsh  ct
+objloc s_rwing  ra
+objloc s_lwing  la
+objloc s_lfslg  lt
+objloc s_rfslg  rt
+objloc s_lhfin  lt
+objloc s_rhfin  rt
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    s_main;60,129,0
+
+lapof s_lwpof
+rapof s_rwpof
+hdpof s_hdpof
+ctpof s_ctpof
+ltpof s_ltpof
+rtpof s_rtpof
+
+eyeobj s_hdpof
+
+mgdfile shilone
+
+mangle_off
+
+#end of shilone.MEC
+

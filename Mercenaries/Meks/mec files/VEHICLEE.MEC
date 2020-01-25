@@ -1,0 +1,64 @@
+#     Ouput for vehiclee.MEC
+#     Thu May  4 02:03:32 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object vehiclee=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object v_main=ve1_main   1,1,1   0,0,0   0,50,-50   0      .      vehiclee
+Object v_winsh=ve1winsh   1,1,1   0,0,0   0,128,-12   0      .      v_main
+Object v_shovl=ve1shovl   1,1,1   0,0,0   0,60,-8   0      .      v_main
+Object v_ltred=ve1ltred   1,1,1   0,0,0   -150,0,50   0      .      v_main
+Object v_rtred=ve1rtred   1,1,1   0,0,0   150,0,50   0      .      v_main
+
+rep
+
+Object v_main=ve2_main   1,1,1   0,0,0   0,50,-50   0      .      vehiclee
+Object v_winsh=ve2winsh   1,1,1   0,0,0   0,128,-12   0      .      v_main
+Object v_shovl=ve2shovl   1,1,1   0,0,0   0,60,-8   0      .      v_main
+Object v_ltred=ve2ltred   1,1,1   0,0,0   -150,0,50   0      .      v_main
+Object v_rtred=ve2rtred   1,1,1   0,0,0   150,0,50   0      .      v_main
+
+rep
+
+Object v_main=ve3_main   1,1,1   0,0,0   0,50,-50   0      .      vehiclee
+Object v_winsh=ve3winsh   1,1,1   0,0,0   0,128,-12   0      .      v_main
+Object v_shovl=ve3shovl   1,1,1   0,0,0   0,60,-8   0      .      v_main
+Object v_ltred=ve3ltred   1,1,1   0,0,0   -150,0,50   0      .      v_main
+Object v_rtred=ve3rtred   1,1,1   0,0,0   150,0,50   0      .      v_main
+
+rep
+
+Object v_main=ve4_main   1,1,1   0,0,0   0,50,-50   0      .      vehiclee
+Object v_winsh=ve4winsh   1,1,1   0,0,0   0,128,-12   0      .      v_main
+Object v_shovl=ve4shovl   1,1,1   0,0,0   0,60,-8   0      .      v_main
+Object v_ltred=ve4ltred   1,1,1   0,0,0   -150,0,50   0      .      v_main
+Object v_rtred=ve4rtred   1,1,1   0,0,0   150,0,50   0      .      v_main
+
+endrep
+
+gamepiece vehiclee mw2truck                 
+
+objloc v_winsh  hd
+objloc v_main   ct
+objloc v_ltred  ll
+objloc v_rtred  rl
+
+animfile veheanim 
+
+# task animators go here....
+
+task animator 0    v_main;60,129,0
+
+mgdfile vehiclee
+
+mangle_off
+
+#end of vehiclee.MEC

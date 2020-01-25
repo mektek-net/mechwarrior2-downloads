@@ -1,0 +1,74 @@
+#     Ouput for turreta.MEC
+#     Thu Mar 30 15:57:51 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object turreta=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden  world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object t_base=ta1_base   1,1,1   0,0,0   0,0,-150   0      .      turreta
+Object t_body=ta1_body   1,1,1   0,0,0   0,74,0   0      .      t_base
+Object t_dummy=DUMMY   1,1,1   0,0,0   0,235,17   0   hidden   t_body
+Object t_lgun=ta1_lgun   1,1,1   0,0,0   -100,4,327   0      .      t_dummy
+Object t_lgpof=DUMMY   1,1,1   0,0,0   -30,81,1150   0   hidden   t_lgun
+Object t_rgun=ta1_rgun   1,1,1   0,0,0   100,4,327   0      .      t_dummy
+Object t_rgpof=DUMMY   1,1,1   0,0,0   32,81,1150   0   hidden   t_rgun
+
+rep
+
+Object t_base=ta2_base   1,1,1   0,0,0   0,0,-150   0      .      turreta
+Object t_body=ta2_body   1,1,1   0,0,0   0,74,0   0      .      t_base
+Object t_dummy=DUMMY   1,1,1   0,0,0   0,235,17   0   hidden   t_body
+Object t_lgun=ta2_lgun   1,1,1   0,0,0   -100,4,327   0      .      t_dummy
+Object t_lgpof=DUMMY   1,1,1   0,0,0   -30,81,1048   0   hidden   t_lgun
+Object t_rgun=ta2_rgun   1,1,1   0,0,0   100,4,327   0      .      t_dummy
+Object t_rgpof=DUMMY   1,1,1   0,0,0   32,81,1048   0   hidden   t_rgun
+
+rep
+
+Object t_base=ta3_base   1,1,1   0,0,0   0,0,-150   0      .      turreta
+Object t_body=ta3_body   1,1,1   0,0,0   0,74,-11   0      .      t_base
+Object t_dummy=DUMMY   1,1,1   0,0,0   0,235,-1   0   hidden   t_body
+Object t_lgun=ta3_lgun   1,1,1   0,0,0   -100,4,356   0      .      t_dummy
+Object t_lgpof=DUMMY   1,1,1   0,0,0   -30,81,1048   0   hidden   t_lgun
+Object t_rgun=ta3_rgun   1,1,1   0,0,0   100,4,356   0      .      t_dummy
+Object t_rgpof=DUMMY   1,1,1   0,0,0   32,81,1048   0   hidden   t_rgun
+
+rep
+
+Object t_base=ta4_base   1,1,1   0,0,0   0,0,-150   0      .      turreta
+Object t_body=ta4_body   1,1,1   0,0,0   0,74,-11   0      .      t_base
+Object t_dummy=DUMMY   1,1,1   0,0,0   0,235,-1   0   hidden   t_body
+Object t_lgun=ta4_lgun   1,1,1   0,0,0   -100,4,356   0      .      t_dummy
+Object t_lgpof=DUMMY   1,1,1   0,0,0   -30,81,1048   0   hidden   t_lgun
+Object t_rgun=ta4_rgun   1,1,1   0,0,0   100,4,356   0      .      t_dummy
+Object t_rgpof=DUMMY   1,1,1   0,0,0   32,81,1048   0   hidden   t_rgun
+
+endrep
+
+thing t_body
+thing t_dummy
+
+gamepiece turreta mw2artillery
+
+objloc t_body  hd
+objloc t_base  ct
+objloc t_rgun  ra
+objloc t_lgun  la
+
+lapof t_lgpof
+rapof t_rgpof
+
+eyeobj t_dummy
+
+mgdfile turreta
+
+mangle_off
+
+#end of turreta.MEC

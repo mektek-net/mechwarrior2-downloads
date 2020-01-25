@@ -1,0 +1,196 @@
+#   wolftrap.MEC
+#   geometry for the Wolftrap 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null)  parent
+object wolftrap=dummy     1,1,1   0,0,0   0,0,0   0    hidden  world
+
+rep
+
+Object w_hips=wt1_hips   1,1,1   0,0,0   0,554,0   0      .      wolftrap
+Object w_declr=wt1declr   1,1,1   0,0,0   148,45,1   0      .      w_hips
+Object w_decll=wt1decll   1,1,1   0,0,0   -147,45,1   0      .      w_hips
+Object w_luleg=wt1luleg   1,1,1   0,0,0   -100,-28,0   0      .      w_hips
+Object w_llleg=wt1llleg   1,1,1   0,0,0   0,-200,0   0      .      w_luleg
+Object w_lfoot=wt1lfoot   1,1,1   0,0,0   -13,-251,0   0      .      w_llleg
+Object w_ruleg=wt1ruleg   1,1,1   0,0,0   100,-28,0   0      .      w_hips
+Object w_rlleg=wt1rlleg   1,1,1   0,0,0   0,-200,0   0      .      w_ruleg
+Object w_rfoot=wt1rfoot   1,1,1   0,0,0   13,-251,0   0      .      w_rlleg
+Object w_head=wt1_head   1,1,1   0,0,0   0,80,0   0      .      w_hips
+Object w_winsh=wt1winsh   1,1,1   0,0,0   0,337,34   0      .      w_head
+Object w_rjpof=DUMMY   1,1,1   0,0,0   52,133,-179   0   hidden   w_head
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -51,133,-179   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   0,331,30   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   -75,34,134   0   hidden   w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   78,34,134   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   -2,169,175   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   -1,294,111   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   -9,228,-56   0   hidden   w_head
+Object w_rarm=wt1_rarm   1,1,1   0,0,0   159,-8,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   65,-5,428   0   hidden   w_rarm
+Object w_larm=wt1_larm   1,1,1   0,0,0   -140,-8,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -55,-174,315   0   hidden   w_larm
+
+rep
+
+Object w_hips=wt2_hips   1,1,1   0,0,0   0,554,0   0      .      wolftrap
+Object w_declr=wt2declr   1,1,1   0,0,0   148,45,1   0      .      w_hips
+Object w_decll=wt2decll   1,1,1   0,0,0   -147,45,1   0      .      w_hips
+Object w_luleg=wt2luleg   1,1,1   0,0,0   -100,-28,0   0      .      w_hips
+Object w_llleg=wt2llleg   1,1,1   0,0,0   0,-200,0   0      .      w_luleg
+Object w_lfoot=wt2lfoot   1,1,1   0,0,0   -13,-251,0   0      .      w_llleg
+Object w_ruleg=wt2ruleg   1,1,1   0,0,0   100,-28,0   0      .      w_hips
+Object w_rlleg=wt2rlleg   1,1,1   0,0,0   0,-200,0   0      .      w_ruleg
+Object w_rfoot=wt2rfoot   1,1,1   0,0,0   13,-251,0   0      .      w_rlleg
+Object w_head=wt2_head   1,1,1   0,0,0   0,80,0   0      .      w_hips
+Object w_winsh=wt2winsh   1,1,1   0,0,0   0,337,34   0      .      w_head
+Object w_rjpof=DUMMY   1,1,1   0,0,0   52,133,-179   0   hidden   w_head
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -51,133,-179   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   0,331,30   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   -75,34,134   0   hidden   w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   78,34,134   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   -2,169,175   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   -1,294,111   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   -9,228,-56   0   hidden   w_head
+Object w_rarm=wt2_rarm   1,1,1   0,0,0   159,-8,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   65,-5,428   0   hidden   w_rarm
+Object w_larm=wt2_larm   1,1,1   0,0,0   -140,-8,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -55,-174,315   0   hidden   w_larm
+
+rep
+
+Object w_hips=wt3_hips   1,1,1   0,0,0   0,554,0   0      .      wolftrap
+Object w_declr=wt3declr   1,1,1   0,0,0   148,45,1   0      .      w_hips
+Object w_decll=wt3decll   1,1,1   0,0,0   -147,45,1   0      .      w_hips
+Object w_luleg=wt3luleg   1,1,1   0,0,0   -100,-28,0   0      .      w_hips
+Object w_llleg=wt3llleg   1,1,1   0,0,0   0,-200,0   0      .      w_luleg
+Object w_lfoot=wt3lfoot   1,1,1   0,0,0   -13,-251,0   0      .      w_llleg
+Object w_ruleg=wt3ruleg   1,1,1   0,0,0   100,-28,0   0      .      w_hips
+Object w_rlleg=wt3rlleg   1,1,1   0,0,0   0,-200,0   0      .      w_ruleg
+Object w_rfoot=wt3rfoot   1,1,1   0,0,0   13,-251,0   0      .      w_rlleg
+Object w_head=wt3_head   1,1,1   0,0,0   0,80,0   0      .      w_hips
+Object w_winsh=wt3winsh   1,1,1   0,0,0   0,337,34   0      .      w_head
+Object w_rjpof=DUMMY   1,1,1   0,0,0   52,133,-179   0   hidden   w_head
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -51,133,-179   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   0,331,30   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   -75,34,134   0   hidden   w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   78,34,134   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   -2,169,175   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   -1,294,111   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   -9,228,-56   0   hidden   w_head
+Object w_rarm=wt3_rarm   1,1,1   0,0,0   159,-8,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   65,-5,428   0   hidden   w_rarm
+Object w_larm=wt3_larm   1,1,1   0,0,0   -140,-8,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -55,-174,315   0   hidden   w_larm
+
+rep
+
+Object w_hips=wt4_hips   1,1,1   0,0,0   0,554,0   0      .      wolftrap
+Object w_declr=wt4declr   1,1,1   0,0,0   148,45,1   0      .      w_hips
+Object w_decll=wt4decll   1,1,1   0,0,0   -147,45,1   0      .      w_hips
+Object w_luleg=wt4luleg   1,1,1   0,0,0   -100,-28,0   0      .      w_hips
+Object w_llleg=wt4llleg   1,1,1   0,0,0   0,-200,0   0      .      w_luleg
+Object w_lfoot=wt4lfoot   1,1,1   0,0,0   -13,-251,0   0      .      w_llleg
+Object w_ruleg=wt4ruleg   1,1,1   0,0,0   100,-28,0   0      .      w_hips
+Object w_rlleg=wt4rlleg   1,1,1   0,0,0   0,-200,0   0      .      w_ruleg
+Object w_rfoot=wt4rfoot   1,1,1   0,0,0   13,-251,0   0      .      w_rlleg
+Object w_head=wt4_head   1,1,1   0,0,0   0,80,0   0      .      w_hips
+Object w_winsh=wt4winsh   1,1,1   0,0,0   0,337,34   0      .      w_head
+Object w_rjpof=DUMMY   1,1,1   0,0,0   52,133,-179   0   hidden   w_head
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -51,133,-179   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   0,331,30   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   -75,34,134   0   hidden   w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   78,34,134   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   -2,169,175   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   -1,294,111   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   -9,228,-56   0   hidden   w_head
+Object w_rarm=wt4_rarm   1,1,1   0,0,0   159,-8,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   65,-5,428   0   hidden   w_rarm
+Object w_larm=wt4_larm   1,1,1   0,0,0   -140,-8,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -55,-174,315   0   hidden   w_larm
+
+rep
+
+Object w_hips=wt5_hips   1,1,1   0,0,0   0,554,0   0      .      wolftrap
+Object w_declr=wt5declr   1,1,1   0,0,0   148,45,1   0      .      w_hips
+Object w_decll=wt5decll   1,1,1   0,0,0   -147,45,1   0      .      w_hips
+Object w_luleg=wt5luleg   1,1,1   0,0,0   -100,-28,0   0      .      w_hips
+Object w_llleg=wt5llleg   1,1,1   0,0,0   0,-200,0   0      .      w_luleg
+Object w_lfoot=wt5lfoot   1,1,1   0,0,0   -13,-251,0   0      .      w_llleg
+Object w_ruleg=wt5ruleg   1,1,1   0,0,0   100,-28,0   0      .      w_hips
+Object w_rlleg=wt5rlleg   1,1,1   0,0,0   0,-200,0   0      .      w_ruleg
+Object w_rfoot=wt5rfoot   1,1,1   0,0,0   13,-251,0   0      .      w_rlleg
+Object w_head=wt5_head   1,1,1   0,0,0   0,80,0   0    near     w_hips
+Object w_winsh=wt5winsh   1,1,1   0,0,0   0,337,34   0      .      w_head
+Object w_rjpof=DUMMY   1,1,1   0,0,0   52,133,-179   0   hidden   w_head
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -51,133,-179   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   0,331,30   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   -75,34,134   0   hidden   w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   78,34,134   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   -2,169,175   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   -1,294,111   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   -9,228,-56   0   hidden   w_head
+Object w_rarm=wt5_rarm   1,1,1   0,0,0   159,-8,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   65,-5,428   0   hidden   w_rarm
+Object w_larm=wt5_larm   1,1,1   0,0,0   -140,-8,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -55,-174,315   0   hidden   w_larm
+
+endrep
+
+thing w_head
+thing w_daddy
+
+gamepiece wolftrap mw2mech 
+
+objloc w_head   ct
+objloc w_hips   ct
+objloc w_winsh  hd
+objloc w_larm   la
+objloc w_rarm   ra
+objloc w_luleg  ll
+objloc w_ruleg  rl
+objloc w_llleg  ll
+objloc w_rlleg  rl
+objloc w_lfoot  ll
+objloc w_rfoot  rl
+
+animfile hnchanim  
+
+# task animators go here....
+task animator 0    w_hips;63,129,0
+task animator 0    w_hips;63,1,1
+task animator 0    w_luleg;63,1,2
+task animator 0    w_llleg;63,1,3
+task animator 0    w_lfoot;63,1,4
+task animator 0    w_ruleg;63,1,5
+task animator 0    w_rlleg;63,1,6
+task animator 0    w_rfoot;63,1,7
+task animator 0    w_head;63,1,8
+task animator 0    w_larm;63,1,9
+task animator 0    w_rarm;63,1,10
+
+hdpof w_hdpof
+ctpof w_ctpof
+ltpof w_ltpof
+rtpof w_rtpof
+lapof w_lapof
+rapof w_rapof
+ljpof w_ljpof
+rjpof w_rjpof
+
+eyeobj w_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile wolftrap
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of Wolftrap.mec
+
+

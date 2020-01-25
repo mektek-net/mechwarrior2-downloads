@@ -1,0 +1,54 @@
+#     Ouput for vehiclec.MEC
+#     Wed May  3 19:16:39 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object vehiclec=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+
+rep
+
+Object v_main=vc1_main   1,1,1   0,0,0   0,149,0   0      .      vehiclec
+Object v_winsh=vc1winsh   1,1,1   0,0,0   0,51,149   4      .      v_main
+Object v_shadw=vc1shadw   1,1,1   0,0,0   -3,-149,0   0      .      v_main
+
+rep
+
+Object v_main=vc2_main   1,1,1   0,0,0   0,149,0   0      .      vehiclec
+Object v_winsh=vc2winsh   1,1,1   0,0,0   0,50,149   4      .      v_main
+Object v_shadw=vc2shadw   1,1,1   0,0,0   0,-149,0   0      .      v_main
+
+rep
+
+Object v_main=vc3_main   1,1,1   0,0,0   0,149,0   0      .      vehiclec
+Object v_winsh=vc3winsh   1,1,1   0,0,0   0,50,149   4      .      v_main
+Object v_shadw=vc3shadw   1,1,1   0,0,0   0,-149,0   0      .      v_main
+
+rep
+
+Object v_main=vc4_main   1,1,1   0,0,0   0,149,0   0      .      vehiclec
+Object v_winsh=vc4winsh   1,1,1   0,0,0   0,50,149   4      .      v_main
+Object v_shadw=vc4shadw   1,1,1   0,0,0   0,-149,0   0      .      v_main
+
+endrep
+
+gamepiece vehiclec mw2truck                 
+
+objloc v_winsh  hd
+objloc v_main   ct
+
+animfile vehcanim 
+
+# task animators go here....
+
+task animator 0    v_main;60,129,0
+
+mgdfile vehiclec
+
+mangle_off
+
+mangle_off
+
+#end of vehiclec.MEC

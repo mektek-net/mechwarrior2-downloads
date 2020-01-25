@@ -1,0 +1,67 @@
+#     Ouput for thrush.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object thrush=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object t_main=ts1_main   1,1,1   0,0,0   0,31,-120   0      .      thrush
+Object t_winsh=ts1winsh   1,1,1   0,0,0   0,54,434   0      .      t_main
+Object t_nose=ts1_nose   1,1,1   0,0,0   0,5,375   0      .      t_main
+Object t_rhfin=ts1rhfin   1,1,1   0,0,0   118,13,-233   0      .      t_main
+Object t_lhfin=ts1lhfin   1,1,1   0,0,0   -118,13,-233   0      .      t_main
+Object t_rwing=ts1rwing   1,1,1   0,0,0   166,-9,-42   0      .      t_main
+Object t_rwlgo=ts1rwlgo   1,1,1   0,0,0   133,11,-54   0      .      t_rwing
+Object t_lwing=ts1lwing   1,1,1   0,0,0   -166,-9,-42   0      .      t_main
+Object t_lwlgo=ts1lwlgo   1,1,1   0,0,0   -111,11,-54   0      .      t_lwing
+Object t_dummy=DUMMY   1,1,1   0,0,0   0,57,297   0   hidden   t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,0,50   0   hidden   t_dummy
+Object t_ctpof=DUMMY   1,1,1   0,0,0   0,-76,248   0   hidden   t_daddy
+Object t_hdpof=DUMMY   1,1,1   0,0,0   6,-1,93   0   hidden   t_daddy
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -270,-40,48   0   hidden   t_daddy
+Object t_rtpof=DUMMY   1,1,1   0,0,0   259,-40,49   0   hidden   t_daddy
+Object t_rwpof=DUMMY   1,1,1   0,0,0   498,-81,-125   0   hidden   t_daddy
+Object t_lwpof=DUMMY   1,1,1   0,0,0   -511,-81,-126   0   hidden   t_daddy
+
+endrep
+
+thing t_dummy
+thing t_daddy
+
+gamepiece thrush mw2truck
+
+objloc t_main   ct
+objloc t_nose   ct
+objloc t_winsh  ct
+objloc t_rhfin  rt
+objloc t_lhfin  lt
+objloc t_rwing  ra
+objloc t_lwing  la
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    t_main;60,129,0
+
+lapof t_lwpof
+rapof t_rwpof
+hdpof t_hdpof
+ctpof t_ctpof
+ltpof t_ltpof
+rtpof t_rtpof
+
+eyeobj t_hdpof
+
+mgdfile thrush
+
+mangle_off
+
+#end of thrush.MEC
+

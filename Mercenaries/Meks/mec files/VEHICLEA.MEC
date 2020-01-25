@@ -1,0 +1,72 @@
+#     Ouput for vehiclea.MEC
+#     Mon Apr 24 15:58:32 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object vehiclea=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object v_front=va1front   1,1,1   0,0,0   -1,204,302   0   .    vehiclea
+Object v_trail=va1trail   1,1,1   0,0,0   0,0,4   0   .    v_front
+Object v_rrtrd=va1rrtrd   1,1,1   0,0,0   183,-130,-707   0   .    v_trail
+Object v_lrtrd=va1lrtrd   1,1,1   0,0,0   -176,-130,-707   0   .    v_trail
+Object v_rftrd=va1rftrd   1,1,1   0,0,0   150,-130,270   0   .    v_front
+Object v_lftrd=va1lftrd   1,1,1   0,0,0   -143,-130,270   0   .    v_front
+
+rep
+
+Object v_front=va2front   1,1,1   0,0,0   0,204,286   0   .    vehiclea
+Object v_trail=va2trail   1,1,1   0,0,0   0,0,4   0   .    v_front
+Object v_rrtrd=va2rrtrd   1,1,1   0,0,0   184,-130,-707   0   .    v_trail
+Object v_lrtrd=va2lrtrd   1,1,1   0,0,0   -175,-130,-707   0   .    v_trail
+Object v_rftrd=va2rftrd   1,1,1   0,0,0   149,-131,272   0   .    v_front
+Object v_lftrd=va2lftrd   1,1,1   0,0,0   -144,-131,272   0   .    v_front
+
+rep
+
+Object v_front=va3front   1,1,1   0,0,0   0,204,286   0   .    vehiclea
+Object v_trail=va3trail   1,1,1   0,0,0   0,0,4   0   .    v_front
+Object v_rrtrd=va3rrtrd   1,1,1   0,0,0   184,-130,-707   0   .    v_trail
+Object v_lrtrd=va3lrtrd   1,1,1   0,0,0   -175,-130,-707   0   .    v_trail
+Object v_rftrd=va3rftrd   1,1,1   0,0,0   149,-131,272   0   .    v_front
+Object v_lftrd=va3lftrd   1,1,1   0,0,0   -144,-131,272   0   .    v_front
+
+rep
+
+Object v_front=va4front   1,1,1   0,0,0   0,204,286   0   .    vehiclea
+Object v_trail=va4trail   1,1,1   0,0,0   0,0,4   0   .    v_front
+Object v_rrtrd=va4rrtrd   1,1,1   0,0,0   184,-130,-707   0   .    v_trail
+Object v_lrtrd=va4lrtrd   1,1,1   0,0,0   -175,-130,-707   0   .    v_trail
+Object v_rftrd=va4rftrd   1,1,1   0,0,0   149,-131,272   0   .    v_front
+Object v_lftrd=va4lftrd   1,1,1   0,0,0   -144,-131,272   0   .    v_front
+
+endrep
+
+gamepiece vehiclea mw2truck                 
+
+objloc v_front  hd
+objloc v_trail  ct
+objloc v_rftrd  ra
+objloc v_lftrd  la
+objloc v_rrtrd  rl
+objloc v_lrtrd  ll
+
+animfile trckanim 
+
+# task animators go here....
+
+task animator 0    v_front;60,129,0
+
+mgdfile vehiclea
+
+mangle_off
+
+#AnimSound mecfstx2
+
+# end of vehiclea.mec

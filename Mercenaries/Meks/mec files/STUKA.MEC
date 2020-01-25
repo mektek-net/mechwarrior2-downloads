@@ -1,0 +1,72 @@
+#     Ouput for stuka.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object stuka=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object s_main=st1_main   1,1,1   0,0,0   0,101,-190   0      .      stuka
+Object s_winsh=st1winsh   1,1,1   0,0,0   0,134,1068   0      .      s_main
+Object s_nacel=st1nacel   1,1,1   0,0,0   0,26,1068   0      .      s_main
+Object s_nose=st1_nose   1,1,1   0,0,0   0,32,1234   0      .      s_main
+Object s_rfslg=st1rfslg   1,1,1   0,0,0   167,2,-310   0      .      s_main
+Object s_lfslg=st1lfslg   1,1,1   0,0,0   -167,2,-310   0      .      s_main
+Object s_rengn=st1rengn   1,1,1   0,0,0   578,-41,-410   0      .      s_main
+Object s_lengn=st1lengn   1,1,1   0,0,0   -578,-41,-410   0      .      s_main
+Object s_rwing=st1rwing   1,1,1   0,0,0   682,-41,-510   0      .      s_main
+Object s_rwlgo=st1rwlgo   1,1,1   0,0,0   237,11,-100   0      .      s_rwing
+Object s_lwing=st1lwing   1,1,1   0,0,0   -682,-41,-510   0      .      s_main
+Object s_lwlgo=st1lwlgo   1,1,1   0,0,0   -223,11,-100   0      .      s_lwing
+Object s_dummy=DUMMY   1,1,1   0,0,0   0,19,-232   0   hidden   s_main
+Object s_daddy=DUMMY   1,1,1   0,0,0   0,0,140   0   hidden   s_dummy
+Object s_ctpof=DUMMY   1,1,1   0,0,0   0,-83,449   0   hidden   s_daddy
+Object s_hdpof=DUMMY   1,1,1   0,0,0   0,125,1163   0   hidden   s_daddy
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -228,11,323   0   hidden   s_daddy
+Object s_rtpof=DUMMY   1,1,1   0,0,0   219,11,323   0   hidden   s_daddy
+Object s_rwpof=DUMMY   1,1,1   0,0,0   628,-93,57   0   hidden   s_daddy
+Object s_lwpof=DUMMY   1,1,1   0,0,0   -625,-93,57   0   hidden   s_daddy
+
+endrep
+
+thing s_dummy
+thing s_daddy
+
+gamepiece stuka mw2truck
+
+objloc s_main   ct
+objloc s_nose   ct
+objloc s_winsh  ct
+objloc s_lengn  la
+objloc s_rengn  ra
+objloc s_rwing  ra
+objloc s_lwing  la
+objloc s_lfslg  lt
+objloc s_rfslg  rt
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    s_main;60,129,0
+
+lapof s_lwpof
+rapof s_rwpof
+hdpof s_hdpof
+ctpof s_ctpof
+ltpof s_ltpof
+rtpof s_rtpof
+
+eyeobj s_hdpof
+
+mgdfile stuka
+
+mangle_off
+
+#end of stuka.MEC
+

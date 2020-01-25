@@ -1,0 +1,206 @@
+#   kodiak.MEC
+#   geometry for the kodiak 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object kodiak=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object k_hips=kd1_hips   1,1,1   0,0,0   0,720,0   0      .      kodiak
+Object k_luleg=kd1luleg   1,1,1   0,0,0   -170,-10,-43   0      .      k_hips
+Object k_llleg=kd1llleg   1,1,1   0,0,0   -80,-300,5   0      .      k_luleg
+Object k_lftoe=kd1lftoe   1,1,1   0,0,0   0,-240,118   0      .      k_llleg
+Object k_lrtoe=kd1lrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_lftoe
+Object k_ruleg=kd1ruleg   1,1,1   0,0,0   170,-10,-43   0      .      k_hips
+Object k_rlleg=kd1rlleg   1,1,1   0,0,0   80,-300,5   0      .      k_ruleg
+Object k_rftoe=kd1rftoe   1,1,1   0,0,0   0,-240,118   0      .      k_rlleg
+Object k_rrtoe=kd1rrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_rftoe
+Object k_head=kd1_head   1,1,1   0,0,0   0,80,0   0      .      k_hips
+Object k_winsh=kd1winsh   1,1,1   0,0,0   0,513,115   0      .      k_head
+Object k_declf=kd1declf   1,1,1   0,0,0   0,218,265   0      .      k_head
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -82,-244,-54   0   hidden   k_head
+Object k_rjpof=DUMMY   1,1,1   0,0,0   79,-244,-54   0   hidden   k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,501,85   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   -1,558,93   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   1,56,285   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   187,227,327   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   -172,226,327   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   -9,278,-17   0   hidden   k_head
+Object k_larm=kd1_larm   1,1,1   0,0,0   -361,42,-21   0      .      k_daddy
+Object k_lapof=DUMMY   1,1,1   0,0,0   -182,-150,647   0   hidden   k_larm
+Object k_rarm=kd1_rarm   1,1,1   0,0,0   380,42,-21   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   175,-142,649   0   hidden   k_rarm
+
+rep
+
+Object k_hips=kd2_hips   1,1,1   0,0,0   0,720,0   0      .      kodiak
+Object k_luleg=kd2luleg   1,1,1   0,0,0   -170,-10,-43   0      .      k_hips
+Object k_llleg=kd2llleg   1,1,1   0,0,0   -80,-300,5   0      .      k_luleg
+Object k_lftoe=kd2lftoe   1,1,1   0,0,0   0,-240,118   0      .      k_llleg
+Object k_lrtoe=kd2lrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_lftoe
+Object k_ruleg=kd2ruleg   1,1,1   0,0,0   170,-10,-43   0      .      k_hips
+Object k_rlleg=kd2rlleg   1,1,1   0,0,0   80,-300,5   0      .      k_ruleg
+Object k_rftoe=kd2rftoe   1,1,1   0,0,0   0,-240,118   0      .      k_rlleg
+Object k_rrtoe=kd2rrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_rftoe
+Object k_head=kd2_head   1,1,1   0,0,0   0,80,0   0      .      k_hips
+Object k_winsh=kd2winsh   1,1,1   0,0,0   0,513,115   0      .      k_head
+Object k_declf=kd2declf   1,1,1   0,0,0   0,218,265   0      .      k_head
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -82,-244,-54   0   hidden   k_head
+Object k_rjpof=DUMMY   1,1,1   0,0,0   79,-244,-54   0   hidden   k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,501,85   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   -1,558,93   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   1,56,285   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   187,227,327   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   -172,226,327   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   -9,278,-17   0   hidden   k_head
+Object k_larm=kd2_larm   1,1,1   0,0,0   -361,42,-21   0      .      k_daddy
+Object k_lapof=DUMMY   1,1,1   0,0,0   -182,-150,647   0   hidden   k_larm
+Object k_rarm=kd2_rarm   1,1,1   0,0,0   380,42,-21   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   175,-142,649   0   hidden   k_rarm
+
+rep
+
+Object k_hips=kd3_hips   1,1,1   0,0,0   0,720,0   0      .      kodiak
+Object k_luleg=kd3luleg   1,1,1   0,0,0   -170,-10,-43   0      .      k_hips
+Object k_llleg=kd3llleg   1,1,1   0,0,0   -80,-300,5   0      .      k_luleg
+Object k_lftoe=kd3lftoe   1,1,1   0,0,0   0,-240,118   0      .      k_llleg
+Object k_lrtoe=kd3lrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_lftoe
+Object k_ruleg=kd3ruleg   1,1,1   0,0,0   170,-10,-43   0      .      k_hips
+Object k_rlleg=kd3rlleg   1,1,1   0,0,0   80,-300,5   0      .      k_ruleg
+Object k_rftoe=kd3rftoe   1,1,1   0,0,0   0,-240,118   0      .      k_rlleg
+Object k_rrtoe=kd3rrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_rftoe
+Object k_head=kd3_head   1,1,1   0,0,0   0,80,0   0      .      k_hips
+Object k_winsh=kd3winsh   1,1,1   0,0,0   0,513,115   0      .      k_head
+Object k_declf=kd3declf   1,1,1   0,0,0   0,218,265   0      .      k_head
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -82,-244,-54   0   hidden   k_head
+Object k_rjpof=DUMMY   1,1,1   0,0,0   79,-244,-54   0   hidden   k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,501,85   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   -1,558,93   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   1,56,285   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   -172,226,327   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   187,227,327   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   -9,278,-17   0   hidden   k_head
+Object k_larm=kd3_larm   1,1,1   0,0,0   -361,42,-21   0      .      k_daddy
+Object k_lapof=DUMMY   1,1,1   0,0,0   -182,-150,647   0   hidden   k_larm
+Object k_rarm=kd3_rarm   1,1,1   0,0,0   379,42,-21   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   176,-142,649   0   hidden   k_rarm
+
+rep
+
+Object k_hips=kd4_hips   1,1,1   0,0,0   0,720,0   0      .      kodiak
+Object k_luleg=kd4luleg   1,1,1   0,0,0   -170,-10,-43   0      .      k_hips
+Object k_llleg=kd4llleg   1,1,1   0,0,0   -80,-300,5   0      .      k_luleg
+Object k_lftoe=kd4lftoe   1,1,1   0,0,0   0,-240,118   0      .      k_llleg
+Object k_lrtoe=kd4lrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_lftoe
+Object k_ruleg=kd4ruleg   1,1,1   0,0,0   170,-10,-43   0      .      k_hips
+Object k_rlleg=kd4rlleg   1,1,1   0,0,0   80,-300,5   0      .      k_ruleg
+Object k_rftoe=kd4rftoe   1,1,1   0,0,0   0,-240,118   0      .      k_rlleg
+Object k_rrtoe=kd4rrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_rftoe
+Object k_head=kd4_head   1,1,1   0,0,0   0,80,0   0      .      k_hips
+Object k_winsh=kd4winsh   1,1,1   0,0,0   0,513,115   0      .      k_head
+Object k_declf=kd4declf   1,1,1   0,0,0   0,218,265   0      .      k_head
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -82,-244,-54   0   hidden   k_head
+Object k_rjpof=DUMMY   1,1,1   0,0,0   79,-244,-54   0   hidden   k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,501,85   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   -1,558,93   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   1,56,285   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   -172,226,327   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   187,227,327   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   -9,278,-17   0   hidden   k_head
+Object k_larm=kd4_larm   1,1,1   0,0,0   -361,42,-21   0      .      k_daddy
+Object k_lapof=DUMMY   1,1,1   0,0,0   -182,-150,647   0   hidden   k_larm
+Object k_rarm=kd4_rarm   1,1,1   0,0,0   379,42,-21   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   176,-142,649   0   hidden   k_rarm
+
+rep
+
+Object k_hips=kd5_hips   1,1,1   0,0,0   0,720,0   0      .      kodiak
+Object k_luleg=kd5luleg   1,1,1   0,0,0   -170,-10,-43   0      .      k_hips
+Object k_llleg=kd5llleg   1,1,1   0,0,0   -80,-300,5   0      .      k_luleg
+Object k_lftoe=kd5lftoe   1,1,1   0,0,0   0,-240,118   0      .      k_llleg
+Object k_lrtoe=kd5lrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_lftoe
+Object k_ruleg=kd5ruleg   1,1,1   0,0,0   170,-10,-43   0      .      k_hips
+Object k_rlleg=kd5rlleg   1,1,1   0,0,0   80,-300,5   0      .      k_ruleg
+Object k_rftoe=kd5rftoe   1,1,1   0,0,0   0,-240,118   0      .      k_rlleg
+Object k_rrtoe=kd5rrtoe   1,1,1   0,0,0   0,0,-160   0      .      k_rftoe
+Object k_head=kd5_head   1,1,1   0,0,0   0,80,0   0    near     k_hips
+Object k_winsh=kd5winsh   1,1,1   0,0,0   0,513,115   0      .      k_head
+Object k_declf=kd5declf   1,1,1   0,0,0   0,218,265   0      .      k_head
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -82,-244,-54   0   hidden   k_head
+Object k_rjpof=DUMMY   1,1,1   0,0,0   79,-244,-54   0   hidden   k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,501,85   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   -1,558,93   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   1,56,285   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   -172,226,327   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   187,227,327   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   -9,278,-17   0   hidden   k_head
+Object k_larm=kd5_larm   1,1,1   0,0,0   -361,42,-21   0      .      k_daddy
+Object k_lapof=DUMMY   1,1,1   0,0,0   -182,-150,647   0   hidden   k_larm
+Object k_rarm=kd5_rarm   1,1,1   0,0,0   380,42,-21   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   175,-142,649   0   hidden   k_rarm
+
+endrep
+
+thing k_head
+thing k_daddy
+
+gamepiece kodiak mw2mech 
+
+objloc k_head   ct
+objloc k_hips   ct
+objloc k_winsh  hd
+objloc k_larm   la
+objloc k_rarm   ra
+objloc k_luleg  ll
+objloc k_ruleg  rl
+objloc k_llleg  ll
+objloc k_rlleg  rl
+objloc k_lftoe  ll
+objloc k_rftoe  rl
+objloc k_lrtoe  ll
+objloc k_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    k_hips;55,129,0
+task animator 0    k_hips;55,1,1
+task animator 0    k_ruleg;55,1,2
+task animator 0    k_rlleg;55,1,3
+task animator 0    k_rftoe;55,1,4
+task animator 0    k_rrtoe;55,1,5
+task animator 0    k_luleg;55,1,6
+task animator 0    k_llleg;55,1,7
+task animator 0    k_lftoe;55,1,8
+task animator 0    k_lrtoe;55,1,9
+task animator 0    k_head;55,1,10
+task animator 0    k_rarm;55,1,11
+task animator 0    k_larm;55,1,12
+
+hdpof k_hdpof
+ctpof k_ctpof
+rtpof k_rtpof
+ltpof k_ltpof
+lapof k_lapof
+rapof k_rapof
+ljpof k_ljpof
+rjpof k_rjpof
+
+eyeobj k_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile kodiak
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of kodiak.MEC
+
+

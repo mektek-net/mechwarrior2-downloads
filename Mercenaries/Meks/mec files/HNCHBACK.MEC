@@ -1,0 +1,191 @@
+#   hnchback.MEC
+#   geometry for the warhammer 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate   sort  (null)   parent
+object hnchback=dummy       1,1,1   0,0,0   0,0,0  0     hidden   world
+
+
+rep
+
+Object h_hips=hk1_hips   1,1,1   0,0,0   0,600,0   0      .      hnchback
+Object h_luleg=hk1luleg   1,1,1   0,0,0   -100,-20,0   0      .      h_hips
+Object h_llleg=hk1llleg   1,1,1   0,0,0   -80,-140,0   0      .      h_luleg
+Object h_lfoot=hk1lfoot   1,1,1   0,0,0   -10,-340,0   0      .      h_llleg
+Object h_ruleg=hk1ruleg   1,1,1   0,0,0   100,-20,0   0      .      h_hips
+Object h_rlleg=hk1rlleg   1,1,1   0,0,0   80,-140,0   0      .      h_ruleg
+Object h_rfoot=hk1rfoot   1,1,1   0,0,0   10,-340,0   0      .      h_rlleg
+Object h_head=hk1_head   1,1,1   0,0,0   0,60,0   0      .      h_hips
+Object h_winsh=hk1winsh   1,1,1   0,0,0   0,396,42   0      .      h_head
+Object h_declf=hk1declf   1,1,1   0,0,0   -24,244,148   0      .      h_head
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-13,-173   0   hidden   h_head
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-13,-173   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   -1,409,9   0   hidden   h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   107,340,219   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -107,237,191   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   0,27,163   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   0,458,41   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,232,-1   0   hidden   h_head
+Object h_rarm=hk1_rarm   1,1,1   0,0,0   223,18,1   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   115,-161,331   0   hidden   h_rarm
+Object h_larm=hk1_larm   1,1,1   0,0,0   -227,18,1   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   -108,-161,331   0   hidden   h_larm
+
+rep
+
+Object h_hips=hk2_hips   1,1,1   0,0,0   0,600,0   0      .      hnchback
+Object h_luleg=hk2luleg   1,1,1   0,0,0   -100,-20,0   0      .      h_hips
+Object h_llleg=hk2llleg   1,1,1   0,0,0   -80,-140,0   0      .      h_luleg
+Object h_lfoot=hk2lfoot   1,1,1   0,0,0   -10,-340,0   0      .      h_llleg
+Object h_ruleg=hk2ruleg   1,1,1   0,0,0   100,-20,0   0      .      h_hips
+Object h_rlleg=hk2rlleg   1,1,1   0,0,0   80,-140,0   0      .      h_ruleg
+Object h_rfoot=hk2rfoot   1,1,1   0,0,0   10,-340,0   0      .      h_rlleg
+Object h_head=hk2_head   1,1,1   0,0,0   0,60,0   0      .      h_hips
+Object h_winsh=hk2winsh   1,1,1   0,0,0   0,396,42   0      .      h_head
+Object h_declf=hk2declf   1,1,1   0,0,0   -24,244,148   0      .      h_head
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-13,-173   0   hidden   h_head
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-13,-173   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   -1,409,9   0   hidden   h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   107,340,219   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -107,237,191   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   0,27,163   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   0,458,41   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,232,-1   0   hidden   h_head
+Object h_rarm=hk2_rarm   1,1,1   0,0,0   223,18,1   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   115,-161,331   0   hidden   h_rarm
+Object h_larm=hk2_larm   1,1,1   0,0,0   -227,18,1   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   -108,-161,331   0   hidden   h_larm
+
+rep
+
+Object h_hips=hk3_hips   1,1,1   0,0,0   0,600,0   0      .      hnchback
+Object h_luleg=hk3luleg   1,1,1   0,0,0   -100,-20,0   0      .      h_hips
+Object h_llleg=hk3llleg   1,1,1   0,0,0   -80,-140,0   0      .      h_luleg
+Object h_lfoot=hk3lfoot   1,1,1   0,0,0   -10,-340,0   0      .      h_llleg
+Object h_ruleg=hk3ruleg   1,1,1   0,0,0   100,-20,0   0      .      h_hips
+Object h_rlleg=hk3rlleg   1,1,1   0,0,0   80,-140,0   0      .      h_ruleg
+Object h_rfoot=hk3rfoot   1,1,1   0,0,0   10,-340,0   0      .      h_rlleg
+Object h_head=hk3_head   1,1,1   0,0,0   0,60,0   0      .      h_hips
+Object h_winsh=hk3winsh   1,1,1   0,0,0   0,396,42   0      .      h_head
+Object h_declf=hk3declf   1,1,1   0,0,0   -24,244,148   0      .      h_head
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-13,-173   0   hidden   h_head
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-13,-173   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   -1,409,9   0   hidden   h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   107,340,219   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -107,237,191   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   0,27,163   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   0,458,41   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,232,-1   0   hidden   h_head
+Object h_rarm=hk3_rarm   1,1,1   0,0,0   223,18,1   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   115,-161,331   0   hidden   h_rarm
+Object h_larm=hk3_larm   1,1,1   0,0,0   -227,18,1   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   -108,-161,331   0   hidden   h_larm
+
+rep
+
+Object h_hips=hk4_hips   1,1,1   0,0,0   0,600,0   0      .      hnchback
+Object h_luleg=hk4luleg   1,1,1   0,0,0   -100,-20,0   0      .      h_hips
+Object h_llleg=hk4llleg   1,1,1   0,0,0   -80,-140,0   0      .      h_luleg
+Object h_lfoot=hk4lfoot   1,1,1   0,0,0   -10,-340,0   0      .      h_llleg
+Object h_ruleg=hk4ruleg   1,1,1   0,0,0   100,-20,0   0      .      h_hips
+Object h_rlleg=hk4rlleg   1,1,1   0,0,0   80,-140,0   0      .      h_ruleg
+Object h_rfoot=hk4rfoot   1,1,1   0,0,0   10,-340,0   0      .      h_rlleg
+Object h_head=hk4_head   1,1,1   0,0,0   0,60,0   0      .      h_hips
+Object h_winsh=hk4winsh   1,1,1   0,0,0   0,396,42   0      .      h_head
+Object h_declf=hk4declf   1,1,1   0,0,0   -24,244,148   0      .      h_head
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-13,-173   0   hidden   h_head
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-13,-173   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   -1,409,9   0   hidden   h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   107,340,219   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -107,237,191   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   0,27,163   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   0,458,41   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,232,-1   0   hidden   h_head
+Object h_rarm=hk4_rarm   1,1,1   0,0,0   223,18,1   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   115,-161,331   0   hidden   h_rarm
+Object h_larm=hk4_larm   1,1,1   0,0,0   -227,18,1   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   -108,-161,331   0   hidden   h_larm
+
+rep
+
+Object h_hips=hk5_hips   1,1,1   0,0,0   0,600,0   0      .      hnchback
+Object h_luleg=hk5luleg   1,1,1   0,0,0   -100,-20,0   0      .      h_hips
+Object h_llleg=hk5llleg   1,1,1   0,0,0   -80,-140,0   0      .      h_luleg
+Object h_lfoot=hk5lfoot   1,1,1   0,0,0   -10,-340,0   0      .      h_llleg
+Object h_ruleg=hk5ruleg   1,1,1   0,0,0   100,-20,0   0      .      h_hips
+Object h_rlleg=hk5rlleg   1,1,1   0,0,0   80,-140,0   0      .      h_ruleg
+Object h_rfoot=hk5rfoot   1,1,1   0,0,0   10,-340,0   0      .      h_rlleg
+Object h_head=hk5_head   1,1,1   0,0,0   0,60,0   0    near     h_hips
+Object h_winsh=hk5winsh   1,1,1   0,0,0   0,396,42   0      .      h_head
+Object h_declf=hk5declf   1,1,1   0,0,0   -24,244,148   0      .      h_head
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-13,-173   0   hidden   h_head
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-13,-173   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   -1,409,9   0   hidden   h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   107,340,219   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -107,237,191   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   0,27,163   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   0,458,41   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,232,-1   0   hidden   h_head
+Object h_rarm=hk5_rarm   1,1,1   0,0,0   223,18,1   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   115,-161,331   0   hidden   h_rarm
+Object h_larm=hk5_larm   1,1,1   0,0,0   -227,18,1   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   -108,-161,331   0   hidden   h_larm
+
+endrep
+
+thing h_head
+thing h_daddy
+
+gamepiece hnchback mw2mech                 
+
+objloc h_winsh  hd
+objloc h_head   ct
+objloc h_hips   ct
+objloc h_rarm   ra
+objloc h_larm   la
+objloc h_ruleg  rl
+objloc h_rlleg  rl
+objloc h_rfoot  rl
+objloc h_luleg  ll
+objloc h_llleg  ll
+objloc h_lfoot  ll
+
+animfile hnchanim
+
+# task animators go here....
+task animator 0    h_hips;60,129,0
+task animator 0    h_hips;60,1,1
+task animator 0    h_luleg;60,1,2
+task animator 0    h_llleg;60,1,3
+task animator 0    h_lfoot;60,1,4
+task animator 0    h_ruleg;60,1,5
+task animator 0    h_rlleg;60,1,6
+task animator 0    h_rfoot;60,1,7
+task animator 0    h_head;60,1,8
+task animator 0    h_rarm;60,1,9
+task animator 0    h_larm;60,1,10
+
+ljpof h_ljpof
+rjpof h_rjpof
+lapof h_lapof
+rapof h_rapof
+rtpof h_rtpof
+ltpof h_ltpof
+hdpof h_hdpof
+ctpof h_ctpof
+
+eyeobj h_cppov
+
+vptfile mw2mech
+#pitfile mw2pit
+cptfile mw2mech
+hudfile mw2hud
+mgdfile hnchback
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of hnchback.mec

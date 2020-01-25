@@ -1,0 +1,222 @@
+#   Anihilat.MEC
+#   geometry for the Annihilator 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null)  parent
+object anihilat=dummy     1,1,1   0,0,0   0,0,0   0    hidden  world
+
+rep
+
+Object a_hips=an1_hips   1,1,1   0,0,0   0,760,0   0      .      anihilat
+Object a_luleg=an1luleg   1,1,1   0,0,0   -130,-30,-15   0      .      a_hips
+Object a_llleg=an1llleg   1,1,1   0,0,0   -104,-250,15   0      .      a_luleg
+Object a_decll=an1decll   1,1,1   0,0,0   -122,-218,7   0      .      a_llleg
+Object a_lrtoe=an1lrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_llleg
+Object a_lftoe=an1lftoe   1,1,1   0,0,0   0,-6,113   0      .      a_lrtoe
+Object a_ruleg=an1ruleg   1,1,1   0,0,0   130,-30,-15   0      .      a_hips
+Object a_rlleg=an1rlleg   1,1,1   0,0,0   104,-250,15   0      .      a_ruleg
+Object a_declr=an1declr   1,1,1   0,0,0   122,-218,7   0      .      a_rlleg
+Object a_rrtoe=an1rrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_rlleg
+Object a_rftoe=an1rftoe   1,1,1   0,0,0   0,-6,113   0      .      a_rrtoe
+Object a_body=an1_body   1,1,1   0,0,0   0,100,0   0      .      a_hips
+Object a_winsh=an1winsh   1,1,1   0,0,0   0,465,136   0      .      a_body
+Object a_laten=an1laten   1,1,1   0,0,0   -47,504,55   0      .      a_body
+Object a_raten=an1raten   1,1,1   0,0,0   47,505,55   0      .      a_body
+Object a_ljpof=DUMMY   1,1,1   0,0,0   -217,115,-206   0   hidden   a_body
+Object a_rjpof=DUMMY   1,1,1   0,0,0   223,115,-206   0   hidden   a_body
+Object a_cppov=DUMMY   1,1,1   0,0,0   0,457,130   0   hidden   a_body
+Object a_hdpof=DUMMY   1,1,1   0,0,0   -1,381,108   0   hidden   a_body
+Object a_ctpof=DUMMY   1,1,1   0,0,0   -5,166,383   0   hidden   a_body
+Object a_rtpof=DUMMY   1,1,1   0,0,0   167,271,308   0   hidden   a_body
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -164,271,308   0   hidden   a_body
+Object a_daddy=DUMMY   1,1,1   0,0,0   -5,248,-71   0   hidden   a_body
+Object a_larm=an1_larm   1,1,1   0,0,0   -255,2,-2   0      .      a_daddy
+Object a_lapof=DUMMY   1,1,1   0,0,0   -220,-293,614   0   hidden   a_larm
+Object a_rarm=an1_rarm   1,1,1   0,0,0   265,2,-2   0      .      a_daddy
+Object a_rapof=DUMMY   1,1,1   0,0,0   223,-293,614   0   hidden   a_rarm
+
+rep
+
+Object a_hips=an2_hips   1,1,1   0,0,0   0,760,0   0      .      anihilat
+Object a_luleg=an2luleg   1,1,1   0,0,0   -130,-30,-15   0      .      a_hips
+Object a_llleg=an2llleg   1,1,1   0,0,0   -104,-250,15   0      .      a_luleg
+Object a_decll=an2decll   1,1,1   0,0,0   -122,-218,7   0      .      a_llleg
+Object a_lrtoe=an2lrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_llleg
+Object a_lftoe=an2lftoe   1,1,1   0,0,0   0,-6,113   0      .      a_lrtoe
+Object a_ruleg=an2ruleg   1,1,1   0,0,0   130,-30,-15   0      .      a_hips
+Object a_rlleg=an2rlleg   1,1,1   0,0,0   104,-250,15   0      .      a_ruleg
+Object a_declr=an2declr   1,1,1   0,0,0   122,-218,7   0      .      a_rlleg
+Object a_rrtoe=an2rrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_rlleg
+Object a_rftoe=an2rftoe   1,1,1   0,0,0   0,-6,113   0      .      a_rrtoe
+Object a_body=an2_body   1,1,1   0,0,0   0,100,0   0      .      a_hips
+Object a_winsh=an2winsh   1,1,1   0,0,0   0,465,136   0      .      a_body
+Object a_laten=an2laten   1,1,1   0,0,0   -47,504,55   0      .      a_body
+Object a_raten=an2raten   1,1,1   0,0,0   47,505,55   0      .      a_body
+Object a_ljpof=DUMMY   1,1,1   0,0,0   -217,115,-206   0   hidden   a_body
+Object a_rjpof=DUMMY   1,1,1   0,0,0   223,115,-206   0   hidden   a_body
+Object a_cppov=DUMMY   1,1,1   0,0,0   0,457,130   0   hidden   a_body
+Object a_hdpof=DUMMY   1,1,1   0,0,0   -1,381,108   0   hidden   a_body
+Object a_ctpof=DUMMY   1,1,1   0,0,0   -5,166,383   0   hidden   a_body
+Object a_rtpof=DUMMY   1,1,1   0,0,0   167,271,308   0   hidden   a_body
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -164,271,308   0   hidden   a_body
+Object a_daddy=DUMMY   1,1,1   0,0,0   -5,248,-71   0   hidden   a_body
+Object a_larm=an2_larm   1,1,1   0,0,0   -255,2,-2   0      .      a_daddy
+Object a_lapof=DUMMY   1,1,1   0,0,0   -220,-293,614   0   hidden   a_larm
+Object a_rarm=an2_rarm   1,1,1   0,0,0   265,2,-2   0      .      a_daddy
+Object a_rapof=DUMMY   1,1,1   0,0,0   223,-293,614   0   hidden   a_rarm
+
+rep
+
+Object a_hips=an3_hips   1,1,1   0,0,0   0,760,0   0      .      anihilat
+Object a_luleg=an3luleg   1,1,1   0,0,0   -130,-30,-15   0      .      a_hips
+Object a_llleg=an3llleg   1,1,1   0,0,0   -104,-250,15   0      .      a_luleg
+Object a_decll=an3decll   1,1,1   0,0,0   -122,-218,7   0      .      a_llleg
+Object a_lrtoe=an3lrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_llleg
+Object a_lftoe=an3lftoe   1,1,1   0,0,0   0,-6,113   0      .      a_lrtoe
+Object a_ruleg=an3ruleg   1,1,1   0,0,0   130,-30,-15   0      .      a_hips
+Object a_rlleg=an3rlleg   1,1,1   0,0,0   104,-250,15   0      .      a_ruleg
+Object a_declr=an3declr   1,1,1   0,0,0   122,-218,7   0      .      a_rlleg
+Object a_rrtoe=an3rrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_rlleg
+Object a_rftoe=an3rftoe   1,1,1   0,0,0   0,-6,113   0      .      a_rrtoe
+Object a_body=an3_body   1,1,1   0,0,0   0,100,0   0      .      a_hips
+Object a_winsh=an3winsh   1,1,1   0,0,0   0,465,136   0      .      a_body
+Object a_laten=an3laten   1,1,1   0,0,0   -47,504,55   0      .      a_body
+Object a_raten=an3raten   1,1,1   0,0,0   47,505,55   0      .      a_body
+Object a_ljpof=DUMMY   1,1,1   0,0,0   -217,115,-206   0   hidden   a_body
+Object a_rjpof=DUMMY   1,1,1   0,0,0   223,115,-206   0   hidden   a_body
+Object a_cppov=DUMMY   1,1,1   0,0,0   0,457,130   0   hidden   a_body
+Object a_hdpof=DUMMY   1,1,1   0,0,0   -1,381,108   0   hidden   a_body
+Object a_ctpof=DUMMY   1,1,1   0,0,0   -5,166,383   0   hidden   a_body
+Object a_rtpof=DUMMY   1,1,1   0,0,0   167,271,308   0   hidden   a_body
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -164,271,308   0   hidden   a_body
+Object a_daddy=DUMMY   1,1,1   0,0,0   -5,248,-71   0   hidden   a_body
+Object a_larm=an3_larm   1,1,1   0,0,0   -255,2,-2   0      .      a_daddy
+Object a_lapof=DUMMY   1,1,1   0,0,0   -220,-293,614   0   hidden   a_larm
+Object a_rarm=an3_rarm   1,1,1   0,0,0   265,2,-2   0      .      a_daddy
+Object a_rapof=DUMMY   1,1,1   0,0,0   223,-293,614   0   hidden   a_rarm
+
+rep
+
+Object a_hips=an4_hips   1,1,1   0,0,0   0,760,0   0      .      anihilat
+Object a_luleg=an4luleg   1,1,1   0,0,0   -130,-30,-15   0      .      a_hips
+Object a_llleg=an4llleg   1,1,1   0,0,0   -104,-250,15   0      .      a_luleg
+Object a_decll=an4decll   1,1,1   0,0,0   -122,-218,7   0      .      a_llleg
+Object a_lrtoe=an4lrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_llleg
+Object a_lftoe=an4lftoe   1,1,1   0,0,0   0,-6,113   0      .      a_lrtoe
+Object a_ruleg=an4ruleg   1,1,1   0,0,0   130,-30,-15   0      .      a_hips
+Object a_rlleg=an4rlleg   1,1,1   0,0,0   104,-250,15   0      .      a_ruleg
+Object a_declr=an4declr   1,1,1   0,0,0   122,-218,7   0      .      a_rlleg
+Object a_rrtoe=an4rrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_rlleg
+Object a_rftoe=an4rftoe   1,1,1   0,0,0   0,-6,113   0      .      a_rrtoe
+Object a_body=an4_body   1,1,1   0,0,0   0,100,0   0      .      a_hips
+Object a_winsh=an4winsh   1,1,1   0,0,0   0,465,136   0      .      a_body
+Object a_laten=an4laten   1,1,1   0,0,0   -47,504,55   0      .      a_body
+Object a_raten=an4raten   1,1,1   0,0,0   47,505,55   0      .      a_body
+Object a_ljpof=DUMMY   1,1,1   0,0,0   -217,115,-206   0   hidden   a_body
+Object a_rjpof=DUMMY   1,1,1   0,0,0   223,115,-206   0   hidden   a_body
+Object a_cppov=DUMMY   1,1,1   0,0,0   0,457,130   0   hidden   a_body
+Object a_hdpof=DUMMY   1,1,1   0,0,0   -1,381,108   0   hidden   a_body
+Object a_ctpof=DUMMY   1,1,1   0,0,0   -5,166,383   0   hidden   a_body
+Object a_rtpof=DUMMY   1,1,1   0,0,0   167,271,308   0   hidden   a_body
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -164,271,308   0   hidden   a_body
+Object a_daddy=DUMMY   1,1,1   0,0,0   -5,248,-71   0   hidden   a_body
+Object a_larm=an4_larm   1,1,1   0,0,0   -255,2,-2   0      .      a_daddy
+Object a_lapof=DUMMY   1,1,1   0,0,0   -220,-293,614   0   hidden   a_larm
+Object a_rarm=an4_rarm   1,1,1   0,0,0   265,2,-2   0      .      a_daddy
+Object a_rapof=DUMMY   1,1,1   0,0,0   223,-293,614   0   hidden   a_rarm
+
+rep
+
+Object a_hips=an5_hips   1,1,1   0,0,0   0,760,0   0      .      anihilat
+Object a_luleg=an5luleg   1,1,1   0,0,0   -130,-30,-15   0      .      a_hips
+Object a_llleg=an5llleg   1,1,1   0,0,0   -104,-250,15   0      .      a_luleg
+Object a_decll=an5decll   1,1,1   0,0,0   -122,-218,7   0      .      a_llleg
+Object a_lrtoe=an5lrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_llleg
+Object a_lftoe=an5lftoe   1,1,1   0,0,0   0,-6,113   0      .      a_lrtoe
+Object a_ruleg=an5ruleg   1,1,1   0,0,0   130,-30,-15   0      .      a_hips
+Object a_rlleg=an5rlleg   1,1,1   0,0,0   104,-250,15   0      .      a_ruleg
+Object a_declr=an5declr   1,1,1   0,0,0   122,-218,7   0      .      a_rlleg
+Object a_rrtoe=an5rrtoe   1,1,1   0,0,0   0,-380,0   0      .      a_rlleg
+Object a_rftoe=an5rftoe   1,1,1   0,0,0   0,-6,113   0      .      a_rrtoe
+Object a_body=an5_body   1,1,1   0,0,0   0,100,0   0    near     a_hips
+Object a_winsh=an5winsh   1,1,1   0,0,0   0,465,136   0      .      a_body
+Object a_laten=an5laten   1,1,1   0,0,0   -47,504,55   0      .      a_body
+Object a_raten=an5raten   1,1,1   0,0,0   47,505,55   0      .      a_body
+Object a_ljpof=DUMMY   1,1,1   0,0,0   -167,115,-206   0   hidden   a_body
+Object a_rjpof=DUMMY   1,1,1   0,0,0   172,115,-206   0   hidden   a_body
+Object a_cppov=DUMMY   1,1,1   0,0,0   0,457,130   0   hidden   a_body
+Object a_hdpof=DUMMY   1,1,1   0,0,0   0,381,108   0   hidden   a_body
+Object a_ctpof=DUMMY   1,1,1   0,0,0   -4,166,383   0   hidden   a_body
+Object a_rtpof=DUMMY   1,1,1   0,0,0   128,271,308   0   hidden   a_body
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -126,271,308   0   hidden   a_body
+Object a_daddy=DUMMY   1,1,1   0,0,0   -4,248,-71   0   hidden   a_body
+Object a_larm=an5_larm   1,1,1   0,0,0   -256,2,-2   0      .      a_daddy
+Object a_lapof=DUMMY   1,1,1   0,0,0   -109,-293,614   0   hidden   a_larm
+Object a_rarm=an5_rarm   1,1,1   0,0,0   264,2,-2   0      .      a_daddy
+Object a_rapof=DUMMY   1,1,1   0,0,0   112,-293,614   0   hidden   a_rarm
+
+endrep
+
+thing a_body
+thing a_daddy
+
+gamepiece anihilat mw2mech 
+
+objloc a_body   ct
+objloc a_laten   ct
+objloc a_raten   ct
+objloc a_hips   ct
+objloc a_winsh  hd
+objloc a_larm   la
+objloc a_rarm   ra
+objloc a_luleg  ll
+objloc a_ruleg  rl
+objloc a_llleg  ll
+objloc a_rlleg  rl
+objloc a_lftoe  ll
+objloc a_rftoe  rl
+objloc a_lrtoe  ll
+objloc a_rrtoe  rl
+
+animfile garganim  
+
+# task animators go here....
+task animator 0    a_hips;63,129,0
+task animator 0    a_hips;63,1,1
+task animator 0    a_luleg;63,1,2
+task animator 0    a_llleg;63,1,3
+task animator 0    a_lrtoe;63,1,4
+task animator 0    a_lftoe;63,1,5
+task animator 0    a_ruleg;63,1,6
+task animator 0    a_rlleg;63,1,7
+task animator 0    a_rrtoe;63,1,8
+task animator 0    a_rftoe;63,1,9
+task animator 0    a_body;63,1,10
+task animator 0    a_larm;63,1,11
+task animator 0    a_rarm;63,1,12
+
+hdpof a_hdpof
+ctpof a_ctpof
+ltpof a_ltpof
+rtpof a_rtpof
+lapof a_lapof
+rapof a_rapof
+ljpof a_ljpof
+rjpof a_rjpof
+
+eyeobj a_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile anihilat
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of Battle Master.mec
+
+

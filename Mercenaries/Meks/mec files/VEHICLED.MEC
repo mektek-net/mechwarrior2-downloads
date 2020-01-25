@@ -1,0 +1,71 @@
+#     Ouput for vehicled.MEC
+#     Wed May  3 21:17:43 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object vehicled=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object v_main=vd1_main   1,1,1   0,0,0   4,80,12   0      .      vehicled
+Object v_winsh=vd1winsh   1,1,1   0,0,0   0,80,-50   4      .      v_main
+Object v_flwhl=vd1flwhl   1,1,1   0,0,0   -88,-30,100   0      .      v_main
+Object v_frwhl=vd1frwhl   1,1,1   0,0,0   86,-30,100   0      .      v_main
+Object v_rlwhl=vd1rlwhl   1,1,1   0,0,0   -88,-30,-70   0      .      v_main
+Object v_rrwhl=vd1rrwhl   1,1,1   0,0,0   86,-30,-70   0      .      v_main
+
+rep
+
+Object v_main=vd2_main   1,1,1   0,0,0   4,80,12   0      .      vehicled
+Object v_winsh=vd2winsh   1,1,1   0,0,0   0,80,-50   4      .      v_main
+Object v_flwhl=vd2flwhl   1,1,1   0,0,0   -88,-30,100   0      .      v_main
+Object v_frwhl=vd2frwhl   1,1,1   0,0,0   86,-30,100   0      .      v_main
+Object v_rlwhl=vd2rlwhl   1,1,1   0,0,0   -88,-30,-70   0      .      v_main
+Object v_rrwhl=vd2rrwhl   1,1,1   0,0,0   86,-30,-70   0      .      v_main
+
+rep
+
+Object v_main=vd3_main   1,1,1   0,0,0   4,80,12   0      .      vehicled
+Object v_winsh=vd3winsh   1,1,1   0,0,0   0,80,-50   4      .      v_main
+Object v_flwhl=vd3flwhl   1,1,1   0,0,0   -88,-30,100   0      .      v_main
+Object v_frwhl=vd3frwhl   1,1,1   0,0,0   86,-30,100   0      .      v_main
+Object v_rlwhl=vd3rlwhl   1,1,1   0,0,0   -88,-30,-70   0      .      v_main
+Object v_rrwhl=vd3rrwhl   1,1,1   0,0,0   86,-30,-70   0      .      v_main
+
+rep
+
+Object v_main=vd4_main   1,1,1   0,0,0   4,80,12   0      .      vehicled
+Object v_winsh=vd4winsh   1,1,1   0,0,0   0,80,-50   4      .      v_main
+Object v_flwhl=vd4flwhl   1,1,1   0,0,0   -88,-30,100   0      .      v_main
+Object v_frwhl=vd4frwhl   1,1,1   0,0,0   86,-30,100   0      .      v_main
+Object v_rlwhl=vd4rlwhl   1,1,1   0,0,0   -88,-30,-70   0      .      v_main
+Object v_rrwhl=vd4rrwhl   1,1,1   0,0,0   86,-30,-70   0      .      v_main
+
+endrep
+
+gamepiece vehicled mw2truck                 
+
+objloc v_winsh  hd
+objloc v_main   ct
+objloc v_flwhl  la
+objloc v_frwhl  ra
+objloc v_rlwhl  ll
+objloc v_rrwhl  rl
+
+animfile vehdanim 
+
+# task animators go here....
+
+task animator 0    v_main;60,129,0
+
+mgdfile vehicled
+
+
+mangle_off
+
+#end of vehicled.MEC

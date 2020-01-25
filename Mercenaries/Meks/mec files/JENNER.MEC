@@ -1,0 +1,213 @@
+#   JENNER.MEC
+#   geometry for the jenner 'Mech
+#   last modified 4/11/94 JB
+#   finishing touches 4/11 JB
+
+#       size = 1300cm
+#       785 to put jenner's feet on ground
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null) parent
+object jenner=dummy         1,1,1   0,0,0   0,0,0  0   hidden world
+
+rep
+
+Object j_hips=jn1_hips   1,1,1   0,0,0   0,636,-50   0      .      jenner
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -37,-15,-157   0   hidden   j_hips
+Object j_rjpof=DUMMY   1,1,1   0,0,0   37,-15,-157   0   hidden   j_hips
+Object j_luleg=jn1luleg   1,1,1   0,0,0   -124,-67,4   0      .      j_hips
+Object j_lknee=jn1lknee   1,1,1   0,0,0   -64,-182,65   0      .      j_luleg
+Object j_llleg=jn1llleg   1,1,1   0,0,0   -68,-169,23   0      .      j_luleg
+Object j_lfoot=jn1lfoot   1,1,1   0,0,0   -11,-332,-27   0      .      j_llleg
+Object j_ruleg=jn1ruleg   1,1,1   0,0,0   123,-67,4   0      .      j_hips
+Object j_rknee=jn1rknee   1,1,1   0,0,0   66,-182,65   0      .      j_ruleg
+Object j_rlleg=jn1rlleg   1,1,1   0,0,0   68,-169,23   0      .      j_ruleg
+Object j_rfoot=jn1rfoot   1,1,1   0,0,0   12,-332,-27   0      .      j_rlleg
+Object j_head=jn1_head   1,1,1   0,0,0   -1,69,25   0      .      j_hips
+Object j_winsh=jn1winsh   1,1,1   0,0,0   1,59,25   0      .      j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   -234,84,-21   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   235,84,-21   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   1,-31,415   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   1,226,62   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   2,84,-142   0   hidden   j_head
+Object j_larm=jn1_larm   1,1,1   0,0,0   -170,8,1   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -204,60,315   0   hidden   j_larm
+Object j_decll=jn1decll   1,1,1   0,0,0   -275,58,127   0      .      j_larm
+Object j_rarm=jn1_rarm   1,1,1   0,0,0   169,8,1   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   205,60,315   0   hidden   j_rarm
+Object j_declr=jn1declr   1,1,1   0,0,0   273,58,127   0      .      j_rarm
+
+rep
+
+Object j_hips=jn2_hips   1,1,1   0,0,0   0,636,-50   0      .      jenner
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -37,-15,-157   0   hidden   j_hips
+Object j_rjpof=DUMMY   1,1,1   0,0,0   37,-15,-157   0   hidden   j_hips
+Object j_luleg=jn2luleg   1,1,1   0,0,0   -124,-67,4   0      .      j_hips
+Object j_lknee=jn2lknee   1,1,1   0,0,0   -64,-182,65   0      .      j_luleg
+Object j_llleg=jn2llleg   1,1,1   0,0,0   -68,-169,23   0      .      j_luleg
+Object j_lfoot=jn2lfoot   1,1,1   0,0,0   -11,-332,-27   0      .      j_llleg
+Object j_ruleg=jn2ruleg   1,1,1   0,0,0   123,-67,4   0      .      j_hips
+Object j_rknee=jn2rknee   1,1,1   0,0,0   66,-182,65   0      .      j_ruleg
+Object j_rlleg=jn2rlleg   1,1,1   0,0,0   68,-169,23   0      .      j_ruleg
+Object j_rfoot=jn2rfoot   1,1,1   0,0,0   12,-332,-27   0      .      j_rlleg
+Object j_head=jn2_head   1,1,1   0,0,0   -1,69,25   0      .      j_hips
+Object j_winsh=jn2winsh   1,1,1   0,0,0   1,59,25   0      .      j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   -234,84,-21   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   235,84,-21   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   1,-31,415   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   1,226,62   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   2,84,-142   0   hidden   j_head
+Object j_larm=jn2_larm   1,1,1   0,0,0   -170,8,1   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -204,60,315   0   hidden   j_larm
+Object j_decll=jn2decll   1,1,1   0,0,0   -275,58,127   0      .      j_larm
+Object j_rarm=jn2_rarm   1,1,1   0,0,0   169,8,1   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   205,60,315   0   hidden   j_rarm
+Object j_declr=jn2declr   1,1,1   0,0,0   273,58,127   0      .      j_rarm
+
+rep
+
+Object j_hips=jn3_hips   1,1,1   0,0,0   0,636,-50   0      .      jenner
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -268,-397,-44   0   hidden   j_hips
+Object j_rjpof=DUMMY   1,1,1   0,0,0   265,-397,-44   0   hidden   j_hips
+Object j_luleg=jn3luleg   1,1,1   0,0,0   -120,-69,25   0      .      j_hips
+Object j_lknee=jn3lknee   1,1,1   0,0,0   -68,-180,44   0      .      j_luleg
+Object j_llleg=jn3llleg   1,1,1   0,0,0   -52,-176,-10   0      .      j_luleg
+Object j_lfoot=jn3lfoot   1,1,1   0,0,0   -43,-323,-13   0      .      j_llleg
+Object j_ruleg=jn3ruleg   1,1,1   0,0,0   122,-69,25   0      .      j_hips
+Object j_rknee=jn3rknee   1,1,1   0,0,0   67,-180,44   0      .      j_ruleg
+Object j_rlleg=jn3rlleg   1,1,1   0,0,0   56,-167,16   0      .      j_ruleg
+Object j_rfoot=jn3rfoot   1,1,1   0,0,0   29,-332,-13   0      .      j_rlleg
+Object j_head=jn3_head   1,1,1   0,0,0   -1,59,25   0      .      j_hips
+Object j_winsh=jn3winsh   1,1,1   0,0,0   1,59,25   0      .      j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   -234,84,117   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   235,84,117   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   1,-31,401   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   1,260,25   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   2,84,-142   0   hidden   j_head
+Object j_larm=jn3_larm   1,1,1   0,0,0   -170,8,1   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -204,60,278   0   hidden   j_larm
+Object j_decll=jn3decll   1,1,1   0,0,0   -275,58,112   0      .      j_larm
+Object j_rarm=jn3_rarm   1,1,1   0,0,0   169,8,1   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   205,60,278   0   hidden   j_rarm
+Object j_declr=jn3declr   1,1,1   0,0,0   273,58,112   0      .      j_rarm
+
+rep
+
+Object j_hips=jn4_hips   1,1,1   0,0,0   0,636,-50   0      .      jenner
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -268,-397,-44   0   hidden   j_hips
+Object j_rjpof=DUMMY   1,1,1   0,0,0   265,-397,-44   0   hidden   j_hips
+Object j_luleg=jn4luleg   1,1,1   0,0,0   -186,-28,25   0      .      j_hips
+Object j_lknee=jn4lknee   1,1,1   0,0,0   -2,-221,44   0      .      j_luleg
+Object j_llleg=jn4llleg   1,1,1   0,0,0   21,-208,16   0      .      j_luleg
+Object j_lfoot=jn4lfoot   1,1,1   0,0,0   -43,-332,-13   0      .      j_llleg
+Object j_ruleg=jn4ruleg   1,1,1   0,0,0   183,-28,25   0      .      j_hips
+Object j_rknee=jn4rknee   1,1,1   0,0,0   6,-221,44   0      .      j_ruleg
+Object j_rlleg=jn4rlleg   1,1,1   0,0,0   -4,-208,16   0      .      j_ruleg
+Object j_rfoot=jn4rfoot   1,1,1   0,0,0   33,-332,-13   0      .      j_rlleg
+Object j_head=jn4_head   1,1,1   0,0,0   -1,5,25   0      .      j_hips
+Object j_winsh=jn4winsh   1,1,1   0,0,0   1,59,25   0      .      j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   -234,84,381   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   235,84,381   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   1,-31,384   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   1,324,25   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   2,84,-142   0   hidden   j_head
+Object j_larm=jn4_larm   1,1,1   0,0,0   -170,8,1   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -204,60,525   0   hidden   j_larm
+Object j_decll=jn4decll   1,1,1   0,0,0   -275,58,192   0      .      j_larm
+Object j_rarm=jn4_rarm   1,1,1   0,0,0   169,8,1   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   205,60,525   0   hidden   j_rarm
+Object j_declr=jn4declr   1,1,1   0,0,0   273,58,192   0      .      j_rarm
+
+rep
+
+Object j_hips=jn5_hips   1,1,1   0,0,0   0,636,-50   0      .      jenner
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -268,-397,-44   0   hidden   j_hips
+Object j_rjpof=DUMMY   1,1,1   0,0,0   265,-397,-44   0   hidden   j_hips
+Object j_luleg=jn5luleg   1,1,1   0,0,0   -124,-67,4   0      .      j_hips
+Object j_lknee=jn5lknee   1,1,1   0,0,0   -64,-182,65   0      .      j_luleg
+Object j_llleg=jn5llleg   1,1,1   0,0,0   -68,-169,23   0      .      j_luleg
+Object j_lfoot=jn5lfoot   1,1,1   0,0,0   -11,-332,-27   0      .      j_llleg
+Object j_ruleg=jn5ruleg   1,1,1   0,0,0   123,-67,4   0      .      j_hips
+Object j_rknee=jn5rknee   1,1,1   0,0,0   66,-182,65   0      .      j_ruleg
+Object j_rlleg=jn5rlleg   1,1,1   0,0,0   68,-169,23   0      .      j_ruleg
+Object j_rfoot=jn5rfoot   1,1,1   0,0,0   12,-332,-27   0      .      j_rlleg
+Object j_head=jn5_head   1,1,1   0,0,0   -1,5,25   0    near     j_hips
+Object j_winsh=jn5winsh   1,1,1   0,0,0   1,124,25   0      .      j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   -234,84,-58   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   235,84,-58   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   1,-31,378   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   1,226,25   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   2,84,-142   0   hidden   j_head
+Object j_larm=jn5_larm   1,1,1   0,0,0   -170,72,1   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -204,-4,278   0   hidden   j_larm
+Object j_decll=jn5decll   1,1,1   0,0,0   -275,-6,192   0      .      j_larm
+Object j_rarm=jn5_rarm   1,1,1   0,0,0   169,72,1   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   205,-4,278   0   hidden   j_rarm
+Object j_declr=jn5declr   1,1,1   0,0,0   273,-6,192   0      .      j_rarm
+
+endrep
+
+thing j_head
+thing j_daddy
+
+gamepiece jenner mw2mech                 
+
+objloc j_head   ct
+objloc j_hips   ct
+objloc j_winsh  hd
+objloc j_rarm   ra
+objloc j_larm   la
+objloc j_ruleg  rl
+objloc j_rknee  rl
+objloc j_rlleg  rl
+objloc j_rfoot  rl
+objloc j_luleg  ll
+objloc j_lknee  ll
+objloc j_llleg  ll
+objloc j_lfoot  ll
+
+animfile jennanim 
+
+# task animators go here....
+
+task animator 0    j_hips;42,129,0
+task animator 0    j_hips;42,1,1
+task animator 0    j_luleg;42,1,2
+task animator 0    j_lknee;42,1,3
+task animator 0    j_llleg;42,1,4
+task animator 0    j_lfoot;42,1,5
+task animator 0    j_ruleg;42,1,6
+task animator 0    j_rknee;42,1,7
+task animator 0    j_rlleg;42,1,8
+task animator 0    j_rfoot;42,1,9
+
+ljpof j_ljpof
+rjpof j_rjpof
+lapof j_lapof
+rapof j_rapof
+rtpof j_rtpof
+ltpof j_ltpof
+hdpof j_hdpof
+ctpof j_ctpof
+
+eyeobj j_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile jenner
+pitfile mw2pit
+
+mangle_off
+
+AnimSound  meclight
+
+# end of jenner.mec

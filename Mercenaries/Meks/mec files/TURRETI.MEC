@@ -1,0 +1,75 @@
+#     Ouput for turreti.MEC
+#     Sat Apr  1 13:32:03 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object turreti=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object t_main=ti1_main   1,1,1   0,0,0   0,159,1   0      .      turreti
+Object t_ltred=ti1ltred   1,1,1   0,0,0   -155,-57,-1   0      .      t_main
+Object t_rtred=ti1rtred   1,1,1   0,0,0   151,-64,-1   0      .      t_main
+Object t_mount=ti1mount   1,1,1   0,0,0   1,86,-71   0      .      t_main
+Object t_bigun=ti1bigun   1,1,1   0,0,0   -1,104,3   0      .      t_mount
+Object t_rtpof=DUMMY   1,1,1   0,0,0   72,-10,585   0   hidden   t_bigun
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -75,-10,585   0   hidden   t_bigun
+
+rep
+
+Object t_main=ti2_main   1,1,1   0,0,0   0,159,1   0      .      turreti
+Object t_ltred=ti2ltred   1,1,1   0,0,0   -155,-57,-1   0      .      t_main
+Object t_rtred=ti2rtred   1,1,1   0,0,0   151,-64,-1   0      .      t_main
+Object t_mount=ti2mount   1,1,1   0,0,0   1,86,-71   0      .      t_main
+Object t_bigun=ti2bigun   1,1,1   0,0,0   -1,104,3   0      .      t_mount
+Object t_rtpof=DUMMY   1,1,1   0,0,0   72,-12,585   0   hidden   t_bigun
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -75,-12,585   0   hidden   t_bigun
+
+rep
+
+Object t_main=ti3_main   1,1,1   0,0,0   0,159,1   0      .      turreti
+Object t_ltred=ti3ltred   1,1,1   0,0,0   -155,-57,-1   0      .      t_main
+Object t_rtred=ti3rtred   1,1,1   0,0,0   151,-64,-1   0      .      t_main
+Object t_mount=ti3mount   1,1,1   0,0,0   1,86,-71   0      .      t_main
+Object t_bigun=ti3bigun   1,1,1   0,0,0   -1,104,3   0      .      t_mount
+Object t_rtpof=DUMMY   1,1,1   0,0,0   72,-12,585   0   hidden   t_bigun
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -75,-12,585   0   hidden   t_bigun
+
+rep
+
+Object t_main=ti4_main   1,1,1   0,0,0   0,159,1   0      .      turreti
+Object t_ltred=ti4ltred   1,1,1   0,0,0   -155,-57,-1   0      .      t_main
+Object t_rtred=ti4rtred   1,1,1   0,0,0   151,-64,-1   0      .      t_main
+Object t_mount=ti4mount   1,1,1   0,0,0   1,86,-71   0      .      t_main
+Object t_bigun=ti4bigun   1,1,1   0,0,0   -1,104,3   0      .      t_mount
+Object t_rtpof=DUMMY   1,1,1   0,0,0   72,-12,585   0   hidden   t_bigun
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -75,-12,585   0   hidden   t_bigun
+
+endrep
+
+thing t_mount
+thing t_bigun
+
+gamepiece turreti mw2artillery
+
+objloc t_main  ct
+objloc t_mount ct
+objloc t_bigun ct
+objloc t_rtred rl
+objloc t_ltred ll
+
+rtpof t_rtpof
+ltpof t_ltpof
+
+eyeobj t_mount
+
+mgdfile turreti
+
+mangle_off
+
+#end of turreti.MEC

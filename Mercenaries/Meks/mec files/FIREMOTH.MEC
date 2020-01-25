@@ -1,0 +1,261 @@
+#   firemoth.MEC
+#   geometry for the firemoth 'Mech
+#       size = 675cm
+#       350 to put firemoth's feet on ground
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null) parent
+object firemoth=dummy         1,1,1   0,0,0   0,0,0  0   hidden  world
+
+rep
+
+Object f_hips=fm1_hips   1,1,1   0,0,0   -5,532,0   0      .      firemoth
+Object f_luleg=fm1luleg   1,1,1   0,0,0   -83,-14,-8   0      .      f_hips
+Object f_ljpof=DUMMY   1,1,1   0,0,0   21,34,-173   0   hidden   f_luleg
+Object f_lknee=fm1lknee   1,1,1   0,0,0   -29,-197,60   0      .      f_luleg
+Object f_llleg=fm1llleg   1,1,1   0,0,0   -7,-221,-2   0      .      f_luleg
+Object f_lfoot=fm1lfoot   1,1,1   0,0,0   -29,-250,-13   0      .      f_llleg
+Object f_lftoe=fm1lftoe   1,1,1   0,0,0   -8,-20,60   0      .      f_lfoot
+Object f_lltoe=fm1lltoe   1,1,1   0,0,0   -43,-23,-38   0      .      f_lfoot
+Object f_lrtoe=fm1lrtoe   1,1,1   0,0,0   29,-23,-43   0      .      f_lfoot
+Object f_ruleg=fm1ruleg   1,1,1   0,0,0   73,-23,0   0      .      f_hips
+Object f_rjpof=DUMMY   1,1,1   0,0,0   3,43,-181   0   hidden   f_ruleg
+Object f_rknee=fm1rknee   1,1,1   0,0,0   46,-188,53   0      .      f_ruleg
+Object f_rlleg=fm1rlleg   1,1,1   0,0,0   27,-212,-8   0      .      f_ruleg
+Object f_rfoot=fm1rfoot   1,1,1   0,0,0   35,-250,-16   0      .      f_rlleg
+Object f_rftoe=fm1rftoe   1,1,1   0,0,0   2,-20,61   0      .      f_rfoot
+Object f_rltoe=fm1rltoe   1,1,1   0,0,0   -35,-23,-40   0      .      f_rfoot
+Object f_rrtoe=fm1rrtoe   1,1,1   0,0,0   39,-23,-37   0      .      f_rfoot
+Object f_head=fm1_head   1,1,1   0,0,0   0,65,0   0      .      f_hips
+Object f_winsh=fm1winsh   1,1,1   0,0,0   0,47,0   0      .      f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   8,176,143   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   8,-75,126   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   116,43,247   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -108,43,247   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   8,104,156   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   4,127,-81   0   hidden   f_head
+Object f_rarm=fm1_rarm   1,1,1   0,0,0   132,0,0   0      .      f_daddy
+Object f_rgun=fm1_rgun   1,1,1   0,0,0   152,177,145   0      .      f_rarm
+Object f_rapof=DUMMY   1,1,1   0,0,0   -3,18,120   0   hidden   f_rgun
+Object f_declr=fm1declr   1,1,1   0,0,0   59,-3,145   0      .      f_rarm
+Object f_larm=fm1_larm   1,1,1   0,0,0   -128,0,0   0      .      f_daddy
+Object f_lgun=fm1_lgun   1,1,1   0,0,0   -148,177,145   0      .      f_larm
+Object f_lapof=DUMMY   1,1,1   0,0,0   3,18,120   0   hidden   f_lgun
+Object f_decll=fm1decll   1,1,1   0,0,0   -61,-3,145   0      .      f_larm
+
+rep
+
+Object f_hips=fm2_hips   1,1,1   0,0,0   -5,532,0   0      .      firemoth
+Object f_luleg=fm2luleg   1,1,1   0,0,0   -83,-14,-8   0      .      f_hips
+Object f_ljpof=DUMMY   1,1,1   0,0,0   21,34,-173   0   hidden   f_luleg
+Object f_lknee=fm2lknee   1,1,1   0,0,0   -29,-197,60   0      .      f_luleg
+Object f_llleg=fm2llleg   1,1,1   0,0,0   -7,-221,-2   0      .      f_luleg
+Object f_lfoot=fm2lfoot   1,1,1   0,0,0   -29,-250,-13   0      .      f_llleg
+Object f_lftoe=fm2lftoe   1,1,1   0,0,0   -8,-20,60   0      .      f_lfoot
+Object f_lltoe=fm2lltoe   1,1,1   0,0,0   -43,-23,-38   0      .      f_lfoot
+Object f_lrtoe=fm2lrtoe   1,1,1   0,0,0   29,-23,-43   0      .      f_lfoot
+Object f_ruleg=fm2ruleg   1,1,1   0,0,0   73,-23,0   0      .      f_hips
+Object f_rjpof=DUMMY   1,1,1   0,0,0   3,43,-181   0   hidden   f_ruleg
+Object f_rknee=fm2rknee   1,1,1   0,0,0   46,-188,53   0      .      f_ruleg
+Object f_rlleg=fm2rlleg   1,1,1   0,0,0   27,-212,-8   0      .      f_ruleg
+Object f_rfoot=fm2rfoot   1,1,1   0,0,0   35,-250,-16   0      .      f_rlleg
+Object f_rftoe=fm2rftoe   1,1,1   0,0,0   2,-20,61   0      .      f_rfoot
+Object f_rltoe=fm2rltoe   1,1,1   0,0,0   -35,-23,-40   0      .      f_rfoot
+Object f_rrtoe=fm2rrtoe   1,1,1   0,0,0   39,-23,-37   0      .      f_rfoot
+Object f_head=fm2_head   1,1,1   0,0,0   0,65,0   0      .      f_hips
+Object f_winsh=fm2winsh   1,1,1   0,0,0   0,47,0   0      .      f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   8,176,143   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   8,-75,126   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   116,43,247   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -108,43,247   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   8,104,156   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   4,127,-81   0   hidden   f_head
+Object f_rarm=fm2_rarm   1,1,1   0,0,0   132,0,0   0      .      f_daddy
+Object f_rgun=fm2_rgun   1,1,1   0,0,0   152,177,145   0      .      f_rarm
+Object f_rapof=DUMMY   1,1,1   0,0,0   -3,18,120   0   hidden   f_rgun
+Object f_declr=fm2declr   1,1,1   0,0,0   59,-3,145   0      .      f_rarm
+Object f_larm=fm2_larm   1,1,1   0,0,0   -128,0,0   0      .      f_daddy
+Object f_lgun=fm2_lgun   1,1,1   0,0,0   -148,177,145   0      .      f_larm
+Object f_lapof=DUMMY   1,1,1   0,0,0   3,18,120   0   hidden   f_lgun
+Object f_decll=fm2decll   1,1,1   0,0,0   -61,-3,145   0      .      f_larm
+
+rep
+
+Object f_hips=fm3_hips   1,1,1   0,0,0   0,532,0   0      .      firemoth
+Object f_luleg=fm3luleg   1,1,1   0,0,0   -56,-70,0   0      .      f_hips
+Object f_ljpof=DUMMY   1,1,1   0,0,0   -17,-58,-60   0   hidden   f_luleg
+Object f_lknee=fm3lknee   1,1,1   0,0,0   -31,-213,43   0      .      f_luleg
+Object f_llleg=fm3llleg   1,1,1   0,0,0   -25,-203,-10   0      .      f_luleg
+Object f_lfoot=fm3lfoot   1,1,1   0,0,0   -42,-212,4   0      .      f_llleg
+Object f_lftoe=fm3lftoe   1,1,1   0,0,0   -6,-20,46   0      .      f_lfoot
+Object f_lltoe=fm3lltoe   1,1,1   0,0,0   -33,-23,-29   0      .      f_lfoot
+Object f_lrtoe=fm3lrtoe   1,1,1   0,0,0   22,-23,-33   0      .      f_lfoot
+Object f_ruleg=fm3ruleg   1,1,1   0,0,0   55,-70,0   0      .      f_hips
+Object f_rjpof=DUMMY   1,1,1   0,0,0   9,-59,-59   0   hidden   f_ruleg
+Object f_rknee=fm3rknee   1,1,1   0,0,0   27,-213,43   0      .      f_ruleg
+Object f_rlleg=fm3rlleg   1,1,1   0,0,0   24,-204,-8   0      .      f_ruleg
+Object f_rfoot=fm3rfoot   1,1,1   0,0,0   51,-212,1   0      .      f_rlleg
+Object f_rftoe=fm3rftoe   1,1,1   0,0,0   2,-20,47   0      .      f_rfoot
+Object f_rltoe=fm3rltoe   1,1,1   0,0,0   -27,-23,-31   0      .      f_rfoot
+Object f_rrtoe=fm3rrtoe   1,1,1   0,0,0   30,-23,-29   0      .      f_rfoot
+Object f_head=fm3_head   1,1,1   0,0,0   -2,65,0   0      .      f_hips
+Object f_winsh=fm3winsh   1,1,1   0,0,0   2,47,0   0      .      f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   10,176,94   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   10,-108,115   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   117,43,198   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -106,43,198   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   10,103,156   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   1,127,-81   0   hidden   f_head
+Object f_rarm=fm3_rarm   1,1,1   0,0,0   178,0,0   0      .      f_daddy
+Object f_rgun=fm3_rgun   1,1,1   0,0,0   110,177,145   0      .      f_rarm
+Object f_rapof=DUMMY   1,1,1   0,0,0   -3,17,100   0   hidden   f_rgun
+Object f_declr=fm3declr   1,1,1   0,0,0   3,-4,145   0      .      f_rarm
+Object f_larm=fm3_larm   1,1,1   0,0,0   -176,0,0   0      .      f_daddy
+Object f_lgun=fm3_lgun   1,1,1   0,0,0   -95,177,145   0      .      f_larm
+Object f_lapof=DUMMY   1,1,1   0,0,0   3,17,100   0   hidden   f_lgun
+Object f_decll=fm3decll   1,1,1   0,0,0   -1,-4,145   0      .      f_larm
+
+rep
+
+Object f_hips=fm4_hips   1,1,1   0,0,0   0,532,0   0      .      firemoth
+Object f_luleg=fm4luleg   1,1,1   0,0,0   -76,-70,-6   0      .      f_hips
+Object f_ljpof=DUMMY   1,1,1   0,0,0   3,-58,-53   0   hidden   f_luleg
+Object f_lknee=fm4lknee   1,1,1   0,0,0   -30,-213,50   0      .      f_luleg
+Object f_llleg=fm4llleg   1,1,1   0,0,0   -22,-203,-3   0      .      f_luleg
+Object f_lfoot=fm4lfoot   1,1,1   0,0,0   -23,-212,4   0      .      f_llleg
+Object f_lftoe=fm4lftoe   1,1,1   0,0,0   -8,-20,46   0      .      f_lfoot
+Object f_lltoe=fm4lltoe   1,1,1   0,0,0   -40,-23,-29   0      .      f_lfoot
+Object f_lrtoe=fm4lrtoe   1,1,1   0,0,0   27,-23,-33   0      .      f_lfoot
+Object f_ruleg=fm4ruleg   1,1,1   0,0,0   75,-70,-7   0      .      f_hips
+Object f_rjpof=DUMMY   1,1,1   0,0,0   -11,-58,-53   0   hidden   f_ruleg
+Object f_rknee=fm4rknee   1,1,1   0,0,0   24,-213,50   0      .      f_ruleg
+Object f_rlleg=fm4rlleg   1,1,1   0,0,0   20,-204,-1   0      .      f_ruleg
+Object f_rfoot=fm4rfoot   1,1,1   0,0,0   57,-212,1   0      .      f_rlleg
+Object f_rftoe=fm4rftoe   1,1,1   0,0,0   -30,-20,47   0      .      f_rfoot
+Object f_rltoe=fm4rltoe   1,1,1   0,0,0   -65,-23,-31   0      .      f_rfoot
+Object f_rrtoe=fm4rrtoe   1,1,1   0,0,0   5,-23,-29   0      .      f_rfoot
+Object f_head=fm4_head   1,1,1   0,0,0   -2,65,0   0      .      f_hips
+Object f_winsh=fm4winsh   1,1,1   0,0,0   2,47,0   0      .      f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   10,176,94   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   13,-107,115   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   117,43,198   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -106,43,198   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   10,104,156   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   1,127,-81   0   hidden   f_head
+Object f_rarm=fm4_rarm   1,1,1   0,0,0   178,0,0   0      .      f_daddy
+Object f_rgun=fm4_rgun   1,1,1   0,0,0   110,177,145   0      .      f_rarm
+Object f_rapof=DUMMY   1,1,1   0,0,0   -3,17,100   0   hidden   f_rgun
+Object f_declr=fm4declr   1,1,1   0,0,0   7,-3,145   0      .      f_rarm
+Object f_larm=fm4_larm   1,1,1   0,0,0   -175,0,0   0      .      f_daddy
+Object f_lgun=fm4_lgun   1,1,1   0,0,0   -96,177,145   0      .      f_larm
+Object f_lapof=DUMMY   1,1,1   0,0,0   3,17,100   0   hidden   f_lgun
+Object f_decll=fm4decll   1,1,1   0,0,0   4,-3,145   0      .      f_larm
+
+rep
+
+Object f_hips=fm5_hips   1,1,1   0,0,0   -5,532,0   0      .      firemoth
+Object f_luleg=fm5luleg   1,1,1   0,0,0   -83,-14,-8   0      .      f_hips
+Object f_ljpof=DUMMY   1,1,1   0,0,0   14,-114,-52   0   hidden   f_luleg
+Object f_lknee=fm5lknee   1,1,1   0,0,0   -29,-197,60   0      .      f_luleg
+Object f_llleg=fm5llleg   1,1,1   0,0,0   -7,-221,-2   0      .      f_luleg
+Object f_lfoot=fm5lfoot   1,1,1   0,0,0   -29,-250,-13   0      .      f_llleg
+Object f_lftoe=fm5lftoe   1,1,1   0,0,0   -8,-20,60   0      .      f_lfoot
+Object f_lltoe=fm5lltoe   1,1,1   0,0,0   -43,-23,-38   0      .      f_lfoot
+Object f_lrtoe=fm5lrtoe   1,1,1   0,0,0   29,-23,-43   0      .      f_lfoot
+Object f_ruleg=fm5ruleg   1,1,1   0,0,0   73,-23,0   0      .      f_hips
+Object f_rjpof=DUMMY   1,1,1   0,0,0   -4,-105,-59   0   hidden   f_ruleg
+Object f_rknee=fm5rknee   1,1,1   0,0,0   46,-188,53   0      .      f_ruleg
+Object f_rlleg=fm5rlleg   1,1,1   0,0,0   27,-212,-8   0      .      f_ruleg
+Object f_rfoot=fm5rfoot   1,1,1   0,0,0   35,-250,-16   0      .      f_rlleg
+Object f_rftoe=fm5rftoe   1,1,1   0,0,0   2,-20,61   0      .      f_rfoot
+Object f_rltoe=fm5rltoe   1,1,1   0,0,0   -35,-23,-40   0      .      f_rfoot
+Object f_rrtoe=fm5rrtoe   1,1,1   0,0,0   39,-23,-37   0      .      f_rfoot
+Object f_head=fm5_head   1,1,1   0,0,0   3,65,-2   0    near     f_hips
+Object f_winsh=fm5winsh   1,1,1   0,0,0   2,47,2   0      .      f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   10,176,96   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   10,-107,117   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   117,43,199   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -106,43,199   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   12,104,158   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   1,127,-79   0   hidden   f_head
+Object f_rarm=fm5_rarm   1,1,1   0,0,0   132,0,0   0      .      f_daddy
+Object f_rgun=fm5_rgun   1,1,1   0,0,0   152,177,145   0      .      f_rarm
+Object f_rapof=DUMMY   1,1,1   0,0,0   303,146,210   0   hidden   f_rgun
+Object f_declr=fm5declr   1,1,1   0,0,0   53,-3,145   0      .      f_rarm
+Object f_larm=fm5_larm   1,1,1   0,0,0   -128,0,0   0      .      f_daddy
+Object f_lgun=fm5_lgun   1,1,1   0,0,0   -148,177,145   0      .      f_larm
+Object f_lapof=DUMMY   1,1,1   0,0,0   -300,146,210   0   hidden   f_lgun
+Object f_decll=fm5decll   1,1,1   0,0,0   -44,-3,145   0      .      f_larm
+
+endrep
+
+thing f_head
+thing f_daddy
+
+gamepiece firemoth mw2mech    
+
+objloc f_head   ct
+objloc f_hips   ct
+objloc f_winsh  hd
+objloc f_larm   la
+objloc f_rarm   ra
+objloc f_lgun   la
+objloc f_rgun   ra
+objloc f_luleg  ll
+objloc f_llleg  ll
+objloc f_lftoe  ll
+objloc f_lltoe  ll
+objloc f_lrtoe  ll
+objloc f_lfoot  ll
+objloc f_lknee  ll
+objloc f_ruleg  rl
+objloc f_rlleg  rl
+objloc f_rftoe  rl
+objloc f_rltoe  rl
+objloc f_rrtoe  rl
+objloc f_rfoot  rl
+objloc f_rknee  rl
+
+animfile fireanim
+
+task animator 1    f_hips;37,129,0 
+task animator 1    f_hips;37,1,1
+task animator 1    f_luleg;37,1,2
+task animator 1    f_lknee;37,1,3
+task animator 1    f_llleg;37,1,4
+task animator 1    f_lfoot;37,1,5
+task animator 1    f_lftoe;37,1,6
+task animator 1    f_ruleg;37,1,7     
+task animator 1    f_rknee;37,1,8
+task animator 1    f_rlleg;37,1,9
+task animator 1    f_rfoot;37,1,10
+task animator 1    f_rftoe;37,1,11
+task animator 1    f_head;37,1,12
+task animator 1    f_head;37,1,13
+task animator 1    f_head;37,1,14
+
+hdpof  f_hdpof
+ctpof  f_ctpof
+rtpof  f_rtpof
+ltpof  f_ltpof
+rapof  f_rapof
+lapof  f_lapof
+rjpof  f_rjpof
+ljpof  f_ljpof
+
+eyeobj f_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile firemoth
+pitfile mw2pit
+
+mangle_off
+
+AnimSound  meclight
+
+# end of firemoth.MEC
+
+

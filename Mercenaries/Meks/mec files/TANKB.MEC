@@ -1,0 +1,56 @@
+#     Ouput for tankb.MEC
+#     Thu Mar 30 15:57:51 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object tankb=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+
+rep
+
+Object k_main=kb1_main   1,1,1   0,0,0   0,290,-110   0      .      tankb
+Object k_winsh=kb1winsh   1,1,1   0,0,0   -280,190,920   0      .      k_main
+Object k_lfwhl=kb1lfwhl   1,1,1   0,0,0   -420,-60,680   0      .      k_main
+Object k_lrwhl=kb1lrwhl   1,1,1   0,0,0   -420,-60,-670   0      .      k_main
+Object k_rrwhl=kb1rrwhl   1,1,1   0,0,0   440,-60,-670   0      .      k_main
+Object k_rfwhl=kb1rfwhl   1,1,1   0,0,0   440,-60,680   0      .      k_main
+Object k_turrt=kb1turrt   1,1,1   0,0,0   280,260,-590   0      .      k_main
+Object k_daddy=DUMMY   1,1,1   0,0,0   -3,50,220   0   hidden   k_turrt
+Object k_rgun=kb1_rgun   1,1,1   0,0,0   116,0,0   0      .      k_daddy
+Object k_rpof=DUMMY   1,1,1   0,0,0   -3,0,555   0   hidden   k_rgun
+Object k_lgun=kb1_lgun   1,1,1   0,0,0   -117,0,0   0      .      k_daddy
+Object k_lpof=DUMMY   1,1,1   0,0,0   0,0,555   0   hidden   k_lgun
+
+endrep
+
+thing k_turrt
+thing k_daddy
+
+gamepiece tankb mw2tank
+
+objloc k_main  ct
+objloc k_turrt ct
+objloc k_winsh hd
+objloc k_rgun  ra
+objloc k_lgun  la
+objloc k_rrwhl ct
+objloc k_rfwhl ct
+objloc k_lrwhl ct
+objloc k_lfwhl ct
+
+animfile tnkbanim
+
+task animator 0 k_main;75,129,0
+
+lapof k_lpof
+rapof k_rpof
+
+eyeobj k_turrt
+
+mgdfile tankb
+
+mangle_off
+
+#end of tankb.MEC

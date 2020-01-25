@@ -1,0 +1,47 @@
+#     Ouput for subb.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object subd=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object s_main=sd1_main   1,1,1   0,0,0   0,634,-176   0      .      subd
+Object s_decll=sd1decll   1,1,1   0,0,0   -5421,-434,-5829   0      .      s_main
+Object s_declr=sd1declr   1,1,1   0,0,0   5479,-434,-5819   0      .      s_main
+Object s_winsh=sd1winsh   1,1,1   0,0,0   0,275,12106   0      .      s_main
+Object s_daddy=DUMMY   1,1,1   0,0,0   0,-803,8554   0   hidden   s_main
+Object s_rpof=DUMMY   1,1,1   0,0,0   1753,-8,93   0   hidden   s_daddy
+Object s_lpof=DUMMY   1,1,1   0,0,0   -1759,-8,93   0   hidden   s_daddy
+
+endrep
+
+thing s_daddy
+thing s_daddy
+
+gamepiece subd mw2truck
+
+objloc s_main   ct
+objloc s_winsh  ct
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    s_main;60,129,0
+
+ltpof s_lpof
+rtpof s_rpof
+
+eyeobj s_daddy
+
+mgdfile subd
+
+mangle_off
+
+#end of subb.MEC

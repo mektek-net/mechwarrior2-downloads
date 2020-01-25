@@ -1,0 +1,69 @@
+#     Ouput for chippewa.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object chippewa=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object c_main=ch1_main   1,1,1   0,0,0   0,124,-259   0      .      chippewa
+Object c_winsh=ch1winsh   1,1,1   0,0,0   0,119,834   0      .      c_main
+Object c_rfslg=ch1rfslg   1,1,1   0,0,0   426,-58,153   0      .      c_main
+Object c_lfslg=ch1lfslg   1,1,1   0,0,0   -426,-58,153   0      .      c_main
+Object c_rhfin=ch1rhfin   1,1,1   0,0,0   295,112,-178   0      .      c_main
+Object c_lhfin=ch1lhfin   1,1,1   0,0,0   -279,112,-178   0      .      c_main
+Object c_rwing=ch1rwing   1,1,1   0,0,0   1074,-58,82   0      .      c_main
+Object c_rwlgo=ch1rwlgo   1,1,1   0,0,0   -423,5,-63   0      .      c_rwing
+Object c_lwing=ch1lwing   1,1,1   0,0,0   -1074,-58,82   0      .      c_main
+Object c_lwlgo=ch1lwlgo   1,1,1   0,0,0   458,5,-63   0      .      c_lwing
+Object c_dummy=DUMMY   1,1,1   0,0,0   0,-5,177   0   hidden   c_main
+Object c_daddy=DUMMY   1,1,1   0,0,0   0,0,102   0   hidden   c_dummy
+Object c_ctpof=DUMMY   1,1,1   0,0,0   0,-118,303   0   hidden   c_daddy
+Object c_hdpof=DUMMY   1,1,1   0,0,0   0,50,211   0   hidden   c_daddy
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -228,-35,839   0   hidden   c_daddy
+Object c_rtpof=DUMMY   1,1,1   0,0,0   219,-34,839   0   hidden   c_daddy
+Object c_rwpof=DUMMY   1,1,1   0,0,0   628,-52,122   0   hidden   c_daddy
+Object c_lwpof=DUMMY   1,1,1   0,0,0   -625,-52,122   0   hidden   c_daddy
+
+endrep
+
+thing c_dummy
+thing c_daddy
+
+gamepiece chippewa mw2truck
+
+objloc c_main   ct
+objloc c_winsh  ct
+objloc c_rwing  ra
+objloc c_lwing  la
+objloc c_lfslg  lt
+objloc c_rfslg  rt
+objloc c_lhfin  lt
+objloc c_rhfin  rt
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    c_main;60,129,0
+
+lapof c_lwpof
+rapof c_rwpof
+hdpof c_hdpof
+ctpof c_ctpof
+ltpof c_ltpof
+rtpof c_rtpof
+
+eyeobj c_hdpof
+
+mgdfile chippewa
+
+mangle_off
+
+#end of chippewa.MEC
+

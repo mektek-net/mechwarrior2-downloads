@@ -1,0 +1,221 @@
+#   hatchet.MEC
+#   geometry for the hatchet 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object hatchet=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object h_hips=ht1_hips   1,1,1   0,0,0   0,688,-105   0      .      hatchet
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-98,-162   0   hidden   h_hips
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-98,-162   0   hidden   h_hips
+Object h_luleg=ht1luleg   1,1,1   0,0,0   -88,-57,9   0      .      h_hips
+Object h_llleg=ht1llleg   1,1,1   0,0,0   -114,-275,103   0      .      h_luleg
+Object h_lrtoe=ht1lrtoe   1,1,1   0,0,0   13,-303,-88   0      .      h_llleg
+Object h_lftoe=ht1lftoe   1,1,1   0,0,0   0,22,80   0      .      h_lrtoe
+Object h_ruleg=ht1ruleg   1,1,1   0,0,0   88,-57,9   0      .      h_hips
+Object h_rlleg=ht1rlleg   1,1,1   0,0,0   114,-275,103   0      .      h_ruleg
+Object h_rrtoe=ht1rrtoe   1,1,1   0,0,0   -13,-303,-88   0      .      h_rlleg
+Object h_rftoe=ht1rftoe   1,1,1   0,0,0   0,22,80   0      .      h_rrtoe
+Object h_head=ht1_head   1,1,1   0,0,0   0,135,9   0      .      h_hips
+Object h_winsh=ht1winsh   1,1,1   0,0,0   0,358,131   0      .      h_head
+Object h_declf=ht1declf   1,1,1   0,0,0   -64,240,150   0      .      h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   105,133,200   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   1,344,136   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   8,416,162   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -90,133,200   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   5,12,225   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,242,-15   0   hidden   h_head
+Object h_larm=ht1_larm   1,1,1   0,0,0   -158,33,0   0      .      h_daddy
+Object h_decll=ht1decll   1,1,1   0,0,0   -125,9,-4   0      .      h_larm
+Object h_lapof=DUMMY   1,1,1   0,0,0   -167,-447,447   0   hidden   h_larm
+Object h_rarm=ht1_rarm   1,1,1   0,0,0   144,33,0   0      .      h_daddy
+Object h_declr=ht1declr   1,1,1   0,0,0   125,9,-4   0      .      h_rarm
+Object h_htcht=ht1htcht   1,1,1   0,0,0   159,-359,296   0      .      h_rarm
+Object h_rapof=DUMMY   1,1,1   0,0,0   159,-447,447   0   hidden   h_rarm
+
+rep
+
+Object h_hips=ht2_hips   1,1,1   0,0,0   0,688,-105   0      .      hatchet
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-98,-162   0   hidden   h_hips
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-98,-162   0   hidden   h_hips
+Object h_luleg=ht2luleg   1,1,1   0,0,0   -88,-57,9   0      .      h_hips
+Object h_llleg=ht2llleg   1,1,1   0,0,0   -114,-275,103   0      .      h_luleg
+Object h_lrtoe=ht2lrtoe   1,1,1   0,0,0   13,-280,-84   0      .      h_llleg
+Object h_lftoe=ht2lftoe   1,1,1   0,0,0   0,-1,76   0      .      h_lrtoe
+Object h_ruleg=ht2ruleg   1,1,1   0,0,0   88,-57,9   0      .      h_hips
+Object h_rlleg=ht2rlleg   1,1,1   0,0,0   114,-275,103   0      .      h_ruleg
+Object h_rrtoe=ht2rrtoe   1,1,1   0,0,0   3,-280,-84   0      .      h_rlleg
+Object h_rftoe=ht2rftoe   1,1,1   0,0,0   -15,-1,76   0      .      h_rrtoe
+Object h_head=ht2_head   1,1,1   0,0,0   0,135,9   0      .      h_hips
+Object h_winsh=ht2winsh   1,1,1   0,0,0   0,358,131   0      .      h_head
+Object h_declf=ht2declf   1,1,1   0,0,0   -64,240,150   0      .      h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   105,133,200   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   1,344,136   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   8,416,162   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -90,133,200   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   5,12,225   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,242,-15   0   hidden   h_head
+Object h_larm=ht2_larm   1,1,1   0,0,0   -158,33,0   0      .      h_daddy
+Object h_decll=ht2decll   1,1,1   0,0,0   -125,9,-4   0      .      h_larm
+Object h_lapof=DUMMY   1,1,1   0,0,0   -167,-447,447   0   hidden   h_larm
+Object h_rarm=ht2_rarm   1,1,1   0,0,0   144,33,0   0      .      h_daddy
+Object h_declr=ht2declr   1,1,1   0,0,0   125,9,-4   0      .      h_rarm
+Object h_htcht=ht2htcht   1,1,1   0,0,0   159,-359,296   0      .      h_rarm
+Object h_rapof=DUMMY   1,1,1   0,0,0   159,-447,447   0   hidden   h_rarm
+
+rep
+
+Object h_hips=ht3_hips   1,1,1   0,0,0   0,688,-105   0      .      hatchet
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-98,-162   0   hidden   h_hips
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-98,-162   0   hidden   h_hips
+Object h_luleg=ht3luleg   1,1,1   0,0,0   -88,-57,9   0      .      h_hips
+Object h_llleg=ht3llleg   1,1,1   0,0,0   -114,-275,103   0      .      h_luleg
+Object h_lrtoe=ht3lrtoe   1,1,1   0,0,0   13,-280,-84   0      .      h_llleg
+Object h_lftoe=ht3lftoe   1,1,1   0,0,0   0,-1,76   0      .      h_lrtoe
+Object h_ruleg=ht3ruleg   1,1,1   0,0,0   88,-57,9   0      .      h_hips
+Object h_rlleg=ht3rlleg   1,1,1   0,0,0   114,-275,103   0      .      h_ruleg
+Object h_rrtoe=ht3rrtoe   1,1,1   0,0,0   3,-280,-84   0      .      h_rlleg
+Object h_rftoe=ht3rftoe   1,1,1   0,0,0   -15,-1,76   0      .      h_rrtoe
+Object h_head=ht3_head   1,1,1   0,0,0   0,135,9   0      .      h_hips
+Object h_winsh=ht3winsh   1,1,1   0,0,0   0,358,131   0      .      h_head
+Object h_declf=ht3declf   1,1,1   0,0,0   -64,240,150   0      .      h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   105,133,200   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   1,344,136   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   8,416,162   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -90,133,200   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   5,12,225   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,242,-15   0   hidden   h_head
+Object h_larm=ht3_larm   1,1,1   0,0,0   -158,33,0   0      .      h_daddy
+Object h_decll=ht3decll   1,1,1   0,0,0   -125,9,-4   0      .      h_larm
+Object h_lapof=DUMMY   1,1,1   0,0,0   -167,-447,447   0   hidden   h_larm
+Object h_rarm=ht3_rarm   1,1,1   0,0,0   144,33,0   0      .      h_daddy
+Object h_declr=ht3declr   1,1,1   0,0,0   125,9,-4   0      .      h_rarm
+Object h_htcht=ht3htcht   1,1,1   0,0,0   159,-359,296   0      .      h_rarm
+Object h_rapof=DUMMY   1,1,1   0,0,0   159,-447,447   0   hidden   h_rarm
+
+rep
+
+Object h_hips=ht4_hips   1,1,1   0,0,0   0,688,-105   0      .      hatchet
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-98,-162   0   hidden   h_hips
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-98,-162   0   hidden   h_hips
+Object h_luleg=ht4luleg   1,1,1   0,0,0   -88,-57,9   0      .      h_hips
+Object h_llleg=ht4llleg   1,1,1   0,0,0   -114,-275,103   0      .      h_luleg
+Object h_lrtoe=ht4lrtoe   1,1,1   0,0,0   13,-280,-84   0      .      h_llleg
+Object h_lftoe=ht4lftoe   1,1,1   0,0,0   0,-1,76   0      .      h_lrtoe
+Object h_ruleg=ht4ruleg   1,1,1   0,0,0   88,-57,9   0      .      h_hips
+Object h_rlleg=ht4rlleg   1,1,1   0,0,0   114,-275,103   0      .      h_ruleg
+Object h_rrtoe=ht4rrtoe   1,1,1   0,0,0   3,-280,-84   0      .      h_rlleg
+Object h_rftoe=ht4rftoe   1,1,1   0,0,0   -15,-1,76   0      .      h_rrtoe
+Object h_head=ht4_head   1,1,1   0,0,0   0,135,9   0      .      h_hips
+Object h_winsh=ht4winsh   1,1,1   0,0,0   0,358,131   0      .      h_head
+Object h_declf=ht4declf   1,1,1   0,0,0   -64,240,150   0      .      h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   105,133,200   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   1,344,136   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   8,416,162   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -90,133,200   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   5,12,225   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,242,-15   0   hidden   h_head
+Object h_larm=ht4_larm   1,1,1   0,0,0   -158,33,0   0      .      h_daddy
+Object h_decll=ht4decll   1,1,1   0,0,0   -125,9,-4   0      .      h_larm
+Object h_lapof=DUMMY   1,1,1   0,0,0   -167,-447,447   0   hidden   h_larm
+Object h_rarm=ht4_rarm   1,1,1   0,0,0   144,33,0   0      .      h_daddy
+Object h_declr=ht4declr   1,1,1   0,0,0   125,9,-4   0      .      h_rarm
+Object h_htcht=ht4htcht   1,1,1   0,0,0   159,-359,296   0      .      h_rarm
+Object h_rapof=DUMMY   1,1,1   0,0,0   159,-447,447   0   hidden   h_rarm
+
+rep
+
+Object h_hips=DUMMY   1,1,1   0,0,0   0,688,-105   0    hidden   hatchet
+Object h_rjpof=DUMMY   1,1,1   0,0,0   112,-98,-162   0   hidden   h_hips
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -105,-98,-162   0   hidden   h_hips
+Object h_luleg=ht5luleg   1,1,1   0,0,0   -88,-57,9   0      .      h_hips
+Object h_llleg=ht5llleg   1,1,1   0,0,0   -114,-275,103   0      .      h_luleg
+Object h_lrtoe=DUMMY   1,1,1   0,0,0   13,-303,-88   0   hidden   h_llleg
+Object h_lftoe=DUMMY   1,1,1   0,0,0   0,22,80   0     hidden   h_lrtoe
+Object h_ruleg=ht5ruleg   1,1,1   0,0,0   88,-57,9   0      .      h_hips
+Object h_rlleg=ht5rlleg   1,1,1   0,0,0   114,-275,103   0      .      h_ruleg
+Object h_rrtoe=DUMMY   1,1,1   0,0,0   -13,-303,-88   0    hidden   h_rlleg
+Object h_rftoe=DUMMY   1,1,1   0,0,0   0,22,80   0    hidden  h_rrtoe
+Object h_head=ht5_head   1,1,1   0,0,0   0,135,9   0     near    h_hips
+Object h_winsh=DUMMY   1,1,1   0,0,0   0,358,131   0     hidden  h_head
+Object h_declf=DUMMY   1,1,1   0,0,0   -64,240,150   0   hidden    h_head
+Object h_rtpof=DUMMY   1,1,1   0,0,0   105,133,200   0   hidden   h_head
+Object h_cppov=DUMMY   1,1,1   0,0,0   1,344,136   0   hidden   h_head
+Object h_hdpof=DUMMY   1,1,1   0,0,0   8,416,162   0   hidden   h_head
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -90,133,200   0   hidden   h_head
+Object h_ctpof=DUMMY   1,1,1   0,0,0   5,12,225   0   hidden   h_head
+Object h_daddy=DUMMY   1,1,1   0,0,0   7,242,-15   0   hidden   h_head
+Object h_larm=ht5_larm   1,1,1   0,0,0   -158,33,0   0      .      h_daddy
+Object h_decll=DUMMY   1,1,1   0,0,0   -125,9,-4   0    hidden   h_larm
+Object h_lapof=DUMMY   1,1,1   0,0,0   -167,-447,447   0   hidden   h_larm
+Object h_rarm=ht5_rarm   1,1,1   0,0,0   144,33,0   0      .      h_daddy
+Object h_declr=DUMMY   1,1,1   0,0,0   125,9,-4   0    hidden   h_rarm
+Object h_htcht=ht5htcht   1,1,1   0,0,0   159,-359,296   0      .      h_rarm
+Object h_rapof=DUMMY   1,1,1   0,0,0   159,-447,447   0   hidden   h_rarm
+
+endrep
+
+thing h_head
+thing h_daddy
+
+gamepiece hatchet mw2mech 
+
+objloc h_head   ct
+objloc h_hips   ct
+objloc h_winsh  hd
+objloc h_larm   la
+objloc h_rarm   ra
+objloc h_luleg  ll
+objloc h_ruleg  rl
+objloc h_llleg  ll
+objloc h_rlleg  rl
+objloc h_lftoe  ll
+objloc h_rftoe  rl
+objloc h_lrtoe  ll
+objloc h_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    h_hips;55,129,0
+task animator 0    h_hips;55,1,1
+task animator 0    h_ruleg;55,1,2
+task animator 0    h_rlleg;55,1,3
+task animator 0    h_rftoe;55,1,4
+task animator 0    h_rrtoe;55,1,5
+task animator 0    h_luleg;55,1,6
+task animator 0    h_llleg;55,1,7
+task animator 0    h_lftoe;55,1,8
+task animator 0    h_lrtoe;55,1,9
+task animator 0    h_head;55,1,10
+task animator 0    h_rarm;55,1,11
+task animator 0    h_larm;55,1,12
+
+hdpof h_hdpof
+ctpof h_ctpof
+rtpof h_rtpof
+ltpof h_ltpof
+lapof h_lapof
+rapof h_rapof
+ljpof h_ljpof
+rjpof h_rjpof
+
+eyeobj h_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile atlas
+mgdfile hatchet
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of hatchet.MEC
+
+

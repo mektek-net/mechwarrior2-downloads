@@ -1,0 +1,211 @@
+#   urbanmec.MEC
+#   geometry for the urbanmec 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object urbanmec=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object u_hips=ur1_hips   1,1,1   0,0,0   -1,469,0   0      .      urbanmec
+Object u_ljpof=DUMMY   1,1,1   0,0,0   -101,-75,-154   0   hidden   u_hips
+Object u_rjpof=DUMMY   1,1,1   0,0,0   99,-75,-154   0   hidden   u_hips
+Object u_luleg=ur1luleg   1,1,1   0,0,0   -143,-42,0   0      .      u_hips
+Object u_decll=ur1decll   1,1,1   0,0,0   -64,-4,0   0      .      u_luleg
+Object u_llleg=ur1llleg   1,1,1   0,0,0   -16,-125,0   0      .      u_luleg
+Object u_lftoe=ur1lftoe   1,1,1   0,0,0   3,-242,92   0      .      u_llleg
+Object u_lrtoe=ur1lrtoe   1,1,1   0,0,0   -3,2,-92   0      .      u_lftoe
+Object u_ruleg=ur1ruleg   1,1,1   0,0,0   143,-42,0   0      .      u_hips
+Object u_declr=ur1declr   1,1,1   0,0,0   64,-4,0   0      .      u_ruleg
+Object u_rlleg=ur1rlleg   1,1,1   0,0,0   16,-125,0   0      .      u_ruleg
+Object u_rftoe=ur1rftoe   1,1,1   0,0,0   -3,-242,92   0      .      u_rlleg
+Object u_rrtoe=ur1rrtoe   1,1,1   0,0,0   3,2,-92   0      .      u_rftoe
+Object u_head=ur1_head   1,1,1   0,0,0   0,77,0   0      .      u_hips
+Object u_winsh=ur1winsh   1,1,1   0,0,0   0,224,152   0      .      u_head
+Object u_cppov=DUMMY   1,1,1   0,0,0   1,222,153   0   hidden   u_head
+Object u_hdpof=DUMMY   1,1,1   0,0,0   0,267,104   0   hidden   u_head
+Object u_ctpof=DUMMY   1,1,1   0,0,0   2,127,237   0   hidden   u_head
+Object u_rtpof=DUMMY   1,1,1   0,0,0   -105,43,241   0   hidden   u_head
+Object u_ltpof=DUMMY   1,1,1   0,0,0   108,44,241   0   hidden   u_head
+Object u_daddy=DUMMY   1,1,1   0,0,0   -7,76,0   0   hidden   u_head
+Object u_larm=ur1_larm   1,1,1   0,0,0   -195,31,0   0      .      u_daddy
+Object u_lapof=DUMMY   1,1,1   0,0,0   -35,25,323   0   hidden   u_larm
+Object u_rarm=ur1_rarm   1,1,1   0,0,0   209,41,0   0      .      u_daddy
+Object u_rapof=DUMMY   1,1,1   0,0,0   61,3,426   0   hidden   u_rarm
+
+rep
+
+Object u_hips=ur2_hips   1,1,1   0,0,0   -1,469,0   0      .      urbanmec
+Object u_ljpof=DUMMY   1,1,1   0,0,0   -101,-75,-154   0   hidden   u_hips
+Object u_rjpof=DUMMY   1,1,1   0,0,0   99,-75,-154   0   hidden   u_hips
+Object u_luleg=ur2luleg   1,1,1   0,0,0   -143,-42,0   0      .      u_hips
+Object u_decll=ur2decll   1,1,1   0,0,0   -64,-4,0   0      .      u_luleg
+Object u_llleg=ur2llleg   1,1,1   0,0,0   -16,-125,0   0      .      u_luleg
+Object u_lftoe=ur2lftoe   1,1,1   0,0,0   3,-242,92   0      .      u_llleg
+Object u_lrtoe=ur2lrtoe   1,1,1   0,0,0   -3,2,-92   0      .      u_lftoe
+Object u_ruleg=ur2ruleg   1,1,1   0,0,0   143,-42,0   0      .      u_hips
+Object u_declr=ur2declr   1,1,1   0,0,0   64,-4,0   0      .      u_ruleg
+Object u_rlleg=ur2rlleg   1,1,1   0,0,0   16,-125,0   0      .      u_ruleg
+Object u_rftoe=ur2rftoe   1,1,1   0,0,0   -3,-242,92   0      .      u_rlleg
+Object u_rrtoe=ur2rrtoe   1,1,1   0,0,0   3,2,-92   0      .      u_rftoe
+Object u_head=ur2_head   1,1,1   0,0,0   0,77,0   0      .      u_hips
+Object u_winsh=ur2winsh   1,1,1   0,0,0   0,224,152   0      .      u_head
+Object u_cppov=DUMMY   1,1,1   0,0,0   1,222,153   0   hidden   u_head
+Object u_hdpof=DUMMY   1,1,1   0,0,0   0,267,104   0   hidden   u_head
+Object u_ctpof=DUMMY   1,1,1   0,0,0   2,127,237   0   hidden   u_head
+Object u_rtpof=DUMMY   1,1,1   0,0,0   -105,43,241   0   hidden   u_head
+Object u_ltpof=DUMMY   1,1,1   0,0,0   108,44,241   0   hidden   u_head
+Object u_daddy=DUMMY   1,1,1   0,0,0   -7,76,0   0   hidden   u_head
+Object u_larm=ur2_larm   1,1,1   0,0,0   -195,31,0   0      .      u_daddy
+Object u_lapof=DUMMY   1,1,1   0,0,0   -35,25,323   0   hidden   u_larm
+Object u_rarm=ur2_rarm   1,1,1   0,0,0   209,41,0   0      .      u_daddy
+Object u_rapof=DUMMY   1,1,1   0,0,0   61,3,426   0   hidden   u_rarm
+
+rep
+
+Object u_hips=ur3_hips   1,1,1   0,0,0   -1,469,0   0      .      urbanmec
+Object u_ljpof=DUMMY   1,1,1   0,0,0   -101,-125,-154   0   hidden   u_hips
+Object u_rjpof=DUMMY   1,1,1   0,0,0   99,-125,-154   0   hidden   u_hips
+Object u_luleg=ur3luleg   1,1,1   0,0,0   -197,-42,0   0      .      u_hips
+Object u_decll=ur3decll   1,1,1   0,0,0   -61,-4,0   0      .      u_luleg
+Object u_llleg=ur3llleg   1,1,1   0,0,0   -16,-125,0   0      .      u_luleg
+Object u_lftoe=ur3lftoe   1,1,1   0,0,0   3,-242,92   0      .      u_llleg
+Object u_lrtoe=ur3lrtoe   1,1,1   0,0,0   -3,2,-92   0      .      u_lftoe
+Object u_ruleg=ur3ruleg   1,1,1   0,0,0   197,-42,0   0      .      u_hips
+Object u_declr=ur3declr   1,1,1   0,0,0   63,-4,0   0      .      u_ruleg
+Object u_rlleg=ur3rlleg   1,1,1   0,0,0   16,-125,0   0      .      u_ruleg
+Object u_rftoe=ur3rftoe   1,1,1   0,0,0   -3,-242,92   0      .      u_rlleg
+Object u_rrtoe=ur3rrtoe   1,1,1   0,0,0   3,2,-92   0      .      u_rftoe
+Object u_head=ur3_head   1,1,1   0,0,0   0,77,0   0      .      u_hips
+Object u_winsh=ur3winsh   1,1,1   0,0,0   0,224,152   0      .      u_head
+Object u_cppov=DUMMY   1,1,1   0,0,0   1,222,153   0   hidden   u_head
+Object u_hdpof=DUMMY   1,1,1   0,0,0   0,267,104   0   hidden   u_head
+Object u_ctpof=DUMMY   1,1,1   0,0,0   2,127,237   0   hidden   u_head
+Object u_rtpof=DUMMY   1,1,1   0,0,0   -105,43,241   0   hidden   u_head
+Object u_ltpof=DUMMY   1,1,1   0,0,0   108,44,241   0   hidden   u_head
+Object u_daddy=DUMMY   1,1,1   0,0,0   -7,76,0   0   hidden   u_head
+Object u_larm=ur3_larm   1,1,1   0,0,0   -195,31,0   0      .      u_daddy
+Object u_lapof=DUMMY   1,1,1   0,0,0   -20,17,236   0   hidden   u_larm
+Object u_rarm=ur3_rarm   1,1,1   0,0,0   209,41,0   0      .      u_daddy
+Object u_rapof=DUMMY   1,1,1   0,0,0   44,-2,337   0   hidden   u_rarm
+
+rep
+
+Object u_hips=ur4_hips   1,1,1   0,0,0   -1,469,0   0      .      urbanmec
+Object u_ljpof=DUMMY   1,1,1   0,0,0   -101,-125,-154   0   hidden   u_hips
+Object u_rjpof=DUMMY   1,1,1   0,0,0   99,-125,-154   0   hidden   u_hips
+Object u_luleg=ur4luleg   1,1,1   0,0,0   -197,-42,0   0      .      u_hips
+Object u_decll=ur4decll   1,1,1   0,0,0   -61,-4,0   0      .      u_luleg
+Object u_llleg=ur4llleg   1,1,1   0,0,0   -16,-125,0   0      .      u_luleg
+Object u_lftoe=ur4lftoe   1,1,1   0,0,0   3,-242,92   0      .      u_llleg
+Object u_lrtoe=ur4lrtoe   1,1,1   0,0,0   -3,2,-92   0      .      u_lftoe
+Object u_ruleg=ur4ruleg   1,1,1   0,0,0   197,-42,0   0      .      u_hips
+Object u_declr=ur4declr   1,1,1   0,0,0   63,-4,0   0      .      u_ruleg
+Object u_rlleg=ur4rlleg   1,1,1   0,0,0   16,-125,0   0      .      u_ruleg
+Object u_rftoe=ur4rftoe   1,1,1   0,0,0   -3,-242,92   0      .      u_rlleg
+Object u_rrtoe=ur4rrtoe   1,1,1   0,0,0   3,2,-92   0      .      u_rftoe
+Object u_head=ur4_head   1,1,1   0,0,0   0,77,0   0      .      u_hips
+Object u_winsh=ur4winsh   1,1,1   0,0,0   0,224,152   0      .      u_head
+Object u_cppov=DUMMY   1,1,1   0,0,0   1,222,153   0   hidden   u_head
+Object u_hdpof=DUMMY   1,1,1   0,0,0   0,267,104   0   hidden   u_head
+Object u_ctpof=DUMMY   1,1,1   0,0,0   2,127,237   0   hidden   u_head
+Object u_rtpof=DUMMY   1,1,1   0,0,0   -105,43,241   0   hidden   u_head
+Object u_ltpof=DUMMY   1,1,1   0,0,0   108,44,241   0   hidden   u_head
+Object u_daddy=DUMMY   1,1,1   0,0,0   -7,76,0   0   hidden   u_head
+Object u_larm=ur4_larm   1,1,1   0,0,0   -195,31,0   0      .      u_daddy
+Object u_lapof=DUMMY   1,1,1   0,0,0   -20,17,236   0   hidden   u_larm
+Object u_rarm=ur4_rarm   1,1,1   0,0,0   209,41,0   0      .      u_daddy
+Object u_rapof=DUMMY   1,1,1   0,0,0   44,-2,337   0   hidden   u_rarm
+
+rep
+
+Object u_hips=ur5_hips   1,1,1   0,0,0   -1,469,0   0      .      urbanmec
+Object u_ljpof=DUMMY   1,1,1   0,0,0   -101,-125,-154   0   hidden   u_hips
+Object u_rjpof=DUMMY   1,1,1   0,0,0   99,-125,-154   0   hidden   u_hips
+Object u_luleg=ur5luleg   1,1,1   0,0,0   -143,-42,0   0      .      u_hips
+Object u_decll=ur5decll   1,1,1   0,0,0   -64,-4,0   0      .      u_luleg
+Object u_llleg=ur5llleg   1,1,1   0,0,0   -16,-125,0   0      .      u_luleg
+Object u_lftoe=ur5lftoe   1,1,1   0,0,0   3,-242,92   0      .      u_llleg
+Object u_lrtoe=ur5lrtoe   1,1,1   0,0,0   -3,2,-92   0      .      u_lftoe
+Object u_ruleg=ur5ruleg   1,1,1   0,0,0   143,-42,0   0      .      u_hips
+Object u_declr=ur5declr   1,1,1   0,0,0   64,-4,0   0      .      u_ruleg
+Object u_rlleg=ur5rlleg   1,1,1   0,0,0   16,-125,0   0      .      u_ruleg
+Object u_rftoe=ur5rftoe   1,1,1   0,0,0   -3,-242,92   0      .      u_rlleg
+Object u_rrtoe=ur5rrtoe   1,1,1   0,0,0   3,2,-92   0      .      u_rftoe
+Object u_head=ur5_head   1,1,1   0,0,0   0,77,0   0    near     u_hips
+Object u_winsh=ur5winsh   1,1,1   0,0,0   0,224,152   0      .      u_head
+Object u_cppov=DUMMY   1,1,1   0,0,0   1,222,153   0   hidden   u_head
+Object u_hdpof=DUMMY   1,1,1   0,0,0   0,267,104   0   hidden   u_head
+Object u_ctpof=DUMMY   1,1,1   0,0,0   2,127,237   0   hidden   u_head
+Object u_rtpof=DUMMY   1,1,1   0,0,0   -105,43,241   0   hidden   u_head
+Object u_ltpof=DUMMY   1,1,1   0,0,0   108,44,241   0   hidden   u_head
+Object u_daddy=DUMMY   1,1,1   0,0,0   -7,76,0   0   hidden   u_head
+Object u_larm=ur5_larm   1,1,1   0,0,0   -195,31,0   0      .      u_daddy
+Object u_lapof=DUMMY   1,1,1   0,0,0   -20,17,236   0   hidden   u_larm
+Object u_rarm=ur5_rarm   1,1,1   0,0,0   209,41,0   0      .      u_daddy
+Object u_rapof=DUMMY   1,1,1   0,0,0   44,-2,337   0   hidden   u_rarm
+
+endrep
+
+thing u_head
+thing u_daddy
+
+gamepiece urbanmec mw2mech 
+
+objloc u_head   ct
+objloc u_hips   ct
+objloc u_winsh  hd
+objloc u_larm   la
+objloc u_rarm   ra
+objloc u_luleg  ll
+objloc u_ruleg  rl
+objloc u_llleg  ll
+objloc u_rlleg  rl
+objloc u_lftoe  ll
+objloc u_rftoe  rl
+objloc u_lrtoe  ll
+objloc u_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    u_hips;70,129,0
+task animator 0    u_hips;70,1,1
+task animator 0    u_ruleg;70,1,2
+task animator 0    u_rlleg;70,1,3
+task animator 0    u_rftoe;70,1,4
+task animator 0    u_rrtoe;70,1,5
+task animator 0    u_luleg;70,1,6
+task animator 0    u_llleg;70,1,7
+task animator 0    u_lftoe;70,1,8
+task animator 0    u_lrtoe;70,1,9
+task animator 0    u_head;70,1,10
+task animator 0    u_rarm;70,1,11
+task animator 0    u_larm;70,1,12
+
+hdpof u_hdpof
+ctpof u_ctpof
+rtpof u_rtpof
+ltpof u_ltpof
+lapof u_lapof
+rapof u_rapof
+ljpof u_ljpof
+rjpof u_rjpof
+
+eyeobj u_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile urbanmec
+pitfile mw2pit
+
+mangle_off
+
+AnimSound meclight
+
+# end of urbanmec.MEC
+
+

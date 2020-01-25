@@ -1,0 +1,107 @@
+#     Ouput for vehicleg.MEC
+#     Thu May  4 04:18:42 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object vehicleg=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden  world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object v_main=vg1_main   1,1,1   0,0,0   0,196,-129   0      .      vehicleg
+Object v_winsh=vg1winsh   1,1,1   0,0,0   0,113,0   0      .      v_main
+Object v_lsirn=vg1lsirn   1,1,1   0,0,0   -60,164,-4   0      .      v_main
+Object v_rsirn=vg1rsirn   1,1,1   0,0,0   60,164,-4   0      .      v_main
+Object v_sfoil=vg1sfoil   1,1,1   0,0,0   -223,58,-230   0      .      v_main
+Object v_light=vg1light   1,1,1   0,0,0   0,-196,829   0      .      v_main
+Object v_shadw=vg1shadw   1,1,1   0,0,0   0,-196,129   0      .      v_main
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,118,79   0   hidden   v_main
+Object v_rfpof=DUMMY   1,1,1   0,0,0   207,-5,721   0   hidden   v_main
+Object v_lfpof=DUMMY   1,1,1   0,0,0   -207,-5,721   0   hidden   v_main
+
+rep
+
+Object v_main=vg2_main   1,1,1   0,0,0   0,196,-129   0      .      vehicleg
+Object v_winsh=vg2winsh   1,1,1   0,0,0   0,113,0   0      .      v_main
+Object v_lsirn=vg2lsirn   1,1,1   0,0,0   -60,164,-4   0      .      v_main
+Object v_rsirn=vg2rsirn   1,1,1   0,0,0   60,164,-4   0      .      v_main
+Object v_sfoil=vg2sfoil   1,1,1   0,0,0   -223,58,-230   0      .      v_main
+Object v_light=vg2light   1,1,1   0,0,0   0,-196,829   0      .      v_main
+Object v_shadw=vg2shadw   1,1,1   0,0,0   0,-196,129   0      .      v_main
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,118,79   0   hidden   v_main
+Object v_rfpof=DUMMY   1,1,1   0,0,0   207,-5,632   0   hidden   v_main
+Object v_lfpof=DUMMY   1,1,1   0,0,0   -207,-5,632   0   hidden   v_main
+
+rep
+
+Object v_main=vg3_main   1,1,1   0,0,0   0,196,-129   0      .      vehicleg
+Object v_winsh=vg3winsh   1,1,1   0,0,0   0,113,0   0      .      v_main
+Object v_lsirn=vg3lsirn   1,1,1   0,0,0   -60,164,-4   0      .      v_main
+Object v_rsirn=vg3rsirn   1,1,1   0,0,0   60,164,-4   0      .      v_main
+Object v_sfoil=vg3sfoil   1,1,1   0,0,0   -223,58,-230   0      .      v_main
+Object v_light=vg3light   1,1,1   0,0,0   0,-196,829   0      .      v_main
+Object v_shadw=vg3shadw   1,1,1   0,0,0   0,-196,129   0      .      v_main
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,118,79   0   hidden   v_main
+Object v_rfpof=DUMMY   1,1,1   0,0,0   207,-5,632   0   hidden   v_main
+Object v_lfpof=DUMMY   1,1,1   0,0,0   -207,-5,632   0   hidden   v_main
+
+rep
+
+Object v_main=vg4_main   1,1,1   0,0,0   0,196,-129   0      .      vehicleg
+Object v_winsh=vg4winsh   1,1,1   0,0,0   0,113,0   0      .      v_main
+Object v_lsirn=vg4lsirn   1,1,1   0,0,0   -60,164,-4   0      .      v_main
+Object v_rsirn=vg4rsirn   1,1,1   0,0,0   60,164,-4   0      .      v_main
+Object v_sfoil=vg4sfoil   1,1,1   0,0,0   -223,58,-230   0      .      v_main
+Object v_light=vg4light   1,1,1   0,0,0   0,-196,829   0      .      v_main
+Object v_shadw=vg4shadw   1,1,1   0,0,0   0,-196,129   0      .      v_main
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,118,79   0   hidden   v_main
+Object v_rfpof=DUMMY   1,1,1   0,0,0   207,-5,632   0   hidden   v_main
+Object v_lfpof=DUMMY   1,1,1   0,0,0   -207,-5,632   0   hidden   v_main
+
+rep
+
+Object v_main=vg5_main   1,1,1   0,0,0   0,196,-129   0     near    vehicleg
+Object v_winsh=DUMMY   1,1,1   0,0,0   0,113,0   0    hidden   v_main
+Object v_lsirn=DUMMY   1,1,1   0,0,0   -60,164,-4   0   hidden    v_main
+Object v_rsirn=DUMMY   1,1,1   0,0,0   60,164,-4   0   hidden    v_main
+Object v_sfoil=DUMMY   1,1,1   0,0,0   -223,58,-230   0  hidden     v_main
+Object v_light=DUMMY   1,1,1   0,0,0   0,-196,829   0    hidden   v_main
+Object v_shadw=DUMMY   1,1,1   0,0,0   0,-196,129   0  hidden      v_main
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,118,79   0   hidden   v_main
+Object v_rfpof=DUMMY   1,1,1   0,0,0   207,-5,721   0   hidden   v_main
+Object v_lfpof=DUMMY   1,1,1   0,0,0   -207,-5,721   0   hidden   v_main
+
+endrep
+
+gamepiece vehicleg mw2tank                 
+
+objloc v_winsh  hd
+objloc v_main   ct
+objloc v_sfoil  ct
+objloc v_lsirn  la
+objloc v_rsirn  ra
+
+animfile vehganim 
+
+# task animators go here....
+
+task animator 0    v_main;60,129,0
+
+rapof v_rfpof
+lapof v_lfpof
+
+eyeobj v_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile vehicleg
+pitfile mw2pit
+
+mangle_off
+
+#end of vehicleg.MEC

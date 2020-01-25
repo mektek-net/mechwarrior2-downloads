@@ -1,0 +1,211 @@
+#   hornet.MEC
+#   geometry for the hornet 'Mech
+#   last modified 4/11/94 JB
+#   finishing touches 4/11 JB
+
+#       size = 1300cm
+#       490 to put hornet's feet on ground
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null) parent
+object hornet=dummy         1,1,1   0,0,0   0,0,0  0   hidden world
+
+rep
+
+Object h_hips=hn1_hips   1,1,1   0,0,0   0,560,42   0      .      hornet
+Object h_luleg=hn1luleg   1,1,1   0,0,0   -220,0,0   0      .      h_hips
+Object h_lknee=DUMMY   1,1,1   0,0,0   -24,-246,77   0   hidden   h_luleg
+Object h_llleg=hn1llleg   1,1,1   0,0,0   -30,-240,0   0      .      h_luleg
+Object h_lfoot=hn1lfoot   1,1,1   0,0,0   10,-264,8   0      .      h_llleg
+Object h_ruleg=hn1ruleg   1,1,1   0,0,0   220,0,0   0      .      h_hips
+Object h_rknee=DUMMY   1,1,1   0,0,0   28,-246,77   0   hidden   h_ruleg
+Object h_rlleg=hn1rlleg   1,1,1   0,0,0   30,-240,0   0      .      h_ruleg
+Object h_rfoot=hn1rfoot   1,1,1   0,0,0   -10,-264,8   0      .      h_rlleg
+Object h_body=hn1_body   1,1,1   0,0,0   0,21,-2   0      .      h_hips
+Object h_winsh=hn1winsh   1,1,1   0,0,0   0,199,110   0      .      h_body
+Object h_decll=hn1decll   1,1,1   0,0,0   -129,200,-40   0      .      h_body
+Object h_declr=hn1declr   1,1,1   0,0,0   127,200,-40   0      .      h_body
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -60,-44,-214   0   hidden   h_body
+Object h_rjpof=DUMMY   1,1,1   0,0,0   61,-44,-214   0   hidden   h_body
+Object h_cppov=DUMMY   1,1,1   0,0,0   0,177,119   0   hidden   h_body
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -153,58,263   0   hidden   h_body
+Object h_rtpof=DUMMY   1,1,1   0,0,0   151,58,263   0   hidden   h_body
+Object h_hdpof=DUMMY   1,1,1   0,0,0   -1,246,70   0   hidden   h_body
+Object h_ctpof=DUMMY   1,1,1   0,0,0   -1,58,281   0   hidden   h_body
+Object h_daddy=DUMMY   1,1,1   0,0,0   1,116,-52   0   hidden   h_body
+Object h_larm=hn1_larm   1,1,1   0,0,0   -191,9,0   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   0,-1,214   0   hidden   h_larm
+Object h_rarm=hn1_rarm   1,1,1   0,0,0   189,9,0   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   1,-1,214   0   hidden   h_rarm
+
+rep
+
+Object h_hips=hn2_hips   1,1,1   0,0,0   0,560,42   0      .      hornet
+Object h_luleg=hn2luleg   1,1,1   0,0,0   -220,0,0   0      .      h_hips
+Object h_lknee=DUMMY   1,1,1   0,0,0   -24,-246,77   0   hidden   h_luleg
+Object h_llleg=hn2llleg   1,1,1   0,0,0   -30,-240,0   0      .      h_luleg
+Object h_lfoot=hn2lfoot   1,1,1   0,0,0   10,-264,8   0      .      h_llleg
+Object h_ruleg=hn2ruleg   1,1,1   0,0,0   220,0,0   0      .      h_hips
+Object h_rknee=DUMMY   1,1,1   0,0,0   28,-246,77   0   hidden   h_ruleg
+Object h_rlleg=hn2rlleg   1,1,1   0,0,0   30,-240,0   0      .      h_ruleg
+Object h_rfoot=hn2rfoot   1,1,1   0,0,0   -10,-264,8   0      .      h_rlleg
+Object h_body=hn2_body   1,1,1   0,0,0   0,21,-2   0      .      h_hips
+Object h_winsh=hn2winsh   1,1,1   0,0,0   0,199,110   0      .      h_body
+Object h_decll=hn2decll   1,1,1   0,0,0   -129,200,-40   0      .      h_body
+Object h_declr=hn2declr   1,1,1   0,0,0   127,200,-40   0      .      h_body
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -60,-44,-214   0   hidden   h_body
+Object h_rjpof=DUMMY   1,1,1   0,0,0   61,-44,-214   0   hidden   h_body
+Object h_cppov=DUMMY   1,1,1   0,0,0   0,177,119   0   hidden   h_body
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -153,58,263   0   hidden   h_body
+Object h_rtpof=DUMMY   1,1,1   0,0,0   151,58,263   0   hidden   h_body
+Object h_hdpof=DUMMY   1,1,1   0,0,0   -1,246,70   0   hidden   h_body
+Object h_ctpof=DUMMY   1,1,1   0,0,0   -1,58,281   0   hidden   h_body
+Object h_daddy=DUMMY   1,1,1   0,0,0   1,116,-52   0   hidden   h_body
+Object h_larm=hn2_larm   1,1,1   0,0,0   -191,9,0   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   0,-1,214   0   hidden   h_larm
+Object h_rarm=hn2_rarm   1,1,1   0,0,0   189,9,0   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   1,-1,214   0   hidden   h_rarm
+
+rep
+
+Object h_hips=hn3_hips   1,1,1   0,0,0   0,560,42   0      .      hornet
+Object h_luleg=hn3luleg   1,1,1   0,0,0   -220,0,0   0      .      h_hips
+Object h_lknee=DUMMY   1,1,1   0,0,0   -24,-246,77   0   hidden   h_luleg
+Object h_llleg=hn3llleg   1,1,1   0,0,0   -30,-240,0   0      .      h_luleg
+Object h_lfoot=hn3lfoot   1,1,1   0,0,0   10,-264,8   0      .      h_llleg
+Object h_ruleg=hn3ruleg   1,1,1   0,0,0   220,0,0   0      .      h_hips
+Object h_rknee=DUMMY   1,1,1   0,0,0   28,-246,77   0   hidden   h_ruleg
+Object h_rlleg=hn3rlleg   1,1,1   0,0,0   30,-240,0   0      .      h_ruleg
+Object h_rfoot=hn3rfoot   1,1,1   0,0,0   -10,-264,8   0      .      h_rlleg
+Object h_body=hn3_body   1,1,1   0,0,0   0,21,-2   0      .      h_hips
+Object h_winsh=hn3winsh   1,1,1   0,0,0   0,199,110   0      .      h_body
+Object h_decll=hn3decll   1,1,1   0,0,0   -129,200,-40   0      .      h_body
+Object h_declr=hn3declr   1,1,1   0,0,0   127,200,-40   0      .      h_body
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -60,-44,-214   0   hidden   h_body
+Object h_rjpof=DUMMY   1,1,1   0,0,0   61,-44,-214   0   hidden   h_body
+Object h_cppov=DUMMY   1,1,1   0,0,0   0,177,119   0   hidden   h_body
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -153,58,263   0   hidden   h_body
+Object h_rtpof=DUMMY   1,1,1   0,0,0   151,58,263   0   hidden   h_body
+Object h_hdpof=DUMMY   1,1,1   0,0,0   -1,246,70   0   hidden   h_body
+Object h_ctpof=DUMMY   1,1,1   0,0,0   -1,58,281   0   hidden   h_body
+Object h_daddy=DUMMY   1,1,1   0,0,0   1,116,-52   0   hidden   h_body
+Object h_larm=hn3_larm   1,1,1   0,0,0   -191,9,0   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   0,-1,214   0   hidden   h_larm
+Object h_rarm=hn3_rarm   1,1,1   0,0,0   189,9,0   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   1,-1,214   0   hidden   h_rarm
+
+rep
+
+Object h_hips=hn4_hips   1,1,1   0,0,0   0,560,42   0      .      hornet
+Object h_luleg=hn4luleg   1,1,1   0,0,0   -220,0,0   0      .      h_hips
+Object h_lknee=DUMMY   1,1,1   0,0,0   -24,-246,77   0   hidden   h_luleg
+Object h_llleg=hn4llleg   1,1,1   0,0,0   -30,-240,0   0      .      h_luleg
+Object h_lfoot=hn4lfoot   1,1,1   0,0,0   10,-264,8   0      .      h_llleg
+Object h_ruleg=hn4ruleg   1,1,1   0,0,0   220,0,0   0      .      h_hips
+Object h_rknee=DUMMY   1,1,1   0,0,0   28,-246,77   0   hidden   h_ruleg
+Object h_rlleg=hn4rlleg   1,1,1   0,0,0   30,-240,0   0      .      h_ruleg
+Object h_rfoot=hn4rfoot   1,1,1   0,0,0   -10,-264,8   0      .      h_rlleg
+Object h_body=hn4_body   1,1,1   0,0,0   -1,21,-2   0      .      h_hips
+Object h_winsh=hn4winsh   1,1,1   0,0,0   1,199,110   0      .      h_body
+Object h_decll=hn4decll   1,1,1   0,0,0   -128,200,-40   0      .      h_body
+Object h_declr=hn4declr   1,1,1   0,0,0   128,200,-40   0      .      h_body
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -59,-44,-214   0   hidden   h_body
+Object h_rjpof=DUMMY   1,1,1   0,0,0   62,-44,-214   0   hidden   h_body
+Object h_cppov=DUMMY   1,1,1   0,0,0   1,177,119   0   hidden   h_body
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -152,58,263   0   hidden   h_body
+Object h_rtpof=DUMMY   1,1,1   0,0,0   152,58,263   0   hidden   h_body
+Object h_hdpof=DUMMY   1,1,1   0,0,0   0,246,70   0   hidden   h_body
+Object h_ctpof=DUMMY   1,1,1   0,0,0   0,58,281   0   hidden   h_body
+Object h_daddy=DUMMY   1,1,1   0,0,0   2,116,-52   0   hidden   h_body
+Object h_larm=hn4_larm   1,1,1   0,0,0   -191,9,0   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   0,-1,214   0   hidden   h_larm
+Object h_rarm=hn4_rarm   1,1,1   0,0,0   189,9,0   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   1,-1,214   0   hidden   h_rarm
+
+rep
+
+Object h_hips=hn5_hips   1,1,1   0,0,0   0,560,42   0      .      hornet
+Object h_luleg=hn5luleg   1,1,1   0,0,0   -220,0,0   0      .      h_hips
+Object h_lknee=DUMMY   1,1,1   0,0,0   -24,-246,77   0   hidden   h_luleg
+Object h_llleg=hn5llleg   1,1,1   0,0,0   -30,-240,0   0      .      h_luleg
+Object h_lfoot=hn5lfoot   1,1,1   0,0,0   10,-264,8   0      .      h_llleg
+Object h_ruleg=hn5ruleg   1,1,1   0,0,0   220,0,0   0      .      h_hips
+Object h_rknee=DUMMY   1,1,1   0,0,0   28,-246,77   0   hidden   h_ruleg
+Object h_rlleg=hn5rlleg   1,1,1   0,0,0   30,-240,0   0      .      h_ruleg
+Object h_rfoot=hn5rfoot   1,1,1   0,0,0   -10,-264,8   0      .      h_rlleg
+Object h_body=hn5_body   1,1,1   0,0,0   0,20,-42   0    near     h_hips
+Object h_winsh=hn5winsh   1,1,1   0,0,0   0,200,150   0      .      h_body
+Object h_decll=hn5decll   1,1,1   0,0,0   -129,201,0   0      .      h_body
+Object h_declr=hn5declr   1,1,1   0,0,0   127,201,0   0      .      h_body
+Object h_ljpof=DUMMY   1,1,1   0,0,0   -60,-42,-174   0   hidden   h_body
+Object h_rjpof=DUMMY   1,1,1   0,0,0   61,-43,-174   0   hidden   h_body
+Object h_cppov=DUMMY   1,1,1   0,0,0   0,179,159   0   hidden   h_body
+Object h_ltpof=DUMMY   1,1,1   0,0,0   -153,59,303   0   hidden   h_body
+Object h_rtpof=DUMMY   1,1,1   0,0,0   151,59,303   0   hidden   h_body
+Object h_hdpof=DUMMY   1,1,1   0,0,0   -1,247,110   0   hidden   h_body
+Object h_ctpof=DUMMY   1,1,1   0,0,0   -1,59,322   0   hidden   h_body
+Object h_daddy=DUMMY   1,1,1   0,0,0   1,117,-12   0   hidden   h_body
+Object h_larm=hn5_larm   1,1,1   0,0,0   -191,9,0   0      .      h_daddy
+Object h_lapof=DUMMY   1,1,1   0,0,0   0,-1,214   0   hidden   h_larm
+Object h_rarm=hn5_rarm   1,1,1   0,0,0   189,9,0   0      .      h_daddy
+Object h_rapof=DUMMY   1,1,1   0,0,0   1,-1,214   0   hidden   h_rarm
+
+endrep
+
+thing h_body
+thing h_daddy
+
+gamepiece hornet mw2mech                 
+
+objloc h_body   ct
+objloc h_hips   ct
+objloc h_winsh  hd
+objloc h_rarm   ra
+objloc h_larm   la
+objloc h_ruleg  rl
+objloc h_rlleg  rl
+objloc h_rfoot  rl
+objloc h_luleg  ll
+objloc h_llleg  ll
+objloc h_lfoot  ll
+
+animfile jennanim 
+
+# task animators go here....
+
+task animator 0    h_hips;42,129,0
+task animator 0    h_hips;42,1,1
+task animator 0    h_luleg;42,1,2
+task animator 0    h_lknee;42,1,3
+task animator 0    h_llleg;42,1,4
+task animator 0    h_lfoot;42,1,5
+task animator 0    h_ruleg;42,1,6
+task animator 0    h_rknee;42,1,7
+task animator 0    h_rlleg;42,1,8
+task animator 0    h_rfoot;42,1,9
+
+ljpof h_ljpof
+rjpof h_rjpof
+lapof h_lapof
+rapof h_rapof
+rtpof h_rtpof
+ltpof h_ltpof
+hdpof h_hdpof
+ctpof h_ctpof
+
+eyeobj h_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile hornet
+pitfile mw2pit
+
+mangle_off
+
+AnimSound  meclight
+
+# end of hornet.mec

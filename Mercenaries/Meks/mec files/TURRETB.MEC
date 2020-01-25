@@ -1,0 +1,72 @@
+#     Ouput for turretb.MEC
+#     Sat Apr  1 13:29:15 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object turretb=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object t_base=tb1_base   1,1,1   0,0,0   2,-1,-128   0      .      turretb
+Object t_body=tb1_body   1,1,1   0,0,0   0,79,0   0      .      t_base
+Object t_dummy=DUMMY   1,1,1   0,0,0   -2,255,-12   0   hidden   t_body
+Object t_lgun=tb1_lgun   1,1,1   0,0,0   -113,16,10   0      .      t_dummy
+Object t_lgpof=DUMMY   1,1,1   0,0,0   -57,0,950   0   hidden   t_lgun
+Object t_rgun=tb1_rgun   1,1,1   0,0,0   110,16,10   0      .      t_dummy
+Object t_rgpof=DUMMY   1,1,1   0,0,0   56,0,950   0   hidden   t_rgun
+
+rep
+
+Object t_base=tb2_base   1,1,1   0,0,0   2,0,-129   0      .      turretb
+Object t_body=tb2_body   1,1,1   0,0,0   0,80,0   0      .      t_base
+Object t_dummy=DUMMY   1,1,1   0,0,0   -2,254,-11   0   hidden   t_body
+Object t_lgun=tb2_lgun   1,1,1   0,0,0   -114,18,9   0      .      t_dummy
+Object t_lgpof=DUMMY   1,1,1   0,0,0   -56,-3,861   0   hidden   t_lgun
+Object t_rgun=tb2_rgun   1,1,1   0,0,0   110,18,9   0      .      t_dummy
+Object t_rgpof=DUMMY   1,1,1   0,0,0   56,-3,861   0   hidden   t_rgun
+
+rep
+
+Object t_base=tb3_base   1,1,1   0,0,0   2,-1,-130   0      .      turretb
+Object t_body=tb3_body   1,1,1   0,0,0   0,80,0   0      .      t_base
+Object t_dummy=DUMMY   1,1,1   0,0,0   -2,255,-10   0   hidden   t_body
+Object t_lgun=tb3_lgun   1,1,1   0,0,0   -114,18,8   0      .      t_dummy
+Object t_lgpof=DUMMY   1,1,1   0,0,0   -56,-3,863   0   hidden   t_lgun
+Object t_rgun=tb3_rgun   1,1,1   0,0,0   111,18,8   0      .      t_dummy
+Object t_rgpof=DUMMY   1,1,1   0,0,0   55,-3,863   0   hidden   t_rgun
+
+Object t_base=tb4_base   1,1,1   0,0,0   2,-1,-130   0      .      turretb
+Object t_body=tb4_body   1,1,1   0,0,0   0,80,0   0      .      t_base
+Object t_dummy=DUMMY   1,1,1   0,0,0   -2,255,-10   0   hidden   t_body
+Object t_lgun=tb4_lgun   1,1,1   0,0,0   -114,18,8   0      .      t_dummy
+Object t_lgpof=DUMMY   1,1,1   0,0,0   -56,-3,863   0   hidden   t_lgun
+Object t_rgun=tb4_rgun   1,1,1   0,0,0   111,18,8   0      .      t_dummy
+Object t_rgpof=DUMMY   1,1,1   0,0,0   55,-3,863   0   hidden   t_rgun
+
+endrep
+
+thing t_body
+thing t_dummy
+
+gamepiece turretb mw2artillery
+
+objloc t_body  hd
+objloc t_base  ct
+objloc t_rgun  ra
+objloc t_lgun  la
+
+lapof t_lgpof
+rapof t_rgpof
+
+eyeobj t_dummy
+
+mgdfile turretb
+
+mangle_off
+
+#end of turretb.MEC

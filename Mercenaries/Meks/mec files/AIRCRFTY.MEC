@@ -1,0 +1,127 @@
+#     Ouput for aircrfty.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object aircrfty=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object a_main=ab1_main   1,1,1   0,0,0   0,104,0   0      .      aircrfty
+Object a_winsh=ab1winsh   1,1,1   0,0,0   0,-4,0   0      .      a_main
+Object a_ckpit=ab1ckpit   1,1,1   0,0,0   0,-32,800   0      .      a_main
+Object a_rwing=ab1rwing   1,1,1   0,0,0   700,-104,-400   0      .      a_main
+Object a_lwing=ab1lwing   1,1,1   0,0,0   -700,-104,-400   0      .      a_main
+Object a_rfin=ab1_rfin   1,1,1   0,0,0   600,80,-400   0      .      a_main
+Object a_lfin=ab1_lfin   1,1,1   0,0,0   -600,80,-400   0      .      a_main
+Object a_centr=ab1centr   1,1,1   0,0,0   0,0,0   0      .      a_main
+Object a_blade=ab1blade   1,1,1   0,0,0   0,0,0   0      .      a_main
+Object a_ctpof=DUMMY   1,1,1   0,0,0   -1,-143,7   0   hidden   a_main
+Object a_hdpof=DUMMY   1,1,1   0,0,0   0,-129,1038   0   hidden   a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -798,7,-62   0   hidden   a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   787,7,-62   0   hidden   a_main
+Object a_daddy=DUMMY   1,1,1   0,0,0   0,-158,758   0   hidden   a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   165,2,32   0   hidden   a_daddy
+Object a_lpof=DUMMY   1,1,1   0,0,0   -169,0,32   0   hidden   a_daddy
+
+rep
+
+Object a_main=ab2_main   1,1,1   0,0,0   0,104,0   0      .      aircrfty
+Object a_winsh=ab2winsh   1,1,1   0,0,0   0,-4,0   0      .      a_main
+Object a_ckpit=ab2ckpit   1,1,1   0,0,0   0,-32,800   0      .      a_main
+Object a_rwing=ab2rwing   1,1,1   0,0,0   700,-104,-400   0      .      a_main
+Object a_lwing=ab2lwing   1,1,1   0,0,0   -700,-104,-400   0      .      a_main
+Object a_rfin=ab2_rfin   1,1,1   0,0,0   600,80,-400   0      .      a_main
+Object a_lfin=ab2_lfin   1,1,1   0,0,0   -600,80,-400   0      .      a_main
+Object a_centr=ab2centr   1,1,1   0,0,0   0,0,0   0      .      a_main
+Object a_blade=ab2blade   1,1,1   0,0,0   0,0,0   0      .      a_main
+Object a_ctpof=DUMMY   1,1,1   0,0,0   1456,-98,-845   0   hidden   a_main
+Object a_hdpof=DUMMY   1,1,1   0,0,0   -1460,-98,-845   0   hidden   a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -623,7,313   0   hidden   a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   611,7,313   0   hidden   a_main
+Object a_daddy=DUMMY   1,1,1   0,0,0   0,-158,758   0   hidden   a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   165,0,32   0   hidden   a_daddy
+Object a_lpof=DUMMY   1,1,1   0,0,0   -169,0,32   0   hidden   a_daddy
+
+rep
+
+Object a_main=ab3_main   1,1,1   0,0,0   0,104,0   0      .      aircrfty
+Object a_winsh=ab3winsh   1,1,1   0,0,0   0,-4,0   0      .      a_main
+Object a_ckpit=ab3ckpit   1,1,1   0,0,0   0,-32,800   0      .      a_main
+Object a_rwing=ab3rwing   1,1,1   0,0,0   700,-104,-400   0      .      a_main
+Object a_lwing=ab3lwing   1,1,1   0,0,0   -700,-104,-400   0      .      a_main
+Object a_rfin=ab3_rfin   1,1,1   0,0,0   600,80,-400   0      .      a_main
+Object a_lfin=ab3_lfin   1,1,1   0,0,0   -600,80,-400   0      .      a_main
+Object a_centr=ab3centr   1,1,1   0,0,0   0,0,0   0      .      a_main
+Object a_blade=ab3blade   1,1,1   0,0,0   0,0,0   0      .      a_main
+Object a_ctpof=DUMMY   1,1,1   0,0,0   1456,-98,-845   0   hidden   a_main
+Object a_hdpof=DUMMY   1,1,1   0,0,0   -1460,-98,-845   0   hidden   a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -623,7,313   0   hidden   a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   611,7,313   0   hidden   a_main
+Object a_daddy=DUMMY   1,1,1   0,0,0   0,-158,758   0   hidden   a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   165,0,32   0   hidden   a_daddy
+Object a_lpof=DUMMY   1,1,1   0,0,0   -169,0,32   0   hidden   a_daddy
+
+rep
+
+Object a_main=ab4_main   1,1,1   0,0,0   0,104,0   0      .      aircrfty
+Object a_winsh=ab4winsh   1,1,1   0,0,0   0,-4,0   0      .      a_main
+Object a_ckpit=ab4ckpit   1,1,1   0,0,0   0,-32,800   0      .      a_main
+Object a_rwing=ab4rwing   1,1,1   0,0,0   700,-104,-400   0      .      a_main
+Object a_lwing=ab4lwing   1,1,1   0,0,0   -700,-104,-400   0      .      a_main
+Object a_rfin=ab4_rfin   1,1,1   0,0,0   600,80,-400   0      .      a_main
+Object a_lfin=ab4_lfin   1,1,1   0,0,0   -600,80,-400   0      .      a_main
+Object a_centr=ab4centr   1,1,1   0,0,0   0,0,0   0      .      a_main
+Object a_blade=ab4blade   1,1,1   0,0,0   0,0,0   0      .      a_main
+Object a_ctpof=DUMMY   1,1,1   0,0,0   1456,-98,-845   0   hidden   a_main
+Object a_hdpof=DUMMY   1,1,1   0,0,0   -1460,-98,-845   0   hidden   a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -623,7,313   0   hidden   a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   611,7,313   0   hidden   a_main
+Object a_daddy=DUMMY   1,1,1   0,0,0   0,-158,758   0   hidden   a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   165,0,32   0   hidden   a_daddy
+Object a_lpof=DUMMY   1,1,1   0,0,0   -169,0,32   0   hidden   a_daddy
+
+endrep
+
+thing a_daddy
+thing a_daddy
+
+gamepiece aircrfty mw2helicopter
+
+objloc a_main   ct
+objloc a_centr  ct
+#objloc a_blade  ct
+objloc a_ckpit  ct
+objloc a_lfin   la
+objloc a_rfin   ra
+objloc a_winsh  ct
+objloc a_rwing  ra
+objloc a_lwing  la
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    a_main;60,129,0
+
+lapof a_lpof
+rapof a_rpof
+hdpof a_hdpof
+ctpof a_ctpof
+ltpof a_ltpof
+rtpof a_rtpof
+
+eyeobj a_daddy
+
+mgdfile aircrftb
+
+mangle_off
+
+AnimSound helicptr
+
+#end of aircrfty.MEC

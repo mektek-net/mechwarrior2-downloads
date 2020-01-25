@@ -1,0 +1,216 @@
+#   jagermec.MEC
+#   geometry for the jagermec 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object jagermec=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object j_hips=jm1_hips   1,1,1   0,0,0   0,510,-1   0      .      jagermec
+Object j_luleg=jm1luleg   1,1,1   0,0,0   -172,19,1   0      .      j_hips
+Object j_llleg=jm1llleg   1,1,1   0,0,0   -77,-197,-7   0      .      j_luleg
+Object j_decll=jm1decll   1,1,1   0,0,0   -73,-89,5   0      .      j_llleg
+Object j_lftoe=jm1lftoe   1,1,1   0,0,0   -1,-270,35   0      .      j_llleg
+Object j_lrtoe=jm1lrtoe   1,1,1   0,0,0   1,0,-35   0      .      j_lftoe
+Object j_ruleg=jm1ruleg   1,1,1   0,0,0   171,19,1   0      .      j_hips
+Object j_rlleg=jm1rlleg   1,1,1   0,0,0   77,-197,-7   0      .      j_ruleg
+Object j_declr=jm1declr   1,1,1   0,0,0   69,-89,5   0      .      j_rlleg
+Object j_rftoe=jm1rftoe   1,1,1   0,0,0   1,-270,35   0      .      j_rlleg
+Object j_rrtoe=jm1rrtoe   1,1,1   0,0,0   -1,0,-35   0      .      j_rftoe
+Object j_head=jm1_head   1,1,1   0,0,0   0,69,6   0      .      j_hips
+Object j_winsh=jm1winsh   1,1,1   0,0,0   0,283,93   0      .      j_head
+Object j_declf=jm1declf   1,1,1   0,0,0   2,63,183   0      .      j_head
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -242,58,-162   0   hidden   j_head
+Object j_rjpof=DUMMY   1,1,1   0,0,0   232,58,-162   0   hidden   j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   0,283,90   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   -1,315,112   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   2,232,169   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   -235,53,189   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   241,53,189   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   -12,328,-66   0   hidden   j_head
+Object j_larm=jm1_larm   1,1,1   0,0,0   -137,0,-2   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -213,22,513   0   hidden   j_larm
+Object j_rarm=jm1_rarm   1,1,1   0,0,0   161,0,-2   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   213,14,513   0   hidden   j_rarm
+
+rep
+
+Object j_hips=jm2_hips   1,1,1   0,0,0   0,510,-1   0      .      jagermec
+Object j_luleg=jm2luleg   1,1,1   0,0,0   -172,19,1   0      .      j_hips
+Object j_llleg=jm2llleg   1,1,1   0,0,0   -77,-197,-7   0      .      j_luleg
+Object j_decll=jm2decll   1,1,1   0,0,0   -73,-89,5   0      .      j_llleg
+Object j_lftoe=jm2lftoe   1,1,1   0,0,0   -1,-270,35   0      .      j_llleg
+Object j_lrtoe=jm2lrtoe   1,1,1   0,0,0   1,0,-35   0      .      j_lftoe
+Object j_ruleg=jm2ruleg   1,1,1   0,0,0   171,19,1   0      .      j_hips
+Object j_rlleg=jm2rlleg   1,1,1   0,0,0   77,-197,-7   0      .      j_ruleg
+Object j_declr=jm2declr   1,1,1   0,0,0   69,-89,5   0      .      j_rlleg
+Object j_rftoe=jm2rftoe   1,1,1   0,0,0   1,-270,35   0      .      j_rlleg
+Object j_rrtoe=jm2rrtoe   1,1,1   0,0,0   -1,0,-35   0      .      j_rftoe
+Object j_head=jm2_head   1,1,1   0,0,0   0,69,6   0      .      j_hips
+Object j_winsh=jm2winsh   1,1,1   0,0,0   0,283,93   0      .      j_head
+Object j_declf=jm2declf   1,1,1   0,0,0   2,63,183   0      .      j_head
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -242,58,-162   0   hidden   j_head
+Object j_rjpof=DUMMY   1,1,1   0,0,0   232,58,-162   0   hidden   j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   0,283,90   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   -1,315,112   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   2,232,169   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   -235,53,189   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   241,53,189   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   -12,328,-66   0   hidden   j_head
+Object j_larm=jm2_larm   1,1,1   0,0,0   -137,0,-2   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -213,22,513   0   hidden   j_larm
+Object j_rarm=jm2_rarm   1,1,1   0,0,0   161,0,-2   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   213,14,513   0   hidden   j_rarm
+
+rep
+
+Object j_hips=jm3_hips   1,1,1   0,0,0   0,510,-1   0      .      jagermec
+Object j_luleg=jm3luleg   1,1,1   0,0,0   -172,19,1   0      .      j_hips
+Object j_llleg=jm3llleg   1,1,1   0,0,0   -77,-197,-7   0      .      j_luleg
+Object j_decll=jm3decll   1,1,1   0,0,0   -73,-89,5   0      .      j_llleg
+Object j_lftoe=jm3lftoe   1,1,1   0,0,0   -1,-270,35   0      .      j_llleg
+Object j_lrtoe=jm3lrtoe   1,1,1   0,0,0   1,0,-35   0      .      j_lftoe
+Object j_ruleg=jm3ruleg   1,1,1   0,0,0   171,19,1   0      .      j_hips
+Object j_rlleg=jm3rlleg   1,1,1   0,0,0   77,-197,-7   0      .      j_ruleg
+Object j_declr=jm3declr   1,1,1   0,0,0   69,-89,5   0      .      j_rlleg
+Object j_rftoe=jm3rftoe   1,1,1   0,0,0   1,-270,35   0      .      j_rlleg
+Object j_rrtoe=jm3rrtoe   1,1,1   0,0,0   -1,0,-35   0      .      j_rftoe
+Object j_head=jm3_head   1,1,1   0,0,0   0,69,6   0      .      j_hips
+Object j_winsh=jm3winsh   1,1,1   0,0,0   0,283,93   0      .      j_head
+Object j_declf=jm3declf   1,1,1   0,0,0   2,63,183   0      .      j_head
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -242,58,-162   0   hidden   j_head
+Object j_rjpof=DUMMY   1,1,1   0,0,0   232,58,-162   0   hidden   j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   0,283,90   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   -1,315,112   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   2,232,169   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   -235,53,189   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   241,53,189   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   -12,328,-66   0   hidden   j_head
+Object j_larm=jm3_larm   1,1,1   0,0,0   -137,0,-2   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -213,22,513   0   hidden   j_larm
+Object j_rarm=jm3_rarm   1,1,1   0,0,0   161,0,-2   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   213,14,513   0   hidden   j_rarm
+
+rep
+
+Object j_hips=jm4_hips   1,1,1   0,0,0   0,510,-1   0      .      jagermec
+Object j_luleg=jm4luleg   1,1,1   0,0,0   -172,19,1   0      .      j_hips
+Object j_llleg=jm4llleg   1,1,1   0,0,0   -77,-197,-7   0      .      j_luleg
+Object j_decll=jm4decll   1,1,1   0,0,0   -73,-89,5   0      .      j_llleg
+Object j_lftoe=jm4lftoe   1,1,1   0,0,0   -1,-270,35   0      .      j_llleg
+Object j_lrtoe=jm4lrtoe   1,1,1   0,0,0   1,0,-35   0      .      j_lftoe
+Object j_ruleg=jm4ruleg   1,1,1   0,0,0   171,19,1   0      .      j_hips
+Object j_rlleg=jm4rlleg   1,1,1   0,0,0   77,-197,-7   0      .      j_ruleg
+Object j_declr=jm4declr   1,1,1   0,0,0   69,-89,5   0      .      j_rlleg
+Object j_rftoe=jm4rftoe   1,1,1   0,0,0   1,-270,35   0      .      j_rlleg
+Object j_rrtoe=jm4rrtoe   1,1,1   0,0,0   -1,0,-35   0      .      j_rftoe
+Object j_head=jm4_head   1,1,1   0,0,0   0,69,6   0      .      j_hips
+Object j_winsh=jm4winsh   1,1,1   0,0,0   0,283,93   0      .      j_head
+Object j_declf=jm4declf   1,1,1   0,0,0   2,63,183   0      .      j_head
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -242,58,-162   0   hidden   j_head
+Object j_rjpof=DUMMY   1,1,1   0,0,0   232,58,-162   0   hidden   j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   0,283,90   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   -1,315,112   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   2,232,169   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   -235,53,189   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   241,53,189   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   -12,328,-66   0   hidden   j_head
+Object j_larm=jm4_larm   1,1,1   0,0,0   -137,0,-2   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -213,22,513   0   hidden   j_larm
+Object j_rarm=jm4_rarm   1,1,1   0,0,0   161,0,-2   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   213,14,513   0   hidden   j_rarm
+
+rep
+
+Object j_hips=jm5_hips   1,1,1   0,0,0   0,510,-1   0      .      jagermec
+Object j_luleg=jm5luleg   1,1,1   0,0,0   -172,19,1   0      .      j_hips
+Object j_llleg=jm5llleg   1,1,1   0,0,0   -77,-197,-7   0      .      j_luleg
+Object j_decll=jm5decll   1,1,1   0,0,0   -73,-89,5   0      .      j_llleg
+Object j_lftoe=jm5lftoe   1,1,1   0,0,0   -1,-270,35   0      .      j_llleg
+Object j_lrtoe=jm5lrtoe   1,1,1   0,0,0   1,0,-35   0      .      j_lftoe
+Object j_ruleg=jm5ruleg   1,1,1   0,0,0   171,19,1   0      .      j_hips
+Object j_rlleg=jm5rlleg   1,1,1   0,0,0   77,-197,-7   0      .      j_ruleg
+Object j_declr=jm5declr   1,1,1   0,0,0   69,-89,5   0      .      j_rlleg
+Object j_rftoe=jm5rftoe   1,1,1   0,0,0   1,-270,35   0      .      j_rlleg
+Object j_rrtoe=jm5rrtoe   1,1,1   0,0,0   -1,0,-35   0      .      j_rftoe
+Object j_head=jm5_head   1,1,1   0,0,0   0,69,6   0    near     j_hips
+Object j_winsh=jm5winsh   1,1,1   0,0,0   0,283,93   0      .      j_head
+Object j_declf=jm5declf   1,1,1   0,0,0   2,63,183   0      .      j_head
+Object j_ljpof=DUMMY   1,1,1   0,0,0   -242,58,-162   0   hidden   j_head
+Object j_rjpof=DUMMY   1,1,1   0,0,0   232,58,-162   0   hidden   j_head
+Object j_cppov=DUMMY   1,1,1   0,0,0   0,283,90   0   hidden   j_head
+Object j_hdpof=DUMMY   1,1,1   0,0,0   -1,315,112   0   hidden   j_head
+Object j_ctpof=DUMMY   1,1,1   0,0,0   2,232,169   0   hidden   j_head
+Object j_rtpof=DUMMY   1,1,1   0,0,0   -235,53,189   0   hidden   j_head
+Object j_ltpof=DUMMY   1,1,1   0,0,0   241,53,189   0   hidden   j_head
+Object j_daddy=DUMMY   1,1,1   0,0,0   -12,328,-66   0   hidden   j_head
+Object j_larm=jm5_larm   1,1,1   0,0,0   -137,0,-2   0      .      j_daddy
+Object j_lapof=DUMMY   1,1,1   0,0,0   -213,22,513   0   hidden   j_larm
+Object j_rarm=jm5_rarm   1,1,1   0,0,0   161,0,-2   0      .      j_daddy
+Object j_rapof=DUMMY   1,1,1   0,0,0   213,14,513   0   hidden   j_rarm
+
+endrep
+
+thing j_head
+thing j_daddy
+
+gamepiece jagermec mw2mech 
+
+objloc j_head   ct
+objloc j_hips   ct
+objloc j_winsh  hd
+objloc j_larm   la
+objloc j_rarm   ra
+objloc j_luleg  ll
+objloc j_ruleg  rl
+objloc j_llleg  ll
+objloc j_rlleg  rl
+objloc j_lftoe  ll
+objloc j_rftoe  rl
+objloc j_lrtoe  ll
+objloc j_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    j_hips;55,129,0
+task animator 0    j_hips;55,1,1
+task animator 0    j_ruleg;55,1,2
+task animator 0    j_rlleg;55,1,3
+task animator 0    j_rftoe;55,1,4
+task animator 0    j_rrtoe;55,1,5
+task animator 0    j_luleg;55,1,6
+task animator 0    j_llleg;55,1,7
+task animator 0    j_lftoe;55,1,8
+task animator 0    j_lrtoe;55,1,9
+task animator 0    j_head;55,1,10
+task animator 0    j_rarm;55,1,11
+task animator 0    j_larm;55,1,12
+
+hdpof j_hdpof
+ctpof j_ctpof
+rtpof j_rtpof
+ltpof j_ltpof
+lapof j_lapof
+rapof j_rapof
+ljpof j_ljpof
+rjpof j_rjpof
+
+eyeobj j_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile jagermec
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of jagermec.MEC
+
+

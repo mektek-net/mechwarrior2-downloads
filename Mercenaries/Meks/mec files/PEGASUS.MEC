@@ -1,0 +1,140 @@
+#     Ouput for pegasus.MEC
+#     Thu Mar 30 15:57:51 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object pegasus=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+
+rep
+
+Object p_main=ps1_main   1,1,1   0,0,0   0,197,-1   0      .      pegasus
+Object p_decll=ps1decll   1,1,1   0,0,0   -139,197,-80   0      .      p_main
+Object p_declr=ps1declr   1,1,1   0,0,0   138,197,-80   0      .      p_main
+Object p_winsh=ps1winsh   1,1,1   0,0,0   0,104,370   0      .      p_main
+Object p_bfin=ps1_bfin   1,1,1   0,0,0   0,92,-376   0      .      p_main
+Object p_whip=ps1_whip   1,1,1   0,0,0   -130,198,-137   0      .      p_main
+Object p_turrt=ps1turrt   1,1,1   0,0,0   0,165,-77   0      .      p_main
+Object p_laser=ps1laser   1,1,1   0,0,0   209,89,316   0      .      p_main
+Object p_rapof=DUMMY   1,1,1   0,0,0   2,-3,212   0   hidden   p_laser
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -63,-126,-425   0   hidden   p_main
+Object p_rjpof=DUMMY   1,1,1   0,0,0   63,-126,-425   0   hidden   p_main
+Object p_dummy=DUMMY   1,1,1   0,0,0   0,20,221   0   hidden   p_main
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,65,80   0   hidden   p_dummy
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,60,-34   0   hidden   p_dummy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -63,118,-138   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   64,118,-138   0   hidden   p_daddy
+
+rep
+
+Object p_main=ps2_main   1,1,1   0,0,0   0,197,-1   0      .      pegasus
+Object p_decll=ps2decll   1,1,1   0,0,0   -139,197,-80   0      .      p_main
+Object p_declr=ps2declr   1,1,1   0,0,0   138,197,-80   0      .      p_main
+Object p_winsh=ps2winsh   1,1,1   0,0,0   0,104,370   0      .      p_main
+Object p_bfin=ps2_bfin   1,1,1   0,0,0   0,92,-376   0      .      p_main
+Object p_whip=ps2_whip   1,1,1   0,0,0   -130,198,-137   0      .      p_main
+Object p_turrt=ps2turrt   1,1,1   0,0,0   0,165,-77   0      .      p_main
+Object p_laser=ps2laser   1,1,1   0,0,0   209,89,316   0      .      p_main
+Object p_rapof=DUMMY   1,1,1   0,0,0   2,-3,212   0   hidden   p_laser
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -63,-126,-425   0   hidden   p_main
+Object p_rjpof=DUMMY   1,1,1   0,0,0   63,-126,-425   0   hidden   p_main
+Object p_dummy=DUMMY   1,1,1   0,0,0   0,20,221   0   hidden   p_main
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,65,80   0   hidden   p_dummy
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,60,-34   0   hidden   p_dummy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -63,118,-138   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   64,118,-138   0   hidden   p_daddy
+
+rep
+
+Object p_main=ps3_main   1,1,1   0,0,0   0,197,-1   0      .      pegasus
+Object p_decll=ps3decll   1,1,1   0,0,0   -139,197,-80   0      .      p_main
+Object p_declr=ps3declr   1,1,1   0,0,0   138,197,-80   0      .      p_main
+Object p_winsh=ps3winsh   1,1,1   0,0,0   0,104,370   0      .      p_main
+Object p_bfin=ps3_bfin   1,1,1   0,0,0   0,92,-376   0      .      p_main
+Object p_whip=ps3_whip   1,1,1   0,0,0   -130,198,-137   0      .      p_main
+Object p_turrt=ps3turrt   1,1,1   0,0,0   0,165,-77   0      .      p_main
+Object p_laser=ps3laser   1,1,1   0,0,0   209,89,316   0      .      p_main
+Object p_rapof=DUMMY   1,1,1   0,0,0   2,-3,212   0   hidden   p_laser
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -63,-126,-425   0   hidden   p_main
+Object p_rjpof=DUMMY   1,1,1   0,0,0   63,-126,-425   0   hidden   p_main
+Object p_dummy=DUMMY   1,1,1   0,0,0   0,20,221   0   hidden   p_main
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,65,80   0   hidden   p_dummy
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,60,-34   0   hidden   p_dummy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -63,118,-138   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   64,118,-138   0   hidden   p_daddy
+
+rep
+
+Object p_main=ps4_main   1,1,1   0,0,0   0,197,-1   0      .      pegasus
+Object p_decll=ps4decll   1,1,1   0,0,0   -139,197,-80   0      .      p_main
+Object p_declr=ps4declr   1,1,1   0,0,0   138,197,-80   0      .      p_main
+Object p_winsh=ps4winsh   1,1,1   0,0,0   0,104,370   0      .      p_main
+Object p_bfin=ps4_bfin   1,1,1   0,0,0   0,92,-376   0      .      p_main
+Object p_whip=ps4_whip   1,1,1   0,0,0   -130,198,-137   0      .      p_main
+Object p_turrt=ps4turrt   1,1,1   0,0,0   0,165,-77   0      .      p_main
+Object p_laser=ps4laser   1,1,1   0,0,0   209,89,316   0      .      p_main
+Object p_rapof=DUMMY   1,1,1   0,0,0   2,-3,212   0   hidden   p_laser
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -63,-126,-425   0   hidden   p_main
+Object p_rjpof=DUMMY   1,1,1   0,0,0   63,-126,-425   0   hidden   p_main
+Object p_dummy=DUMMY   1,1,1   0,0,0   0,20,221   0   hidden   p_main
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,65,80   0   hidden   p_dummy
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,60,-34   0   hidden   p_dummy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -63,118,-138   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   64,118,-138   0   hidden   p_daddy
+
+rep
+
+Object p_main=ps5_main   1,1,1   0,0,0   0,197,-1   0     near    pegasus
+Object p_decll=ps5decll   1,1,1   0,0,0   -139,197,-80   0      .      p_main
+Object p_declr=ps5declr   1,1,1   0,0,0   138,197,-80   0      .      p_main
+Object p_winsh=ps5winsh   1,1,1   0,0,0   0,104,370   0      .      p_main
+Object p_bfin=ps5_bfin   1,1,1   0,0,0   0,92,-376   0      .      p_main
+Object p_whip=ps5_whip   1,1,1   0,0,0   -130,198,-137   0      .      p_main
+Object p_turrt=ps5turrt   1,1,1   0,0,0   0,165,-77   0      .      p_main
+Object p_laser=ps5laser   1,1,1   0,0,0   209,89,316   0      .      p_main
+Object p_rapof=DUMMY   1,1,1   0,0,0   2,-3,212   0   hidden   p_laser
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -63,-126,-425   0   hidden   p_main
+Object p_rjpof=DUMMY   1,1,1   0,0,0   63,-126,-425   0   hidden   p_main
+Object p_dummy=DUMMY   1,1,1   0,0,0   0,20,221   0   hidden   p_main
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,65,80   0   hidden   p_dummy
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,60,-34   0   hidden   p_dummy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -63,118,-138   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   64,118,-138   0   hidden   p_daddy
+
+endrep
+
+thing p_dummy
+thing p_daddy
+
+gamepiece pegasus mw2mech
+
+objloc p_main  ct
+objloc p_turrt ct
+objloc p_whip  ct
+objloc p_bfin  ct
+objloc p_winsh ct
+objloc p_laser ra
+
+animfile tnkbanim
+
+task animator 0 p_main;75,129,0
+
+ltpof p_ltpof
+rtpof p_rtpof
+rapof p_rapof
+rjpof p_rjpof
+ljpof p_ljpof
+
+eyeobj p_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile pegasus
+pitfile mw2pit
+
+mangle_off
+
+#end of pegasus.MEC

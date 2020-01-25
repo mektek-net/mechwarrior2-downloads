@@ -1,0 +1,209 @@
+#   maddog.MEC
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate sort (null) parent
+object maddog=dummy        1,1,1   0,0,0   0,0,0  0   hidden world
+
+rep
+
+Object m_hips=md1_hips   1,1,1   0,0,0   0,671,17   0      .      maddog
+Object m_luleg=md1luleg   1,1,1   0,0,0   -164,-59,-67   0      .      m_hips
+Object m_ljpof=DUMMY   1,1,1   0,0,0   65,-65,7   0   hidden   m_luleg
+Object m_llleg=md1llleg   1,1,1   0,0,0   -79,-207,-170   0      .      m_luleg
+Object m_lftoe=md1lftoe   1,1,1   0,0,0   -17,-375,154   0      .      m_llleg
+Object m_lrtoe=md1lrtoe   1,1,1   0,0,0   -70,-375,338   0      .      m_llleg
+Object m_ruleg=md1ruleg   1,1,1   0,0,0   161,-59,-67   0      .      m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   -61,-65,7   0   hidden   m_ruleg
+Object m_rlleg=md1rlleg   1,1,1   0,0,0   81,-207,-170   0      .      m_ruleg
+Object m_rftoe=md1rftoe   1,1,1   0,0,0   13,-375,154   0      .      m_rlleg
+Object m_rrtoe=md1rrtoe   1,1,1   0,0,0   15,-375,338   0      .      m_rlleg
+Object m_head=md1_head   1,1,1   0,0,0   0,-1,-6   0      .      m_hips
+Object m_decll=md1decll   1,1,1   0,0,0   -100,140,25   0      .      m_head
+Object m_declr=md1declr   1,1,1   0,0,0   89,140,25   0      .      m_head
+Object m_winsh=md1winsh   1,1,1   0,0,0   0,384,-10   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   0,382,-182   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   0,337,95   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,77,367   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -163,316,-102   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   152,316,-102   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   0,248,-204   0   hidden   m_head
+Object m_larm=md1_larm   1,1,1   0,0,0   -244,4,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -161,-171,454   0   hidden   m_larm
+Object m_rarm=md1_rarm   1,1,1   0,0,0   233,4,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   157,-171,454   0   hidden   m_rarm
+
+rep
+
+Object m_hips=md2_hips   1,1,1   0,0,0   0,671,17   0      .      maddog
+Object m_luleg=md2luleg   1,1,1   0,0,0   -164,-59,-67   0      .      m_hips
+Object m_ljpof=DUMMY   1,1,1   0,0,0   65,-65,7   0   hidden   m_luleg
+Object m_llleg=md2llleg   1,1,1   0,0,0   -79,-207,-170   0      .      m_luleg
+Object m_lftoe=md2lftoe   1,1,1   0,0,0   -17,-375,154   0      .      m_llleg
+Object m_lrtoe=md2lrtoe   1,1,1   0,0,0   -70,-375,338   0      .      m_llleg
+Object m_ruleg=md2ruleg   1,1,1   0,0,0   161,-59,-67   0      .      m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   -61,-65,7   0   hidden   m_ruleg
+Object m_rlleg=md2rlleg   1,1,1   0,0,0   81,-207,-170   0      .      m_ruleg
+Object m_rftoe=md2rftoe   1,1,1   0,0,0   13,-375,154   0      .      m_rlleg
+Object m_rrtoe=md2rrtoe   1,1,1   0,0,0   15,-375,338   0      .      m_rlleg
+Object m_head=md2_head   1,1,1   0,0,0   0,-1,-6   0      .      m_hips
+Object m_decll=md2decll   1,1,1   0,0,0   -100,140,25   0      .      m_head
+Object m_declr=md2declr   1,1,1   0,0,0   89,140,25   0      .      m_head
+Object m_winsh=md2winsh   1,1,1   0,0,0   0,384,-10   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   0,382,-182   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   0,337,95   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,77,367   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -163,316,-102   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   152,316,-102   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   0,248,-204   0   hidden   m_head
+Object m_larm=md2_larm   1,1,1   0,0,0   -244,4,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -161,-171,454   0   hidden   m_larm
+Object m_rarm=md2_rarm   1,1,1   0,0,0   233,4,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   157,-171,454   0   hidden   m_rarm
+
+rep
+
+Object m_hips=md3_hips   1,1,1   0,0,0   0,607,-27   0      .      maddog
+Object m_luleg=md3luleg   1,1,1   0,0,0   -157,0,17   0      .      m_hips
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -105,-473,-113   0   hidden   m_luleg
+Object m_llleg=md3llleg   1,1,1   0,0,0   -63,-154,-211   0      .      m_luleg
+Object m_lftoe=md3lftoe   1,1,1   0,0,0   -40,-424,154   0      .      m_llleg
+Object m_lrtoe=md3lrtoe   1,1,1   0,0,0   -93,-424,338   0      .      m_llleg
+Object m_ruleg=md3ruleg   1,1,1   0,0,0   151,1,17   0      .      m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   108,-474,-113   0   hidden   m_ruleg
+Object m_rlleg=md3rlleg   1,1,1   0,0,0   106,-154,-211   0      .      m_ruleg
+Object m_rftoe=md3rftoe   1,1,1   0,0,0   -2,-424,154   0      .      m_rlleg
+Object m_rrtoe=md3rrtoe   1,1,1   0,0,0   0,-424,338   0      .      m_rlleg
+Object m_head=md3_head   1,1,1   0,0,0   0,71,-49   0      .      m_hips
+Object m_decll=md3decll   1,1,1   0,0,0   -100,139,132   0      .      m_head
+Object m_declr=md3declr   1,1,1   0,0,0   89,139,132   0      .      m_head
+Object m_winsh=md3winsh   1,1,1   0,0,0   0,342,76   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   0,340,-95   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   0,295,117   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,35,373   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -166,273,-110   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   162,273,-110   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   0,206,-117   0   hidden   m_head
+Object m_larm=md3_larm   1,1,1   0,0,0   -239,4,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -156,-151,383   0   hidden   m_larm
+Object m_rarm=md3_rarm   1,1,1   0,0,0   233,4,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   164,-151,395   0   hidden   m_rarm
+
+rep
+
+Object m_hips=md4_hips   1,1,1   0,0,0   0,599,-27   0      .      maddog
+Object m_luleg=md4luleg   1,1,1   0,0,0   -157,8,17   0      .      m_hips
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -90,-473,-50   0   hidden   m_luleg
+Object m_llleg=md4llleg   1,1,1   0,0,0   -53,-154,-211   0      .      m_luleg
+Object m_lftoe=md4lftoe   1,1,1   0,0,0   -32,-424,204   0      .      m_llleg
+Object m_lrtoe=md4lrtoe   1,1,1   0,0,0   -37,-424,301   0      .      m_llleg
+Object m_ruleg=md4ruleg   1,1,1   0,0,0   151,8,17   0      .      m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   82,-474,-50   0   hidden   m_ruleg
+Object m_rlleg=md4rlleg   1,1,1   0,0,0   53,-154,-211   0      .      m_ruleg
+Object m_rftoe=md4rftoe   1,1,1   0,0,0   27,-424,204   0      .      m_rlleg
+Object m_rrtoe=md4rrtoe   1,1,1   0,0,0   25,-424,301   0      .      m_rlleg
+Object m_head=md4_head   1,1,1   0,0,0   0,42,0   0      .      m_hips
+Object m_decll=md4decll   1,1,1   0,0,0   -100,177,83   0      .      m_head
+Object m_declr=md4declr   1,1,1   0,0,0   89,177,83   0      .      m_head
+Object m_winsh=md4winsh   1,1,1   0,0,0   0,379,27   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   0,378,-145   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   0,333,67   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,73,324   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -163,311,-130   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   152,311,-130   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   0,243,-166   0   hidden   m_head
+Object m_larm=md4_larm   1,1,1   0,0,0   -227,4,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -161,-151,383   0   hidden   m_larm
+Object m_rarm=md4_rarm   1,1,1   0,0,0   216,4,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   157,-151,383   0   hidden   m_rarm
+
+rep
+
+Object m_hips=md5_hips   1,1,1   0,0,0   0,671,17   0      .      maddog
+Object m_luleg=md5luleg   1,1,1   0,0,0   -164,-59,-67   0      .      m_hips
+Object m_ljpof=DUMMY   1,1,1   0,0,0   65,-26,7   0   hidden   m_luleg
+Object m_llleg=md5llleg   1,1,1   0,0,0   -79,-207,-170   0      .      m_luleg
+Object m_lftoe=md5lftoe   1,1,1   0,0,0   -17,-375,154   0      .      m_llleg
+Object m_lrtoe=md5lrtoe   1,1,1   0,0,0   -70,-375,338   0      .      m_llleg
+Object m_ruleg=md5ruleg   1,1,1   0,0,0   161,-59,-67   0      .      m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   -61,-27,7   0   hidden   m_ruleg
+Object m_rlleg=md5rlleg   1,1,1   0,0,0   81,-207,-170   0      .      m_ruleg
+Object m_rftoe=md5rftoe   1,1,1   0,0,0   13,-375,154   0      .      m_rlleg
+Object m_rrtoe=md5rrtoe   1,1,1   0,0,0   15,-375,338   0      .      m_rlleg
+Object m_head=md5_head   1,1,1   0,0,0   0,-1,-6   0    near     m_hips
+Object m_decll=md5decll   1,1,1   0,0,0   -100,140,25   0      .      m_head
+Object m_declr=md5declr   1,1,1   0,0,0   89,140,25   0      .      m_head
+Object m_winsh=md5winsh   1,1,1   0,0,0   0,384,-10   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   1,414,-206   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   1,361,43   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   1,55,345   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -190,335,-189   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   179,335,-189   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   1,256,-232   0   hidden   m_head
+Object m_larm=md5_larm   1,1,1   0,0,0   -245,-4,28   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -228,-189,428   0   hidden   m_larm
+Object m_rarm=md5_rarm   1,1,1   0,0,0   232,-4,28   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   224,-189,428   0   hidden   m_rarm
+
+endrep
+
+thing m_head
+thing m_daddy
+
+gamepiece maddog mw2mech
+
+objloc m_head   ct
+objloc m_hips   ct
+#objloc m_decll  ct
+#objloc m_declr  ct
+objloc m_winsh  hd
+objloc m_larm   la
+objloc m_rarm   ra
+objloc m_luleg  ll
+objloc m_llleg  ll
+objloc m_lftoe  ll
+objloc m_lrtoe  ll
+objloc m_ruleg  rl
+objloc m_rlleg  rl
+objloc m_rftoe  rl
+objloc m_rrtoe  rl
+
+animfile maddanim
+
+# animations to follow
+
+task animator 0    m_hips;55,129,0
+task animator 0    m_hips;55,1,1
+task animator 0    m_luleg;55,1,2
+task animator 0    m_llleg;55,1,3
+task animator 0    m_lftoe;55,1,4
+task animator 0    m_lrtoe;55,1,5
+task animator 0    m_ruleg;55,1,6
+task animator 0    m_rlleg;55,1,7
+task animator 0    m_rftoe;55,1,8
+task animator 0    m_rrtoe;55,1,9
+
+hdpof m_hdpof
+ctpof m_ctpof
+rtpof m_rtpof
+ltpof m_ltpof
+rapof m_rapof
+lapof m_lapof
+rjpof m_rjpof
+ljpof m_ljpof
+
+eyeobj m_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile maddog
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of maddog.mec
+
+

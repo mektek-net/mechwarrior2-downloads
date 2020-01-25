@@ -1,0 +1,161 @@
+#     Ouput for turretd.MEC
+#     Thu May 25 21:33:23 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object turretd=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object t_main=DUMMY   1,1,1   0,0,0   0,2380,-1700   0   hidden   turretd
+Object t_rtbdy=td1rtbdy   1,1,1   0,0,0   0,-806,800   0      .      t_main
+Object t_rbbdy=td1rbbdy   1,1,1   0,0,0   0,-1714,800   0      .      t_main
+Object t_ftbdy=td1ftbdy   1,1,1   0,0,0   0,-887,4700   0      .      t_main
+Object t_fbbdy=td1fbbdy   1,1,1   0,0,0   0,-1785,4700   0      .      t_main
+Object t_winsh=td1winsh   1,1,1   0,0,0   0,-578,5000   0      .      t_main
+Object t_rwing=td1rwing   1,1,1   0,0,0   2100,-1907,-300   0      .      t_main
+Object t_lwing=td1lwing   1,1,1   0,0,0   -2100,-1907,-300   0      .      t_main
+Object t_rfin=td1_rfin   1,1,1   0,0,0   1400,-1692,4200   0      .      t_main
+Object t_lfin=td1_lfin   1,1,1   0,0,0   -1400,-1692,4200   0      .      t_main
+Object t_rueng=td1rueng   1,1,1   0,0,0   800,-1099,-2000   0      .      t_main
+Object t_rmeng=td1rmeng   1,1,1   0,0,0   1500,-649,-100   0      .      t_main
+Object t_rleng=td1rleng   1,1,1   0,0,0   1500,-1811,-300   0      .      t_main
+Object t_lueng=td1lueng   1,1,1   0,0,0   -800,-1099,-2000   0      .      t_main
+Object t_lmeng=td1lmeng   1,1,1   0,0,0   -1500,-649,-100   0      .      t_main
+Object t_lleng=td1lleng   1,1,1   0,0,0   -1500,-1811,-300   0      .      t_main
+Object t_ckpit=td1ckpit   1,1,1   0,0,0   0,-815,5200   0      .      t_main
+Object t_decll=td1decll   1,1,1   0,0,0   -1400,-677,2600   0      .      t_main
+Object t_declr=td1declr   1,1,1   0,0,0   1400,-677,2600   0      .      t_main
+Object t_turrt=td1turrt   1,1,1   0,0,0   0,-80,0   0      .      t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,78,163   0   hidden   t_turrt
+Object t_rgun=td1_rgun   1,1,1   0,0,0   300,-14,37   0      .      t_daddy
+Object t_rpof=DUMMY   1,1,1   0,0,0   -2,-20,1200   0   hidden   t_rgun
+Object t_lgun=td1_lgun   1,1,1   0,0,0   -300,-14,37   0      .      t_daddy
+Object t_lpof=DUMMY   1,1,1   0,0,0   -42,-20,1200   0   hidden   t_lgun
+
+rep
+
+Object t_main=DUMMY   1,1,1   0,0,0   0,2375,-1698   0   hidden   turretd
+Object t_rtbdy=td2rtbdy   1,1,1   0,0,0   0,-802,798   0      .      t_main
+Object t_rbbdy=td2rbbdy   1,1,1   0,0,0   0,-1710,798   0      .      t_main
+Object t_ftbdy=td2ftbdy   1,1,1   0,0,0   0,-883,4698   0      .      t_main
+Object t_fbbdy=td2fbbdy   1,1,1   0,0,0   0,-1780,4698   0      .      t_main
+Object t_winsh=td2winsh   1,1,1   0,0,0   0,-573,4998   0      .      t_main
+Object t_rwing=td2rwing   1,1,1   0,0,0   2100,-1902,-302   0      .      t_main
+Object t_lwing=td2lwing   1,1,1   0,0,0   -2100,-1902,-302   0      .      t_main
+Object t_rfin=td2_rfin   1,1,1   0,0,0   1400,-1688,4198   0      .      t_main
+Object t_lfin=td2_lfin   1,1,1   0,0,0   -1400,-1688,4198   0      .      t_main
+Object t_rueng=td2rueng   1,1,1   0,0,0   800,-1095,-2002   0      .      t_main
+Object t_rmeng=td2rmeng   1,1,1   0,0,0   1500,-644,-102   0      .      t_main
+Object t_rleng=td2rleng   1,1,1   0,0,0   1500,-1806,-302   0      .      t_main
+Object t_lueng=td2lueng   1,1,1   0,0,0   -800,-1095,-2002   0      .      t_main
+Object t_lmeng=td2lmeng   1,1,1   0,0,0   -1500,-644,-102   0      .      t_main
+Object t_lleng=td2lleng   1,1,1   0,0,0   -1500,-1806,-302   0      .      t_main
+Object t_ckpit=td2ckpit   1,1,1   0,0,0   0,-810,5198   0      .      t_main
+Object t_decll=td2decll   1,1,1   0,0,0   -1400,-672,2598   0      .      t_main
+Object t_declr=td2declr   1,1,1   0,0,0   1400,-672,2598   0      .      t_main
+Object t_turrt=td2turrt   1,1,1   0,0,0   0,-75,-2   0      .      t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,78,163   0   hidden   t_turrt
+Object t_rgun=td2_rgun   1,1,1   0,0,0   300,-14,37   0      .      t_daddy
+Object t_rpof=DUMMY   1,1,1   0,0,0   -2,-20,1200   0   hidden   t_rgun
+Object t_lgun=td2_lgun   1,1,1   0,0,0   -300,-14,37   0      .      t_daddy
+Object t_lpof=DUMMY   1,1,1   0,0,0   -42,-20,1200   0   hidden   t_lgun
+
+rep
+
+Object t_main=DUMMY   1,1,1   0,0,0   0,2381,-1700   0   hidden   turretd
+Object t_rtbdy=td3rtbdy   1,1,1   0,0,0   0,-808,800   0      .      t_main
+Object t_rbbdy=td3rbbdy   1,1,1   0,0,0   0,-1716,800   0      .      t_main
+Object t_ftbdy=td3ftbdy   1,1,1   0,0,0   0,-889,4700   0      .      t_main
+Object t_fbbdy=td3fbbdy   1,1,1   0,0,0   0,-1786,4700   0      .      t_main
+Object t_winsh=td3winsh   1,1,1   0,0,0   0,-579,5000   0      .      t_main
+Object t_rwing=td3rwing   1,1,1   0,0,0   2100,-1908,-300   0      .      t_main
+Object t_lwing=td3lwing   1,1,1   0,0,0   -2100,-1908,-300   0      .      t_main
+Object t_rfin=td3_rfin   1,1,1   0,0,0   1400,-1694,4200   0      .      t_main
+Object t_lfin=td3_lfin   1,1,1   0,0,0   -1400,-1694,4200   0      .      t_main
+Object t_rueng=td3rueng   1,1,1   0,0,0   800,-1101,-2000   0      .      t_main
+Object t_rmeng=td3rmeng   1,1,1   0,0,0   1500,-650,-100   0      .      t_main
+Object t_rleng=td3rleng   1,1,1   0,0,0   1500,-1812,-300   0      .      t_main
+Object t_lueng=td3lueng   1,1,1   0,0,0   -800,-1101,-2000   0      .      t_main
+Object t_lmeng=td3lmeng   1,1,1   0,0,0   -1500,-650,-100   0      .      t_main
+Object t_lleng=td3lleng   1,1,1   0,0,0   -1500,-1812,-300   0      .      t_main
+Object t_ckpit=td3ckpit   1,1,1   0,0,0   0,-816,5200   0      .      t_main
+Object t_decll=td3decll   1,1,1   0,0,0   -1400,-678,2600   0      .      t_main
+Object t_declr=td3declr   1,1,1   0,0,0   1400,-678,2600   0      .      t_main
+Object t_turrt=td3turrt   1,1,1   0,0,0   0,-81,0   0      .      t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,78,163   0   hidden   t_turrt
+Object t_rgun=td3_rgun   1,1,1   0,0,0   300,-14,37   0      .      t_daddy
+Object t_rpof=DUMMY   1,1,1   0,0,0   -2,-20,1200   0   hidden   t_rgun
+Object t_lgun=td3_lgun   1,1,1   0,0,0   -300,-14,37   0      .      t_daddy
+Object t_lpof=DUMMY   1,1,1   0,0,0   -42,-20,1200   0   hidden   t_lgun
+
+rep
+
+Object t_main=DUMMY   1,1,1   0,0,0   0,2380,-1699   0   hidden   turretd
+Object t_rtbdy=td4rtbdy   1,1,1   0,0,0   0,-806,799   0      .      t_main
+Object t_rbbdy=td4rbbdy   1,1,1   0,0,0   0,-1714,799   0      .      t_main
+Object t_ftbdy=td4ftbdy   1,1,1   0,0,0   0,-887,4699   0      .      t_main
+Object t_fbbdy=td4fbbdy   1,1,1   0,0,0   0,-1785,4699   0      .      t_main
+Object t_winsh=td4winsh   1,1,1   0,0,0   0,-577,4999   0      .      t_main
+Object t_rwing=td4rwing   1,1,1   0,0,0   2100,-1907,-301   0      .      t_main
+Object t_lwing=td4lwing   1,1,1   0,0,0   -2100,-1907,-301   0      .      t_main
+Object t_rfin=td4_rfin   1,1,1   0,0,0   1400,-1692,4199   0      .      t_main
+Object t_lfin=td4_lfin   1,1,1   0,0,0   -1400,-1692,4199   0      .      t_main
+Object t_rueng=td4rueng   1,1,1   0,0,0   800,-1099,-1584   0      .      t_main
+Object t_rmeng=td4rmeng   1,1,1   0,0,0   1500,-649,-101   0      .      t_main
+Object t_rleng=td4rleng   1,1,1   0,0,0   1500,-1810,-301   0      .      t_main
+Object t_lueng=td4lueng   1,1,1   0,0,0   -800,-1099,-1584   0      .      t_main
+Object t_lmeng=td4lmeng   1,1,1   0,0,0   -1500,-649,-101   0      .      t_main
+Object t_lleng=td4lleng   1,1,1   0,0,0   -1500,-1810,-301   0      .      t_main
+Object t_ckpit=td4ckpit   1,1,1   0,0,0   0,-815,5199   0      .      t_main
+Object t_decll=td4decll   1,1,1   0,0,0   -1400,-677,2599   0      .      t_main
+Object t_declr=td4declr   1,1,1   0,0,0   1400,-677,2599   0      .      t_main
+Object t_turrt=td4turrt   1,1,1   0,0,0   0,-79,-1   0      .      t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,78,163   0   hidden   t_turrt
+Object t_rgun=td4_rgun   1,1,1   0,0,0   300,-14,37   0      .      t_daddy
+Object t_rpof=DUMMY   1,1,1   0,0,0   -2,-20,1200   0   hidden   t_rgun
+Object t_lgun=td4_lgun   1,1,1   0,0,0   -300,-14,37   0      .      t_daddy
+Object t_lpof=DUMMY   1,1,1   0,0,0   -42,-20,1200   0   hidden   t_lgun
+
+endrep
+
+thing t_turrt
+thing t_daddy
+
+gamepiece turretd mw2artillery
+
+objloc t_rtbdy  ct
+objloc t_rbbdy  ct
+objloc t_ftbdy  ct
+objloc t_fbbdy  ct
+objloc t_winsh  ct
+objloc t_ckpit  ct
+objloc t_lfin   ct
+objloc t_rfin   ct
+objloc t_turrt  ct
+objloc t_rgun   ra
+objloc t_lgun   la
+objloc t_rwing  ll
+objloc t_rmeng  ll
+objloc t_rleng  ll
+objloc t_rueng  ll
+objloc t_lmeng  ll
+objloc t_lwing  ll
+objloc t_lueng  ll
+objloc t_lleng  ll
+
+lapof t_lpof
+rapof t_rpof
+
+eyeobj t_turrt
+
+mgdfile turretd
+
+mangle_off
+
+#end of turretd.MEC

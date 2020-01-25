@@ -1,0 +1,206 @@
+#   victor.MEC
+#   geometry for the victor 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object victor=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object v_hips=vt1_hips   1,1,1   0,0,0   0,819,-2   0      .      victor
+Object v_luleg=vt1luleg   1,1,1   0,0,0   -90,-4,2   0      .      v_hips
+Object v_llleg=vt1llleg   1,1,1   0,0,0   -91,-308,0   0      .      v_luleg
+Object v_lftoe=vt1lftoe   1,1,1   0,0,0   9,-373,54   0      .      v_llleg
+Object v_lrtoe=vt1lrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_lftoe
+Object v_ruleg=vt1ruleg   1,1,1   0,0,0   90,-4,2   0      .      v_hips
+Object v_rlleg=vt1rlleg   1,1,1   0,0,0   90,-308,0   0      .      v_ruleg
+Object v_rftoe=vt1rftoe   1,1,1   0,0,0   -9,-373,54   0      .      v_rlleg
+Object v_rrtoe=vt1rrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_rftoe
+Object v_head=vt1_head   1,1,1   0,0,0   0,98,0   0      .      v_hips
+Object v_winsh=vt1winsh   1,1,1   0,0,0   0,468,100   0      .      v_head
+Object v_declf=vt1declf   1,1,1   0,0,0   106,306,209   0      .      v_head
+Object v_ljpof=DUMMY   1,1,1   0,0,0   -102,57,-263   0   hidden   v_head
+Object v_rjpof=DUMMY   1,1,1   0,0,0   84,57,-263   0   hidden   v_head
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,478,77   0   hidden   v_head
+Object v_hdpof=DUMMY   1,1,1   0,0,0   -1,548,147   0   hidden   v_head
+Object v_ctpof=DUMMY   1,1,1   0,0,0   1,99,227   0   hidden   v_head
+Object v_rtpof=DUMMY   1,1,1   0,0,0   -104,320,230   0   hidden   v_head
+Object v_ltpof=DUMMY   1,1,1   0,0,0   104,314,230   0   hidden   v_head
+Object v_daddy=DUMMY   1,1,1   0,0,0   1,292,-19   0   hidden   v_head
+Object v_larm=vt1_larm   1,1,1   0,0,0   -200,12,1   0      .      v_daddy
+Object v_lapof=DUMMY   1,1,1   0,0,0   -146,-401,597   0   hidden   v_larm
+Object v_rarm=vt1_rarm   1,1,1   0,0,0   198,12,1   0      .      v_daddy
+Object v_rapof=DUMMY   1,1,1   0,0,0   142,-409,597   0   hidden   v_rarm
+
+rep
+
+Object v_hips=vt2_hips   1,1,1   0,0,0   0,819,-2   0      .      victor
+Object v_luleg=vt2luleg   1,1,1   0,0,0   -90,-4,2   0      .      v_hips
+Object v_llleg=vt2llleg   1,1,1   0,0,0   -91,-308,0   0      .      v_luleg
+Object v_lftoe=vt2lftoe   1,1,1   0,0,0   9,-373,54   0      .      v_llleg
+Object v_lrtoe=vt2lrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_lftoe
+Object v_ruleg=vt2ruleg   1,1,1   0,0,0   90,-4,2   0      .      v_hips
+Object v_rlleg=vt2rlleg   1,1,1   0,0,0   90,-308,0   0      .      v_ruleg
+Object v_rftoe=vt2rftoe   1,1,1   0,0,0   -9,-373,54   0      .      v_rlleg
+Object v_rrtoe=vt2rrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_rftoe
+Object v_head=vt2_head   1,1,1   0,0,0   0,98,0   0      .      v_hips
+Object v_winsh=vt2winsh   1,1,1   0,0,0   0,468,100   0      .      v_head
+Object v_declf=vt2declf   1,1,1   0,0,0   106,306,209   0      .      v_head
+Object v_ljpof=DUMMY   1,1,1   0,0,0   -102,57,-263   0   hidden   v_head
+Object v_rjpof=DUMMY   1,1,1   0,0,0   84,57,-263   0   hidden   v_head
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,478,77   0   hidden   v_head
+Object v_hdpof=DUMMY   1,1,1   0,0,0   -1,548,147   0   hidden   v_head
+Object v_ctpof=DUMMY   1,1,1   0,0,0   1,99,227   0   hidden   v_head
+Object v_rtpof=DUMMY   1,1,1   0,0,0   -104,320,230   0   hidden   v_head
+Object v_ltpof=DUMMY   1,1,1   0,0,0   104,314,230   0   hidden   v_head
+Object v_daddy=DUMMY   1,1,1   0,0,0   1,292,-19   0   hidden   v_head
+Object v_larm=vt2_larm   1,1,1   0,0,0   -200,12,1   0      .      v_daddy
+Object v_lapof=DUMMY   1,1,1   0,0,0   -146,-401,597   0   hidden   v_larm
+Object v_rarm=vt2_rarm   1,1,1   0,0,0   198,12,1   0      .      v_daddy
+Object v_rapof=DUMMY   1,1,1   0,0,0   142,-409,597   0   hidden   v_rarm
+
+rep
+
+Object v_hips=vt3_hips   1,1,1   0,0,0   0,819,-2   0      .      victor
+Object v_luleg=vt3luleg   1,1,1   0,0,0   -90,-4,2   0      .      v_hips
+Object v_llleg=vt3llleg   1,1,1   0,0,0   -91,-308,0   0      .      v_luleg
+Object v_lftoe=vt3lftoe   1,1,1   0,0,0   9,-373,54   0      .      v_llleg
+Object v_lrtoe=vt3lrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_lftoe
+Object v_ruleg=vt3ruleg   1,1,1   0,0,0   90,-4,2   0      .      v_hips
+Object v_rlleg=vt3rlleg   1,1,1   0,0,0   90,-308,0   0      .      v_ruleg
+Object v_rftoe=vt3rftoe   1,1,1   0,0,0   -9,-373,54   0      .      v_rlleg
+Object v_rrtoe=vt3rrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_rftoe
+Object v_head=vt3_head   1,1,1   0,0,0   0,98,0   0      .      v_hips
+Object v_winsh=vt3winsh   1,1,1   0,0,0   0,468,100   0      .      v_head
+Object v_declf=vt3declf   1,1,1   0,0,0   106,306,209   0      .      v_head
+Object v_ljpof=DUMMY   1,1,1   0,0,0   -102,57,-263   0   hidden   v_head
+Object v_rjpof=DUMMY   1,1,1   0,0,0   84,57,-263   0   hidden   v_head
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,478,77   0   hidden   v_head
+Object v_hdpof=DUMMY   1,1,1   0,0,0   -1,548,147   0   hidden   v_head
+Object v_ctpof=DUMMY   1,1,1   0,0,0   1,99,227   0   hidden   v_head
+Object v_rtpof=DUMMY   1,1,1   0,0,0   -104,320,230   0   hidden   v_head
+Object v_ltpof=DUMMY   1,1,1   0,0,0   104,314,230   0   hidden   v_head
+Object v_daddy=DUMMY   1,1,1   0,0,0   1,292,-19   0   hidden   v_head
+Object v_larm=vt3_larm   1,1,1   0,0,0   -200,12,1   0      .      v_daddy
+Object v_lapof=DUMMY   1,1,1   0,0,0   -146,-401,597   0   hidden   v_larm
+Object v_rarm=vt3_rarm   1,1,1   0,0,0   198,12,1   0      .      v_daddy
+Object v_rapof=DUMMY   1,1,1   0,0,0   142,-409,597   0   hidden   v_rarm
+
+rep
+
+Object v_hips=vt4_hips   1,1,1   0,0,0   0,819,-2   0      .      victor
+Object v_luleg=vt4luleg   1,1,1   0,0,0   -90,-4,2   0      .      v_hips
+Object v_llleg=vt4llleg   1,1,1   0,0,0   -91,-308,0   0      .      v_luleg
+Object v_lftoe=vt4lftoe   1,1,1   0,0,0   9,-373,54   0      .      v_llleg
+Object v_lrtoe=vt4lrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_lftoe
+Object v_ruleg=vt4ruleg   1,1,1   0,0,0   90,-4,2   0      .      v_hips
+Object v_rlleg=vt4rlleg   1,1,1   0,0,0   90,-308,0   0      .      v_ruleg
+Object v_rftoe=vt4rftoe   1,1,1   0,0,0   -9,-373,54   0      .      v_rlleg
+Object v_rrtoe=vt4rrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_rftoe
+Object v_head=vt4_head   1,1,1   0,0,0   0,98,0   0      .      v_hips
+Object v_winsh=vt4winsh   1,1,1   0,0,0   0,468,100   0      .      v_head
+Object v_declf=vt4declf   1,1,1   0,0,0   106,306,209   0      .      v_head
+Object v_ljpof=DUMMY   1,1,1   0,0,0   -102,57,-263   0   hidden   v_head
+Object v_rjpof=DUMMY   1,1,1   0,0,0   84,57,-263   0   hidden   v_head
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,478,77   0   hidden   v_head
+Object v_hdpof=DUMMY   1,1,1   0,0,0   -1,548,147   0   hidden   v_head
+Object v_ctpof=DUMMY   1,1,1   0,0,0   1,99,227   0   hidden   v_head
+Object v_rtpof=DUMMY   1,1,1   0,0,0   -104,320,230   0   hidden   v_head
+Object v_ltpof=DUMMY   1,1,1   0,0,0   104,314,230   0   hidden   v_head
+Object v_daddy=DUMMY   1,1,1   0,0,0   1,292,-19   0   hidden   v_head
+Object v_larm=vt4_larm   1,1,1   0,0,0   -200,12,1   0      .      v_daddy
+Object v_lapof=DUMMY   1,1,1   0,0,0   -146,-401,597   0   hidden   v_larm
+Object v_rarm=vt4_rarm   1,1,1   0,0,0   198,12,1   0      .      v_daddy
+Object v_rapof=DUMMY   1,1,1   0,0,0   142,-409,597   0   hidden   v_rarm
+
+rep
+
+Object v_hips=vt5_hips   1,1,1   0,0,0   0,819,-2   0      .      victor
+Object v_luleg=vt5luleg   1,1,1   0,0,0   -90,-4,2   0      .      v_hips
+Object v_llleg=vt5llleg   1,1,1   0,0,0   -91,-308,0   0      .      v_luleg
+Object v_lftoe=vt5lftoe   1,1,1   0,0,0   9,-373,54   0      .      v_llleg
+Object v_lrtoe=vt5lrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_lftoe
+Object v_ruleg=vt5ruleg   1,1,1   0,0,0   90,-4,2   0      .      v_hips
+Object v_rlleg=vt5rlleg   1,1,1   0,0,0   90,-308,0   0      .      v_ruleg
+Object v_rftoe=vt5rftoe   1,1,1   0,0,0   -9,-373,54   0      .      v_rlleg
+Object v_rrtoe=vt5rrtoe   1,1,1   0,0,0   0,0,-127   0      .      v_rftoe
+Object v_head=vt5_head   1,1,1   0,0,0   0,98,0   0    near     v_hips
+Object v_winsh=vt5winsh   1,1,1   0,0,0   0,468,100   0      .      v_head
+Object v_declf=vt5declf   1,1,1   0,0,0   106,306,209   0      .      v_head
+Object v_ljpof=DUMMY   1,1,1   0,0,0   -102,57,-263   0   hidden   v_head
+Object v_rjpof=DUMMY   1,1,1   0,0,0   84,57,-263   0   hidden   v_head
+Object v_cppov=DUMMY   1,1,1   0,0,0   0,478,77   0   hidden   v_head
+Object v_hdpof=DUMMY   1,1,1   0,0,0   -1,548,147   0   hidden   v_head
+Object v_ctpof=DUMMY   1,1,1   0,0,0   1,99,227   0   hidden   v_head
+Object v_rtpof=DUMMY   1,1,1   0,0,0   -104,320,230   0   hidden   v_head
+Object v_ltpof=DUMMY   1,1,1   0,0,0   104,314,230   0   hidden   v_head
+Object v_daddy=DUMMY   1,1,1   0,0,0   1,292,-19   0   hidden   v_head
+Object v_larm=vt5_larm   1,1,1   0,0,0   -200,12,1   0      .      v_daddy
+Object v_lapof=DUMMY   1,1,1   0,0,0   -146,-401,597   0   hidden   v_larm
+Object v_rarm=vt5_rarm   1,1,1   0,0,0   198,12,1   0      .      v_daddy
+Object v_rapof=DUMMY   1,1,1   0,0,0   142,-409,597   0   hidden   v_rarm
+
+endrep
+
+thing v_head
+thing v_daddy
+
+gamepiece victor mw2mech 
+
+objloc v_head   ct
+objloc v_hips   ct
+objloc v_winsh  hd
+objloc v_larm   la
+objloc v_rarm   ra
+objloc v_luleg  ll
+objloc v_ruleg  rl
+objloc v_llleg  ll
+objloc v_rlleg  rl
+objloc v_lftoe  ll
+objloc v_rftoe  rl
+objloc v_lrtoe  ll
+objloc v_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    v_hips;55,129,0
+task animator 0    v_hips;55,1,1
+task animator 0    v_ruleg;55,1,2
+task animator 0    v_rlleg;55,1,3
+task animator 0    v_rftoe;55,1,4
+task animator 0    v_rrtoe;55,1,5
+task animator 0    v_luleg;55,1,6
+task animator 0    v_llleg;55,1,7
+task animator 0    v_lftoe;55,1,8
+task animator 0    v_lrtoe;55,1,9
+task animator 0    v_head;55,1,10
+task animator 0    v_rarm;55,1,11
+task animator 0    v_larm;55,1,12
+
+hdpof v_hdpof
+ctpof v_ctpof
+rtpof v_rtpof
+ltpof v_ltpof
+lapof v_lapof
+rapof v_rapof
+ljpof v_ljpof
+rjpof v_rjpof
+
+eyeobj v_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile victor
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of victor.MEC
+
+

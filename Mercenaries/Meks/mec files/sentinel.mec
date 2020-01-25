@@ -1,0 +1,211 @@
+#   sentinel.MEC
+#   geometry for the sentinel 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object sentinel=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object s_hips=se1_hips   1,1,1   0,0,0   0,632,-66   0      .      sentinel
+Object s_luleg=se1luleg   1,1,1   0,0,0   -121,-4,1   0      .      s_hips
+Object s_llleg=se1llleg   1,1,1   0,0,0   -56,-388,-2   0      .      s_luleg
+Object s_lrtoe=se1lrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_llleg
+Object s_lftoe=se1lftoe   1,1,1   0,0,0   0,-5,70   0      .      s_lrtoe
+Object s_ruleg=se1ruleg   1,1,1   0,0,0   121,-4,1   0      .      s_hips
+Object s_rlleg=se1rlleg   1,1,1   0,0,0   56,-388,-2   0      .      s_ruleg
+Object s_rrtoe=se1rrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_rlleg
+Object s_rftoe=se1rftoe   1,1,1   0,0,0   0,-5,70   0      .      s_rrtoe
+Object s_head=se1_head   1,1,1   0,0,0   0,38,11   0      .      s_hips
+Object s_winsh=se1winsh   1,1,1   0,0,0   0,184,207   0      .      s_head
+Object s_ljpof=DUMMY   1,1,1   0,0,0   -95,-11,-126   0   hidden   s_head
+Object s_rjpof=DUMMY   1,1,1   0,0,0   92,-11,-126   0   hidden   s_head
+Object s_cppov=DUMMY   1,1,1   0,0,0   0,179,209   0   hidden   s_head
+Object s_hdpof=DUMMY   1,1,1   0,0,0   -1,225,204   0   hidden   s_head
+Object s_ctpof=DUMMY   1,1,1   0,0,0   1,79,264   0   hidden   s_head
+Object s_rtpof=DUMMY   1,1,1   0,0,0   213,165,150   0   hidden   s_head
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -219,165,150   0   hidden   s_head
+Object s_daddy=DUMMY   1,1,1   0,0,0   -8,118,-26   0   hidden   s_head
+Object s_larm=se1_larm   1,1,1   0,0,0   -283,1,0   0      .      s_daddy
+Object s_decll=se1decll   1,1,1   0,0,0   -134,-2,-2   0      .      s_larm
+Object s_lapof=DUMMY   1,1,1   0,0,0   -82,0,572   0   hidden   s_larm
+Object s_rarm=se1_rarm   1,1,1   0,0,0   296,1,0   0      .      s_daddy
+Object s_declr=se1declr   1,1,1   0,0,0   133,-2,-2   0      .      s_rarm
+Object s_rapof=DUMMY   1,1,1   0,0,0   78,-169,310   0   hidden   s_rarm
+
+rep
+
+Object s_hips=se2_hips   1,1,1   0,0,0   0,632,-66   0      .      sentinel
+Object s_luleg=se2luleg   1,1,1   0,0,0   -121,-4,1   0      .      s_hips
+Object s_llleg=se2llleg   1,1,1   0,0,0   -56,-388,-2   0      .      s_luleg
+Object s_lrtoe=se2lrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_llleg
+Object s_lftoe=se2lftoe   1,1,1   0,0,0   0,-5,70   0      .      s_lrtoe
+Object s_ruleg=se2ruleg   1,1,1   0,0,0   121,-4,1   0      .      s_hips
+Object s_rlleg=se2rlleg   1,1,1   0,0,0   56,-388,-2   0      .      s_ruleg
+Object s_rrtoe=se2rrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_rlleg
+Object s_rftoe=se2rftoe   1,1,1   0,0,0   0,-5,70   0      .      s_rrtoe
+Object s_head=se2_head   1,1,1   0,0,0   0,38,11   0      .      s_hips
+Object s_winsh=se2winsh   1,1,1   0,0,0   0,184,207   0      .      s_head
+Object s_ljpof=DUMMY   1,1,1   0,0,0   -95,-11,-126   0   hidden   s_head
+Object s_rjpof=DUMMY   1,1,1   0,0,0   92,-11,-126   0   hidden   s_head
+Object s_cppov=DUMMY   1,1,1   0,0,0   0,179,209   0   hidden   s_head
+Object s_hdpof=DUMMY   1,1,1   0,0,0   -1,225,204   0   hidden   s_head
+Object s_ctpof=DUMMY   1,1,1   0,0,0   1,79,264   0   hidden   s_head
+Object s_rtpof=DUMMY   1,1,1   0,0,0   213,165,150   0   hidden   s_head
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -219,165,150   0   hidden   s_head
+Object s_daddy=DUMMY   1,1,1   0,0,0   -8,118,-26   0   hidden   s_head
+Object s_larm=se2_larm   1,1,1   0,0,0   -283,1,0   0      .      s_daddy
+Object s_decll=se2decll   1,1,1   0,0,0   -134,-2,-2   0      .      s_larm
+Object s_lapof=DUMMY   1,1,1   0,0,0   -82,0,572   0   hidden   s_larm
+Object s_rarm=se2_rarm   1,1,1   0,0,0   296,1,0   0      .      s_daddy
+Object s_declr=se2declr   1,1,1   0,0,0   133,-2,-2   0      .      s_rarm
+Object s_rapof=DUMMY   1,1,1   0,0,0   78,-169,310   0   hidden   s_rarm
+
+rep
+
+Object s_hips=se3_hips   1,1,1   0,0,0   0,632,-66   0      .      sentinel
+Object s_luleg=se3luleg   1,1,1   0,0,0   -121,-4,1   0      .      s_hips
+Object s_llleg=se3llleg   1,1,1   0,0,0   -56,-388,-2   0      .      s_luleg
+Object s_lrtoe=se3lrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_llleg
+Object s_lftoe=se3lftoe   1,1,1   0,0,0   0,-5,70   0      .      s_lrtoe
+Object s_ruleg=se3ruleg   1,1,1   0,0,0   121,-4,1   0      .      s_hips
+Object s_rlleg=se3rlleg   1,1,1   0,0,0   56,-388,-2   0      .      s_ruleg
+Object s_rrtoe=se3rrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_rlleg
+Object s_rftoe=se3rftoe   1,1,1   0,0,0   0,-5,70   0      .      s_rrtoe
+Object s_head=se3_head   1,1,1   0,0,0   0,38,11   0      .      s_hips
+Object s_winsh=se3winsh   1,1,1   0,0,0   0,184,207   0      .      s_head
+Object s_ljpof=DUMMY   1,1,1   0,0,0   -95,-11,-126   0   hidden   s_head
+Object s_rjpof=DUMMY   1,1,1   0,0,0   92,-11,-126   0   hidden   s_head
+Object s_cppov=DUMMY   1,1,1   0,0,0   0,179,209   0   hidden   s_head
+Object s_hdpof=DUMMY   1,1,1   0,0,0   -1,225,204   0   hidden   s_head
+Object s_ctpof=DUMMY   1,1,1   0,0,0   1,79,264   0   hidden   s_head
+Object s_rtpof=DUMMY   1,1,1   0,0,0   213,165,150   0   hidden   s_head
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -219,165,150   0   hidden   s_head
+Object s_daddy=DUMMY   1,1,1   0,0,0   -8,118,-26   0   hidden   s_head
+Object s_larm=se3_larm   1,1,1   0,0,0   -283,1,0   0      .      s_daddy
+Object s_decll=se3decll   1,1,1   0,0,0   -134,-2,-2   0      .      s_larm
+Object s_lapof=DUMMY   1,1,1   0,0,0   -82,0,572   0   hidden   s_larm
+Object s_rarm=se3_rarm   1,1,1   0,0,0   296,1,0   0      .      s_daddy
+Object s_declr=se3declr   1,1,1   0,0,0   133,-2,-2   0      .      s_rarm
+Object s_rapof=DUMMY   1,1,1   0,0,0   78,-169,310   0   hidden   s_rarm
+
+rep
+
+Object s_hips=se4_hips   1,1,1   0,0,0   0,632,-66   0      .      sentinel
+Object s_luleg=se4luleg   1,1,1   0,0,0   -121,-4,1   0      .      s_hips
+Object s_llleg=se4llleg   1,1,1   0,0,0   -56,-388,-2   0      .      s_luleg
+Object s_lrtoe=se4lrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_llleg
+Object s_lftoe=se4lftoe   1,1,1   0,0,0   0,-5,70   0      .      s_lrtoe
+Object s_ruleg=se4ruleg   1,1,1   0,0,0   121,-4,1   0      .      s_hips
+Object s_rlleg=se4rlleg   1,1,1   0,0,0   56,-388,-2   0      .      s_ruleg
+Object s_rrtoe=se4rrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_rlleg
+Object s_rftoe=se4rftoe   1,1,1   0,0,0   0,-5,70   0      .      s_rrtoe
+Object s_head=se4_head   1,1,1   0,0,0   0,38,11   0      .      s_hips
+Object s_winsh=se4winsh   1,1,1   0,0,0   0,184,207   0      .      s_head
+Object s_ljpof=DUMMY   1,1,1   0,0,0   -95,-11,-126   0   hidden   s_head
+Object s_rjpof=DUMMY   1,1,1   0,0,0   92,-11,-126   0   hidden   s_head
+Object s_cppov=DUMMY   1,1,1   0,0,0   0,179,209   0   hidden   s_head
+Object s_hdpof=DUMMY   1,1,1   0,0,0   -1,225,204   0   hidden   s_head
+Object s_ctpof=DUMMY   1,1,1   0,0,0   1,79,264   0   hidden   s_head
+Object s_rtpof=DUMMY   1,1,1   0,0,0   213,165,150   0   hidden   s_head
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -219,165,150   0   hidden   s_head
+Object s_daddy=DUMMY   1,1,1   0,0,0   -8,118,-26   0   hidden   s_head
+Object s_larm=se4_larm   1,1,1   0,0,0   -283,1,0   0      .      s_daddy
+Object s_decll=se4decll   1,1,1   0,0,0   -134,-2,-2   0      .      s_larm
+Object s_lapof=DUMMY   1,1,1   0,0,0   -82,0,572   0   hidden   s_larm
+Object s_rarm=se4_rarm   1,1,1   0,0,0   296,1,0   0      .      s_daddy
+Object s_declr=se4declr   1,1,1   0,0,0   133,-2,-2   0      .      s_rarm
+Object s_rapof=DUMMY   1,1,1   0,0,0   78,-169,310   0   hidden   s_rarm
+
+rep
+
+Object s_hips=se5_hips   1,1,1   0,0,0   0,632,-66   0      .      sentinel
+Object s_luleg=se5luleg   1,1,1   0,0,0   -121,-4,1   0      .      s_hips
+Object s_llleg=se5llleg   1,1,1   0,0,0   -56,-388,-2   0      .      s_luleg
+Object s_lrtoe=se5lrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_llleg
+Object s_lftoe=se5lftoe   1,1,1   0,0,0   0,-5,70   0      .      s_lrtoe
+Object s_ruleg=se5ruleg   1,1,1   0,0,0   121,-4,1   0      .      s_hips
+Object s_rlleg=se5rlleg   1,1,1   0,0,0   56,-388,-2   0      .      s_ruleg
+Object s_rrtoe=se5rrtoe   1,1,1   0,0,0   0,-211,49   0      .      s_rlleg
+Object s_rftoe=se5rftoe   1,1,1   0,0,0   0,-5,70   0      .      s_rrtoe
+Object s_head=se5_head   1,1,1   0,0,0   0,38,11   0    near     s_hips
+Object s_winsh=se5winsh   1,1,1   0,0,0   0,184,207   0      .      s_head
+Object s_ljpof=DUMMY   1,1,1   0,0,0   -95,-11,-126   0   hidden   s_head
+Object s_rjpof=DUMMY   1,1,1   0,0,0   92,-11,-126   0   hidden   s_head
+Object s_cppov=DUMMY   1,1,1   0,0,0   0,179,209   0   hidden   s_head
+Object s_hdpof=DUMMY   1,1,1   0,0,0   -1,225,204   0   hidden   s_head
+Object s_ctpof=DUMMY   1,1,1   0,0,0   1,79,264   0   hidden   s_head
+Object s_rtpof=DUMMY   1,1,1   0,0,0   213,165,150   0   hidden   s_head
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -219,165,150   0   hidden   s_head
+Object s_daddy=DUMMY   1,1,1   0,0,0   -8,118,-26   0   hidden   s_head
+Object s_larm=se5_larm   1,1,1   0,0,0   -283,1,0   0      .      s_daddy
+Object s_decll=se5decll   1,1,1   0,0,0   -134,-2,-2   0      .      s_larm
+Object s_lapof=DUMMY   1,1,1   0,0,0   -82,0,572   0   hidden   s_larm
+Object s_rarm=se5_rarm   1,1,1   0,0,0   296,1,0   0      .      s_daddy
+Object s_declr=se5declr   1,1,1   0,0,0   133,-2,-2   0      .      s_rarm
+Object s_rapof=DUMMY   1,1,1   0,0,0   78,-169,310   0   hidden   s_rarm
+
+endrep
+
+thing s_head
+thing s_daddy
+
+gamepiece sentinel mw2mech 
+
+objloc s_head   ct
+objloc s_hips   ct
+objloc s_winsh  hd
+objloc s_larm   la
+objloc s_rarm   ra
+objloc s_luleg  ll
+objloc s_ruleg  rl
+objloc s_llleg  ll
+objloc s_rlleg  rl
+objloc s_lftoe  ll
+objloc s_rftoe  rl
+objloc s_lrtoe  ll
+objloc s_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    s_hips;55,129,0
+task animator 0    s_hips;55,1,1
+task animator 0    s_ruleg;55,1,2
+task animator 0    s_rlleg;55,1,3
+task animator 0    s_rrtoe;55,1,4
+task animator 0    s_rftoe;55,1,5
+task animator 0    s_luleg;55,1,6
+task animator 0    s_llleg;55,1,7
+task animator 0    s_lrtoe;55,1,8
+task animator 0    s_lftoe;55,1,9
+task animator 0    s_head;55,1,10
+task animator 0    s_rarm;55,1,11
+task animator 0    s_larm;55,1,12
+
+hdpof s_hdpof
+ctpof s_ctpof
+rtpof s_rtpof
+ltpof s_ltpof
+lapof s_lapof
+rapof s_rapof
+ljpof s_ljpof
+rjpof s_rjpof
+
+eyeobj s_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile sentinel
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of sentinel.MEC
+
+

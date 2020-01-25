@@ -1,0 +1,97 @@
+#     Ouput for aircrftf.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object aircrftf=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+task ambientsound 1 aircrftf;150000,helicptr,1
+
+rep
+
+Object a_main=aa1_main   1,1,1   0,0,0   0,10000,0   0      .      aircrftf
+Object a_winsh=aa1winsh   1,1,1   0,0,0   0,300,600   0      .      a_main
+Object a_rwing=aa1rwing   1,1,1   0,0,0   266,100,100   0      .      a_main
+Object a_lwing=aa1lwing   1,1,1   0,0,0   -245,100,100   0      .      a_main
+Object a_rrter=aa1rrter   1,1,1   0,0,0   0,300,-2200   0      .      a_main
+Object a_tail=aa1_tail   1,1,1   0,0,0   0,300,-1300   0      .      a_main
+Object a_blade=aa1blade   1,1,1   0,0,0   0,481,0   0      .      a_main
+Object a_daddy=DUMMY   1,1,1   0,0,0   0,-20,758   0   hidden   a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   165,0,32   0   hidden   a_daddy
+Object a_lpof=DUMMY   1,1,1   0,0,0   -169,0,32   0   hidden   a_daddy
+
+rep
+
+Object a_main=aa2_main   1,1,1   0,0,0   0,10000,0   0      .      aircrftf
+Object a_winsh=aa2winsh   1,1,1   0,0,0   0,300,600   0      .      a_main
+Object a_rwing=aa2rwing   1,1,1   0,0,0   266,100,100   0      .      a_main
+Object a_lwing=aa2lwing   1,1,1   0,0,0   -245,100,100   0      .      a_main
+Object a_rrter=aa2rrter   1,1,1   0,0,0   0,300,-2200   0      .      a_main
+Object a_tail=aa2_tail   1,1,1   0,0,0   0,300,-1300   0      .      a_main
+Object a_blade=aa2blade   1,1,1   0,0,0   0,481,0   0      .      a_main
+Object a_daddy=DUMMY   1,1,1   0,0,0   0,-20,758   0   hidden   a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   165,0,32   0   hidden   a_daddy
+Object a_lpof=DUMMY   1,1,1   0,0,0   -169,0,32   0   hidden   a_daddy
+
+rep
+
+Object a_main=aa3_main   1,1,1   0,0,0   0,10000,0   0      .      aircrftf
+Object a_winsh=aa3winsh   1,1,1   0,0,0   0,300,600   0      .      a_main
+Object a_rwing=aa3rwing   1,1,1   0,0,0   266,100,100   0      .      a_main
+Object a_lwing=aa3lwing   1,1,1   0,0,0   -245,100,100   0      .      a_main
+Object a_rrter=aa3rrter   1,1,1   0,0,0   0,300,-2200   0      .      a_main
+Object a_tail=aa3_tail   1,1,1   0,0,0   0,300,-1300   0      .      a_main
+Object a_blade=aa3blade   1,1,1   0,0,0   0,481,0   0      .      a_main
+Object a_daddy=DUMMY   1,1,1   0,0,0   0,-20,758   0   hidden   a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   165,0,32   0   hidden   a_daddy
+Object a_lpof=DUMMY   1,1,1   0,0,0   -169,0,32   0   hidden   a_daddy
+
+rep
+
+Object a_main=aa4_main   1,1,1   0,0,0   0,10000,0   0      .      aircrftf
+Object a_winsh=aa4winsh   1,1,1   0,0,0   0,300,600   0      .      a_main
+Object a_rwing=aa4rwing   1,1,1   0,0,0   266,100,100   0      .      a_main
+Object a_lwing=aa4lwing   1,1,1   0,0,0   -245,100,100   0      .      a_main
+Object a_rrter=aa4rrter   1,1,1   0,0,0   0,300,-2200   0      .      a_main
+Object a_tail=aa4_tail   1,1,1   0,0,0   0,300,-1300   0      .      a_main
+Object a_blade=aa4blade   1,1,1   0,0,0   0,481,0   0      .      a_main
+Object a_daddy=DUMMY   1,1,1   0,0,0   0,-20,758   0   hidden   a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   165,0,32   0   hidden   a_daddy
+Object a_lpof=DUMMY   1,1,1   0,0,0   -169,0,32   0   hidden   a_daddy
+
+endrep
+
+thing a_daddy
+thing a_daddy
+
+gamepiece aircrftf mw2helicopter
+
+objloc a_main  ct
+objloc a_tail  ct
+objloc a_rrter  ct
+objloc a_winsh  ct
+objloc a_rwing  ra
+objloc a_lwing  la
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    a_main;60,129,0
+
+lapof a_lpof
+rapof a_rpof
+
+eyeobj a_daddy
+
+mgdfile aircrftf
+
+mangle_off
+
+#AnimSound helicptr
+
+#end of aircrftf.MEC

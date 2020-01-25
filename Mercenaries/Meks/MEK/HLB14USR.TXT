@@ -1,0 +1,50 @@
+# C:\TEMPME~1\MEK\HLB14USR.MEK, exported by MEK2TXT
+
+!NAME HELL 4 U
+!TYPE CLAN
+!TONS 65
+!ENGINE 260XL
+!NOCRIT R.ARM
+!NOCRIT L.ARM
+!UPGRADE DSHS
+
++HD ARMOR 9
++RT ARMOR 27/3
++CT ARMOR 35/4
++LT ARMOR 28/2
++RA ARMOR 20
++LA ARMOR 20
++RL ARMOR 30
++LL ARMOR 30
+
++HD cMPLAS
++CT cSPLAS
++RT cLRM10
++LT cLRM10
++CT cAMS
++LT cFLAMER
++LT cerSLAS
+
++RT cLRM10 Ammo
++RT cLRM10 Ammo
++LT cLRM10 Ammo
++LT cLRM10 Ammo
++LT cAMS Ammo
++RT cAMS Ammo
++?? cAMS Ammo
++LT cAMS Ammo
+
++LT Jump Jet
++RT Jump Jet
++RL Jump Jet
++RT Heat Sink
++RT Heat Sink
++LA Heat Sink
++RA Heat Sink
++RA Heat Sink
++RA Heat Sink
++LA Heat Sink
++LA Heat Sink
++LA Heat Sink
++RA Heat Sink
++LL Heat Sink

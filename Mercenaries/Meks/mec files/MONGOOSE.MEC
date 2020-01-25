@@ -1,0 +1,208 @@
+#   mongoose.MEC
+#   geometry for the mongoose 'Mech
+#   last modified 4/11/94 JB
+#   finishing touches 4/11 JB
+
+#       size = 1300cm
+#       490 to put mongoose's feet on ground
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null) parent
+object mongoose=dummy         1,1,1   0,0,0   0,0,0  0   hidden world
+
+rep
+
+Object m_hips=mo1_hips   1,1,1   0,0,0   0,452,9   0      .      mongoose
+Object m_luleg=mo1luleg   1,1,1   0,0,0   -140,-82,-9   0      .      m_hips
+Object m_llleg=mo1llleg   1,1,1   0,0,0   0,-140,-193   0      .      m_luleg
+Object m_lftoe=mo1lftoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_lrtoe=mo1lrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_ruleg=mo1ruleg   1,1,1   0,0,0   140,-82,-9   0      .      m_hips
+Object m_rlleg=mo1rlleg   1,1,1   0,0,0   0,-140,-193   0      .      m_ruleg
+Object m_rftoe=mo1rftoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_rrtoe=mo1rrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_head=mo1_head   1,1,1   0,0,0   0,88,-9   0      .      m_hips
+Object m_winsh=mo1winsh   1,1,1   0,0,0   0,269,20   0      .      m_head
+Object m_declf=mo1declf   1,1,1   0,0,0   -1,173,80   0      .      m_head
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -43,39,-117   0   hidden   m_head
+Object m_rjpof=DUMMY   1,1,1   0,0,0   43,39,-117   0   hidden   m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   -1,256,13   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   1,284,68   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,57,117   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   84,171,107   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -83,171,107   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   1,167,-23   0   hidden   m_head
+Object m_larm=mo1_larm   1,1,1   0,0,0   -121,24,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -141,-107,272   0   hidden   m_larm
+Object m_rarm=mo1_rarm   1,1,1   0,0,0   119,24,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   144,-107,272   0   hidden   m_rarm
+
+rep
+
+Object m_hips=mo2_hips   1,1,1   0,0,0   0,452,9   0      .      mongoose
+Object m_luleg=mo2luleg   1,1,1   0,0,0   -140,-82,-9   0      .      m_hips
+Object m_llleg=mo2llleg   1,1,1   0,0,0   0,-140,-193   0      .      m_luleg
+Object m_lftoe=mo2lftoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_lrtoe=mo2lrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_ruleg=mo2ruleg   1,1,1   0,0,0   140,-82,-9   0      .      m_hips
+Object m_rlleg=mo2rlleg   1,1,1   0,0,0   0,-140,-193   0      .      m_ruleg
+Object m_rftoe=mo2rftoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_rrtoe=mo2rrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_head=mo2_head   1,1,1   0,0,0   0,88,-9   0      .      m_hips
+Object m_winsh=mo2winsh   1,1,1   0,0,0   0,269,20   0      .      m_head
+Object m_declf=mo2declf   1,1,1   0,0,0   -1,173,80   0      .      m_head
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -43,39,-117   0   hidden   m_head
+Object m_rjpof=DUMMY   1,1,1   0,0,0   43,39,-117   0   hidden   m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   -1,256,13   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   1,284,68   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,57,117   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   84,171,107   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -83,171,107   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   1,167,-23   0   hidden   m_head
+Object m_larm=mo2_larm   1,1,1   0,0,0   -121,24,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -141,-107,272   0   hidden   m_larm
+Object m_rarm=mo2_rarm   1,1,1   0,0,0   119,24,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   144,-107,272   0   hidden   m_rarm
+
+rep
+
+Object m_hips=mo3_hips   1,1,1   0,0,0   0,452,9   0      .      mongoose
+Object m_luleg=mo3luleg   1,1,1   0,0,0   -140,-82,-9   0      .      m_hips
+Object m_llleg=mo3llleg   1,1,1   0,0,0   0,-140,-193   0      .      m_luleg
+Object m_lftoe=mo3lftoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_lrtoe=mo3lrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_ruleg=mo3ruleg   1,1,1   0,0,0   140,-82,-9   0      .      m_hips
+Object m_rlleg=mo3rlleg   1,1,1   0,0,0   0,-140,-193   0      .      m_ruleg
+Object m_rftoe=mo3rftoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_rrtoe=mo3rrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_head=mo3_head   1,1,1   0,0,0   0,88,-9   0      .      m_hips
+Object m_winsh=mo3winsh   1,1,1   0,0,0   0,269,20   0      .      m_head
+Object m_declf=mo3declf   1,1,1   0,0,0   -1,173,80   0      .      m_head
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -43,39,-117   0   hidden   m_head
+Object m_rjpof=DUMMY   1,1,1   0,0,0   43,39,-117   0   hidden   m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   -1,256,13   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   1,284,68   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,57,117   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   84,171,107   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -83,171,107   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   1,167,-23   0   hidden   m_head
+Object m_larm=mo3_larm   1,1,1   0,0,0   -121,24,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -141,-107,272   0   hidden   m_larm
+Object m_rarm=mo3_rarm   1,1,1   0,0,0   119,24,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   144,-107,272   0   hidden   m_rarm
+
+rep
+
+Object m_hips=mo4_hips   1,1,1   0,0,0   0,452,9   0      .      mongoose
+Object m_luleg=mo4luleg   1,1,1   0,0,0   -140,-82,-9   0      .      m_hips
+Object m_llleg=mo4llleg   1,1,1   0,0,0   0,-140,-193   0      .      m_luleg
+Object m_lftoe=mo4lftoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_lrtoe=mo4lrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_ruleg=mo4ruleg   1,1,1   0,0,0   140,-82,-9   0      .      m_hips
+Object m_rlleg=mo4rlleg   1,1,1   0,0,0   0,-140,-193   0      .      m_ruleg
+Object m_rftoe=mo4rftoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_rrtoe=mo4rrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_head=mo4_head   1,1,1   0,0,0   0,88,-9   0      .      m_hips
+Object m_winsh=mo4winsh   1,1,1   0,0,0   0,269,20   0      .      m_head
+Object m_declf=mo4declf   1,1,1   0,0,0   -1,173,80   0      .      m_head
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -43,39,-117   0   hidden   m_head
+Object m_rjpof=DUMMY   1,1,1   0,0,0   43,39,-117   0   hidden   m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   -1,256,13   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   1,284,68   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,57,117   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   84,171,107   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -83,171,107   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   1,167,-23   0   hidden   m_head
+Object m_larm=mo4_larm   1,1,1   0,0,0   -121,24,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -141,-107,272   0   hidden   m_larm
+Object m_rarm=mo4_rarm   1,1,1   0,0,0   119,24,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   144,-107,272   0   hidden   m_rarm
+
+rep
+
+Object m_hips=mo5_hips   1,1,1   0,0,0   0,452,9   0      .      mongoose
+Object m_luleg=mo5luleg   1,1,1   0,0,0   -140,-82,-9   0      .      m_hips
+Object m_llleg=mo5llleg   1,1,1   0,0,0   0,-140,-193   0      .      m_luleg
+Object m_lftoe=mo5lftoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_lrtoe=mo5lrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_llleg
+Object m_ruleg=mo5ruleg   1,1,1   0,0,0   140,-82,-9   0      .      m_hips
+Object m_rlleg=mo5rlleg   1,1,1   0,0,0   0,-140,-193   0      .      m_ruleg
+Object m_rftoe=mo5rftoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_rrtoe=mo5rrtoe   1,1,1   0,0,0   0,-189,193   0      .      m_rlleg
+Object m_head=mo5_head   1,1,1   0,0,0   0,88,-9   0    near     m_hips
+Object m_winsh=mo5winsh   1,1,1   0,0,0   0,269,20   0      .      m_head
+Object m_declf=mo5declf   1,1,1   0,0,0   -1,173,80   0      .      m_head
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -43,39,-117   0   hidden   m_head
+Object m_rjpof=DUMMY   1,1,1   0,0,0   43,39,-117   0   hidden   m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   -1,256,13   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   1,284,68   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   0,57,117   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   84,171,107   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -83,171,107   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   1,167,-23   0   hidden   m_head
+Object m_larm=mo5_larm   1,1,1   0,0,0   -121,24,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -141,-107,272   0   hidden   m_larm
+Object m_rarm=mo5_rarm   1,1,1   0,0,0   119,24,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   144,-107,272   0   hidden   m_rarm
+
+endrep
+
+thing m_head
+thing m_daddy
+
+gamepiece mongoose mw2mech                 
+
+objloc m_head   ct
+objloc m_hips   ct
+objloc m_winsh  hd
+objloc m_rarm   ra
+objloc m_larm   la
+objloc m_ruleg  rl
+objloc m_rlleg  rl
+objloc m_rftoe  rl
+objloc m_rrtoe  rl
+objloc m_luleg  ll
+objloc m_llleg  ll
+objloc m_lftoe  ll
+objloc m_lrtoe  ll
+
+animfile monganim 
+
+# task animators go here....
+
+task animator 0    m_hips;35,129,0
+task animator 0    m_hips;35,1,1
+task animator 0    m_luleg;35,1,2
+task animator 0    m_llleg;35,1,3
+task animator 0    m_lftoe;35,1,4
+task animator 0    m_lrtoe;35,1,5
+task animator 0    m_ruleg;35,1,6
+task animator 0    m_rlleg;35,1,7
+task animator 0    m_rftoe;35,1,8
+task animator 0    m_rrtoe;35,1,9
+
+ljpof m_ljpof
+rjpof m_rjpof
+lapof m_lapof
+rapof m_rapof
+rtpof m_rtpof
+ltpof m_ltpof
+hdpof m_hdpof
+ctpof m_ctpof
+
+eyeobj m_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile mongoose
+pitfile mw2pit
+
+mangle_off
+
+AnimSound  meclight
+
+# end of mongoose.mec

@@ -1,0 +1,201 @@
+#   warhawk.MEC
+#   geometry for the warhawk 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+object warhawk=dummy       1,1,1   0,0,0   0,0,0           0   .    warhawk
+
+rep
+
+Object w_hips=wk1_hips   1,1,1   0,0,0   -1,742,0   0      .      warhawk
+Object w_luleg=wk1luleg   1,1,1   0,0,0   -112,-16,-43   0      .      w_hips
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -156,-391,-387   0   hidden   w_luleg
+Object w_llleg=wk1llleg   1,1,1   0,0,0   -101,-220,-220   0      .      w_luleg
+Object w_lankl=wk1lankl   1,1,1   0,0,0   0,-307,345   0      .      w_llleg
+Object w_lftoe=wk1lftoe   1,1,1   0,0,0   0,-81,239   0      .      w_lankl
+Object w_ruleg=wk1ruleg   1,1,1   0,0,0   118,-16,-43   0      .      w_hips
+Object w_rjpof=DUMMY   1,1,1   0,0,0   148,-443,-226   0   hidden   w_ruleg
+Object w_rlleg=wk1rlleg   1,1,1   0,0,0   105,-220,-220   0      .      w_ruleg
+Object w_rankl=wk1rankl   1,1,1   0,0,0   5,-307,345   0      .      w_rlleg
+Object w_decal=wk1decal   1,1,1   0,0,0   -5,-7,-81   0      .      w_rankl
+Object w_rftoe=wk1rftoe   1,1,1   0,0,0   0,-81,239   0      .      w_rankl
+Object w_head=wk1_head   1,1,1   0,0,0   1,50,0   0      .      w_hips
+Object w_winsh=wk1winsh   1,1,1   0,0,0   6,228,0   0      .      w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   -143,81,433   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   150,81,433   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   2,-54,551   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   2,318,619   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   6,208,395   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   2,297,-21   0   hidden   w_head
+Object w_larm=wk1_larm   1,1,1   0,0,0   -269,17,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -87,-248,812   0   hidden   w_larm
+Object w_rarm=wk1_rarm   1,1,1   0,0,0   271,17,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   141,-218,839   0   hidden   w_rarm
+
+rep
+
+Object w_hips=wk2_hips   1,1,1   0,0,0   -1,742,0   0      .      warhawk
+Object w_luleg=wk2luleg   1,1,1   0,0,0   -112,-16,-43   0      .      w_hips
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -156,-391,-387   0   hidden   w_luleg
+Object w_llleg=wk2llleg   1,1,1   0,0,0   -101,-220,-220   0      .      w_luleg
+Object w_lankl=wk2lankl   1,1,1   0,0,0   0,-307,345   0      .      w_llleg
+Object w_lftoe=wk2lftoe   1,1,1   0,0,0   0,-81,239   0      .      w_lankl
+Object w_ruleg=wk2ruleg   1,1,1   0,0,0   118,-16,-43   0      .      w_hips
+Object w_rjpof=DUMMY   1,1,1   0,0,0   148,-443,-226   0   hidden   w_ruleg
+Object w_rlleg=wk2rlleg   1,1,1   0,0,0   105,-220,-220   0      .      w_ruleg
+Object w_rankl=wk2rankl   1,1,1   0,0,0   5,-307,345   0      .      w_rlleg
+Object w_decal=wk2decal   1,1,1   0,0,0   -5,-7,-81   0      .      w_rankl
+Object w_rftoe=wk2rftoe   1,1,1   0,0,0   0,-81,239   0      .      w_rankl
+Object w_head=wk2_head   1,1,1   0,0,0   1,50,0   0      .      w_hips
+Object w_winsh=wk2winsh   1,1,1   0,0,0   6,228,0   0      .      w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   -143,81,433   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   150,81,433   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   2,-54,551   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   2,318,619   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   6,208,395   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   2,297,-21   0   hidden   w_head
+Object w_larm=wk2_larm   1,1,1   0,0,0   -269,17,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -87,-248,812   0   hidden   w_larm
+Object w_rarm=wk2_rarm   1,1,1   0,0,0   271,17,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   141,-218,839   0   hidden   w_rarm
+
+rep
+
+Object w_hips=wk3_hips   1,1,1   0,0,0   18,842,-50   0      .      warhawk
+Object w_luleg=wk3luleg   1,1,1   0,0,0   -108,-118,8   0      .      w_hips
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -138,-346,-375   0   hidden   w_luleg
+Object w_llleg=wk3llleg   1,1,1   0,0,0   -148,-209,-239   0      .      w_luleg
+Object w_lankl=wk3lankl   1,1,1   0,0,0   -6,-314,366   0      .      w_llleg
+Object w_lftoe=wk3lftoe   1,1,1   0,0,0   28,-85,241   0      .      w_lankl
+Object w_ruleg=wk3ruleg   1,1,1   0,0,0   103,-113,8   0      .      w_hips
+Object w_rjpof=DUMMY   1,1,1   0,0,0   105,-351,-375   0   hidden   w_ruleg
+Object w_rlleg=wk3rlleg   1,1,1   0,0,0   180,-214,-239   0      .      w_ruleg
+Object w_rankl=wk3rankl   1,1,1   0,0,0   -3,-314,366   0      .      w_rlleg
+Object w_decal=wk3decal   1,1,1   0,0,0   -77,-8,-85   0      .      w_rankl
+Object w_rftoe=wk3rftoe   1,1,1   0,0,0   -63,-85,241   0      .      w_rankl
+Object w_head=wk3_head   1,1,1   0,0,0   -18,-50,50   0      .      w_hips
+Object w_winsh=wk3winsh   1,1,1   0,0,0   -2,213,-92   0      .      w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   -143,81,423   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   150,81,423   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   2,-54,261   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   2,327,530   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   6,208,395   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   2,297,-21   0   hidden   w_head
+Object w_larm=wk3_larm   1,1,1   0,0,0   -269,17,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -87,-248,724   0   hidden   w_larm
+Object w_rarm=wk3_rarm   1,1,1   0,0,0   271,17,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   81,-248,724   0   hidden   w_rarm
+
+rep
+
+Object w_hips=wk4_hips   1,1,1   0,0,0   22,765,-44   0      .      warhawk
+Object w_luleg=wk4luleg   1,1,1   0,0,0   -139,-34,-7   0      .      w_hips
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -110,-354,-291   0   hidden   w_luleg
+Object w_llleg=wk4llleg   1,1,1   0,0,0   -111,-227,-256   0      .      w_luleg
+Object w_lankl=wk4lankl   1,1,1   0,0,0   49,-311,431   0      .      w_llleg
+Object w_lftoe=wk4lftoe   1,1,1   0,0,0   -29,-79,55   0      .      w_lankl
+Object w_ruleg=wk4ruleg   1,1,1   0,0,0   111,-31,-7   0      .      w_hips
+Object w_rjpof=DUMMY   1,1,1   0,0,0   93,-357,-291   0   hidden   w_ruleg
+Object w_rlleg=wk4rlleg   1,1,1   0,0,0   86,-230,-256   0      .      w_ruleg
+Object w_rankl=wk4rankl   1,1,1   0,0,0   -27,-311,429   0      .      w_rlleg
+Object w_decal=wk4decal   1,1,1   0,0,0   29,0,-123   0      .      w_rankl
+Object w_rftoe=wk4rftoe   1,1,1   0,0,0   29,-79,57   0      .      w_rankl
+Object w_head=wk4_head   1,1,1   0,0,0   -22,26,44   0      .      w_hips
+Object w_winsh=wk4winsh   1,1,1   0,0,0   -2,213,55   0      .      w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   -143,81,487   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   150,81,487   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   2,-54,462   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   2,335,530   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   6,208,395   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   2,297,-21   0   hidden   w_head
+Object w_larm=wk4_larm   1,1,1   0,0,0   -269,17,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -87,-294,867   0   hidden   w_larm
+Object w_rarm=wk4_rarm   1,1,1   0,0,0   271,17,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   81,-298,867   0   hidden   w_rarm
+
+rep
+
+Object w_hips=wk5_hips   1,1,1   0,0,0   -1,742,0   0      .      warhawk
+Object w_luleg=wk5luleg   1,1,1   0,0,0   -112,-16,-43   0      .      w_hips
+Object w_ljpof=DUMMY   1,1,1   0,0,0   -156,-35,-553   0   hidden   w_luleg
+Object w_llleg=wk5llleg   1,1,1   0,0,0   -101,-220,-220   0      .      w_luleg
+Object w_lankl=wk5lankl   1,1,1   0,0,0   0,-307,345   0      .      w_llleg
+Object w_lftoe=wk5lftoe   1,1,1   0,0,0   0,-81,239   0      .      w_lankl
+Object w_ruleg=wk5ruleg   1,1,1   0,0,0   118,-16,-43   0      .      w_hips
+Object w_rjpof=DUMMY   1,1,1   0,0,0   148,-207,-333   0   hidden   w_ruleg
+Object w_rlleg=wk5rlleg   1,1,1   0,0,0   105,-220,-220   0      .      w_ruleg
+Object w_rankl=wk5rankl   1,1,1   0,0,0   5,-307,345   0      .      w_rlleg
+Object w_decal=wk5decal   1,1,1   0,0,0   -5,-7,-81   0      .      w_rankl
+Object w_rftoe=wk5rftoe   1,1,1   0,0,0   0,-81,239   0      .      w_rankl
+Object w_head=wk5_head   1,1,1   0,0,0   1,50,0   0    near     w_hips
+Object w_winsh=wk5winsh   1,1,1   0,0,0   6,228,0   0      .      w_head
+Object w_ltpof=DUMMY   1,1,1   0,0,0   -143,81,344   0   hidden   w_head
+Object w_rtpof=DUMMY   1,1,1   0,0,0   150,81,344   0   hidden   w_head
+Object w_ctpof=DUMMY   1,1,1   0,0,0   2,-54,462   0   hidden   w_head
+Object w_hdpof=DUMMY   1,1,1   0,0,0   2,318,530   0   hidden   w_head
+Object w_cppov=DUMMY   1,1,1   0,0,0   9,244,189   0   hidden   w_head
+Object w_daddy=DUMMY   1,1,1   0,0,0   2,297,-21   0   hidden   w_head
+Object w_larm=wk5_larm   1,1,1   0,0,0   -269,17,1   0      .      w_daddy
+Object w_lapof=DUMMY   1,1,1   0,0,0   -151,-218,839   0   hidden   w_larm
+Object w_rarm=wk5_rarm   1,1,1   0,0,0   271,17,1   0      .      w_daddy
+Object w_rapof=DUMMY   1,1,1   0,0,0   141,-218,839   0   hidden   w_rarm
+
+endrep
+
+thing w_head
+thing w_daddy
+
+gamepiece warhawk mw2mech
+
+objloc w_head   ct
+objloc w_hips   ct
+objloc w_winsh  hd
+objloc w_larm   la
+objloc w_rarm   ra
+objloc w_luleg  ll
+objloc w_ruleg  rl
+objloc w_llleg  ll
+objloc w_rlleg  rl
+objloc w_lftoe  ll
+objloc w_rftoe  rl
+objloc w_lankl  ll
+objloc w_rankl  rl
+
+animfile direanim
+
+task animator 0    w_hips;75,129,0
+task animator 0    w_hips;75,1,1
+task animator 0    w_luleg;75,1,2
+task animator 0    w_llleg;75,1,3
+task animator 0    w_lankl;75,1,4
+task animator 0    w_lftoe;75,1,5
+task animator 0    w_ruleg;75,1,6
+task animator 0    w_rlleg;75,1,7
+task animator 0    w_rankl;75,1,8
+task animator 0    w_rftoe;75,1,9
+
+hdpof w_hdpof
+ctpof w_ctpof
+rtpof w_rtpof
+ltpof w_ltpof
+lapof w_lapof
+rapof w_rapof
+ljpof w_ljpof
+rjpof w_rjpof
+
+eyeobj w_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile warhawk
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of warhawk.mec
+
+

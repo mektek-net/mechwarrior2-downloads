@@ -1,0 +1,197 @@
+#   MARAUDER.MEC
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null) parent
+object marauder=dummy       1,1,1   0,0,0   0,0,0  0   hidden   world
+
+rep
+
+Object m_hips=mr1_hips   1,1,1   0,0,0   -3,825,86   0      .      marauder
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -56,-156,-34   0   hidden   m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   88,-156,-34   0   hidden   m_hips
+Object m_luleg=mr1luleg   1,1,1   0,0,0   -180,-38,27   0      .      m_hips
+Object m_llleg=mr1llleg   1,1,1   0,0,0   -82,-229,-380   0      .      m_luleg
+Object m_lfoot=mr1lfoot   1,1,1   0,0,0   -32,-458,498   0      .      m_llleg
+Object m_ruleg=mr1ruleg   1,1,1   0,0,0   186,-38,27   0      .      m_hips
+Object m_rlleg=mr1rlleg   1,1,1   0,0,0   82,-229,-380   0      .      m_ruleg
+Object m_rfoot=mr1rfoot   1,1,1   0,0,0   27,-458,498   0      .      m_rlleg
+Object m_head=mr1_head   1,1,1   0,0,0   0,12,0   0      .      m_hips
+Object m_winsh=mr1winsh   1,1,1   0,0,0   3,141,-86   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   4,135,308   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   7,370,688   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -119,14,562   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   133,14,562   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   8,61,473   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   8,82,-68   0   hidden   m_head
+Object m_rarm=mr1_rarm   1,1,1   0,0,0   245,-1,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   283,-183,775   0   hidden   m_rarm
+Object m_declr=mr1declr   1,1,1   0,0,0   350,-194,466   0      .      m_rarm
+Object m_larm=mr1_larm   1,1,1   0,0,0   -252,-1,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -283,-183,775   0   hidden   m_larm
+Object m_decll=mr1decll   1,1,1   0,0,0   -348,-194,466   0      .      m_larm
+
+rep
+
+Object m_hips=mr2_hips   1,1,1   0,0,0   -3,825,86   0      .      marauder
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -56,-156,-34   0   hidden   m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   88,-156,-34   0   hidden   m_hips
+Object m_luleg=mr2luleg   1,1,1   0,0,0   -180,-38,27   0      .      m_hips
+Object m_llleg=mr2llleg   1,1,1   0,0,0   -82,-229,-380   0      .      m_luleg
+Object m_lfoot=mr2lfoot   1,1,1   0,0,0   -32,-458,498   0      .      m_llleg
+Object m_ruleg=mr2ruleg   1,1,1   0,0,0   186,-38,27   0      .      m_hips
+Object m_rlleg=mr2rlleg   1,1,1   0,0,0   82,-229,-380   0      .      m_ruleg
+Object m_rfoot=mr2rfoot   1,1,1   0,0,0   27,-458,498   0      .      m_rlleg
+Object m_head=mr2_head   1,1,1   0,0,0   -15,339,-55   0      .      m_hips
+Object m_winsh=mr2winsh   1,1,1   0,0,0   18,-186,-30   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   19,-192,363   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   21,43,743   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -104,-313,617   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   147,-313,617   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   23,-266,528   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   23,-245,-13   0   hidden   m_head
+Object m_rarm=mr2_rarm   1,1,1   0,0,0   245,-1,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   283,-183,775   0   hidden   m_rarm
+Object m_declr=mr2declr   1,1,1   0,0,0   350,-194,466   0      .      m_rarm
+Object m_larm=mr2_larm   1,1,1   0,0,0   -252,-1,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -283,-183,775   0   hidden   m_larm
+Object m_decll=mr2decll   1,1,1   0,0,0   -348,-194,466   0      .      m_larm
+
+rep
+
+Object m_hips=mr3_hips   1,1,1   0,0,0   -3,791,55   0      .      marauder
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -134,-87,-135   0   hidden   m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   165,-87,-135   0   hidden   m_hips
+Object m_luleg=mr3luleg   1,1,1   0,0,0   -180,-20,-15   0      .      m_hips
+Object m_llleg=mr3llleg   1,1,1   0,0,0   -82,-211,-308   0      .      m_luleg
+Object m_lfoot=mr3lfoot   1,1,1   0,0,0   -32,-502,497   0      .      m_llleg
+Object m_ruleg=mr3ruleg   1,1,1   0,0,0   188,-19,-15   0      .      m_hips
+Object m_rlleg=mr3rlleg   1,1,1   0,0,0   87,-212,-308   0      .      m_ruleg
+Object m_rfoot=mr3rfoot   1,1,1   0,0,0   20,-501,497   0      .      m_rlleg
+Object m_head=mr3_head   1,1,1   0,0,0   0,37,33   0      .      m_hips
+Object m_winsh=mr3winsh   1,1,1   0,0,0   3,107,-88   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   12,183,222   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   8,27,386   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -147,170,110   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   159,170,110   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   7,336,601   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   8,48,-71   0   hidden   m_head
+Object m_rarm=mr3_rarm   1,1,1   0,0,0   245,44,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   283,-294,670   0   hidden   m_rarm
+Object m_declr=mr3declr   1,1,1   0,0,0   350,-239,466   0      .      m_rarm
+Object m_larm=mr3_larm   1,1,1   0,0,0   -252,44,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -283,-294,670   0   hidden   m_larm
+Object m_decll=mr3decll   1,1,1   0,0,0   -348,-239,466   0      .      m_larm
+
+rep
+
+Object m_hips=mr4_hips   1,1,1   0,0,0   -3,742,86   0      .      marauder
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -134,-38,-165   0   hidden   m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   165,-38,-165   0   hidden   m_hips
+Object m_luleg=mr4luleg   1,1,1   0,0,0   -180,27,-45   0      .      m_hips
+Object m_llleg=mr4llleg   1,1,1   0,0,0   -83,-211,-308   0      .      m_luleg
+Object m_lfoot=mr4lfoot   1,1,1   0,0,0   -31,-459,498   0      .      m_llleg
+Object m_ruleg=mr4ruleg   1,1,1   0,0,0   188,28,-45   0      .      m_hips
+Object m_rlleg=mr4rlleg   1,1,1   0,0,0   79,-212,-308   0      .      m_ruleg
+Object m_rfoot=mr4rfoot   1,1,1   0,0,0   27,-458,498   0      .      m_rlleg
+Object m_head=mr4_head   1,1,1   0,0,0   0,51,0   0      .      m_hips
+Object m_winsh=mr4winsh   1,1,1   0,0,0   3,142,-86   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   12,218,225   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   8,62,389   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -147,206,113   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   159,206,113   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   7,371,604   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   8,83,-68   0   hidden   m_head
+Object m_rarm=mr4_rarm   1,1,1   0,0,0   245,-1,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   283,-249,670   0   hidden   m_rarm
+Object m_declr=mr4declr   1,1,1   0,0,0   350,-194,466   0      .      m_rarm
+Object m_larm=mr4_larm   1,1,1   0,0,0   -252,-1,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -283,-249,670   0   hidden   m_larm
+Object m_decll=mr4decll   1,1,1   0,0,0   -348,-194,466   0      .      m_larm
+
+rep
+
+Object m_hips=mr5_hips   1,1,1   0,0,0   -3,825,86   0      .      marauder
+Object m_ljpof=DUMMY   1,1,1   0,0,0   -134,-121,-165   0   hidden   m_hips
+Object m_rjpof=DUMMY   1,1,1   0,0,0   165,-121,-165   0   hidden   m_hips
+Object m_luleg=mr5luleg   1,1,1   0,0,0   -180,-38,27   0      .      m_hips
+Object m_llleg=mr5llleg   1,1,1   0,0,0   -82,-229,-380   0      .      m_luleg
+Object m_lfoot=mr5lfoot   1,1,1   0,0,0   -32,-458,498   0      .      m_llleg
+Object m_ruleg=mr5ruleg   1,1,1   0,0,0   186,-38,27   0      .      m_hips
+Object m_rlleg=mr5rlleg   1,1,1   0,0,0   82,-229,-380   0      .      m_ruleg
+Object m_rfoot=mr5rfoot   1,1,1   0,0,0   27,-458,498   0      .      m_rlleg
+Object m_head=mr5_head   1,1,1   0,0,0   0,-31,0   0    near     m_hips
+Object m_winsh=mr5winsh   1,1,1   0,0,0   3,184,-86   0      .      m_head
+Object m_cppov=DUMMY   1,1,1   0,0,0   4,135,308   0   hidden   m_head
+Object m_ctpof=DUMMY   1,1,1   0,0,0   8,61,389   0   hidden   m_head
+Object m_ltpof=DUMMY   1,1,1   0,0,0   -121,9,478   0   hidden   m_head
+Object m_rtpof=DUMMY   1,1,1   0,0,0   133,9,478   0   hidden   m_head
+Object m_hdpof=DUMMY   1,1,1   0,0,0   7,370,604   0   hidden   m_head
+Object m_daddy=DUMMY   1,1,1   0,0,0   8,82,-68   0   hidden   m_head
+Object m_rarm=mr5_rarm   1,1,1   0,0,0   245,42,0   0      .      m_daddy
+Object m_rapof=DUMMY   1,1,1   0,0,0   283,-292,670   0   hidden   m_rarm
+Object m_declr=mr5declr   1,1,1   0,0,0   350,-238,466   0      .      m_rarm
+Object m_larm=mr5_larm   1,1,1   0,0,0   -252,42,0   0      .      m_daddy
+Object m_lapof=DUMMY   1,1,1   0,0,0   -283,-292,670   0   hidden   m_larm
+Object m_decll=mr5decll   1,1,1   0,0,0   -348,-238,466   0      .      m_larm
+
+endrep
+
+thing m_head
+thing m_daddy
+
+gamepiece marauder mw2mech    
+
+objloc m_winsh hd
+objloc m_head  ct
+objloc m_hips  ct
+objloc m_larm  la
+objloc m_rarm  ra
+#objloc m_decll la
+#objloc m_declr ra
+objloc m_luleg ll
+objloc m_ruleg rl
+objloc m_llleg ll
+objloc m_rlleg rl
+objloc m_lfoot ll
+objloc m_rfoot rl
+
+animfile maraanim
+
+# animations:               enable
+#           freq   objname;tix  track
+
+task animator 0    m_hips;72,129,0
+task animator 0    m_hips;72,1,1
+task animator 0    m_luleg;72,1,2
+task animator 0    m_llleg;72,1,3
+task animator 0    m_lfoot;72,1,4
+task animator 0    m_ruleg;72,1,5
+task animator 0    m_rlleg;72,1,6
+task animator 0    m_rfoot;72,1,7
+#task animator 0    m_head;72,1,8
+#task animator 0    m_rarm;72,1,9
+#task animator 0    m_larm;72,1,10
+
+ctpof  m_ctpof
+hdpof  m_hdpof
+rtpof  m_rtpof
+ltpof  m_ltpof
+rapof  m_rapof
+lapof  m_lapof
+rjpof  m_rjpof
+ljpof  m_ljpof
+
+eyeobj m_cppov
+
+vptfile mw2mech  
+cptfile mw2mech
+hudfile mw2hud
+mgdfile marauder
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of MARAUDER.MEC

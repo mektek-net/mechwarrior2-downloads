@@ -1,0 +1,209 @@
+#   lineback.MEC
+#   geometry for the Linebacker 'Mech
+
+#       size = 1025cm
+#       672 to put lineback's feet on ground
+
+mangle_on
+
+#   obj name  .plg file    scale   rotate   xlate  sort (null) parent
+object lineback=dummy          1,1,1   0,0,0   0,0,0     0  hidden world
+
+rep
+
+Object l_hips=lb1_hips   1,1,1   0,0,0   -7,672,-243   0      .      lineback
+Object l_luleg=lb1luleg   1,1,1   0,0,0   -233,-32,-7   0      .      l_hips
+Object l_llleg=lb1llleg   1,1,1   0,0,0   -60,-190,-225   0      .      l_luleg
+Object l_lrtoe=lb1lrtoe   1,1,1   0,0,0   -20,-360,235   0      .      l_llleg
+Object l_lftoe=lb1lftoe   1,1,1   0,0,0   30,-10,150   0      .      l_lrtoe
+Object l_ruleg=lb1ruleg   1,1,1   0,0,0   247,-32,-7   0      .      l_hips
+Object l_rlleg=lb1rlleg   1,1,1   0,0,0   60,-190,-225   0      .      l_ruleg
+Object l_rrtoe=lb1rrtoe   1,1,1   0,0,0   20,-360,235   0      .      l_rlleg
+Object l_rftoe=lb1rftoe   1,1,1   0,0,0   -30,-10,150   0      .      l_rrtoe
+Object l_head=lb1_head   1,1,1   0,0,0   7,28,123   0      .      l_hips
+Object l_winsh=lb1winsh   1,1,1   0,0,0   0,240,450   0      .      l_head
+Object l_decll=lb1decll   1,1,1   0,0,0   -300,220,440   0      .      l_head
+Object l_declr=lb1declr   1,1,1   0,0,0   289,219,440   0      .      l_head
+Object l_ljpof=DUMMY   1,1,1   0,0,0   -332,-27,-302   0   hidden   l_head
+Object l_rjpof=DUMMY   1,1,1   0,0,0   321,-27,-302   0   hidden   l_head
+Object l_ctpof=DUMMY   1,1,1   0,0,0   1,-76,284   0   hidden   l_head
+Object l_rtpof=DUMMY   1,1,1   0,0,0   -149,64,539   0   hidden   l_head
+Object l_ltpof=DUMMY   1,1,1   0,0,0   146,67,539   0   hidden   l_head
+Object l_hdpof=DUMMY   1,1,1   0,0,0   -3,321,389   0   hidden   l_head
+Object l_cppov=DUMMY   1,1,1   0,0,0   -3,236,394   0   hidden   l_head
+Object l_daddy=DUMMY   1,1,1   0,0,0   -7,98,96   0   hidden   l_head
+Object l_larm=lb1_larm   1,1,1   0,0,0   397,32,-3   0      .      l_daddy
+Object l_lapof=DUMMY   1,1,1   0,0,0   -856,-291,707   0   hidden   l_larm
+Object l_rarm=lb1_rarm   1,1,1   0,0,0   -383,32,-3   0      .      l_daddy
+Object l_rapof=DUMMY   1,1,1   0,0,0   854,-291,707   0   hidden   l_rarm
+
+rep
+
+Object l_hips=lb2_hips   1,1,1   0,0,0   -7,672,-243   0      .      lineback
+Object l_luleg=lb2luleg   1,1,1   0,0,0   -233,-32,-7   0      .      l_hips
+Object l_llleg=lb2llleg   1,1,1   0,0,0   -60,-190,-225   0      .      l_luleg
+Object l_lrtoe=lb2lrtoe   1,1,1   0,0,0   -20,-360,235   0      .      l_llleg
+Object l_lftoe=lb2lftoe   1,1,1   0,0,0   30,-10,150   0      .      l_lrtoe
+Object l_ruleg=lb2ruleg   1,1,1   0,0,0   247,-32,-7   0      .      l_hips
+Object l_rlleg=lb2rlleg   1,1,1   0,0,0   60,-190,-225   0      .      l_ruleg
+Object l_rrtoe=lb2rrtoe   1,1,1   0,0,0   20,-360,235   0      .      l_rlleg
+Object l_rftoe=lb2rftoe   1,1,1   0,0,0   -30,-10,150   0      .      l_rrtoe
+Object l_head=lb2_head   1,1,1   0,0,0   7,28,123   0      .      l_hips
+Object l_winsh=lb2winsh   1,1,1   0,0,0   0,240,450   0      .      l_head
+Object l_decll=lb2decll   1,1,1   0,0,0   -300,220,440   0      .      l_head
+Object l_declr=lb2declr   1,1,1   0,0,0   289,219,440   0      .      l_head
+Object l_ljpof=DUMMY   1,1,1   0,0,0   -332,-27,-302   0   hidden   l_head
+Object l_rjpof=DUMMY   1,1,1   0,0,0   321,-27,-302   0   hidden   l_head
+Object l_ctpof=DUMMY   1,1,1   0,0,0   1,-76,284   0   hidden   l_head
+Object l_rtpof=DUMMY   1,1,1   0,0,0   -149,64,539   0   hidden   l_head
+Object l_ltpof=DUMMY   1,1,1   0,0,0   146,67,539   0   hidden   l_head
+Object l_hdpof=DUMMY   1,1,1   0,0,0   -3,321,389   0   hidden   l_head
+Object l_cppov=DUMMY   1,1,1   0,0,0   -3,236,394   0   hidden   l_head
+Object l_daddy=DUMMY   1,1,1   0,0,0   -7,98,96   0   hidden   l_head
+Object l_larm=lb2_larm   1,1,1   0,0,0   397,32,-3   0      .      l_daddy
+Object l_lapof=DUMMY   1,1,1   0,0,0   -856,-291,707   0   hidden   l_larm
+Object l_rarm=lb2_rarm   1,1,1   0,0,0   -383,32,-3   0      .      l_daddy
+Object l_rapof=DUMMY   1,1,1   0,0,0   854,-291,707   0   hidden   l_rarm
+
+rep
+
+Object l_hips=lb3_hips   1,1,1   0,0,0   -7,672,-243   0      .      lineback
+Object l_luleg=lb3luleg   1,1,1   0,0,0   -233,-32,-7   0      .      l_hips
+Object l_llleg=lb3llleg   1,1,1   0,0,0   -60,-190,-225   0      .      l_luleg
+Object l_lrtoe=lb3lrtoe   1,1,1   0,0,0   -20,-360,235   0      .      l_llleg
+Object l_lftoe=lb3lftoe   1,1,1   0,0,0   30,-10,150   0      .      l_lrtoe
+Object l_ruleg=lb3ruleg   1,1,1   0,0,0   247,-32,-7   0      .      l_hips
+Object l_rlleg=lb3rlleg   1,1,1   0,0,0   60,-190,-225   0      .      l_ruleg
+Object l_rrtoe=lb3rrtoe   1,1,1   0,0,0   20,-360,235   0      .      l_rlleg
+Object l_rftoe=lb3rftoe   1,1,1   0,0,0   -30,-10,150   0      .      l_rrtoe
+Object l_head=lb3_head   1,1,1   0,0,0   7,28,123   0      .      l_hips
+Object l_winsh=lb3winsh   1,1,1   0,0,0   0,240,450   0      .      l_head
+Object l_decll=lb3decll   1,1,1   0,0,0   -300,220,440   0      .      l_head
+Object l_declr=lb3declr   1,1,1   0,0,0   289,219,440   0      .      l_head
+Object l_ljpof=DUMMY   1,1,1   0,0,0   -332,-27,-302   0   hidden   l_head
+Object l_rjpof=DUMMY   1,1,1   0,0,0   321,-27,-302   0   hidden   l_head
+Object l_ctpof=DUMMY   1,1,1   0,0,0   1,-76,284   0   hidden   l_head
+Object l_rtpof=DUMMY   1,1,1   0,0,0   -149,64,539   0   hidden   l_head
+Object l_ltpof=DUMMY   1,1,1   0,0,0   146,67,539   0   hidden   l_head
+Object l_hdpof=DUMMY   1,1,1   0,0,0   -3,321,389   0   hidden   l_head
+Object l_cppov=DUMMY   1,1,1   0,0,0   -3,236,394   0   hidden   l_head
+Object l_daddy=DUMMY   1,1,1   0,0,0   -7,98,96   0   hidden   l_head
+Object l_larm=lb3_larm   1,1,1   0,0,0   397,32,-3   0      .      l_daddy
+Object l_lapof=DUMMY   1,1,1   0,0,0   -856,-291,707   0   hidden   l_larm
+Object l_rarm=lb3_rarm   1,1,1   0,0,0   -383,32,-3   0      .      l_daddy
+Object l_rapof=DUMMY   1,1,1   0,0,0   854,-291,707   0   hidden   l_rarm
+
+rep
+
+Object l_hips=lb4_hips   1,1,1   0,0,0   -7,672,-243   0      .      lineback
+Object l_luleg=lb4luleg   1,1,1   0,0,0   -233,-32,-7   0      .      l_hips
+Object l_llleg=lb4llleg   1,1,1   0,0,0   -60,-190,-225   0      .      l_luleg
+Object l_lrtoe=lb4lrtoe   1,1,1   0,0,0   -20,-360,235   0      .      l_llleg
+Object l_lftoe=lb4lftoe   1,1,1   0,0,0   30,-10,150   0      .      l_lrtoe
+Object l_ruleg=lb4ruleg   1,1,1   0,0,0   247,-32,-7   0      .      l_hips
+Object l_rlleg=lb4rlleg   1,1,1   0,0,0   60,-190,-225   0      .      l_ruleg
+Object l_rrtoe=lb4rrtoe   1,1,1   0,0,0   20,-360,235   0      .      l_rlleg
+Object l_rftoe=lb4rftoe   1,1,1   0,0,0   -30,-10,150   0      .      l_rrtoe
+Object l_head=lb4_head   1,1,1   0,0,0   7,28,123   0      .      l_hips
+Object l_winsh=lb4winsh   1,1,1   0,0,0   0,240,450   0      .      l_head
+Object l_decll=lb4decll   1,1,1   0,0,0   -300,220,440   0      .      l_head
+Object l_declr=lb4declr   1,1,1   0,0,0   289,219,440   0      .      l_head
+Object l_ljpof=DUMMY   1,1,1   0,0,0   -332,-27,-302   0   hidden   l_head
+Object l_rjpof=DUMMY   1,1,1   0,0,0   321,-27,-302   0   hidden   l_head
+Object l_ctpof=DUMMY   1,1,1   0,0,0   1,-76,284   0   hidden   l_head
+Object l_rtpof=DUMMY   1,1,1   0,0,0   -149,64,539   0   hidden   l_head
+Object l_ltpof=DUMMY   1,1,1   0,0,0   146,67,539   0   hidden   l_head
+Object l_hdpof=DUMMY   1,1,1   0,0,0   -3,321,389   0   hidden   l_head
+Object l_cppov=DUMMY   1,1,1   0,0,0   -3,236,394   0   hidden   l_head
+Object l_daddy=DUMMY   1,1,1   0,0,0   -7,98,96   0   hidden   l_head
+Object l_larm=lb4_larm   1,1,1   0,0,0   397,32,-3   0      .      l_daddy
+Object l_lapof=DUMMY   1,1,1   0,0,0   -856,-291,707   0   hidden   l_larm
+Object l_rarm=lb4_rarm   1,1,1   0,0,0   -383,32,-3   0      .      l_daddy
+Object l_rapof=DUMMY   1,1,1   0,0,0   854,-291,707   0   hidden   l_rarm
+
+rep
+
+Object l_hips=lb5_hips   1,1,1   0,0,0   -7,672,-243   0      .      lineback
+Object l_luleg=lb5luleg   1,1,1   0,0,0   -233,-32,-7   0      .      l_hips
+Object l_llleg=lb5llleg   1,1,1   0,0,0   -60,-190,-225   0      .      l_luleg
+Object l_lrtoe=lb5lrtoe   1,1,1   0,0,0   -20,-360,235   0      .      l_llleg
+Object l_lftoe=lb5lftoe   1,1,1   0,0,0   30,-10,150   0      .      l_lrtoe
+Object l_ruleg=lb5ruleg   1,1,1   0,0,0   247,-32,-7   0      .      l_hips
+Object l_rlleg=lb5rlleg   1,1,1   0,0,0   60,-190,-225   0      .      l_ruleg
+Object l_rrtoe=lb5rrtoe   1,1,1   0,0,0   20,-360,235   0      .      l_rlleg
+Object l_rftoe=lb5rftoe   1,1,1   0,0,0   -30,-10,150   0      .      l_rrtoe
+Object l_head=lb5_head   1,1,1   0,0,0   7,28,123   0    near     l_hips
+Object l_winsh=lb5winsh   1,1,1   0,0,0   0,240,450   0      .      l_head
+Object l_decll=lb5decll   1,1,1   0,0,0   -300,220,440   0      .      l_head
+Object l_declr=lb5declr   1,1,1   0,0,0   289,219,440   0      .      l_head
+Object l_ljpof=DUMMY   1,1,1   0,0,0   -332,-27,-302   0   hidden   l_head
+Object l_rjpof=DUMMY   1,1,1   0,0,0   321,-27,-302   0   hidden   l_head
+Object l_ctpof=DUMMY   1,1,1   0,0,0   1,-76,284   0   hidden   l_head
+Object l_rtpof=DUMMY   1,1,1   0,0,0   -149,64,539   0   hidden   l_head
+Object l_ltpof=DUMMY   1,1,1   0,0,0   146,67,539   0   hidden   l_head
+Object l_hdpof=DUMMY   1,1,1   0,0,0   -3,321,389   0   hidden   l_head
+Object l_cppov=DUMMY   1,1,1   0,0,0   -3,236,394   0   hidden   l_head
+Object l_daddy=DUMMY   1,1,1   0,0,0   -7,98,96   0   hidden   l_head
+Object l_larm=lb5_larm   1,1,1   0,0,0   397,32,-3   0      .      l_daddy
+Object l_lapof=DUMMY   1,1,1   0,0,0   -856,-291,707   0   hidden   l_larm
+Object l_rarm=lb5_rarm   1,1,1   0,0,0   -383,32,-3   0      .      l_daddy
+Object l_rapof=DUMMY   1,1,1   0,0,0   854,-291,707   0   hidden   l_rarm
+
+endrep
+
+thing l_head
+thing l_daddy
+
+gamepiece lineback mw2mech
+
+objloc l_head   ct
+objloc l_hips   ct
+objloc l_winsh  hd
+objloc l_larm   la
+objloc l_rarm   ra
+objloc l_luleg  ll
+objloc l_llleg  ll
+objloc l_ruleg  rl
+objloc l_rlleg  rl
+objloc l_lrtoe  ll
+objloc l_lftoe  ll
+objloc l_rrtoe  rl
+objloc l_rftoe  rl
+
+animfile novaanim
+
+# animations to follow
+
+task animator 0    l_hips;45,129,0
+task animator 0    l_hips;45,1,1
+task animator 0    l_luleg;45,1,2
+task animator 0    l_llleg;45,1,3
+task animator 0    l_lrtoe;45,1,4
+task animator 0    l_lftoe;45,1,5
+task animator 0    l_ruleg;45,1,6
+task animator 0    l_rlleg;45,1,7
+task animator 0    l_rrtoe;45,1,8
+task animator 0    l_rftoe;45,1,9
+                   
+ljpof  l_ljpof
+rjpof  l_rjpof
+lapof  l_lapof
+rapof  l_rapof
+rtpof  l_rtpof
+ltpof  l_ltpof
+ctpof  l_ctpof
+hdpof  l_hdpof
+
+eyeobj l_cppov
+       
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile lineback
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of lineback.mec

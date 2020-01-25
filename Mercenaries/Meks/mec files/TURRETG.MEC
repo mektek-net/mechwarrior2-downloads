@@ -1,0 +1,115 @@
+#     Ouput for turretg.MEC
+#     Sat Apr  1 13:29:15 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object turretg=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object t_main=tg1_main   1,1,1   0,0,0   0,122,0   0      .      turretg
+Object t_fleg=tg1_fleg   1,1,1   0,0,0   1,-16,124   0      .      t_main
+Object t_rleg=tg1_rleg   1,1,1   0,0,0   124,-16,-1   0      .      t_main
+Object t_lleg=tg1_lleg   1,1,1   0,0,0   -124,-16,1   0      .      t_main
+Object t_bleg=tg1_bleg   1,1,1   0,0,0   -1,-16,-124   0      .      t_main
+Object t_pivot=tg1pivot   1,1,1   0,0,0   -25,78,0   0      .      t_main
+Object t_turrt=tg1turrt   1,1,1   0,0,0   46,161,0   0      .      t_pivot
+Object t_ltlga=tg1ltlga   1,1,1   0,0,0   21,4,132   0      .      t_turrt
+Object t_sapof=DUMMY   1,1,1   0,0,0   0,1,150   0   hidden   t_ltlga
+Object t_ltlgb=tg1ltlgb   1,1,1   0,0,0   51,-15,132   0      .      t_turrt
+Object t_sbpof=DUMMY   1,1,1   0,0,0   -1,1,150   0   hidden   t_ltlgb
+Object t_ltlgc=tg1ltlgc   1,1,1   0,0,0   75,11,132   0      .      t_turrt
+Object t_scpof=DUMMY   1,1,1   0,0,0   0,0,150   0   hidden   t_ltlgc
+Object t_bigun=tg1bigun   1,1,1   0,0,0   97,0,0   0      .      t_turrt
+Object t_bgpof=DUMMY   1,1,1   0,0,0   14,-1,617   0   hidden   t_bigun
+
+rep
+
+Object t_main=tg2_main   1,1,1   0,0,0   0,122,0   0      .      turretg
+Object t_fleg=tg2_fleg   1,1,1   0,0,0   1,-16,124   0      .      t_main
+Object t_rleg=tg2_rleg   1,1,1   0,0,0   124,-16,-1   0      .      t_main
+Object t_lleg=tg2_lleg   1,1,1   0,0,0   -124,-16,1   0      .      t_main
+Object t_bleg=tg2_bleg   1,1,1   0,0,0   -1,-16,-124   0      .      t_main
+Object t_pivot=tg2pivot   1,1,1   0,0,0   -25,78,0   0      .      t_main
+Object t_turrt=tg2turrt   1,1,1   0,0,0   46,161,0   0      .      t_pivot
+Object t_ltlga=tg2ltlga   1,1,1   0,0,0   21,4,132   0      .      t_turrt
+Object t_sapof=DUMMY   1,1,1   0,0,0   0,1,150   0   hidden   t_ltlga
+Object t_ltlgb=tg2ltlgb   1,1,1   0,0,0   51,-15,132   0      .      t_turrt
+Object t_sbpof=DUMMY   1,1,1   0,0,0   -1,1,150   0   hidden   t_ltlgb
+Object t_ltlgc=tg2ltlgc   1,1,1   0,0,0   75,11,132   0      .      t_turrt
+Object t_scpof=DUMMY   1,1,1   0,0,0   0,0,150   0   hidden   t_ltlgc
+Object t_bigun=tg2bigun   1,1,1   0,0,0   97,0,0   0      .      t_turrt
+Object t_bgpof=DUMMY   1,1,1   0,0,0   14,-1,617   0   hidden   t_bigun
+
+rep
+
+Object t_main=tg3_main   1,1,1   0,0,0   0,122,0   0      .      turretg
+Object t_fleg=tg3_fleg   1,1,1   0,0,0   1,-16,124   0      .      t_main
+Object t_rleg=tg3_rleg   1,1,1   0,0,0   124,-16,-1   0      .      t_main
+Object t_lleg=tg3_lleg   1,1,1   0,0,0   -124,-16,1   0      .      t_main
+Object t_bleg=tg3_bleg   1,1,1   0,0,0   -1,-16,-124   0      .      t_main
+Object t_pivot=tg3pivot   1,1,1   0,0,0   -25,78,0   0      .      t_main
+Object t_turrt=tg3turrt   1,1,1   0,0,0   46,161,0   0      .      t_pivot
+Object t_ltlga=tg3ltlga   1,1,1   0,0,0   21,4,132   0      .      t_turrt
+Object t_sapof=DUMMY   1,1,1   0,0,0   0,1,150   0   hidden   t_ltlga
+Object t_ltlgb=tg3ltlgb   1,1,1   0,0,0   51,-15,132   0      .      t_turrt
+Object t_sbpof=DUMMY   1,1,1   0,0,0   -1,1,150   0   hidden   t_ltlgb
+Object t_ltlgc=tg3ltlgc   1,1,1   0,0,0   75,11,132   0      .      t_turrt
+Object t_scpof=DUMMY   1,1,1   0,0,0   0,0,150   0   hidden   t_ltlgc
+Object t_bigun=tg3bigun   1,1,1   0,0,0   97,0,0   0      .      t_turrt
+Object t_bgpof=DUMMY   1,1,1   0,0,0   14,-1,617   0   hidden   t_bigun
+
+rep
+
+Object t_main=tg4_main   1,1,1   0,0,0   0,122,0   0      .      turretg
+Object t_fleg=tg4_fleg   1,1,1   0,0,0   1,-16,124   0      .      t_main
+Object t_rleg=tg4_rleg   1,1,1   0,0,0   124,-16,-1   0      .      t_main
+Object t_lleg=tg4_lleg   1,1,1   0,0,0   -124,-16,1   0      .      t_main
+Object t_bleg=tg4_bleg   1,1,1   0,0,0   -1,-16,-124   0      .      t_main
+Object t_pivot=tg4pivot   1,1,1   0,0,0   -25,78,0   0      .      t_main
+Object t_turrt=tg4turrt   1,1,1   0,0,0   46,161,0   0      .      t_pivot
+Object t_ltlga=tg4ltlga   1,1,1   0,0,0   21,4,132   0      .      t_turrt
+Object t_sapof=DUMMY   1,1,1   0,0,0   0,1,150   0   hidden   t_ltlga
+Object t_ltlgb=tg4ltlgb   1,1,1   0,0,0   51,-15,132   0      .      t_turrt
+Object t_sbpof=DUMMY   1,1,1   0,0,0   -1,1,150   0   hidden   t_ltlgb
+Object t_ltlgc=tg4ltlgc   1,1,1   0,0,0   75,11,132   0      .      t_turrt
+Object t_scpof=DUMMY   1,1,1   0,0,0   0,0,150   0   hidden   t_ltlgc
+Object t_bigun=tg4bigun   1,1,1   0,0,0   97,0,0   0      .      t_turrt
+Object t_bgpof=DUMMY   1,1,1   0,0,0   14,-1,617   0   hidden   t_bigun
+
+endrep
+
+thing t_pivot
+thing t_turrt
+
+gamepiece turretg mw2artillery
+
+objloc t_main  ct
+objloc t_pivot ct
+objloc t_turrt ct
+objloc t_bigun ra
+objloc t_ltlga la
+objloc t_ltlgb la
+objloc t_ltlgc la
+objloc t_fleg  rl
+objloc t_rleg  rl
+objloc t_lleg  ll
+objloc t_bleg  ll
+
+lapof t_sapof
+rapof t_bgpof
+ltpof t_sbpof
+rtpof t_scpof
+
+eyeobj t_pivot
+
+mgdfile turretg
+
+mangle_off
+
+#end of turretg.MEC

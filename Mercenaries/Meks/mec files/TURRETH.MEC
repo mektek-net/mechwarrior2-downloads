@@ -1,0 +1,44 @@
+#     Ouput for turreth.MEC
+#     Sat Apr  1 13:32:03 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object turreth=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object t_main=th1_main   1,1,1   0,0,0   0,80,0   0      .      turreth
+Object t_ltred=th1ltred   1,1,1   0,0,0   -140,-30,0   0      .      t_main
+Object t_rtred=th1rtred   1,1,1   0,0,0   140,-30,0   0      .      t_main
+Object t_turrt=th1turrt   1,1,1   0,0,0   0,40,-39   0      .      t_main
+Object t_dummy=DUMMY   1,1,1   0,0,0   0,57,160   0   hidden   t_turrt
+Object t_bigun=th1bigun   1,1,1   0,0,0   0,13,10   0      .      t_dummy
+Object t_trpof=DUMMY   1,1,1   0,0,0   0,335,612   0   hidden   t_bigun
+
+endrep
+
+thing t_turrt
+thing t_dummy
+
+gamepiece turreth mw2artillery
+
+objloc t_main  ct
+objloc t_turrt ct
+objloc t_bigun ra
+objloc t_rtred rl
+objloc t_ltred ll
+
+rapof t_trpof
+
+eyeobj t_dummy
+
+mgdfile turreth
+
+mangle_off
+
+#end of turreth.MEC

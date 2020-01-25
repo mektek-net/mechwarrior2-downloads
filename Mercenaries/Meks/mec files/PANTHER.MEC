@@ -1,0 +1,211 @@
+#   panther.MEC
+#   geometry for the panther 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object panther=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object p_hips=pr1_hips   1,1,1   0,0,0   0,527,35   0      .      panther
+Object p_luleg=pr1luleg   1,1,1   0,0,0   -108,-4,-28   0      .      p_hips
+Object p_llleg=pr1llleg   1,1,1   0,0,0   -41,-209,7   0      .      p_luleg
+Object p_decll=pr1decll   1,1,1   0,0,0   0,-119,6   0      .      p_llleg
+Object p_lftoe=pr1lftoe   1,1,1   0,0,0   0,-248,32   0      .      p_llleg
+Object p_lrtoe=pr1lrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_lftoe
+Object p_ruleg=pr1ruleg   1,1,1   0,0,0   108,-4,-28   0      .      p_hips
+Object p_rlleg=pr1rlleg   1,1,1   0,0,0   41,-209,7   0      .      p_ruleg
+Object p_declr=pr1declr   1,1,1   0,0,0   4,-119,6   0      .      p_rlleg
+Object p_rftoe=pr1rftoe   1,1,1   0,0,0   0,-248,32   0      .      p_rlleg
+Object p_rrtoe=pr1rrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_rftoe
+Object p_head=pr1_head   1,1,1   0,0,0   0,50,-11   0      .      p_hips
+Object p_winsh=pr1winsh   1,1,1   0,0,0   0,361,57   0      .      p_head
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   p_head
+Object p_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   p_head
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   p_head
+Object p_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   p_head
+Object p_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   p_head
+Object p_rtpof=DUMMY   1,1,1   0,0,0   107,117,202   0   hidden   p_head
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -106,116,202   0   hidden   p_head
+Object p_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   p_head
+Object p_larm=pr1_larm   1,1,1   0,0,0   -219,5,-2   0      .      p_daddy
+Object p_lapof=DUMMY   1,1,1   0,0,0   -14,-224,463   0   hidden   p_larm
+Object p_rarm=pr1_rarm   1,1,1   0,0,0   234,5,-2   0      .      p_daddy
+Object p_rapof=DUMMY   1,1,1   0,0,0   32,-222,463   0   hidden   p_rarm
+
+rep
+
+Object p_hips=pr2_hips   1,1,1   0,0,0   0,527,35   0      .      panther
+Object p_luleg=pr2luleg   1,1,1   0,0,0   -108,-4,-28   0      .      p_hips
+Object p_llleg=pr2llleg   1,1,1   0,0,0   -41,-209,7   0      .      p_luleg
+Object p_decll=pr2decll   1,1,1   0,0,0   0,-119,6   0      .      p_llleg
+Object p_lftoe=pr2lftoe   1,1,1   0,0,0   0,-248,32   0      .      p_llleg
+Object p_lrtoe=pr2lrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_lftoe
+Object p_ruleg=pr2ruleg   1,1,1   0,0,0   108,-4,-28   0      .      p_hips
+Object p_rlleg=pr2rlleg   1,1,1   0,0,0   41,-209,7   0      .      p_ruleg
+Object p_declr=pr2declr   1,1,1   0,0,0   4,-119,6   0      .      p_rlleg
+Object p_rftoe=pr2rftoe   1,1,1   0,0,0   0,-248,32   0      .      p_rlleg
+Object p_rrtoe=pr2rrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_rftoe
+Object p_head=pr2_head   1,1,1   0,0,0   0,50,-11   0      .      p_hips
+Object p_winsh=pr2winsh   1,1,1   0,0,0   0,361,57   0      .      p_head
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   p_head
+Object p_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   p_head
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   p_head
+Object p_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   p_head
+Object p_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   p_head
+Object p_rtpof=DUMMY   1,1,1   0,0,0   107,117,202   0   hidden   p_head
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -106,116,202   0   hidden   p_head
+Object p_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   p_head
+Object p_larm=pr2_larm   1,1,1   0,0,0   -219,5,-2   0      .      p_daddy
+Object p_lapof=DUMMY   1,1,1   0,0,0   -14,-224,463   0   hidden   p_larm
+Object p_rarm=pr2_rarm   1,1,1   0,0,0   234,5,-2   0      .      p_daddy
+Object p_rapof=DUMMY   1,1,1   0,0,0   32,-222,463   0   hidden   p_rarm
+
+rep
+
+Object p_hips=pr3_hips   1,1,1   0,0,0   0,527,35   0      .      panther
+Object p_luleg=pr3luleg   1,1,1   0,0,0   -108,-4,-28   0      .      p_hips
+Object p_llleg=pr3llleg   1,1,1   0,0,0   -41,-209,7   0      .      p_luleg
+Object p_decll=pr3decll   1,1,1   0,0,0   -57,-119,6   0      .      p_llleg
+Object p_lftoe=pr3lftoe   1,1,1   0,0,0   0,-248,32   0      .      p_llleg
+Object p_lrtoe=pr3lrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_lftoe
+Object p_ruleg=pr3ruleg   1,1,1   0,0,0   108,-4,-28   0      .      p_hips
+Object p_rlleg=pr3rlleg   1,1,1   0,0,0   41,-209,7   0      .      p_ruleg
+Object p_declr=pr3declr   1,1,1   0,0,0   57,-119,6   0      .      p_rlleg
+Object p_rftoe=pr3rftoe   1,1,1   0,0,0   0,-248,32   0      .      p_rlleg
+Object p_rrtoe=pr3rrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_rftoe
+Object p_head=pr3_head   1,1,1   0,0,0   0,50,-11   0      .      p_hips
+Object p_winsh=pr3winsh   1,1,1   0,0,0   0,361,57   0      .      p_head
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   p_head
+Object p_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   p_head
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   p_head
+Object p_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   p_head
+Object p_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   p_head
+Object p_rtpof=DUMMY   1,1,1   0,0,0   107,117,202   0   hidden   p_head
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -106,116,202   0   hidden   p_head
+Object p_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   p_head
+Object p_larm=pr3_larm   1,1,1   0,0,0   -219,5,-2   0      .      p_daddy
+Object p_lapof=DUMMY   1,1,1   0,0,0   -85,-224,463   0   hidden   p_larm
+Object p_rarm=pr3_rarm   1,1,1   0,0,0   234,5,-2   0      .      p_daddy
+Object p_rapof=DUMMY   1,1,1   0,0,0   163,-222,463   0   hidden   p_rarm
+
+rep
+
+Object p_hips=pr4_hips   1,1,1   0,0,0   0,527,35   0      .      panther
+Object p_luleg=pr4luleg   1,1,1   0,0,0   -108,-4,-28   0      .      p_hips
+Object p_llleg=pr4llleg   1,1,1   0,0,0   -41,-209,7   0      .      p_luleg
+Object p_decll=pr4decll   1,1,1   0,0,0   -57,-119,6   0      .      p_llleg
+Object p_lftoe=pr4lftoe   1,1,1   0,0,0   0,-248,32   0      .      p_llleg
+Object p_lrtoe=pr4lrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_lftoe
+Object p_ruleg=pr4ruleg   1,1,1   0,0,0   108,-4,-28   0      .      p_hips
+Object p_rlleg=pr4rlleg   1,1,1   0,0,0   41,-209,7   0      .      p_ruleg
+Object p_declr=pr4declr   1,1,1   0,0,0   57,-119,6   0      .      p_rlleg
+Object p_rftoe=pr4rftoe   1,1,1   0,0,0   0,-248,32   0      .      p_rlleg
+Object p_rrtoe=pr4rrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_rftoe
+Object p_head=pr4_head   1,1,1   0,0,0   0,50,-11   0      .      p_hips
+Object p_winsh=pr4winsh   1,1,1   0,0,0   0,361,57   0      .      p_head
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   p_head
+Object p_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   p_head
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   p_head
+Object p_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   p_head
+Object p_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   p_head
+Object p_rtpof=DUMMY   1,1,1   0,0,0   107,117,202   0   hidden   p_head
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -106,116,202   0   hidden   p_head
+Object p_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   p_head
+Object p_larm=pr4_larm   1,1,1   0,0,0   -219,5,-2   0      .      p_daddy
+Object p_lapof=DUMMY   1,1,1   0,0,0   -85,-224,463   0   hidden   p_larm
+Object p_rarm=pr4_rarm   1,1,1   0,0,0   234,5,-2   0      .      p_daddy
+Object p_rapof=DUMMY   1,1,1   0,0,0   163,-222,463   0   hidden   p_rarm
+
+rep
+
+Object p_hips=pr5_hips   1,1,1   0,0,0   0,527,35   0      .      panther
+Object p_luleg=pr5luleg   1,1,1   0,0,0   -108,-4,-28   0      .      p_hips
+Object p_llleg=pr5llleg   1,1,1   0,0,0   -41,-209,7   0      .      p_luleg
+Object p_decll=pr5decll   1,1,1   0,0,0   0,-119,6   0      .      p_llleg
+Object p_lftoe=pr5lftoe   1,1,1   0,0,0   0,-248,32   0      .      p_llleg
+Object p_lrtoe=pr5lrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_lftoe
+Object p_ruleg=pr5ruleg   1,1,1   0,0,0   108,-4,-28   0      .      p_hips
+Object p_rlleg=pr5rlleg   1,1,1   0,0,0   41,-209,7   0      .      p_ruleg
+Object p_declr=pr5declr   1,1,1   0,0,0   4,-119,6   0      .      p_rlleg
+Object p_rftoe=pr5rftoe   1,1,1   0,0,0   0,-248,32   0      .      p_rlleg
+Object p_rrtoe=pr5rrtoe   1,1,1   0,0,0   0,0,-60   0      .      p_rftoe
+Object p_head=pr5_head   1,1,1   0,0,0   0,50,-11   0    near     p_hips
+Object p_winsh=pr5winsh   1,1,1   0,0,0   0,361,57   0      .      p_head
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   p_head
+Object p_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   p_head
+Object p_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   p_head
+Object p_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   p_head
+Object p_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   p_head
+Object p_rtpof=DUMMY   1,1,1   0,0,0   107,117,202   0   hidden   p_head
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -106,116,202   0   hidden   p_head
+Object p_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   p_head
+Object p_larm=pr5_larm   1,1,1   0,0,0   -219,5,-2   0      .      p_daddy
+Object p_lapof=DUMMY   1,1,1   0,0,0   -85,-224,463   0   hidden   p_larm
+Object p_rarm=pr5_rarm   1,1,1   0,0,0   234,5,-2   0      .      p_daddy
+Object p_rapof=DUMMY   1,1,1   0,0,0   163,-222,463   0   hidden   p_rarm
+
+endrep
+
+thing p_head
+thing p_daddy
+
+gamepiece panther mw2mech 
+
+objloc p_head   ct
+objloc p_hips   ct
+objloc p_winsh  hd
+objloc p_larm   la
+objloc p_rarm   ra
+objloc p_luleg  ll
+objloc p_ruleg  rl
+objloc p_llleg  ll
+objloc p_rlleg  rl
+objloc p_lftoe  ll
+objloc p_rftoe  rl
+objloc p_lrtoe  ll
+objloc p_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    p_hips;55,129,0
+task animator 0    p_hips;55,1,1
+task animator 0    p_ruleg;55,1,2
+task animator 0    p_rlleg;55,1,3
+task animator 0    p_rftoe;55,1,4
+task animator 0    p_rrtoe;55,1,5
+task animator 0    p_luleg;55,1,6
+task animator 0    p_llleg;55,1,7
+task animator 0    p_lftoe;55,1,8
+task animator 0    p_lrtoe;55,1,9
+task animator 0    p_head;55,1,10
+task animator 0    p_rarm;55,1,11
+task animator 0    p_larm;55,1,12
+
+hdpof p_hdpof
+ctpof p_ctpof
+rtpof p_rtpof
+ltpof p_ltpof
+lapof p_lapof
+rapof p_rapof
+ljpof p_ljpof
+rjpof p_rjpof
+
+eyeobj p_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile panther
+pitfile mw2pit
+
+mangle_off
+
+AnimSound meclight
+
+# end of panther.MEC
+
+

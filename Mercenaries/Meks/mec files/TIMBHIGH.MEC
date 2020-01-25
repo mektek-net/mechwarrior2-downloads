@@ -1,0 +1,209 @@
+#   timberwolf.MEC
+#   geometry for the timbhigh 'Mech
+
+#       size = 925cm
+#       665 to put timbhigh's feet on ground
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null) parent
+object timbhigh=dummy         1,1,1   0,0,0   0,0,0  0   hidden world  
+
+
+rep
+
+Object t_hips=th1_hips   1,1,1   0,0,0   0,548,66   0      .      timbhigh
+Object t_ljpof=DUMMY   1,1,1   0,0,0   -98,-63,10   0   hidden   t_hips
+Object t_rjpof=DUMMY   1,1,1   0,0,0   78,-63,10   0   hidden   t_hips
+Object t_luleg=th1luleg   1,1,1   0,0,0   -187,-2,-66   0      .      t_hips
+Object t_llleg=th1llleg   1,1,1   0,0,0   -4,-178,-157   0      .      t_luleg
+Object t_lftoe=th1lftoe   1,1,1   0,0,0   -62,-345,114   0      .      t_llleg
+Object t_lrtoe=th1lrtoe   1,1,1   0,0,0   -61,-345,298   0      .      t_llleg
+Object t_ruleg=th1ruleg   1,1,1   0,0,0   164,-2,-66   0      .      t_hips
+Object t_rlleg=th1rlleg   1,1,1   0,0,0   0,-178,-157   0      .      t_ruleg
+Object t_rftoe=th1rftoe   1,1,1   0,0,0   65,-345,114   0      .      t_rlleg
+Object t_rrtoe=th1rrtoe   1,1,1   0,0,0   65,-345,298   0      .      t_rlleg
+Object t_head=th1_head   1,1,1   0,0,0   0,33,-6   0      .      t_hips
+Object t_winsh=th1winsh   1,1,1   0,0,0   0,267,255   0      .      t_head
+Object t_declr=th1declr   1,1,1   0,0,0   315,438,-91   0      .      t_head
+Object t_decll=th1decll   1,1,1   0,0,0   -343,438,-91   0      .      t_head
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -275,478,91   0   hidden   t_head
+Object t_rtpof=DUMMY   1,1,1   0,0,0   251,478,91   0   hidden   t_head
+Object t_hdpof=DUMMY   1,1,1   0,0,0   -10,367,4   0   hidden   t_head
+Object t_ctpof=DUMMY   1,1,1   0,0,0   -10,-40,181   0   hidden   t_head
+Object t_cppov=DUMMY   1,1,1   0,0,0   -8,236,182   0   hidden   t_head
+Object t_daddy=DUMMY   1,1,1   0,0,0   -10,293,-151   0   hidden   t_head
+Object t_rarm=th1_rarm   1,1,1   0,0,0   251,-4,0   0      .      t_daddy
+Object t_rapof=DUMMY   1,1,1   0,0,0   161,-335,561   0   hidden   t_rarm
+Object t_larm=th1_larm   1,1,1   0,0,0   -255,-4,0   0      .      t_daddy
+Object t_lapof=DUMMY   1,1,1   0,0,0   -164,-335,561   0   hidden   t_larm
+
+rep
+
+Object t_hips=th2_hips   1,1,1   0,0,0   0,548,66   0      .      timbhigh
+Object t_ljpof=DUMMY   1,1,1   0,0,0   -98,-63,10   0   hidden   t_hips
+Object t_rjpof=DUMMY   1,1,1   0,0,0   78,-63,10   0   hidden   t_hips
+Object t_luleg=th2luleg   1,1,1   0,0,0   -187,-2,-66   0      .      t_hips
+Object t_llleg=th2llleg   1,1,1   0,0,0   -4,-178,-157   0      .      t_luleg
+Object t_lftoe=th2lftoe   1,1,1   0,0,0   -61,-345,298   0      .      t_llleg
+Object t_lrtoe=th2lrtoe   1,1,1   0,0,0   -62,-345,114   0      .      t_llleg
+Object t_ruleg=th2ruleg   1,1,1   0,0,0   164,-2,-66   0      .      t_hips
+Object t_rlleg=th2rlleg   1,1,1   0,0,0   0,-178,-157   0      .      t_ruleg
+Object t_rftoe=th2rftoe   1,1,1   0,0,0   65,-345,298   0      .      t_rlleg
+Object t_rrtoe=th2rrtoe   1,1,1   0,0,0   65,-345,114   0      .      t_rlleg
+Object t_head=th2_head   1,1,1   0,0,0   0,33,-6   0      .      t_hips
+Object t_winsh=th2winsh   1,1,1   0,0,0   0,267,255   0      .      t_head
+Object t_declr=th2declr   1,1,1   0,0,0   315,438,-91   0      .      t_head
+Object t_decll=th2decll   1,1,1   0,0,0   -343,438,-91   0      .      t_head
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -246,449,75   0   hidden   t_head
+Object t_rtpof=DUMMY   1,1,1   0,0,0   227,449,75   0   hidden   t_head
+Object t_hdpof=DUMMY   1,1,1   0,0,0   -10,363,87   0   hidden   t_head
+Object t_ctpof=DUMMY   1,1,1   0,0,0   -10,61,202   0   hidden   t_head
+Object t_cppov=DUMMY   1,1,1   0,0,0   -8,240,146   0   hidden   t_head
+Object t_daddy=DUMMY   1,1,1   0,0,0   -10,271,-151   0   hidden   t_head
+Object t_rarm=th2_rarm   1,1,1   0,0,0   251,18,0   0      .      t_daddy
+Object t_rapof=DUMMY   1,1,1   0,0,0   127,-335,561   0   hidden   t_rarm
+Object t_larm=th2_larm   1,1,1   0,0,0   -255,18,0   0      .      t_daddy
+Object t_lapof=DUMMY   1,1,1   0,0,0   -127,-335,561   0   hidden   t_larm
+
+rep
+
+Object t_hips=th3_hips   1,1,1   0,0,0   0,548,66   0      .      timbhigh
+Object t_ljpof=DUMMY   1,1,1   0,0,0   -98,-32,-221   0   hidden   t_hips
+Object t_rjpof=DUMMY   1,1,1   0,0,0   78,-32,-221   0   hidden   t_hips
+Object t_luleg=th3luleg   1,1,1   0,0,0   -187,-2,-66   0      .      t_hips
+Object t_llleg=th3llleg   1,1,1   0,0,0   -4,-178,-157   0      .      t_luleg
+Object t_lftoe=th3lftoe   1,1,1   0,0,0   -62,-345,114   0      .      t_llleg
+Object t_lrtoe=th3lrtoe   1,1,1   0,0,0   -61,-345,298   0      .      t_llleg
+Object t_ruleg=th3ruleg   1,1,1   0,0,0   164,-2,-66   0      .      t_hips
+Object t_rlleg=th3rlleg   1,1,1   0,0,0   0,-178,-157   0      .      t_ruleg
+Object t_rftoe=th3rftoe   1,1,1   0,0,0   65,-345,114   0      .      t_rlleg
+Object t_rrtoe=th3rrtoe   1,1,1   0,0,0   65,-345,298   0      .      t_rlleg
+Object t_head=th3_head   1,1,1   0,0,0   0,33,-6   0      .      t_hips
+Object t_winsh=th3winsh   1,1,1   0,0,0   0,267,255   0      .      t_head
+Object t_declr=th3declr   1,1,1   0,0,0   315,438,-91   0      .      t_head
+Object t_decll=th3decll   1,1,1   0,0,0   -343,438,-91   0      .      t_head
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -246,340,-47   0   hidden   t_head
+Object t_rtpof=DUMMY   1,1,1   0,0,0   227,340,-47   0   hidden   t_head
+Object t_hdpof=DUMMY   1,1,1   0,0,0   -10,272,-39   0   hidden   t_head
+Object t_ctpof=DUMMY   1,1,1   0,0,0   -10,12,48   0   hidden   t_head
+Object t_cppov=DUMMY   1,1,1   0,0,0   -8,157,88   0   hidden   t_head
+Object t_daddy=DUMMY   1,1,1   0,0,0   -10,222,-158   0   hidden   t_head
+Object t_rarm=th3_rarm   1,1,1   0,0,0   251,66,7   0      .      t_daddy
+Object t_rapof=DUMMY   1,1,1   0,0,0   127,-415,219   0   hidden   t_rarm
+Object t_larm=th3_larm   1,1,1   0,0,0   -255,66,7   0      .      t_daddy
+Object t_lapof=DUMMY   1,1,1   0,0,0   -127,-415,219   0   hidden   t_larm
+
+rep
+
+Object t_hips=th4_hips   1,1,1   0,0,0   0,548,66   0      .      timbhigh
+Object t_ljpof=DUMMY   1,1,1   0,0,0   -98,-32,-272   0   hidden   t_hips
+Object t_rjpof=DUMMY   1,1,1   0,0,0   78,-32,-272   0   hidden   t_hips
+Object t_luleg=th4luleg   1,1,1   0,0,0   -187,-2,-66   0      .      t_hips
+Object t_llleg=th4llleg   1,1,1   0,0,0   -4,-178,-157   0      .      t_luleg
+Object t_lftoe=th4lftoe   1,1,1   0,0,0   -62,-345,114   0      .      t_llleg
+Object t_lrtoe=th4lrtoe   1,1,1   0,0,0   -61,-345,298   0      .      t_llleg
+Object t_ruleg=th4ruleg   1,1,1   0,0,0   164,-2,-66   0      .      t_hips
+Object t_rlleg=th4rlleg   1,1,1   0,0,0   0,-178,-157   0      .      t_ruleg
+Object t_rftoe=th4rftoe   1,1,1   0,0,0   65,-345,114   0      .      t_rlleg
+Object t_rrtoe=th4rrtoe   1,1,1   0,0,0   65,-345,298   0      .      t_rlleg
+Object t_head=th4_head   1,1,1   0,0,0   0,33,-6   0      .      t_hips
+Object t_winsh=th4winsh   1,1,1   0,0,0   0,267,255   0      .      t_head
+Object t_declr=th4declr   1,1,1   0,0,0   315,442,-91   0      .      t_head
+Object t_decll=th4decll   1,1,1   0,0,0   -343,442,-91   0      .      t_head
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -246,340,-43   0   hidden   t_head
+Object t_rtpof=DUMMY   1,1,1   0,0,0   227,340,-43   0   hidden   t_head
+Object t_hdpof=DUMMY   1,1,1   0,0,0   -10,272,-31   0   hidden   t_head
+Object t_ctpof=DUMMY   1,1,1   0,0,0   -10,12,84   0   hidden   t_head
+Object t_cppov=DUMMY   1,1,1   0,0,0   -8,157,138   0   hidden   t_head
+Object t_daddy=DUMMY   1,1,1   0,0,0   -10,222,-191   0   hidden   t_head
+Object t_rarm=th4_rarm   1,1,1   0,0,0   251,66,40   0      .      t_daddy
+Object t_rapof=DUMMY   1,1,1   0,0,0   127,-415,262   0   hidden   t_rarm
+Object t_larm=th4_larm   1,1,1   0,0,0   -255,66,40   0      .      t_daddy
+Object t_lapof=DUMMY   1,1,1   0,0,0   -127,-415,262   0   hidden   t_larm
+
+rep
+
+Object t_hips=DUMMY   1,1,1   0,0,0   -13,814,27   0   hidden      timbhigh
+Object t_ljpof=DUMMY   1,1,1   0,0,0   -117,-126,-301   0   hidden   t_hips
+Object t_rjpof=DUMMY   1,1,1   0,0,0   117,-126,-301   0   hidden   t_hips
+Object t_luleg=th5luleg   1,1,1   0,0,0   -193,-95,-27   0   .      t_hips
+Object t_llleg=th5llleg   1,1,1   0,0,0   -93,-201,-272   0   .      t_luleg
+Object t_lftoe=DUMMY   1,1,1   0,0,0   -20,-483,253   0   hidden      t_llleg
+Object t_lrtoe=DUMMY   1,1,1   0,0,0   -20,-483,469   0   hidden      t_llleg
+Object t_ruleg=th5ruleg   1,1,1   0,0,0   189,-95,-27   0   .      t_hips
+Object t_rlleg=th5rlleg   1,1,1   0,0,0   96,-201,-272   0   .      t_ruleg
+Object t_rftoe=DUMMY   1,1,1   0,0,0   15,-483,253   0   hidden      t_rlleg
+Object t_rrtoe=DUMMY   1,1,1   0,0,0   18,-483,469   0   hidden      t_rlleg
+Object t_head=th5_head   1,1,1   0,0,0   4,-24,-20   0      near      t_hips
+Object t_winsh=DUMMY   1,1,1   0,0,0   8,217,0   0   hidden      t_head
+Object t_declr=DUMMY   1,1,1   0,0,0   408,430,-94   0   hidden   t_head
+Object t_decll=DUMMY   1,1,1   0,0,0   -425,430,-94   0   hidden   t_head
+Object t_ltpof=DUMMY   1,1,1   0,0,0   -320,446,23   0   hidden   t_head
+Object t_rtpof=DUMMY   1,1,1   0,0,0   311,446,23   0   hidden   t_head
+Object t_hdpof=DUMMY   1,1,1   0,0,0   -5,355,39   0   hidden   t_head
+Object t_ctpof=DUMMY   1,1,1   0,0,0   -5,8,192   0   hidden   t_head
+Object t_cppov=DUMMY   1,1,1   0,0,0   -2,201,212   0   hidden   t_head
+Object t_daddy=DUMMY   1,1,1   0,0,0   -5,289,-174   0   hidden   t_head
+Object t_rarm=th5_rarm   1,1,1   0,0,0   208,0,0   0      .      t_daddy
+Object t_rapof=DUMMY   1,1,1   0,0,0   227,-466,402   0   hidden   t_rarm
+Object t_larm=th5_larm   1,1,1   0,0,0   -210,0,0   0      .      t_daddy
+Object t_lapof=DUMMY   1,1,1   0,0,0   -229,-466,402   0   hidden   t_larm
+
+endrep
+
+thing t_head
+thing t_daddy
+
+gamepiece timbhigh mw2mech
+
+objloc t_winsh  hd
+objloc t_head   ct
+objloc t_hips   ct
+objloc t_rarm   ra
+objloc t_larm   la
+objloc t_ruleg  rl
+objloc t_rlleg  rl
+objloc t_rftoe  rl
+objloc t_rrtoe  rl
+objloc t_luleg  ll
+objloc t_llleg  ll
+objloc t_lftoe  ll
+objloc t_lrtoe  ll
+
+animfile maddanim
+
+task animator 0    t_hips;70,129,0
+task animator 0    t_hips;70,1,1
+task animator 0    t_luleg;70,1,2
+task animator 0    t_llleg;70,1,3
+task animator 0    t_lftoe;70,1,4
+task animator 0    t_lrtoe;70,1,5
+task animator 0    t_ruleg;70,1,6
+task animator 0    t_rlleg;70,1,7
+task animator 0    t_rftoe;70,1,8
+task animator 0    t_rrtoe;70,1,9
+
+ctpof t_ctpof
+hdpof t_hdpof
+rtpof t_rtpof
+ltpof t_ltpof
+rapof t_rapof
+lapof t_lapof
+rjpof t_rjpof
+ljpof t_ljpof
+
+eyeobj t_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile timbrwlf
+mgdfile timbrwlf
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of timberwolf.mec
+

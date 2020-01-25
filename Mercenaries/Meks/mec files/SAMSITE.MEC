@@ -1,0 +1,49 @@
+#     Ouput for samsite.MEC
+#     Sat Apr  1 13:32:03 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object samsite=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object s_main=ss1_main   1,1,1   0,0,0   0,107,4   0      .      samsite
+Object s_lwhel=ss1lwhel   1,1,1   0,0,0   0,-42,-3   0      .      s_main
+Object s_rwhel=ss1rwhel   1,1,1   0,0,0   0,-41,-3   0      .      s_main
+Object s_axel=ss1_axel   1,1,1   0,0,0   0,-41,-5   0      .      s_main
+Object s_pivot=ss1pivot   1,1,1   0,0,0   0,140,9   0      .      s_main
+Object s_daddy=DUMMY   1,1,1   0,0,0   0,58,-13   0   hidden   s_pivot
+Object s_rack=ss1_rack   1,1,1   0,0,0   0,17,1   0      .      s_daddy
+Object s_decll=ss1decll   1,1,1   0,0,0   -184,31,4   0      .      s_rack
+Object s_declr=ss1declr   1,1,1   0,0,0   185,31,4   0      .      s_rack
+Object s_rpof=DUMMY   1,1,1   0,0,0   91,-5,189   0   hidden   s_rack
+Object s_lpof=DUMMY   1,1,1   0,0,0   -102,-4,189   0   hidden   s_rack
+
+endrep
+
+thing s_pivot
+thing s_daddy
+
+gamepiece samsite mw2artillery
+
+objloc s_main  ct
+objloc s_pivot ct
+objloc s_rack  ct
+objloc s_rwhel rl
+objloc s_lwhel ll
+
+rtpof s_rpof
+ltpof s_lpof
+
+eyeobj s_pivot
+
+mgdfile samsite
+
+mangle_off
+
+#end of samsite.MEC

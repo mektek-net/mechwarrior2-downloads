@@ -1,0 +1,65 @@
+#     Ouput for slayer.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object slayer=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object s_main=sy1_main   1,1,1   0,0,0   0,144,262   0      .      slayer
+Object s_winsh=sy1winsh   1,1,1   0,0,0   0,85,584   0      .      s_main
+Object s_rhfin=sy1rhfin   1,1,1   0,0,0   320,119,-928   0      .      s_main
+Object s_lhfin=sy1lhfin   1,1,1   0,0,0   -320,119,-928   0      .      s_main
+Object s_rwing=sy1rwing   1,1,1   0,0,0   304,-8,-672   0      .      s_main
+Object s_rwlgo=sy1rwlgo   1,1,1   0,0,0   367,59,-582   0      .      s_rwing
+Object s_lwing=sy1lwing   1,1,1   0,0,0   -304,-8,-672   0      .      s_main
+Object s_lwlgo=sy1lwlgo   1,1,1   0,0,0   -337,59,-582   0      .      s_lwing
+Object s_dummy=DUMMY   1,1,1   0,0,0   0,-24,144   0   hidden   s_main
+Object s_daddy=DUMMY   1,1,1   0,0,0   0,0,140   0   hidden   s_dummy
+Object s_ctpof=DUMMY   1,1,1   0,0,0   0,-83,862   0   hidden   s_daddy
+Object s_hdpof=DUMMY   1,1,1   0,0,0   0,140,268   0   hidden   s_daddy
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -343,-65,287   0   hidden   s_daddy
+Object s_rtpof=DUMMY   1,1,1   0,0,0   333,-64,287   0   hidden   s_daddy
+Object s_rwpof=DUMMY   1,1,1   0,0,0   714,-93,-525   0   hidden   s_daddy
+Object s_lwpof=DUMMY   1,1,1   0,0,0   -711,-93,-525   0   hidden   s_daddy
+
+endrep
+
+thing s_dummy
+thing s_daddy
+
+gamepiece slayer mw2truck
+
+objloc s_main   ct
+objloc s_winsh  ct
+objloc s_rwing  ra
+objloc s_lwing  la
+objloc s_lhfin  lt
+objloc s_rhfin  rt
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    s_main;60,129,0
+
+lapof s_lwpof
+rapof s_rwpof
+hdpof s_hdpof
+ctpof s_ctpof
+ltpof s_ltpof
+rtpof s_rtpof
+
+eyeobj s_hdpof
+
+mgdfile slayer
+
+mangle_off
+
+#end of slayer.MEC
+

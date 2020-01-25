@@ -1,0 +1,90 @@
+#     Ouput for tankc.MEC
+#     Thu Mar 30 15:57:51 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object tankc=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+
+rep
+
+Object k_body=kc1_body   1,1,1   0,0,0   0,190,0   0      .      tankc
+Object k_ltred=kc1ltred   1,1,1   0,0,0   -325,-88,0   0      .      k_body
+Object k_rtred=kc1rtred   1,1,1   0,0,0   330,-88,0   0      .      k_body
+Object k_turrt=kc1turrt   1,1,1   0,0,0   38,230,-280   0      .      k_body
+Object k_decll=kc1decll   1,1,1   0,0,0   -270,100,13   0      .      k_turrt
+Object k_declr=kc1declr   1,1,1   0,0,0   310,100,13   0      .      k_turrt
+Object k_lopof=DUMMY   1,1,1   0,0,0   -188,100,298   0   hidden   k_turrt
+Object k_lipof=DUMMY   1,1,1   0,0,0   -52,100,298   0   hidden   k_turrt
+Object k_ropof=DUMMY   1,1,1   0,0,0   236,100,298   0   hidden   k_turrt
+Object k_ripof=DUMMY   1,1,1   0,0,0   88,100,298   0   hidden   k_turrt
+
+rep
+
+Object k_body=kc2_body   1,1,1   0,0,0   0,190,0   0      .      tankc
+Object k_ltred=kc2ltred   1,1,1   0,0,0   -325,-88,0   0      .      k_body
+Object k_rtred=kc2rtred   1,1,1   0,0,0   330,-88,0   0      .      k_body
+Object k_turrt=kc2turrt   1,1,1   0,0,0   38,230,-280   0      .      k_body
+Object k_decll=kc2decll   1,1,1   0,0,0   -270,100,13   0      .      k_turrt
+Object k_declr=kc2declr   1,1,1   0,0,0   310,100,13   0      .      k_turrt
+Object k_lopof=DUMMY   1,1,1   0,0,0   -188,100,298   0   hidden   k_turrt
+Object k_lipof=DUMMY   1,1,1   0,0,0   -52,100,298   0   hidden   k_turrt
+Object k_ropof=DUMMY   1,1,1   0,0,0   236,100,298   0   hidden   k_turrt
+Object k_ripof=DUMMY   1,1,1   0,0,0   88,100,298   0   hidden   k_turrt
+
+rep
+
+Object k_body=kc3_body   1,1,1   0,0,0   0,190,0   0      .      tankc
+Object k_ltred=kc3ltred   1,1,1   0,0,0   -325,-88,0   0      .      k_body
+Object k_rtred=kc3rtred   1,1,1   0,0,0   330,-88,0   0      .      k_body
+Object k_turrt=kc3turrt   1,1,1   0,0,0   38,230,-280   0      .      k_body
+Object k_decll=kc3decll   1,1,1   0,0,0   -270,100,13   0      .      k_turrt
+Object k_declr=kc3declr   1,1,1   0,0,0   310,100,13   0      .      k_turrt
+Object k_lopof=DUMMY   1,1,1   0,0,0   -188,100,298   0   hidden   k_turrt
+Object k_lipof=DUMMY   1,1,1   0,0,0   -52,100,298   0   hidden   k_turrt
+Object k_ropof=DUMMY   1,1,1   0,0,0   236,100,298   0   hidden   k_turrt
+Object k_ripof=DUMMY   1,1,1   0,0,0   88,100,298   0   hidden   k_turrt
+
+rep
+
+Object k_body=kc4_body   1,1,1   0,0,0   0,190,0   0      .      tankc
+Object k_ltred=kc4ltred   1,1,1   0,0,0   -325,-88,0   0      .      k_body
+Object k_rtred=kc4rtred   1,1,1   0,0,0   330,-88,0   0      .      k_body
+Object k_turrt=kc4turrt   1,1,1   0,0,0   38,230,-280   0      .      k_body
+Object k_decll=kc4decll   1,1,1   0,0,0   -270,100,13   0      .      k_turrt
+Object k_declr=kc4declr   1,1,1   0,0,0   310,100,13   0      .      k_turrt
+Object k_lopof=DUMMY   1,1,1   0,0,0   -188,100,298   0   hidden   k_turrt
+Object k_lipof=DUMMY   1,1,1   0,0,0   -52,100,298   0   hidden   k_turrt
+Object k_ropof=DUMMY   1,1,1   0,0,0   236,100,298   0   hidden   k_turrt
+Object k_ripof=DUMMY   1,1,1   0,0,0   88,100,298   0   hidden   k_turrt
+
+endrep
+
+thing k_turrt
+thing k_turrt
+
+gamepiece tankc mw2tank
+
+objloc k_body  ct
+objloc k_turrt la
+objloc k_rtred rl
+objloc k_ltred ll
+
+animfile tnkbanim
+
+task animator 0 k_body;75,129,0
+
+lapof k_lopof
+ltpof k_lipof
+rapof k_ropof
+rtpof k_ripof
+
+eyeobj k_turrt
+
+mgdfile tankc
+
+mangle_off
+
+#end of tankc.MEC

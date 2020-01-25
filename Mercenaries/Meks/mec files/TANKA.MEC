@@ -1,0 +1,79 @@
+#     Ouput for tanka.MEC
+#     Thu Mar 30 15:57:51 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object tanka=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object k_main=ka1_main   1,1,1   0,0,0   0,175,0   0      .      tanka
+Object k_ltred=ka1ltred   1,1,1   0,0,0   -325,-73,0   0      .      k_main
+Object k_rtred=ka1rtred   1,1,1   0,0,0   330,-73,0   0      .      k_main
+Object k_turrt=ka1turrt   1,1,1   0,0,0   0,125,-75   0      .      k_main
+Object k_tgpof=DUMMY   1,1,1   0,0,0   45,196,-25   0   hidden   k_turrt
+Object k_barel=ka1barel   1,1,1   0,0,0   0,50,225   0      .      k_turrt
+Object k_fgpof=DUMMY   1,1,1   0,0,0   0,-7,1149   0   hidden   k_barel
+
+rep
+
+Object k_main=ka2_main   1,1,1   0,0,0   0,175,0   0      .      tanka
+Object k_ltred=ka2ltred   1,1,1   0,0,0   -325,-73,0   0      .      k_main
+Object k_rtred=ka2rtred   1,1,1   0,0,0   330,-73,0   0      .      k_main
+Object k_turrt=ka2turrt   1,1,1   0,0,0   0,125,-75   0      .      k_main
+Object k_tgpof=DUMMY   1,1,1   0,0,0   45,196,-68   0   hidden   k_turrt
+Object k_barel=ka2barel   1,1,1   0,0,0   0,50,225   0      .      k_turrt
+Object k_fgpof=DUMMY   1,1,1   0,0,0   0,-7,1106   0   hidden   k_barel
+
+rep
+
+Object k_main=ka3_main   1,1,1   0,0,0   0,175,0   0      .      tanka
+Object k_ltred=ka3ltred   1,1,1   0,0,0   -325,-73,0   0      .      k_main
+Object k_rtred=ka3rtred   1,1,1   0,0,0   330,-73,0   0      .      k_main
+Object k_turrt=ka3turrt   1,1,1   0,0,0   0,125,-75   0      .      k_main
+Object k_tgpof=DUMMY   1,1,1   0,0,0   45,196,-68   0   hidden   k_turrt
+Object k_barel=ka3barel   1,1,1   0,0,0   0,50,225   0      .      k_turrt
+Object k_fgpof=DUMMY   1,1,1   0,0,0   0,-7,1106   0   hidden   k_barel
+
+rep
+
+Object k_main=ka4_main   1,1,1   0,0,0   0,175,0   0      .      tanka
+Object k_ltred=ka4ltred   1,1,1   0,0,0   -325,-73,0   0      .      k_main
+Object k_rtred=ka4rtred   1,1,1   0,0,0   330,-73,0   0      .      k_main
+Object k_turrt=ka4turrt   1,1,1   0,0,0   0,125,-75   0      .      k_main
+Object k_tgpof=DUMMY   1,1,1   0,0,0   45,196,-68   0   hidden   k_turrt
+Object k_barel=ka4barel   1,1,1   0,0,0   0,50,225   0      .      k_turrt
+Object k_fgpof=DUMMY   1,1,1   0,0,0   0,-7,1106   0   hidden   k_barel
+
+endrep
+
+thing k_turrt
+thing k_barel
+
+gamepiece tanka mw2tank
+
+objloc k_main  ct
+objloc k_turrt hd
+objloc k_barel ra
+objloc k_rtred rl
+objloc k_ltred ll
+
+animfile tankanim
+
+task animator 0 k_main;75,129,0
+
+lapof k_tgpof
+rapof k_fgpof
+
+eyeobj k_turrt
+
+mgdfile tanka
+
+mangle_off
+
+#end of tanka.MEC

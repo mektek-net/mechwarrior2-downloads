@@ -1,0 +1,43 @@
+#     Ouput for vehiclei.MEC
+#     Thu May  4 04:18:42 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object vehiclei=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden  world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object v_main=vi1_main   1,1,1   0,0,0   0,226,-106   0      .      vehiclei
+Object v_duh=DUMMY   1,1,1   0,0,0   0,226,-106   0   hidden    v_main
+Object v_winsh=vi1winsh   1,1,1   0,0,0   0,157,352   0      .      v_main
+Object v_cargo=vi1cargo   1,1,1   0,0,0   0,164,-60   0      .      v_main
+
+endrep
+
+thing v_duh
+thing v_duh
+
+gamepiece vehiclei mw2mech
+
+objloc v_winsh  hd
+objloc v_main   ct
+objloc v_cargo  ct
+
+animfile vehhanim 
+
+# task animators go here....
+
+task animator 0    v_main;60,129,0
+
+eyeobj v_winsh
+
+mgdfile vehiclei
+
+mangle_off
+
+#end of vehiclei.MEC

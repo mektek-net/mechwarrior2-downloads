@@ -1,0 +1,209 @@
+#   DIREWOLF.MEC
+#   geometry for the direwolf 'Mech
+
+#       size = 1050 cm
+#       635 to put direwolf's feet on ground
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate     sort (null) parent
+object direwolf=dummy         1,1,1   0,0,0   0,0,0  0  hidden world
+
+rep
+
+Object d_hips=dw1_hips   1,1,1   0,0,0   0,745,22   0      .      direwolf
+Object d_luleg=dw1luleg   1,1,1   0,0,0   -106,-63,-63   0      .      d_hips
+Object d_ljpof=DUMMY   1,1,1   0,0,0   -232,-278,-398   0   hidden   d_luleg
+Object d_llleg=dw1llleg   1,1,1   0,0,0   -94,-207,-207   0      .      d_luleg
+Object d_lankl=dw1lankl   1,1,1   0,0,0   0,-288,324   0      .      d_llleg
+Object d_lftoe=dw1lftoe   1,1,1   0,0,0   0,-76,225   0      .      d_lankl
+Object d_ruleg=dw1ruleg   1,1,1   0,0,0   109,-63,-63   0      .      d_hips
+Object d_rjpof=DUMMY   1,1,1   0,0,0   240,-278,-398   0   hidden   d_ruleg
+Object d_rlleg=dw1rlleg   1,1,1   0,0,0   99,-207,-207   0      .      d_ruleg
+Object d_rankl=dw1rankl   1,1,1   0,0,0   4,-288,324   0      .      d_rlleg
+Object d_rftoe=dw1rftoe   1,1,1   0,0,0   0,-76,225   0      .      d_rankl
+Object d_head=dw1_head   1,1,1   0,0,0   0,-7,17   0      .      d_hips
+Object d_winsh=dw1winsh   1,1,1   0,0,0   2,289,96   0      .      d_head
+Object d_rtpof=DUMMY   1,1,1   0,0,0   175,332,465   0   hidden   d_head
+Object d_cppov=DUMMY   1,1,1   0,0,0   -5,278,477   0   hidden   d_head
+Object d_hdpof=DUMMY   1,1,1   0,0,0   -5,167,638   0   hidden   d_head
+Object d_ltpof=DUMMY   1,1,1   0,0,0   -64,462,177   0   hidden   d_head
+Object d_ctpof=DUMMY   1,1,1   0,0,0   -5,16,299   0   hidden   d_head
+Object d_daddy=DUMMY   1,1,1   0,0,0   -5,244,-8   0   hidden   d_head
+Object d_larm=dw1_larm   1,1,1   0,0,0   -322,24,-4   0      .      d_daddy
+Object d_decll=dw1decll   1,1,1   0,0,0   -216,34,-22   0      .      d_larm
+Object d_lapof=DUMMY   1,1,1   0,0,0   -152,-235,528   0   hidden   d_larm
+Object d_rarm=dw1_rarm   1,1,1   0,0,0   340,24,-4   0      .      d_daddy
+Object d_declr=dw1declr   1,1,1   0,0,0   211,34,-22   0      .      d_rarm
+Object d_rapof=DUMMY   1,1,1   0,0,0   156,-235,528   0   hidden   d_rarm
+
+rep
+
+Object d_hips=dw2_hips   1,1,1   0,0,0   0,745,22   0      .      direwolf
+Object d_luleg=dw2luleg   1,1,1   0,0,0   -106,-63,-63   0      .      d_hips
+Object d_ljpof=DUMMY   1,1,1   0,0,0   -232,-278,-398   0   hidden   d_luleg
+Object d_llleg=dw2llleg   1,1,1   0,0,0   -94,-207,-207   0      .      d_luleg
+Object d_lankl=dw2lankl   1,1,1   0,0,0   0,-288,324   0      .      d_llleg
+Object d_lftoe=dw2lftoe   1,1,1   0,0,0   0,-76,225   0      .      d_lankl
+Object d_ruleg=dw2ruleg   1,1,1   0,0,0   109,-63,-63   0      .      d_hips
+Object d_rjpof=DUMMY   1,1,1   0,0,0   240,-278,-398   0   hidden   d_ruleg
+Object d_rlleg=dw2rlleg   1,1,1   0,0,0   99,-207,-207   0      .      d_ruleg
+Object d_rankl=dw2rankl   1,1,1   0,0,0   4,-288,324   0      .      d_rlleg
+Object d_rftoe=dw2rftoe   1,1,1   0,0,0   0,-76,225   0      .      d_rankl
+Object d_head=dw2_head   1,1,1   0,0,0   0,-7,17   0      .      d_hips
+Object d_winsh=dw2winsh   1,1,1   0,0,0   2,289,96   0      .      d_head
+Object d_rtpof=DUMMY   1,1,1   0,0,0   175,332,465   0   hidden   d_head
+Object d_cppov=DUMMY   1,1,1   0,0,0   -5,278,477   0   hidden   d_head
+Object d_hdpof=DUMMY   1,1,1   0,0,0   -5,167,638   0   hidden   d_head
+Object d_ltpof=DUMMY   1,1,1   0,0,0   -64,462,177   0   hidden   d_head
+Object d_ctpof=DUMMY   1,1,1   0,0,0   -5,16,299   0   hidden   d_head
+Object d_daddy=DUMMY   1,1,1   0,0,0   -5,244,-8   0   hidden   d_head
+Object d_larm=dw2_larm   1,1,1   0,0,0   -322,24,-4   0      .      d_daddy
+Object d_decll=dw2decll   1,1,1   0,0,0   -216,34,-22   0      .      d_larm
+Object d_lapof=DUMMY   1,1,1   0,0,0   -152,-235,528   0   hidden   d_larm
+Object d_rarm=dw2_rarm   1,1,1   0,0,0   340,24,-4   0      .      d_daddy
+Object d_declr=dw2declr   1,1,1   0,0,0   211,34,-22   0      .      d_rarm
+Object d_rapof=DUMMY   1,1,1   0,0,0   156,-235,528   0   hidden   d_rarm
+
+rep
+
+Object d_hips=dw3_hips   1,1,1   0,0,0   0,748,22   0      .      direwolf
+Object d_luleg=dw3luleg   1,1,1   0,0,0   -106,-63,-63   0      .      d_hips
+Object d_ljpof=DUMMY   1,1,1   0,0,0   -232,-278,-242   0   hidden   d_luleg
+Object d_llleg=dw3llleg   1,1,1   0,0,0   -94,-207,-207   0      .      d_luleg
+Object d_lankl=dw3lankl   1,1,1   0,0,0   0,-288,324   0      .      d_llleg
+Object d_lftoe=dw3lftoe   1,1,1   0,0,0   0,-76,225   0      .      d_lankl
+Object d_ruleg=dw3ruleg   1,1,1   0,0,0   109,-63,-63   0      .      d_hips
+Object d_rjpof=DUMMY   1,1,1   0,0,0   240,-278,-242   0   hidden   d_ruleg
+Object d_rlleg=dw3rlleg   1,1,1   0,0,0   167,-207,-207   0      .      d_ruleg
+Object d_rankl=dw3rankl   1,1,1   0,0,0   4,-288,324   0      .      d_rlleg
+Object d_rftoe=dw3rftoe   1,1,1   0,0,0   -68,-76,225   0      .      d_rankl
+Object d_head=dw3_head   1,1,1   0,0,0   0,15,79   0      .      d_hips
+Object d_winsh=dw3winsh   1,1,1   0,0,0   5,288,-102   0      .      d_head
+Object d_rtpof=DUMMY   1,1,1   0,0,0   175,311,160   0   hidden   d_head
+Object d_cppov=DUMMY   1,1,1   0,0,0   -5,257,279   0   hidden   d_head
+Object d_hdpof=DUMMY   1,1,1   0,0,0   -5,146,298   0   hidden   d_head
+Object d_ltpof=DUMMY   1,1,1   0,0,0   -64,441,-94   0   hidden   d_head
+Object d_ctpof=DUMMY   1,1,1   0,0,0   -5,-5,80   0   hidden   d_head
+Object d_daddy=DUMMY   1,1,1   0,0,0   -5,219,-206   0   hidden   d_head
+Object d_larm=dw3_larm   1,1,1   0,0,0   -299,26,134   0      .      d_daddy
+Object d_decll=dw3decll   1,1,1   0,0,0   -239,31,-24   0      .      d_larm
+Object d_lapof=DUMMY   1,1,1   0,0,0   -102,-257,312   0   hidden   d_larm
+Object d_rarm=dw3_rarm   1,1,1   0,0,0   317,26,134   0      .      d_daddy
+Object d_declr=dw3declr   1,1,1   0,0,0   233,31,-24   0      .      d_rarm
+Object d_rapof=DUMMY   1,1,1   0,0,0   105,-257,312   0   hidden   d_rarm
+
+rep
+
+Object d_hips=dw4_hips   1,1,1   0,0,0   0,745,22   0      .      direwolf
+Object d_luleg=dw4luleg   1,1,1   0,0,0   -106,-63,-63   0      .      d_hips
+Object d_ljpof=DUMMY   1,1,1   0,0,0   -232,-278,-242   0   hidden   d_luleg
+Object d_llleg=dw4llleg   1,1,1   0,0,0   -94,-207,-207   0      .      d_luleg
+Object d_lankl=dw4lankl   1,1,1   0,0,0   0,-288,324   0      .      d_llleg
+Object d_lftoe=dw4lftoe   1,1,1   0,0,0   0,-76,225   0      .      d_lankl
+Object d_ruleg=dw4ruleg   1,1,1   0,0,0   109,-63,-63   0      .      d_hips
+Object d_rjpof=DUMMY   1,1,1   0,0,0   240,-278,-242   0   hidden   d_ruleg
+Object d_rlleg=dw4rlleg   1,1,1   0,0,0   99,-207,-207   0      .      d_ruleg
+Object d_rankl=dw4rankl   1,1,1   0,0,0   4,-288,324   0      .      d_rlleg
+Object d_rftoe=dw4rftoe   1,1,1   0,0,0   0,-76,225   0      .      d_rankl
+Object d_head=dw4_head   1,1,1   0,0,0   0,15,-58   0      .      d_hips
+Object d_winsh=dw4winsh   1,1,1   0,0,0   0,280,36   0      .      d_head
+Object d_rtpof=DUMMY   1,1,1   0,0,0   175,311,298   0   hidden   d_head
+Object d_cppov=DUMMY   1,1,1   0,0,0   -5,257,417   0   hidden   d_head
+Object d_hdpof=DUMMY   1,1,1   0,0,0   -5,146,436   0   hidden   d_head
+Object d_ltpof=DUMMY   1,1,1   0,0,0   -64,441,44   0   hidden   d_head
+Object d_ctpof=DUMMY   1,1,1   0,0,0   -5,-5,218   0   hidden   d_head
+Object d_daddy=DUMMY   1,1,1   0,0,0   -5,222,-68   0   hidden   d_head
+Object d_larm=dw4_larm   1,1,1   0,0,0   -299,24,-4   0      .      d_daddy
+Object d_decll=dw4decll   1,1,1   0,0,0   -239,34,114   0      .      d_larm
+Object d_lapof=DUMMY   1,1,1   0,0,0   -102,-257,587   0   hidden   d_larm
+Object d_rarm=dw4_rarm   1,1,1   0,0,0   317,24,-4   0      .      d_daddy
+Object d_declr=dw4declr   1,1,1   0,0,0   233,34,114   0      .      d_rarm
+Object d_rapof=DUMMY   1,1,1   0,0,0   105,-257,587   0   hidden   d_rarm
+
+rep
+
+Object d_hips=dw5_hips   1,1,1   0,0,0   0,745,22   0      .      direwolf
+Object d_luleg=dw5luleg   1,1,1   0,0,0   -106,-63,-63   0      .      d_hips
+Object d_ljpof=DUMMY   1,1,1   0,0,0   -317,-109,-428   0   hidden   d_luleg
+Object d_llleg=dw5llleg   1,1,1   0,0,0   -94,-207,-207   0      .      d_luleg
+Object d_lankl=dw5lankl   1,1,1   0,0,0   0,-288,324   0      .      d_llleg
+Object d_lftoe=dw5lftoe   1,1,1   0,0,0   0,-76,225   0      .      d_lankl
+Object d_ruleg=dw5ruleg   1,1,1   0,0,0   109,-63,-63   0      .      d_hips
+Object d_rjpof=DUMMY   1,1,1   0,0,0   327,-82,-431   0   hidden   d_ruleg
+Object d_rlleg=dw5rlleg   1,1,1   0,0,0   99,-207,-207   0      .      d_ruleg
+Object d_rankl=dw5rankl   1,1,1   0,0,0   4,-288,324   0      .      d_rlleg
+Object d_rftoe=dw5rftoe   1,1,1   0,0,0   0,-76,225   0      .      d_rankl
+Object d_head=dw5_head   1,1,1   0,0,0   0,-7,17   0    near     d_hips
+Object d_winsh=dw5winsh   1,1,1   0,0,0   2,289,96   0      .      d_head
+Object d_rtpof=DUMMY   1,1,1   0,0,0   175,332,222   0   hidden   d_head
+Object d_cppov=DUMMY   1,1,1   0,0,0   -5,278,233   0   hidden   d_head
+Object d_hdpof=DUMMY   1,1,1   0,0,0   -5,167,360   0   hidden   d_head
+Object d_ltpof=DUMMY   1,1,1   0,0,0   -64,462,-32   0   hidden   d_head
+Object d_ctpof=DUMMY   1,1,1   0,0,0   -5,16,142   0   hidden   d_head
+Object d_daddy=DUMMY   1,1,1   0,0,0   -5,244,-144   0   hidden   d_head
+Object d_larm=dw5_larm   1,1,1   0,0,0   -322,24,131   0      .      d_daddy
+Object d_decll=dw5decll   1,1,1   0,0,0   -216,34,-22   0      .      d_larm
+Object d_lapof=DUMMY   1,1,1   0,0,0   -79,-257,315   0   hidden   d_larm
+Object d_rarm=dw5_rarm   1,1,1   0,0,0   340,24,131   0      .      d_daddy
+Object d_declr=dw5declr   1,1,1   0,0,0   211,34,-22   0      .      d_rarm
+Object d_rapof=DUMMY   1,1,1   0,0,0   83,-257,315   0   hidden   d_rarm
+
+endrep
+
+thing d_head
+thing d_daddy
+
+gamepiece direwolf mw2mech
+
+objloc d_head   ct
+objloc d_hips   ct
+objloc d_winsh  hd
+objloc d_larm   la
+objloc d_rarm   ra
+objloc d_luleg  ll
+objloc d_ruleg  rl
+objloc d_llleg  ll
+objloc d_rlleg  rl
+objloc d_lftoe  ll
+objloc d_rftoe  rl
+objloc d_lankl  ll
+objloc d_rankl  rl
+
+animfile diranim2
+
+task animator 0    d_hips;72,129,0
+task animator 0    d_hips;72,1,1
+task animator 0    d_luleg;72,1,2
+task animator 0    d_llleg;72,1,3
+task animator 0    d_lankl;72,1,4
+task animator 0    d_lftoe;72,1,5
+task animator 0    d_ruleg;72,1,6
+task animator 0    d_rlleg;72,1,7
+task animator 0    d_rankl;72,1,8
+task animator 0    d_rftoe;72,1,9
+
+hdpof d_hdpof
+ctpof d_ctpof
+rtpof d_rtpof
+ltpof d_ltpof
+lapof d_lapof
+rapof d_rapof
+ljpof d_ljpof
+rjpof d_rjpof
+
+eyeobj d_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile direwolf
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of direwolf.mec
+

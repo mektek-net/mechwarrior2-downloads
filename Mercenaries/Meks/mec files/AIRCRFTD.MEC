@@ -1,0 +1,110 @@
+#     Ouput for aircrftd.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object aircrftd=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object a_main=ad1_main   1,1,1   0,0,0   0,130,0   0      .      aircrftd
+Object a_winsh=ad1winsh   1,1,1   0,0,0   0,60,660   0      .      a_main
+Object a_decll=ad1decll   1,1,1   0,0,0   -582,178,-789   0      .      a_main
+Object a_declr=ad1declr   1,1,1   0,0,0   581,178,-789   0      .      a_main
+Object a_declb=ad1declb   1,1,1   0,0,0   16,-74,-13   0      .      a_main
+Object a_rfin=ad1_rfin   1,1,1   0,0,0   560,-20,-285   0      .      a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   1,8,878   0   hidden   a_rfin
+Object a_lfin=ad1_lfin   1,1,1   0,0,0   -560,-20,-285   0      .      a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -12,8,878   0   hidden   a_lfin
+Object a_engin=ad1engin   1,1,1   0,0,0   0,-10,-700   0      .      a_main
+Object a_rgun=ad1_rgun   1,1,1   0,0,0   270,-80,420   0      .      a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   8,13,293   0   hidden   a_rgun
+Object a_lgun=ad1_lgun   1,1,1   0,0,0   -270,-80,420   0      .      a_main
+Object a_lpof=DUMMY   1,1,1   0,0,0   -5,13,293   0   hidden   a_lgun
+
+rep
+
+Object a_main=ad2_main   1,1,1   0,0,0   0,130,0   0      .      aircrftd
+Object a_winsh=ad2winsh   1,1,1   0,0,0   0,60,660   0      .      a_main
+Object a_decll=ad2decll   1,1,1   0,0,0   -582,178,-789   0      .      a_main
+Object a_declr=ad2declr   1,1,1   0,0,0   581,178,-789   0      .      a_main
+Object a_declb=ad2declb   1,1,1   0,0,0   16,-74,-13   0      .      a_main
+Object a_rfin=ad2_rfin   1,1,1   0,0,0   560,-20,-285   0      .      a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   1,8,878   0   hidden   a_rfin
+Object a_lfin=ad2_lfin   1,1,1   0,0,0   -560,-20,-285   0      .      a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -12,8,878   0   hidden   a_lfin
+Object a_engin=ad2engin   1,1,1   0,0,0   0,-10,-700   0      .      a_main
+Object a_rgun=ad2_rgun   1,1,1   0,0,0   270,-80,420   0      .      a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   8,13,293   0   hidden   a_rgun
+Object a_lgun=ad2_lgun   1,1,1   0,0,0   -270,-80,420   0      .      a_main
+Object a_lpof=DUMMY   1,1,1   0,0,0   -5,13,293   0   hidden   a_lgun
+
+rep
+
+Object a_main=ad3_main   1,1,1   0,0,0   0,130,0   0      .      aircrftd
+Object a_winsh=ad3winsh   1,1,1   0,0,0   0,60,660   0      .      a_main
+Object a_decll=ad3decll   1,1,1   0,0,0   -582,178,-789   0      .      a_main
+Object a_declr=ad3declr   1,1,1   0,0,0   581,178,-789   0      .      a_main
+Object a_declb=ad3declb   1,1,1   0,0,0   16,-74,-13   0      .      a_main
+Object a_rfin=ad3_rfin   1,1,1   0,0,0   560,-20,-285   0      .      a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   1,8,878   0   hidden   a_rfin
+Object a_lfin=ad3_lfin   1,1,1   0,0,0   -560,-20,-285   0      .      a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -12,8,878   0   hidden   a_lfin
+Object a_engin=ad3engin   1,1,1   0,0,0   0,-10,-700   0      .      a_main
+Object a_rgun=ad3_rgun   1,1,1   0,0,0   270,-80,420   0      .      a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   8,13,293   0   hidden   a_rgun
+Object a_lgun=ad3_lgun   1,1,1   0,0,0   -270,-80,420   0      .      a_main
+Object a_lpof=DUMMY   1,1,1   0,0,0   -5,13,293   0   hidden   a_lgun
+
+rep
+
+Object a_main=ad4_main   1,1,1   0,0,0   0,130,0   0      .      aircrftd
+Object a_winsh=ad4winsh   1,1,1   0,0,0   0,60,660   0      .      a_main
+Object a_decll=ad4decll   1,1,1   0,0,0   -582,178,-789   0      .      a_main
+Object a_declr=ad4declr   1,1,1   0,0,0   581,178,-789   0      .      a_main
+Object a_declb=ad4declb   1,1,1   0,0,0   16,-74,-13   0      .      a_main
+Object a_rfin=ad4_rfin   1,1,1   0,0,0   560,-20,-285   0      .      a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   1,8,878   0   hidden   a_rfin
+Object a_lfin=ad4_lfin   1,1,1   0,0,0   -560,-20,-285   0      .      a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -12,8,878   0   hidden   a_lfin
+Object a_engin=ad4engin   1,1,1   0,0,0   0,-10,-700   0      .      a_main
+Object a_rgun=ad4_rgun   1,1,1   0,0,0   270,-80,420   0      .      a_main
+Object a_rpof=DUMMY   1,1,1   0,0,0   8,13,293   0   hidden   a_rgun
+Object a_lgun=ad4_lgun   1,1,1   0,0,0   -270,-80,420   0      .      a_main
+Object a_lpof=DUMMY   1,1,1   0,0,0   -5,13,293   0   hidden   a_lgun
+
+endrep
+
+thing a_main
+thing a_main
+
+gamepiece aircrftd mw2helicopter
+
+objloc a_main   ct
+objloc a_engin  ct
+objloc a_lfin   ct
+objloc a_rfin   ct
+objloc a_winsh  ct
+objloc a_rgun   ra
+objloc a_lgun   la
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    a_main;60,129,0
+
+lapof a_lpof
+rapof a_rpof
+
+eyeobj a_main
+
+mgdfile aircrftd
+
+mangle_off
+
+#end of aircrftd.MEC

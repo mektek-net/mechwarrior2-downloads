@@ -1,0 +1,62 @@
+#     Ouput for savanna.MEC
+#     Thu Mar 30 15:57:51 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object savanna=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+
+rep
+
+Object s_main=sv1_main   1,1,1   0,0,0   0,109,1   0      .      savanna
+Object s_winsh=sv1winsh   1,1,1   0,0,0   0,193,351   0      .      s_main
+Object s_engin=sv1engin   1,1,1   0,0,0   0,62,-389   0      .      s_main
+Object s_rhstb=sv1rhstb   1,1,1   0,0,0   6,119,-29   0      .      s_engin
+Object s_lhstb=sv1lhstb   1,1,1   0,0,0   -6,118,-29   0      .      s_engin
+Object s_vtstb=sv1vtstb   1,1,1   0,0,0   0,45,-124   0      .      s_engin
+Object s_decll=sv1decll   1,1,1   0,0,0   -203,113,52   0      .      s_main
+Object s_declr=sv1declr   1,1,1   0,0,0   202,113,52   0      .      s_main
+Object s_rfin=sv1_rfin   1,1,1   0,0,0   70,241,-1   0      .      s_main
+Object s_lfin=sv1_lfin   1,1,1   0,0,0   -72,243,-1   0      .      s_main
+Object s_sensr=sv1sensr   1,1,1   0,0,0   0,248,410   0      .      s_main
+Object s_cppov=DUMMY   1,1,1   0,0,0   0,182,382   0   hidden   s_main
+Object s_dummy=DUMMY   1,1,1   0,0,0   0,79,30   0   hidden   s_main
+Object s_daddy=DUMMY   1,1,1   0,0,0   0,4,283   0   hidden   s_dummy
+Object s_frpof=DUMMY   1,1,1   0,0,0   0,6,310   0   hidden   s_daddy
+
+endrep
+
+thing s_dummy
+thing s_daddy
+
+gamepiece savanna mw2mech
+
+objloc s_main  ct
+objloc s_engin ct
+objloc s_rhstb ct
+objloc s_lhstb ct
+objloc s_vtstb ct
+objloc s_rfin  ct
+objloc s_lfin  ct
+objloc s_sensr ct
+objloc s_winsh hd
+
+animfile tnkbanim
+
+task animator 0 s_main;75,129,0
+
+ltpof s_frpof
+
+eyeobj s_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile savanna
+pitfile mw2pit
+
+mangle_off
+
+#end of savanna.MEC

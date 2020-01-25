@@ -1,0 +1,211 @@
+#   clint.MEC
+#   geometry for the clint 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object clint=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object c_hips=cl1_hips   1,1,1   0,0,0   0,527,35   0      .      clint
+Object c_luleg=cl1luleg   1,1,1   0,0,0   -108,-4,-28   0      .      c_hips
+Object c_llleg=cl1llleg   1,1,1   0,0,0   -41,-209,7   0      .      c_luleg
+Object c_decll=cl1decll   1,1,1   0,0,0   -57,-119,6   0      .      c_llleg
+Object c_lftoe=cl1lftoe   1,1,1   0,0,0   0,-248,32   0      .      c_llleg
+Object c_lrtoe=cl1lrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_lftoe
+Object c_ruleg=cl1ruleg   1,1,1   0,0,0   108,-4,-28   0      .      c_hips
+Object c_rlleg=cl1rlleg   1,1,1   0,0,0   41,-209,7   0      .      c_ruleg
+Object c_declr=cl1declr   1,1,1   0,0,0   57,-119,6   0      .      c_rlleg
+Object c_rftoe=cl1rftoe   1,1,1   0,0,0   0,-248,32   0      .      c_rlleg
+Object c_rrtoe=cl1rrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_rftoe
+Object c_head=cl1_head   1,1,1   0,0,0   0,50,-11   0      .      c_hips
+Object c_winsh=cl1winsh   1,1,1   0,0,0   0,360,87   0      .      c_head
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   90,117,202   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -86,116,202   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   c_head
+Object c_larm=cl1_larm   1,1,1   0,0,0   -168,5,-2   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -96,-224,392   0   hidden   c_larm
+Object c_rarm=cl1_rarm   1,1,1   0,0,0   183,5,-2   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   93,-231,429   0   hidden   c_rarm
+
+rep
+
+Object c_hips=cl2_hips   1,1,1   0,0,0   0,527,35   0      .      clint
+Object c_luleg=cl2luleg   1,1,1   0,0,0   -108,-4,-28   0      .      c_hips
+Object c_llleg=cl2llleg   1,1,1   0,0,0   -41,-209,7   0      .      c_luleg
+Object c_decll=cl2decll   1,1,1   0,0,0   -57,-119,6   0      .      c_llleg
+Object c_lftoe=cl2lftoe   1,1,1   0,0,0   0,-248,32   0      .      c_llleg
+Object c_lrtoe=cl2lrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_lftoe
+Object c_ruleg=cl2ruleg   1,1,1   0,0,0   108,-4,-28   0      .      c_hips
+Object c_rlleg=cl2rlleg   1,1,1   0,0,0   41,-209,7   0      .      c_ruleg
+Object c_declr=cl2declr   1,1,1   0,0,0   57,-119,6   0      .      c_rlleg
+Object c_rftoe=cl2rftoe   1,1,1   0,0,0   0,-248,32   0      .      c_rlleg
+Object c_rrtoe=cl2rrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_rftoe
+Object c_head=cl2_head   1,1,1   0,0,0   0,50,-11   0      .      c_hips
+Object c_winsh=cl2winsh   1,1,1   0,0,0   0,360,87   0      .      c_head
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   90,117,202   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -86,116,202   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   c_head
+Object c_larm=cl2_larm   1,1,1   0,0,0   -168,5,-2   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -96,-224,392   0   hidden   c_larm
+Object c_rarm=cl2_rarm   1,1,1   0,0,0   183,5,-2   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   93,-231,429   0   hidden   c_rarm
+
+rep
+
+Object c_hips=cl3_hips   1,1,1   0,0,0   0,527,35   0      .      clint
+Object c_luleg=cl3luleg   1,1,1   0,0,0   -108,-4,-28   0      .      c_hips
+Object c_llleg=cl3llleg   1,1,1   0,0,0   -41,-209,7   0      .      c_luleg
+Object c_decll=cl3decll   1,1,1   0,0,0   -57,-119,6   0      .      c_llleg
+Object c_lftoe=cl3lftoe   1,1,1   0,0,0   0,-248,32   0      .      c_llleg
+Object c_lrtoe=cl3lrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_lftoe
+Object c_ruleg=cl3ruleg   1,1,1   0,0,0   108,-4,-28   0      .      c_hips
+Object c_rlleg=cl3rlleg   1,1,1   0,0,0   41,-209,7   0      .      c_ruleg
+Object c_declr=cl3declr   1,1,1   0,0,0   57,-119,6   0      .      c_rlleg
+Object c_rftoe=cl3rftoe   1,1,1   0,0,0   0,-248,32   0      .      c_rlleg
+Object c_rrtoe=cl3rrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_rftoe
+Object c_head=cl3_head   1,1,1   0,0,0   0,50,-11   0      .      c_hips
+Object c_winsh=cl3winsh   1,1,1   0,0,0   0,360,87   0      .      c_head
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   90,117,202   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -86,116,202   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   c_head
+Object c_larm=cl3_larm   1,1,1   0,0,0   -168,5,-2   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -96,-224,392   0   hidden   c_larm
+Object c_rarm=cl3_rarm   1,1,1   0,0,0   183,5,-2   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   93,-231,429   0   hidden   c_rarm
+
+rep
+
+Object c_hips=cl4_hips   1,1,1   0,0,0   0,527,35   0      .      clint
+Object c_luleg=cl4luleg   1,1,1   0,0,0   -108,-4,-28   0      .      c_hips
+Object c_llleg=cl4llleg   1,1,1   0,0,0   -41,-209,7   0      .      c_luleg
+Object c_decll=cl4decll   1,1,1   0,0,0   -57,-119,6   0      .      c_llleg
+Object c_lftoe=cl4lftoe   1,1,1   0,0,0   0,-248,32   0      .      c_llleg
+Object c_lrtoe=cl4lrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_lftoe
+Object c_ruleg=cl4ruleg   1,1,1   0,0,0   108,-4,-28   0      .      c_hips
+Object c_rlleg=cl4rlleg   1,1,1   0,0,0   41,-209,7   0      .      c_ruleg
+Object c_declr=cl4declr   1,1,1   0,0,0   57,-119,6   0      .      c_rlleg
+Object c_rftoe=cl4rftoe   1,1,1   0,0,0   0,-248,32   0      .      c_rlleg
+Object c_rrtoe=cl4rrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_rftoe
+Object c_head=cl4_head   1,1,1   0,0,0   0,50,-11   0      .      c_hips
+Object c_winsh=cl4winsh   1,1,1   0,0,0   0,360,87   0      .      c_head
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   90,117,202   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -86,116,202   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   c_head
+Object c_larm=cl4_larm   1,1,1   0,0,0   -168,5,-2   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -96,-224,392   0   hidden   c_larm
+Object c_rarm=cl4_rarm   1,1,1   0,0,0   183,5,-2   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   93,-231,429   0   hidden   c_rarm
+
+rep
+
+Object c_hips=cl5_hips   1,1,1   0,0,0   0,527,35   0      .      clint
+Object c_luleg=cl5luleg   1,1,1   0,0,0   -108,-4,-28   0      .      c_hips
+Object c_llleg=cl5llleg   1,1,1   0,0,0   -41,-209,7   0      .      c_luleg
+Object c_decll=cl5decll   1,1,1   0,0,0   -57,-119,6   0      .      c_llleg
+Object c_lftoe=cl5lftoe   1,1,1   0,0,0   0,-248,32   0      .      c_llleg
+Object c_lrtoe=cl5lrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_lftoe
+Object c_ruleg=cl5ruleg   1,1,1   0,0,0   108,-4,-28   0      .      c_hips
+Object c_rlleg=cl5rlleg   1,1,1   0,0,0   41,-209,7   0      .      c_ruleg
+Object c_declr=cl5declr   1,1,1   0,0,0   57,-119,6   0      .      c_rlleg
+Object c_rftoe=cl5rftoe   1,1,1   0,0,0   0,-248,32   0      .      c_rlleg
+Object c_rrtoe=cl5rrtoe   1,1,1   0,0,0   0,0,-60   0      .      c_rftoe
+Object c_head=cl5_head   1,1,1   0,0,0   0,50,-11   0    near     c_hips
+Object c_winsh=cl5winsh   1,1,1   0,0,0   0,360,87   0      .      c_head
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,96,-133   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,96,-133   0   hidden   c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,363,36   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,391,8   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,113,220   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   90,117,202   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -86,116,202   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,278,-7   0   hidden   c_head
+Object c_larm=cl5_larm   1,1,1   0,0,0   -168,5,-2   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -96,-224,392   0   hidden   c_larm
+Object c_rarm=cl5_rarm   1,1,1   0,0,0   183,5,-2   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   93,-231,429   0   hidden   c_rarm
+
+endrep
+
+thing c_head
+thing c_daddy
+
+gamepiece clint mw2mech 
+
+objloc c_head   ct
+objloc c_hips   ct
+objloc c_winsh  hd
+objloc c_larm   la
+objloc c_rarm   ra
+objloc c_luleg  ll
+objloc c_ruleg  rl
+objloc c_llleg  ll
+objloc c_rlleg  rl
+objloc c_lftoe  ll
+objloc c_rftoe  rl
+objloc c_lrtoe  ll
+objloc c_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    c_hips;55,129,0
+task animator 0    c_hips;55,1,1
+task animator 0    c_ruleg;55,1,2
+task animator 0    c_rlleg;55,1,3
+task animator 0    c_rftoe;55,1,4
+task animator 0    c_rrtoe;55,1,5
+task animator 0    c_luleg;55,1,6
+task animator 0    c_llleg;55,1,7
+task animator 0    c_lftoe;55,1,8
+task animator 0    c_lrtoe;55,1,9
+task animator 0    c_head;55,1,10
+task animator 0    c_rarm;55,1,11
+task animator 0    c_larm;55,1,12
+
+hdpof c_hdpof
+ctpof c_ctpof
+rtpof c_rtpof
+ltpof c_ltpof
+lapof c_lapof
+rapof c_rapof
+ljpof c_ljpof
+rjpof c_rjpof
+
+eyeobj c_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile clint
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of clint.MEC
+
+

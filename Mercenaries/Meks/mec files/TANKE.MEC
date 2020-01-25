@@ -1,0 +1,94 @@
+#     Ouput for tanke.MEC
+#     Thu Mar 30 15:57:51 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object tanke=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+
+rep
+
+Object k_body=ke1_body   1,1,1   0,0,0   0,310,0   0      .      tanke
+Object k_declr=ke1declr   1,1,1   0,0,0   2,111,585   0      .      k_body
+Object k_ltred=ke1ltred   1,1,1   0,0,0   -400,-184,0   0      .      k_body
+Object k_rtred=ke1rtred   1,1,1   0,0,0   406,-184,0   0      .      k_body
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,238,-112   0   hidden   k_body
+Object k_turrt=ke1turrt   1,1,1   0,0,0   0,-48,-28   0      .      k_daddy
+Object k_decll=ke1decll   1,1,1   0,0,0   -306,212,-157   0      .      k_turrt
+Object k_fgpof=DUMMY   1,1,1   0,0,0   0,48,1151   0   hidden   k_turrt
+Object k_lgpof=DUMMY   1,1,1   0,0,0   -86,215,-3   0   hidden   k_turrt
+Object k_mgpof=DUMMY   1,1,1   0,0,0   161,235,-70   0   hidden   k_turrt
+Object k_rgpof=DUMMY   1,1,1   0,0,0   372,102,-3   0   hidden   k_turrt
+
+rep
+
+Object k_body=ke2_body   1,1,1   0,0,0   0,310,0   0      .      tanke
+Object k_declr=ke2declr   1,1,1   0,0,0   2,111,585   0      .      k_body
+Object k_ltred=ke2ltred   1,1,1   0,0,0   -400,-184,0   0      .      k_body
+Object k_rtred=ke2rtred   1,1,1   0,0,0   406,-184,0   0      .      k_body
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,238,-112   0   hidden   k_body
+Object k_turrt=ke2turrt   1,1,1   0,0,0   0,-48,-28   0      .      k_daddy
+Object k_decll=ke2decll   1,1,1   0,0,0   -306,212,-157   0      .      k_turrt
+Object k_fgpof=DUMMY   1,1,1   0,0,0   0,48,1151   0   hidden   k_turrt
+Object k_lgpof=DUMMY   1,1,1   0,0,0   -86,215,-3   0   hidden   k_turrt
+Object k_mgpof=DUMMY   1,1,1   0,0,0   161,235,-70   0   hidden   k_turrt
+Object k_rgpof=DUMMY   1,1,1   0,0,0   372,102,-3   0   hidden   k_turrt
+
+rep
+
+Object k_body=ke3_body   1,1,1   0,0,0   0,310,0   0      .      tanke
+Object k_declr=ke3declr   1,1,1   0,0,0   2,111,585   0      .      k_body
+Object k_ltred=ke3ltred   1,1,1   0,0,0   -400,-184,0   0      .      k_body
+Object k_rtred=ke3rtred   1,1,1   0,0,0   406,-184,0   0      .      k_body
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,238,-112   0   hidden   k_body
+Object k_turrt=ke3turrt   1,1,1   0,0,0   0,-48,-28   0      .      k_daddy
+Object k_decll=ke3decll   1,1,1   0,0,0   -306,212,-157   0      .      k_turrt
+Object k_fgpof=DUMMY   1,1,1   0,0,0   0,48,1151   0   hidden   k_turrt
+Object k_lgpof=DUMMY   1,1,1   0,0,0   -86,215,-3   0   hidden   k_turrt
+Object k_mgpof=DUMMY   1,1,1   0,0,0   161,235,-70   0   hidden   k_turrt
+Object k_rgpof=DUMMY   1,1,1   0,0,0   372,102,-3   0   hidden   k_turrt
+
+rep
+
+Object k_body=ke4_body   1,1,1   0,0,0   0,310,0   0      .      tanke
+Object k_declr=ke4declr   1,1,1   0,0,0   2,111,585   0      .      k_body
+Object k_ltred=ke4ltred   1,1,1   0,0,0   -400,-184,0   0      .      k_body
+Object k_rtred=ke4rtred   1,1,1   0,0,0   406,-184,0   0      .      k_body
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,238,-112   0   hidden   k_body
+Object k_turrt=ke4turrt   1,1,1   0,0,0   0,-48,-28   0      .      k_daddy
+Object k_decll=ke4decll   1,1,1   0,0,0   -306,212,-157   0      .      k_turrt
+Object k_fgpof=DUMMY   1,1,1   0,0,0   0,48,1151   0   hidden   k_turrt
+Object k_lgpof=DUMMY   1,1,1   0,0,0   -86,215,-3   0   hidden   k_turrt
+Object k_mgpof=DUMMY   1,1,1   0,0,0   161,235,-70   0   hidden   k_turrt
+Object k_rgpof=DUMMY   1,1,1   0,0,0   372,102,-3   0   hidden   k_turrt
+
+endrep
+
+thing k_daddy
+thing k_turrt
+
+gamepiece tanke mw2tank
+
+objloc k_body  ct
+objloc k_turrt ct
+objloc k_rtred rl
+objloc k_ltred ll
+
+animfile tnkbanim
+
+task animator 0 k_body;75,129,0
+
+lapof k_rgpof
+ltpof k_mgpof
+rapof k_lgpof
+rtpof k_fgpof
+
+eyeobj k_turrt
+
+mgdfile tanke
+
+mangle_off
+
+#end of tanke.MEC

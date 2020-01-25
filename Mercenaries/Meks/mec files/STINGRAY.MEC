@@ -1,0 +1,69 @@
+#     Ouput for stingray.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object stingray=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object s_main=sg1_main   1,1,1   0,0,0   0,212,419   0      .      stingray
+Object s_winsh=sg1winsh   1,1,1   0,0,0   0,112,242   0      .      s_main
+Object s_rhstb=sg1rhstb   1,1,1   0,0,0   140,-70,-119   0      .      s_main
+Object s_lhstb=sg1lhstb   1,1,1   0,0,0   -140,-70,-119   0      .      s_main
+Object s_engin=sg1engin   1,1,1   0,0,0   0,24,-1087   0      .      s_main
+Object s_hfin=sg1_hfin   1,1,1   0,0,0   0,130,-1193   0      .      s_main
+Object s_rwing=sg1rwing   1,1,1   0,0,0   210,-70,-1049   0      .      s_main
+Object s_rwlgo=sg1rwlgo   1,1,1   0,0,0   279,4,170   0      .      s_rwing
+Object s_lwing=sg1lwing   1,1,1   0,0,0   -210,-70,-1049   0      .      s_main
+Object s_lwlgo=sg1lwlgo   1,1,1   0,0,0   -266,4,170   0      .      s_lwing
+Object s_dummy=DUMMY   1,1,1   0,0,0   0,2,-682   0   hidden   s_main
+Object s_daddy=DUMMY   1,1,1   0,0,0   0,0,140   0   hidden   s_dummy
+Object s_ctpof=DUMMY   1,1,1   0,0,0   0,-95,895   0   hidden   s_daddy
+Object s_hdpof=DUMMY   1,1,1   0,0,0   0,108,773   0   hidden   s_daddy
+Object s_ltpof=DUMMY   1,1,1   0,0,0   -228,-83,603   0   hidden   s_daddy
+Object s_rtpof=DUMMY   1,1,1   0,0,0   219,-83,603   0   hidden   s_daddy
+Object s_rwpof=DUMMY   1,1,1   0,0,0   628,-85,-3   0   hidden   s_daddy
+Object s_lwpof=DUMMY   1,1,1   0,0,0   -625,-85,-3   0   hidden   s_daddy
+
+endrep
+
+thing s_dummy
+thing s_daddy
+
+gamepiece stingray mw2truck
+
+objloc s_main   ct
+objloc s_hfin   ct
+objloc s_winsh  ct
+objloc s_engin  ct
+objloc s_rwing  ra
+objloc s_lwing  la
+objloc s_lhstb  lt
+objloc s_rhstb  rt
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    s_main;60,129,0
+
+lapof s_lwpof
+rapof s_rwpof
+hdpof s_hdpof
+ctpof s_ctpof
+ltpof s_ltpof
+rtpof s_rtpof
+
+eyeobj s_hdpof
+
+mgdfile stingray
+
+mangle_off
+
+#end of stingray.MEC
+

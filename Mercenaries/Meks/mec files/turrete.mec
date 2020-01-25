@@ -1,0 +1,70 @@
+#     Ouput for turrete.MEC
+#     Thu May 25 21:33:23 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object turrete=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object t_main=DUMMY   1,1,1   0,0,0   -8382,1805,4020   0   hidden   turrete
+Object t_sidea=te1sidea   1,1,1   0,0,0   -647,59,78   0      .      t_main
+Object t_sideb=te1sideb   1,1,1   0,0,0   -913,654,247   0      .      t_main
+Object t_sidec=te1sidec   1,1,1   0,0,0   262,-28,-611   0      .      t_main
+Object t_sided=te1sided   1,1,1   0,0,0   920,72,482   0      .      t_main
+Object t_engna=te1engna   1,1,1   0,0,0   -480,-1547,470   0      .      t_main
+Object t_engnb=te1engnb   1,1,1   0,0,0   -10,-1547,646   0      .      t_main
+Object t_engnc=te1engnc   1,1,1   0,0,0   437,-1547,470   0      .      t_main
+Object t_engnd=te1engnd   1,1,1   0,0,0   602,-1547,-24   0      .      t_main
+Object t_engne=te1engne   1,1,1   0,0,0   437,-1547,-470   0      .      t_main
+Object t_engnf=te1engnf   1,1,1   0,0,0   -45,-1547,-623   0      .      t_main
+Object t_engng=te1engng   1,1,1   0,0,0   -480,-1547,-470   0      .      t_main
+Object t_engnh=te1engnh   1,1,1   0,0,0   -668,-1547,-24   0      .      t_main
+Object t_engni=te1engni   1,1,1   0,0,0   -21,-1805,-24   0      .      t_main
+Object t_eyept=DUMMY   1,1,1   0,0,0   0,0,0   0   hidden   t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,0,0   0   hidden   t_main
+Object t_tppof=DUMMY   1,1,1   0,0,0   0,1632,0   0   hidden   t_daddy
+Object t_lupof=DUMMY   1,1,1   0,0,0   -1440,923,0   0   hidden   t_daddy
+Object t_llpof=DUMMY   1,1,1   0,0,0   -1752,0,0   0   hidden   t_daddy
+Object t_rupof=DUMMY   1,1,1   0,0,0   1469,923,0   0   hidden   t_daddy
+Object t_rlpof=DUMMY   1,1,1   0,0,0   1802,0,0   0   hidden   t_daddy
+
+endrep
+
+thing t_eyept
+thing t_daddy
+
+gamepiece turrete mw2artillery
+
+objloc t_sidea  ct
+objloc t_sideb  ct
+objloc t_sidec  ct
+objloc t_sided  ct
+objloc t_engna  ll
+objloc t_engnb  ll
+objloc t_engnc  ll
+objloc t_engnd  ll
+objloc t_engne  rl
+objloc t_engnf  rl
+objloc t_engng  rl
+objloc t_engnh  rl
+objloc t_engni  rl
+
+lapof t_llpof
+rapof t_rlpof
+ltpof t_lupof
+rtpof t_rupof
+ctpof t_tppof
+
+eyeobj t_eyept
+
+mgdfile turrete
+
+mangle_off
+
+#end of turrete.MEC

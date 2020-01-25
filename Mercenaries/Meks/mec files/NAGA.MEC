@@ -1,0 +1,210 @@
+#   naga.MEC
+#   geometry for the naga 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null)  parent
+object naga=dummy     1,1,1   0,0,0   0,0,0   0    hidden  world
+
+rep
+
+Object n_hips=ng1_hips   1,1,1   0,0,0   0,700,0   0      .      naga
+Object n_luleg=ng1luleg   1,1,1   0,0,0   -270,-26,12   0      .      n_hips
+Object n_llleg=ng1llleg   1,1,1   0,0,0   -10,-254,21   0      .      n_luleg
+Object n_lrtoe=ng1lrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_llleg
+Object n_lftoe=ng1lftoe   1,1,1   0,0,0   0,0,50   0      .      n_lrtoe
+Object n_ruleg=ng1ruleg   1,1,1   0,0,0   270,-26,12   0      .      n_hips
+Object n_rlleg=ng1rlleg   1,1,1   0,0,0   10,-254,21   0      .      n_ruleg
+Object n_rrtoe=ng1rrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_rlleg
+Object n_rftoe=ng1rftoe   1,1,1   0,0,0   0,0,50   0      .      n_rrtoe
+Object n_head=ng1_head   1,1,1   0,0,0   0,60,0   0      .      n_hips
+Object n_winsh=ng1winsh   1,1,1   0,0,0   0,400,86   0      .      n_head
+Object n_rjpof=DUMMY   1,1,1   0,0,0   88,-161,-99   0   hidden   n_head
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -85,-161,-99   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   194,211,61   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   0,393,37   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   1,335,152   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   -182,210,61   0   hidden   n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   2,168,169   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   2,193,3   0   hidden   n_head
+Object n_larm=ng1_larm   1,1,1   0,0,0   -282,-3,-3   0      .      n_daddy
+Object n_decll=ng1decll   1,1,1   0,0,0   -222,-31,12   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -108,-12,237   0   hidden   n_larm
+Object n_rarm=ng1_rarm   1,1,1   0,0,0   278,-3,-3   0      .      n_daddy
+Object n_declr=ng1declr   1,1,1   0,0,0   219,-31,12   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   106,-13,237   0   hidden   n_rarm
+
+rep
+
+Object n_hips=ng2_hips   1,1,1   0,0,0   0,700,0   0      .      naga
+Object n_luleg=ng2luleg   1,1,1   0,0,0   -270,-26,12   0      .      n_hips
+Object n_llleg=ng2llleg   1,1,1   0,0,0   -10,-254,21   0      .      n_luleg
+Object n_lrtoe=ng2lrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_llleg
+Object n_lftoe=ng2lftoe   1,1,1   0,0,0   0,0,50   0      .      n_lrtoe
+Object n_ruleg=ng2ruleg   1,1,1   0,0,0   270,-26,12   0      .      n_hips
+Object n_rlleg=ng2rlleg   1,1,1   0,0,0   10,-254,21   0      .      n_ruleg
+Object n_rrtoe=ng2rrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_rlleg
+Object n_rftoe=ng2rftoe   1,1,1   0,0,0   0,0,50   0      .      n_rrtoe
+Object n_head=ng2_head   1,1,1   0,0,0   0,60,0   0      .      n_hips
+Object n_winsh=ng2winsh   1,1,1   0,0,0   0,400,86   0      .      n_head
+Object n_rjpof=DUMMY   1,1,1   0,0,0   88,-161,-99   0   hidden   n_head
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -85,-161,-99   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   194,211,61   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   0,393,37   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   1,335,152   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   -182,210,61   0   hidden   n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   2,168,169   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   2,193,3   0   hidden   n_head
+Object n_larm=ng2_larm   1,1,1   0,0,0   -282,-3,-3   0      .      n_daddy
+Object n_decll=ng2decll   1,1,1   0,0,0   -222,-31,12   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -108,-12,237   0   hidden   n_larm
+Object n_rarm=ng2_rarm   1,1,1   0,0,0   278,-3,-3   0      .      n_daddy
+Object n_declr=ng2declr   1,1,1   0,0,0   219,-31,12   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   106,-13,237   0   hidden   n_rarm
+
+rep
+
+Object n_hips=ng3_hips   1,1,1   0,0,0   0,700,0   0      .      naga
+Object n_luleg=ng3luleg   1,1,1   0,0,0   -270,-26,12   0      .      n_hips
+Object n_llleg=ng3llleg   1,1,1   0,0,0   -10,-254,21   0      .      n_luleg
+Object n_lrtoe=ng3lrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_llleg
+Object n_lftoe=ng3lftoe   1,1,1   0,0,0   0,0,50   0      .      n_lrtoe
+Object n_ruleg=ng3ruleg   1,1,1   0,0,0   270,-26,12   0      .      n_hips
+Object n_rlleg=ng3rlleg   1,1,1   0,0,0   10,-254,21   0      .      n_ruleg
+Object n_rrtoe=ng3rrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_rlleg
+Object n_rftoe=ng3rftoe   1,1,1   0,0,0   0,0,50   0      .      n_rrtoe
+Object n_head=ng3_head   1,1,1   0,0,0   0,60,0   0      .      n_hips
+Object n_winsh=ng3winsh   1,1,1   0,0,0   0,400,86   0      .      n_head
+Object n_rjpof=DUMMY   1,1,1   0,0,0   88,-161,-99   0   hidden   n_head
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -85,-161,-99   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   194,211,61   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   0,393,37   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   1,335,152   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   -182,210,61   0   hidden   n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   2,168,169   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   2,193,3   0   hidden   n_head
+Object n_larm=ng3_larm   1,1,1   0,0,0   -282,-3,-3   0      .      n_daddy
+Object n_decll=ng3decll   1,1,1   0,0,0   -222,-31,12   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -108,-12,237   0   hidden   n_larm
+Object n_rarm=ng3_rarm   1,1,1   0,0,0   278,-3,-3   0      .      n_daddy
+Object n_declr=ng3declr   1,1,1   0,0,0   219,-31,12   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   106,-13,237   0   hidden   n_rarm
+
+rep
+
+Object n_hips=ng4_hips   1,1,1   0,0,0   0,700,0   0      .      naga
+Object n_luleg=ng4luleg   1,1,1   0,0,0   -270,-26,12   0      .      n_hips
+Object n_llleg=ng4llleg   1,1,1   0,0,0   -10,-254,21   0      .      n_luleg
+Object n_lrtoe=ng4lrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_llleg
+Object n_lftoe=ng4lftoe   1,1,1   0,0,0   0,0,50   0      .      n_lrtoe
+Object n_ruleg=ng4ruleg   1,1,1   0,0,0   270,-26,12   0      .      n_hips
+Object n_rlleg=ng4rlleg   1,1,1   0,0,0   10,-254,21   0      .      n_ruleg
+Object n_rrtoe=ng4rrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_rlleg
+Object n_rftoe=ng4rftoe   1,1,1   0,0,0   0,0,50   0      .      n_rrtoe
+Object n_head=ng4_head   1,1,1   0,0,0   0,60,0   0      .      n_hips
+Object n_winsh=ng4winsh   1,1,1   0,0,0   0,400,86   0      .      n_head
+Object n_rjpof=DUMMY   1,1,1   0,0,0   88,-161,-99   0   hidden   n_head
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -85,-161,-99   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   194,211,61   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   0,393,37   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   1,335,152   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   -182,210,61   0   hidden   n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   2,168,169   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   2,193,3   0   hidden   n_head
+Object n_larm=ng4_larm   1,1,1   0,0,0   -282,-3,-3   0      .      n_daddy
+Object n_decll=ng4decll   1,1,1   0,0,0   -222,-31,12   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -108,-12,237   0   hidden   n_larm
+Object n_rarm=ng4_rarm   1,1,1   0,0,0   278,-3,-3   0      .      n_daddy
+Object n_declr=ng4declr   1,1,1   0,0,0   219,-31,12   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   106,-13,237   0   hidden   n_rarm
+
+rep
+
+Object n_hips=ng5_hips   1,1,1   0,0,0   0,700,0   0      .      naga
+Object n_luleg=ng5luleg   1,1,1   0,0,0   -270,-26,12   0      .      n_hips
+Object n_llleg=ng5llleg   1,1,1   0,0,0   -10,-254,21   0      .      n_luleg
+Object n_lrtoe=ng5lrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_llleg
+Object n_lftoe=ng5lftoe   1,1,1   0,0,0   0,0,50   0      .      n_lrtoe
+Object n_ruleg=ng5ruleg   1,1,1   0,0,0   270,-26,12   0      .      n_hips
+Object n_rlleg=ng5rlleg   1,1,1   0,0,0   10,-254,21   0      .      n_ruleg
+Object n_rrtoe=ng5rrtoe   1,1,1   0,0,0   0,-292,-20   0      .      n_rlleg
+Object n_rftoe=ng5rftoe   1,1,1   0,0,0   0,0,50   0      .      n_rrtoe
+Object n_head=ng5_head   1,1,1   0,0,0   0,60,0   0    near     n_hips
+Object n_winsh=ng5winsh   1,1,1   0,0,0   0,400,86   0      .      n_head
+Object n_rjpof=DUMMY   1,1,1   0,0,0   88,-161,-99   0   hidden   n_head
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -85,-161,-99   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   194,211,61   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   0,393,37   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   1,335,152   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   -182,210,61   0   hidden   n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   2,168,169   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   2,193,3   0   hidden   n_head
+Object n_larm=ng5_larm   1,1,1   0,0,0   -282,-3,-3   0      .      n_daddy
+Object n_decll=ng5decll   1,1,1   0,0,0   -222,-31,12   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -108,-12,237   0   hidden   n_larm
+Object n_rarm=ng5_rarm   1,1,1   0,0,0   278,-3,-3   0      .      n_daddy
+Object n_declr=ng5declr   1,1,1   0,0,0   219,-31,12   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   106,-13,237   0   hidden   n_rarm
+
+endrep
+
+thing n_head
+thing n_daddy
+
+gamepiece naga mw2mech 
+
+objloc n_head   ct
+objloc n_hips   ct
+objloc n_winsh  hd
+objloc n_larm   la
+objloc n_rarm   ra
+objloc n_luleg  ll
+objloc n_ruleg  rl
+objloc n_llleg  ll
+objloc n_rlleg  rl
+objloc n_lftoe  ll
+objloc n_rftoe  rl
+objloc n_lrtoe  ll
+objloc n_rrtoe  rl
+
+animfile summanim  
+
+# task animators go here....
+task animator 0    n_hips;37,129,0
+task animator 0    n_hips;37,1,1
+task animator 0    n_luleg;37,1,2
+task animator 0    n_llleg;37,1,3
+task animator 0    n_lrtoe;37,1,4
+task animator 0    n_lftoe;37,1,5
+task animator 0    n_ruleg;37,1,6
+task animator 0    n_rlleg;37,1,7
+task animator 0    n_rrtoe;37,1,8
+task animator 0    n_rftoe;37,1,9
+task animator 0    n_head;37,1,10
+task animator 0    n_larm;37,1,11
+task animator 0    n_rarm;37,1,12
+
+hdpof n_hdpof
+ctpof n_ctpof
+ltpof n_ltpof
+rtpof n_rtpof
+lapof n_lapof
+rapof n_rapof
+ljpof n_ljpof
+rjpof n_rjpof
+
+eyeobj n_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile naga
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of naga.mec
+
+

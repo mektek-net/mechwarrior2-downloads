@@ -1,0 +1,142 @@
+#     Ouput for aircrftc.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object aircrftc=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object a_main=ac1_main   1,1,1   0,0,0   0,268,206   0      .      aircrftc
+Object a_winsh=ac1winsh   1,1,1   0,0,0   0,55,137   0      .      a_main
+Object a_engin=ac1engin   1,1,1   0,0,0   0,7,-611   0      .      a_main
+Object a_rwing=ac1rwing   1,1,1   0,0,0   150,-18,-1078   0      .      a_main
+Object a_lwing=ac1lwing   1,1,1   0,0,0   -150,-18,-1078   0      .      a_main
+Object a_rfin=ac1_rfin   1,1,1   0,0,0   150,32,-1106   0      .      a_main
+Object a_lfin=ac1_lfin   1,1,1   0,0,0   -150,32,-1106   0      .      a_main
+Object a_hzstb=ac1hzstb   1,1,1   0,0,0   0,132,-1215   0      .      a_main
+Object a_lwlgo=ac1lwlgo   1,1,1   0,0,0   -400,-108,-1106   0      .      a_main
+Object a_rwlgo=ac1rwlgo   1,1,1   0,0,0   400,-108,-1106   0      .      a_main
+Object a_lflgo=ac1lflgo   1,1,1   0,0,0   -188,106,-1259   0      .      a_main
+Object a_rflgo=ac1rflgo   1,1,1   0,0,0   187,106,-1259   0      .      a_main
+Object a_lhlgo=ac1lhlgo   1,1,1   0,0,0   -5,269,-1319   0      .      a_main
+Object a_rhlgo=ac1rhlgo   1,1,1   0,0,0   4,269,-1319   0      .      a_main
+Object a_ctpof=DUMMY   1,1,1   0,0,0   0,-136,-358   0   hidden   a_main
+Object a_hdpof=DUMMY   1,1,1   0,0,0   0,-93,552   0   hidden   a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -349,-77,-827   0   hidden   a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   327,-77,-827   0   hidden   a_main
+Object a_rwpof=DUMMY   1,1,1   0,0,0   662,-215,-933   0   hidden   a_main
+Object a_lwpof=DUMMY   1,1,1   0,0,0   -651,-215,-934   0   hidden   a_main
+
+rep
+
+Object a_main=ac2_main   1,1,1   0,0,0   0,268,206   0      .      aircrftc
+Object a_winsh=ac2winsh   1,1,1   0,0,0   0,55,137   0      .      a_main
+Object a_engin=ac2engin   1,1,1   0,0,0   0,7,-611   0      .      a_main
+Object a_rwing=ac2rwing   1,1,1   0,0,0   150,-18,-1078   0      .      a_main
+Object a_lwing=ac2lwing   1,1,1   0,0,0   -150,-18,-1078   0      .      a_main
+Object a_rfin=ac2_rfin   1,1,1   0,0,0   150,32,-1106   0      .      a_main
+Object a_lfin=ac2_lfin   1,1,1   0,0,0   -150,32,-1106   0      .      a_main
+Object a_hzstb=ac2hzstb   1,1,1   0,0,0   0,132,-1215   0      .      a_main
+Object a_lwlgo=ac2lwlgo   1,1,1   0,0,0   -400,-108,-1106   0      .      a_main
+Object a_rwlgo=ac2rwlgo   1,1,1   0,0,0   400,-108,-1106   0      .      a_main
+Object a_lflgo=ac2lflgo   1,1,1   0,0,0   -188,106,-1259   0      .      a_main
+Object a_rflgo=ac2rflgo   1,1,1   0,0,0   187,106,-1259   0      .      a_main
+Object a_lhlgo=ac2lhlgo   1,1,1   0,0,0   -5,269,-1319   0      .      a_main
+Object a_rhlgo=ac2rhlgo   1,1,1   0,0,0   4,269,-1319   0      .      a_main
+Object a_ctpof=DUMMY   1,1,1   0,0,0   0,-95,-358   0   hidden   a_main
+Object a_hdpof=DUMMY   1,1,1   0,0,0   0,-52,552   0   hidden   a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -349,-77,-915   0   hidden   a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   327,-77,-915   0   hidden   a_main
+Object a_rwpof=DUMMY   1,1,1   0,0,0   662,-215,-977   0   hidden   a_main
+Object a_lwpof=DUMMY   1,1,1   0,0,0   -651,-215,-978   0   hidden   a_main
+
+rep
+
+Object a_main=ac3_main   1,1,1   0,0,0   0,268,206   0      .      aircrftc
+Object a_winsh=ac3winsh   1,1,1   0,0,0   0,55,137   0      .      a_main
+Object a_engin=ac3engin   1,1,1   0,0,0   0,7,-611   0      .      a_main
+Object a_rwing=ac3rwing   1,1,1   0,0,0   150,-18,-1078   0      .      a_main
+Object a_lwing=ac3lwing   1,1,1   0,0,0   -150,-18,-1078   0      .      a_main
+Object a_rfin=ac3_rfin   1,1,1   0,0,0   150,32,-1106   0      .      a_main
+Object a_lfin=ac3_lfin   1,1,1   0,0,0   -150,32,-1106   0      .      a_main
+Object a_hzstb=ac3hzstb   1,1,1   0,0,0   0,132,-1215   0      .      a_main
+Object a_lwlgo=ac3lwlgo   1,1,1   0,0,0   -400,-108,-1106   0      .      a_main
+Object a_rwlgo=ac3rwlgo   1,1,1   0,0,0   400,-108,-1106   0      .      a_main
+Object a_lflgo=ac3lflgo   1,1,1   0,0,0   -188,106,-1259   0      .      a_main
+Object a_rflgo=ac3rflgo   1,1,1   0,0,0   187,106,-1259   0      .      a_main
+Object a_lhlgo=ac3lhlgo   1,1,1   0,0,0   -5,269,-1319   0      .      a_main
+Object a_rhlgo=ac3rhlgo   1,1,1   0,0,0   4,269,-1319   0      .      a_main
+Object a_ctpof=DUMMY   1,1,1   0,0,0   0,-95,-358   0   hidden   a_main
+Object a_hdpof=DUMMY   1,1,1   0,0,0   0,-52,552   0   hidden   a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -349,-77,-915   0   hidden   a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   327,-77,-915   0   hidden   a_main
+Object a_rwpof=DUMMY   1,1,1   0,0,0   662,-215,-977   0   hidden   a_main
+Object a_lwpof=DUMMY   1,1,1   0,0,0   -651,-215,-978   0   hidden   a_main
+
+rep
+
+Object a_main=ac4_main   1,1,1   0,0,0   0,268,206   0      .      aircrftc
+Object a_winsh=ac4winsh   1,1,1   0,0,0   0,55,137   0      .      a_main
+Object a_engin=ac4engin   1,1,1   0,0,0   0,7,-611   0      .      a_main
+Object a_rwing=ac4rwing   1,1,1   0,0,0   150,-18,-1078   0      .      a_main
+Object a_lwing=ac4lwing   1,1,1   0,0,0   -150,-18,-1078   0      .      a_main
+Object a_rfin=ac4_rfin   1,1,1   0,0,0   150,32,-1106   0      .      a_main
+Object a_lfin=ac4_lfin   1,1,1   0,0,0   -150,32,-1106   0      .      a_main
+Object a_hzstb=ac4hzstb   1,1,1   0,0,0   0,132,-1215   0      .      a_main
+Object a_lwlgo=ac4lwlgo   1,1,1   0,0,0   -400,-108,-1106   0      .      a_main
+Object a_rwlgo=ac4rwlgo   1,1,1   0,0,0   400,-108,-1106   0      .      a_main
+Object a_lflgo=ac4lflgo   1,1,1   0,0,0   -188,106,-1259   0      .      a_main
+Object a_rflgo=ac4rflgo   1,1,1   0,0,0   187,106,-1259   0      .      a_main
+Object a_lhlgo=ac4lhlgo   1,1,1   0,0,0   -5,269,-1319   0      .      a_main
+Object a_rhlgo=ac4rhlgo   1,1,1   0,0,0   4,269,-1319   0      .      a_main
+Object a_ctpof=DUMMY   1,1,1   0,0,0   0,-95,-358   0   hidden   a_main
+Object a_hdpof=DUMMY   1,1,1   0,0,0   0,-52,552   0   hidden   a_main
+Object a_ltpof=DUMMY   1,1,1   0,0,0   -349,-77,-915   0   hidden   a_main
+Object a_rtpof=DUMMY   1,1,1   0,0,0   327,-77,-915   0   hidden   a_main
+Object a_rwpof=DUMMY   1,1,1   0,0,0   662,-215,-977   0   hidden   a_main
+Object a_lwpof=DUMMY   1,1,1   0,0,0   -651,-215,-978   0   hidden   a_main
+
+endrep
+
+thing a_hdpof
+thing a_hdpof
+
+gamepiece aircrftc mw2aerotech
+
+objloc a_main   ct
+objloc a_engin  ct
+objloc a_hzstb  ct
+objloc a_lfin   la
+objloc a_rfin   ra
+objloc a_winsh  ct
+objloc a_rwing  ra
+objloc a_lwing  la
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    a_main;60,129,0
+
+lapof a_lwpof
+rapof a_rwpof
+hdpof a_hdpof
+ctpof a_ctpof
+ltpof a_ltpof
+rtpof a_rtpof
+
+eyeobj a_hdpof
+
+mgdfile aircrftc
+
+mangle_off
+
+#AnimSound helicptr
+
+#end of aircrftc.MEC

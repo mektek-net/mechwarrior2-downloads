@@ -1,0 +1,69 @@
+#     Ouput for reiver.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object reiver=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object r_main=re1_main   1,1,1   0,0,0   0,124,-259   0      .      reiver
+Object r_winsh=re1winsh   1,1,1   0,0,0   0,119,834   0      .      r_main
+Object r_rfslg=re1rfslg   1,1,1   0,0,0   426,-58,153   0      .      r_main
+Object r_lfslg=re1lfslg   1,1,1   0,0,0   -426,-58,153   0      .      r_main
+Object r_rhfin=re1rhfin   1,1,1   0,0,0   295,112,-178   0      .      r_main
+Object r_lhfin=re1lhfin   1,1,1   0,0,0   -279,112,-178   0      .      r_main
+Object r_rwing=re1rwing   1,1,1   0,0,0   1074,-58,82   0      .      r_main
+Object r_rwlgo=re1rwlgo   1,1,1   0,0,0   -423,5,-63   0      .      r_rwing
+Object r_lwing=re1lwing   1,1,1   0,0,0   -1074,-58,82   0      .      r_main
+Object r_lwlgo=re1lwlgo   1,1,1   0,0,0   458,5,-63   0      .      r_lwing
+Object r_dummy=DUMMY   1,1,1   0,0,0   0,-5,177   0   hidden   r_main
+Object r_daddy=DUMMY   1,1,1   0,0,0   0,0,102   0   hidden   r_dummy
+Object r_ctpof=DUMMY   1,1,1   0,0,0   0,-118,303   0   hidden   r_daddy
+Object r_hdpof=DUMMY   1,1,1   0,0,0   0,50,211   0   hidden   r_daddy
+Object r_ltpof=DUMMY   1,1,1   0,0,0   -228,-35,839   0   hidden   r_daddy
+Object r_rtpof=DUMMY   1,1,1   0,0,0   219,-34,839   0   hidden   r_daddy
+Object r_rwpof=DUMMY   1,1,1   0,0,0   628,-52,122   0   hidden   r_daddy
+Object r_lwpof=DUMMY   1,1,1   0,0,0   -625,-52,122   0   hidden   r_daddy
+
+endrep
+
+thing r_dummy
+thing r_daddy
+
+gamepiece reiver mw2truck
+
+objloc r_main   ct
+objloc r_winsh  ct
+objloc r_rwing  ra
+objloc r_lwing  la
+objloc r_lfslg  lt
+objloc r_rfslg  rt
+objloc r_lhfin  lt
+objloc r_rhfin  rt
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    r_main;60,129,0
+
+lapof r_lwpof
+rapof r_rwpof
+hdpof r_hdpof
+ctpof r_ctpof
+ltpof r_ltpof
+rtpof r_rtpof
+
+eyeobj r_hdpof
+
+mgdfile reiver
+
+mangle_off
+
+#end of reiver.MEC
+

@@ -1,0 +1,228 @@
+#   cicada.MEC
+#   geometry for the cicada 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object cicada=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object c_head=cc1_head   1,1,1   0,0,0   0,630,0   0      .      cicada
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,-92,-155   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,-92,-155   0   hidden   c_head
+Object c_luleg=cc1luleg   1,1,1   0,0,0   -250,-240,29   0      .      c_head
+Object c_llleg=cc1llleg   1,1,1   0,0,0   0,-54,184   0      .      c_luleg
+Object c_lfoot=cc1lfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_llleg
+Object c_lltoe=cc1lltoe   1,1,1   0,0,0   -60,-22,51   0      .      c_lfoot
+Object c_lrtoe=cc1lrtoe   1,1,1   0,0,0   50,-22,51   0      .      c_lfoot
+Object c_lbtoe=cc1lbtoe   1,1,1   0,0,0   -10,-22,-55   0      .      c_lfoot
+Object c_ruleg=cc1ruleg   1,1,1   0,0,0   250,-240,29   0      .      c_head
+Object c_rlleg=cc1rlleg   1,1,1   0,0,0   0,-54,184   0      .      c_ruleg
+Object c_rfoot=cc1rfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_rlleg
+Object c_rltoe=cc1rltoe   1,1,1   0,0,0   -50,-22,51   0      .      c_rfoot
+Object c_rrtoe=cc1rrtoe   1,1,1   0,0,0   60,-22,51   0      .      c_rfoot
+Object c_rbtoe=cc1rbtoe   1,1,1   0,0,0   10,-22,-55   0      .      c_rfoot
+Object c_winsh=cc1winsh   1,1,1   0,0,0   0,110,340   0      .      c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,103,329   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,157,111   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,3,331   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -106,-72,272   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   107,-72,272   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,-13,62   0   hidden   c_head
+Object c_larm=cc1_larm   1,1,1   0,0,0   -272,50,0   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -71,12,138   0   hidden   c_larm
+Object c_decll=cc1decll   1,1,1   0,0,0   -104,28,0   0      .      c_larm
+Object c_rarm=cc1_rarm   1,1,1   0,0,0   288,50,0   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   68,12,139   0   hidden   c_rarm
+Object c_declr=cc1declr   1,1,1   0,0,0   113,28,0   0      .      c_rarm
+
+rep
+
+Object c_head=cc2_head   1,1,1   0,0,0   0,630,0   0      .      cicada
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,-92,-155   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,-92,-155   0   hidden   c_head
+Object c_luleg=cc2luleg   1,1,1   0,0,0   -250,-240,29   0      .      c_head
+Object c_llleg=cc2llleg   1,1,1   0,0,0   0,-54,184   0      .      c_luleg
+Object c_lfoot=cc2lfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_llleg
+Object c_lltoe=cc2lltoe   1,1,1   0,0,0   -60,-22,51   0      .      c_lfoot
+Object c_lrtoe=cc2lrtoe   1,1,1   0,0,0   50,-22,51   0      .      c_lfoot
+Object c_lbtoe=cc2lbtoe   1,1,1   0,0,0   -10,-22,-55   0      .      c_lfoot
+Object c_ruleg=cc2ruleg   1,1,1   0,0,0   250,-240,29   0      .      c_head
+Object c_rlleg=cc2rlleg   1,1,1   0,0,0   0,-54,184   0      .      c_ruleg
+Object c_rfoot=cc2rfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_rlleg
+Object c_rltoe=cc2rltoe   1,1,1   0,0,0   -50,-22,51   0      .      c_rfoot
+Object c_rrtoe=cc2rrtoe   1,1,1   0,0,0   60,-22,51   0      .      c_rfoot
+Object c_rbtoe=cc2rbtoe   1,1,1   0,0,0   10,-22,-55   0      .      c_rfoot
+Object c_winsh=cc2winsh   1,1,1   0,0,0   0,110,340   0      .      c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,103,329   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,157,111   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,3,331   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -106,-72,272   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   107,-72,272   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,-13,62   0   hidden   c_head
+Object c_larm=cc2_larm   1,1,1   0,0,0   -272,50,0   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -71,12,138   0   hidden   c_larm
+Object c_decll=cc2decll   1,1,1   0,0,0   -104,28,0   0      .      c_larm
+Object c_rarm=cc2_rarm   1,1,1   0,0,0   288,50,0   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   68,12,139   0   hidden   c_rarm
+Object c_declr=cc2declr   1,1,1   0,0,0   113,28,0   0      .      c_rarm
+
+rep
+
+Object c_head=cc3_head   1,1,1   0,0,0   0,630,0   0      .      cicada
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,-92,-155   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,-92,-155   0   hidden   c_head
+Object c_luleg=cc3luleg   1,1,1   0,0,0   -250,-240,29   0      .      c_head
+Object c_llleg=cc3llleg   1,1,1   0,0,0   0,-54,184   0      .      c_luleg
+Object c_lfoot=cc3lfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_llleg
+Object c_lltoe=cc3lltoe   1,1,1   0,0,0   -60,-22,51   0      .      c_lfoot
+Object c_lrtoe=cc3lrtoe   1,1,1   0,0,0   50,-22,51   0      .      c_lfoot
+Object c_lbtoe=cc3lbtoe   1,1,1   0,0,0   -10,-22,-55   0      .      c_lfoot
+Object c_ruleg=cc3ruleg   1,1,1   0,0,0   250,-240,29   0      .      c_head
+Object c_rlleg=cc3rlleg   1,1,1   0,0,0   0,-54,184   0      .      c_ruleg
+Object c_rfoot=cc3rfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_rlleg
+Object c_rltoe=cc3rltoe   1,1,1   0,0,0   -50,-22,51   0      .      c_rfoot
+Object c_rrtoe=cc3rrtoe   1,1,1   0,0,0   60,-22,51   0      .      c_rfoot
+Object c_rbtoe=cc3rbtoe   1,1,1   0,0,0   10,-22,-55   0      .      c_rfoot
+Object c_winsh=cc3winsh   1,1,1   0,0,0   0,110,340   0      .      c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,103,329   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,157,111   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,3,331   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -106,-72,272   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   107,-72,272   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,-13,62   0   hidden   c_head
+Object c_larm=cc3_larm   1,1,1   0,0,0   -272,50,0   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -71,12,138   0   hidden   c_larm
+Object c_decll=cc3decll   1,1,1   0,0,0   -104,28,0   0      .      c_larm
+Object c_rarm=cc3_rarm   1,1,1   0,0,0   288,50,0   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   68,12,139   0   hidden   c_rarm
+Object c_declr=cc3declr   1,1,1   0,0,0   113,28,0   0      .      c_rarm
+
+rep
+
+Object c_head=cc4_head   1,1,1   0,0,0   0,630,0   0      .      cicada
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,-92,-155   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,-92,-155   0   hidden   c_head
+Object c_luleg=cc4luleg   1,1,1   0,0,0   -250,-240,29   0      .      c_head
+Object c_llleg=cc4llleg   1,1,1   0,0,0   0,-54,184   0      .      c_luleg
+Object c_lfoot=cc4lfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_llleg
+Object c_lltoe=cc4lltoe   1,1,1   0,0,0   -60,-22,51   0      .      c_lfoot
+Object c_lrtoe=cc4lrtoe   1,1,1   0,0,0   50,-22,51   0      .      c_lfoot
+Object c_lbtoe=cc4lbtoe   1,1,1   0,0,0   -10,-22,-55   0      .      c_lfoot
+Object c_ruleg=cc4ruleg   1,1,1   0,0,0   250,-240,29   0      .      c_head
+Object c_rlleg=cc4rlleg   1,1,1   0,0,0   0,-54,184   0      .      c_ruleg
+Object c_rfoot=cc4rfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_rlleg
+Object c_rltoe=cc4rltoe   1,1,1   0,0,0   -50,-22,51   0      .      c_rfoot
+Object c_rrtoe=cc4rrtoe   1,1,1   0,0,0   60,-22,51   0      .      c_rfoot
+Object c_rbtoe=cc4rbtoe   1,1,1   0,0,0   10,-22,-55   0      .      c_rfoot
+Object c_winsh=cc4winsh   1,1,1   0,0,0   0,110,340   0      .      c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,103,329   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,157,111   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,3,331   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -106,-72,272   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   107,-72,272   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,-13,62   0   hidden   c_head
+Object c_larm=cc4_larm   1,1,1   0,0,0   -272,50,0   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -71,12,138   0   hidden   c_larm
+Object c_decll=cc4decll   1,1,1   0,0,0   -104,28,0   0      .      c_larm
+Object c_rarm=cc4_rarm   1,1,1   0,0,0   288,50,0   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   68,12,139   0   hidden   c_rarm
+Object c_declr=cc4declr   1,1,1   0,0,0   113,28,0   0      .      c_rarm
+
+rep
+
+Object c_head=cc5_head   1,1,1   0,0,0   0,630,0   0    near     cicada
+Object c_ljpof=DUMMY   1,1,1   0,0,0   -95,-92,-155   0   hidden   c_head
+Object c_rjpof=DUMMY   1,1,1   0,0,0   92,-92,-155   0   hidden   c_head
+Object c_luleg=cc5luleg   1,1,1   0,0,0   -250,-240,29   0      .      c_head
+Object c_llleg=cc5llleg   1,1,1   0,0,0   0,-54,184   0      .      c_luleg
+Object c_lfoot=cc5lfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_llleg
+Object c_lltoe=cc5lltoe   1,1,1   0,0,0   -60,-22,51   0      .      c_lfoot
+Object c_lrtoe=cc5lrtoe   1,1,1   0,0,0   50,-22,51   0      .      c_lfoot
+Object c_lbtoe=cc5lbtoe   1,1,1   0,0,0   -10,-22,-55   0      .      c_lfoot
+Object c_ruleg=cc5ruleg   1,1,1   0,0,0   250,-240,29   0      .      c_head
+Object c_rlleg=cc5rlleg   1,1,1   0,0,0   0,-54,184   0      .      c_ruleg
+Object c_rfoot=cc5rfoot   1,1,1   0,0,0   0,-262,-204   0      .      c_rlleg
+Object c_rltoe=cc5rltoe   1,1,1   0,0,0   -50,-22,51   0      .      c_rfoot
+Object c_rrtoe=cc5rrtoe   1,1,1   0,0,0   60,-22,51   0      .      c_rfoot
+Object c_rbtoe=cc5rbtoe   1,1,1   0,0,0   10,-22,-55   0      .      c_rfoot
+Object c_winsh=cc5winsh   1,1,1   0,0,0   0,110,340   0      .      c_head
+Object c_cppov=DUMMY   1,1,1   0,0,0   0,103,329   0   hidden   c_head
+Object c_hdpof=DUMMY   1,1,1   0,0,0   -1,157,111   0   hidden   c_head
+Object c_ctpof=DUMMY   1,1,1   0,0,0   1,3,331   0   hidden   c_head
+Object c_ltpof=DUMMY   1,1,1   0,0,0   -106,-72,272   0   hidden   c_head
+Object c_rtpof=DUMMY   1,1,1   0,0,0   107,-72,272   0   hidden   c_head
+Object c_daddy=DUMMY   1,1,1   0,0,0   -8,-13,62   0   hidden   c_head
+Object c_larm=cc5_larm   1,1,1   0,0,0   -272,50,0   0      .      c_daddy
+Object c_lapof=DUMMY   1,1,1   0,0,0   -71,12,138   0   hidden   c_larm
+Object c_decll=cc5decll   1,1,1   0,0,0   -104,28,0   0      .      c_larm
+Object c_rarm=cc5_rarm   1,1,1   0,0,0   288,50,0   0      .      c_daddy
+Object c_rapof=DUMMY   1,1,1   0,0,0   68,12,139   0   hidden   c_rarm
+Object c_declr=cc5declr   1,1,1   0,0,0   113,28,0   0      .      c_rarm
+
+endrep
+
+thing c_head
+thing c_daddy
+
+gamepiece cicada mw2mech 
+
+objloc c_head   ct
+objloc c_winsh  hd
+objloc c_larm   la
+objloc c_rarm   ra
+objloc c_luleg  ll
+objloc c_llleg  ll
+objloc c_lrtoe  ll
+objloc c_lltoe  ll
+objloc c_lbtoe  ll
+objloc c_ruleg  rl
+objloc c_rlleg  rl
+objloc c_rltoe  rl
+objloc c_rrtoe  rl
+objloc c_rbtoe  rl
+
+animfile cicianim
+
+# task animators go here....
+task animator 0    c_head;55,129,0
+task animator 0    c_head;55,1,1
+task animator 0    c_ruleg;55,1,2
+task animator 0    c_rlleg;55,1,3
+task animator 0    c_rfoot;55,1,4
+task animator 0    c_rltoe;55,1,5
+task animator 0    c_rrtoe;55,1,6
+task animator 0    c_rbtoe;55,1,7
+task animator 0    c_luleg;55,1,8
+task animator 0    c_llleg;55,1,9
+task animator 0    c_lfoot;55,1,10
+task animator 0    c_lltoe;55,1,11
+task animator 0    c_lrtoe;55,1,12
+task animator 0    c_lbtoe;55,1,13
+
+hdpof c_hdpof
+ctpof c_ctpof
+rtpof c_rtpof
+ltpof c_ltpof
+lapof c_lapof
+rapof c_rapof
+ljpof c_ljpof
+rjpof c_rjpof
+
+eyeobj c_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile cicada
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of cicada.MEC
+
+

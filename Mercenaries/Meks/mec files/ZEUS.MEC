@@ -1,0 +1,216 @@
+#   zeus.MEC
+#   geometry for the zeus 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object zeus=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object z_hips=zs1_hips   1,1,1   0,0,0   0,803,-47   0      .      zeus
+Object z_luleg=zs1luleg   1,1,1   0,0,0   -149,-86,3   0      .      z_hips
+Object z_llleg=zs1llleg   1,1,1   0,0,0   -64,-321,-2   0      .      z_luleg
+Object z_lftoe=zs1lftoe   1,1,1   0,0,0   8,-246,0   0      .      z_llleg
+Object z_lrtoe=zs1lrtoe   1,1,1   0,0,0   -8,0,0   0      .      z_lftoe
+Object z_ruleg=zs1ruleg   1,1,1   0,0,0   151,-86,3   0      .      z_hips
+Object z_rlleg=zs1rlleg   1,1,1   0,0,0   64,-321,-2   0      .      z_ruleg
+Object z_rftoe=zs1rftoe   1,1,1   0,0,0   -8,-246,0   0      .      z_rlleg
+Object z_rrtoe=zs1rrtoe   1,1,1   0,0,0   8,0,0   0      .      z_rftoe
+Object z_head=zs1_head   1,1,1   0,0,0   0,127,47   0      .      z_hips
+Object z_winsh=zs1winsh   1,1,1   0,0,0   0,321,102   0      .      z_head
+Object z_declf=zs1declf   1,1,1   0,0,0   3,158,167   0      .      z_head
+Object z_ljpof=DUMMY   1,1,1   0,0,0   -105,-62,-251   0   hidden   z_head
+Object z_rjpof=DUMMY   1,1,1   0,0,0   112,-62,-251   0   hidden   z_head
+Object z_cppov=DUMMY   1,1,1   0,0,0   9,310,99   0   hidden   z_head
+Object z_hdpof=DUMMY   1,1,1   0,0,0   0,379,90   0   hidden   z_head
+Object z_ctpof=DUMMY   1,1,1   0,0,0   0,27,199   0   hidden   z_head
+Object z_rtpof=DUMMY   1,1,1   0,0,0   210,241,236   0   hidden   z_head
+Object z_ltpof=DUMMY   1,1,1   0,0,0   -190,241,236   0   hidden   z_head
+Object z_daddy=DUMMY   1,1,1   0,0,0   7,262,-1   0   hidden   z_head
+Object z_larm=zs1_larm   1,1,1   0,0,0   -267,8,1   0      .      z_daddy
+Object z_lapof=DUMMY   1,1,1   0,0,0   -138,-381,506   0   hidden   z_larm
+Object z_decll=zs1decll   1,1,1   0,0,0   -185,-29,-18   0      .      z_larm
+Object z_rarm=zs1_rarm   1,1,1   0,0,0   253,8,1   0      .      z_daddy
+Object z_rapof=DUMMY   1,1,1   0,0,0   129,-368,598   0   hidden   z_rarm
+Object z_declr=zs1declr   1,1,1   0,0,0   183,-29,-18   0      .      z_rarm
+
+rep
+
+Object z_hips=zs2_hips   1,1,1   0,0,0   0,803,-47   0      .      zeus
+Object z_luleg=zs2luleg   1,1,1   0,0,0   -149,-86,3   0      .      z_hips
+Object z_llleg=zs2llleg   1,1,1   0,0,0   -64,-321,-2   0      .      z_luleg
+Object z_lftoe=zs2lftoe   1,1,1   0,0,0   8,-246,0   0      .      z_llleg
+Object z_lrtoe=zs2lrtoe   1,1,1   0,0,0   -8,0,0   0      .      z_lftoe
+Object z_ruleg=zs2ruleg   1,1,1   0,0,0   151,-86,3   0      .      z_hips
+Object z_rlleg=zs2rlleg   1,1,1   0,0,0   64,-321,-2   0      .      z_ruleg
+Object z_rftoe=zs2rftoe   1,1,1   0,0,0   -48,-246,0   0      .      z_rlleg
+Object z_rrtoe=zs2rrtoe   1,1,1   0,0,0   48,0,0   0      .      z_rftoe
+Object z_head=zs2_head   1,1,1   0,0,0   0,127,47   0      .      z_hips
+Object z_winsh=zs2winsh   1,1,1   0,0,0   0,321,102   0      .      z_head
+Object z_declf=zs2declf   1,1,1   0,0,0   3,158,167   0      .      z_head
+Object z_ljpof=DUMMY   1,1,1   0,0,0   -105,-62,-251   0   hidden   z_head
+Object z_rjpof=DUMMY   1,1,1   0,0,0   112,-62,-251   0   hidden   z_head
+Object z_cppov=DUMMY   1,1,1   0,0,0   9,290,99   0   hidden   z_head
+Object z_hdpof=DUMMY   1,1,1   0,0,0   0,379,90   0   hidden   z_head
+Object z_ctpof=DUMMY   1,1,1   0,0,0   0,27,199   0   hidden   z_head
+Object z_rtpof=DUMMY   1,1,1   0,0,0   210,241,236   0   hidden   z_head
+Object z_ltpof=DUMMY   1,1,1   0,0,0   -190,241,236   0   hidden   z_head
+Object z_daddy=DUMMY   1,1,1   0,0,0   7,262,-1   0   hidden   z_head
+Object z_larm=zs2_larm   1,1,1   0,0,0   -267,8,1   0      .      z_daddy
+Object z_lapof=DUMMY   1,1,1   0,0,0   -138,-381,506   0   hidden   z_larm
+Object z_decll=zs2decll   1,1,1   0,0,0   -185,-29,-18   0      .      z_larm
+Object z_rarm=zs2_rarm   1,1,1   0,0,0   253,8,1   0      .      z_daddy
+Object z_rapof=DUMMY   1,1,1   0,0,0   129,-368,598   0   hidden   z_rarm
+Object z_declr=zs2declr   1,1,1   0,0,0   183,-29,-18   0      .      z_rarm
+
+rep
+
+Object z_hips=zs3_hips   1,1,1   0,0,0   0,803,-47   0      .      zeus
+Object z_luleg=zs3luleg   1,1,1   0,0,0   -149,-86,3   0      .      z_hips
+Object z_llleg=zs3llleg   1,1,1   0,0,0   -64,-321,-2   0      .      z_luleg
+Object z_lftoe=zs3lftoe   1,1,1   0,0,0   8,-246,0   0      .      z_llleg
+Object z_lrtoe=zs3lrtoe   1,1,1   0,0,0   -8,0,0   0      .      z_lftoe
+Object z_ruleg=zs3ruleg   1,1,1   0,0,0   151,-86,3   0      .      z_hips
+Object z_rlleg=zs3rlleg   1,1,1   0,0,0   64,-321,-2   0      .      z_ruleg
+Object z_rftoe=zs3rftoe   1,1,1   0,0,0   -8,-246,0   0      .      z_rlleg
+Object z_rrtoe=zs3rrtoe   1,1,1   0,0,0   8,0,0   0      .      z_rftoe
+Object z_head=zs3_head   1,1,1   0,0,0   0,127,47   0      .      z_hips
+Object z_winsh=zs3winsh   1,1,1   0,0,0   0,321,102   0      .      z_head
+Object z_declf=zs3declf   1,1,1   0,0,0   3,158,167   0      .      z_head
+Object z_ljpof=DUMMY   1,1,1   0,0,0   -105,-62,-251   0   hidden   z_head
+Object z_rjpof=DUMMY   1,1,1   0,0,0   112,-62,-251   0   hidden   z_head
+Object z_cppov=DUMMY   1,1,1   0,0,0   9,290,99   0   hidden   z_head
+Object z_hdpof=DUMMY   1,1,1   0,0,0   0,379,90   0   hidden   z_head
+Object z_ctpof=DUMMY   1,1,1   0,0,0   0,27,199   0   hidden   z_head
+Object z_rtpof=DUMMY   1,1,1   0,0,0   210,241,236   0   hidden   z_head
+Object z_ltpof=DUMMY   1,1,1   0,0,0   -190,241,236   0   hidden   z_head
+Object z_daddy=DUMMY   1,1,1   0,0,0   7,262,-1   0   hidden   z_head
+Object z_larm=zs3_larm   1,1,1   0,0,0   -267,8,1   0      .      z_daddy
+Object z_lapof=DUMMY   1,1,1   0,0,0   -138,-381,506   0   hidden   z_larm
+Object z_decll=zs3decll   1,1,1   0,0,0   -185,-29,-18   0      .      z_larm
+Object z_rarm=zs3_rarm   1,1,1   0,0,0   253,8,1   0      .      z_daddy
+Object z_rapof=DUMMY   1,1,1   0,0,0   129,-368,598   0   hidden   z_rarm
+Object z_declr=zs3declr   1,1,1   0,0,0   183,-29,-18   0      .      z_rarm
+
+rep
+
+Object z_hips=zs4_hips   1,1,1   0,0,0   0,803,-47   0      .      zeus
+Object z_luleg=zs4luleg   1,1,1   0,0,0   -149,-86,3   0      .      z_hips
+Object z_llleg=zs4llleg   1,1,1   0,0,0   -64,-321,-2   0      .      z_luleg
+Object z_lftoe=zs4lftoe   1,1,1   0,0,0   8,-246,0   0      .      z_llleg
+Object z_lrtoe=zs4lrtoe   1,1,1   0,0,0   -8,0,0   0      .      z_lftoe
+Object z_ruleg=zs4ruleg   1,1,1   0,0,0   151,-86,3   0      .      z_hips
+Object z_rlleg=zs4rlleg   1,1,1   0,0,0   64,-321,-2   0      .      z_ruleg
+Object z_rftoe=zs4rftoe   1,1,1   0,0,0   -8,-246,0   0      .      z_rlleg
+Object z_rrtoe=zs4rrtoe   1,1,1   0,0,0   8,0,0   0      .      z_rftoe
+Object z_head=zs4_head   1,1,1   0,0,0   0,127,47   0      .      z_hips
+Object z_winsh=zs4winsh   1,1,1   0,0,0   0,321,102   0      .      z_head
+Object z_declf=zs4declf   1,1,1   0,0,0   3,158,167   0      .      z_head
+Object z_ljpof=DUMMY   1,1,1   0,0,0   -105,-62,-251   0   hidden   z_head
+Object z_rjpof=DUMMY   1,1,1   0,0,0   112,-62,-251   0   hidden   z_head
+Object z_cppov=DUMMY   1,1,1   0,0,0   9,290,99   0   hidden   z_head
+Object z_hdpof=DUMMY   1,1,1   0,0,0   0,379,90   0   hidden   z_head
+Object z_ctpof=DUMMY   1,1,1   0,0,0   0,27,199   0   hidden   z_head
+Object z_rtpof=DUMMY   1,1,1   0,0,0   210,241,236   0   hidden   z_head
+Object z_ltpof=DUMMY   1,1,1   0,0,0   -190,241,236   0   hidden   z_head
+Object z_daddy=DUMMY   1,1,1   0,0,0   7,262,-1   0   hidden   z_head
+Object z_larm=zs4_larm   1,1,1   0,0,0   -267,8,1   0      .      z_daddy
+Object z_lapof=DUMMY   1,1,1   0,0,0   -138,-381,506   0   hidden   z_larm
+Object z_decll=zs4decll   1,1,1   0,0,0   -185,-29,-18   0      .      z_larm
+Object z_rarm=zs4_rarm   1,1,1   0,0,0   253,8,1   0      .      z_daddy
+Object z_rapof=DUMMY   1,1,1   0,0,0   129,-368,598   0   hidden   z_rarm
+Object z_declr=zs4declr   1,1,1   0,0,0   183,-29,-18   0      .      z_rarm
+
+rep
+
+Object z_hips=zs5_hips   1,1,1   0,0,0   0,803,-47   0      .      zeus
+Object z_luleg=zs5luleg   1,1,1   0,0,0   -149,-86,3   0      .      z_hips
+Object z_llleg=zs5llleg   1,1,1   0,0,0   -64,-321,-2   0      .      z_luleg
+Object z_lftoe=zs5lftoe   1,1,1   0,0,0   8,-246,0   0      .      z_llleg
+Object z_lrtoe=zs5lrtoe   1,1,1   0,0,0   -8,0,0   0      .      z_lftoe
+Object z_ruleg=zs5ruleg   1,1,1   0,0,0   151,-86,3   0      .      z_hips
+Object z_rlleg=zs5rlleg   1,1,1   0,0,0   64,-321,-2   0      .      z_ruleg
+Object z_rftoe=zs5rftoe   1,1,1   0,0,0   -8,-246,0   0      .      z_rlleg
+Object z_rrtoe=zs5rrtoe   1,1,1   0,0,0   8,0,0   0      .      z_rftoe
+Object z_head=zs5_head   1,1,1   0,0,0   0,127,47   0    near     z_hips
+Object z_winsh=zs5winsh   1,1,1   0,0,0   0,321,102   0      .      z_head
+Object z_declf=zs5declf   1,1,1   0,0,0   3,158,167   0      .      z_head
+Object z_ljpof=DUMMY   1,1,1   0,0,0   -105,-62,-251   0   hidden   z_head
+Object z_rjpof=DUMMY   1,1,1   0,0,0   112,-62,-251   0   hidden   z_head
+Object z_cppov=DUMMY   1,1,1   0,0,0   9,310,99   0   hidden   z_head
+Object z_hdpof=DUMMY   1,1,1   0,0,0   0,379,90   0   hidden   z_head
+Object z_ctpof=DUMMY   1,1,1   0,0,0   0,27,199   0   hidden   z_head
+Object z_rtpof=DUMMY   1,1,1   0,0,0   210,241,236   0   hidden   z_head
+Object z_ltpof=DUMMY   1,1,1   0,0,0   -190,241,236   0   hidden   z_head
+Object z_daddy=DUMMY   1,1,1   0,0,0   7,262,-1   0   hidden   z_head
+Object z_larm=zs5_larm   1,1,1   0,0,0   -267,8,1   0      .      z_daddy
+Object z_lapof=DUMMY   1,1,1   0,0,0   -138,-381,506   0   hidden   z_larm
+Object z_decll=zs5decll   1,1,1   0,0,0   -185,-29,-18   0      .      z_larm
+Object z_rarm=zs5_rarm   1,1,1   0,0,0   253,8,1   0      .      z_daddy
+Object z_rapof=DUMMY   1,1,1   0,0,0   129,-368,598   0   hidden   z_rarm
+Object z_declr=zs5declr   1,1,1   0,0,0   183,-29,-18   0      .      z_rarm
+
+endrep
+
+thing z_head
+thing z_daddy
+
+gamepiece zeus mw2mech 
+
+objloc z_head   ct
+objloc z_hips   ct
+objloc z_winsh  hd
+objloc z_larm   la
+objloc z_rarm   ra
+objloc z_luleg  ll
+objloc z_ruleg  rl
+objloc z_llleg  ll
+objloc z_rlleg  rl
+objloc z_lftoe  ll
+objloc z_rftoe  rl
+objloc z_lrtoe  ll
+objloc z_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    z_hips;55,129,0
+task animator 0    z_hips;55,1,1
+task animator 0    z_ruleg;55,1,2
+task animator 0    z_rlleg;55,1,3
+task animator 0    z_rftoe;55,1,4
+task animator 0    z_rrtoe;55,1,5
+task animator 0    z_luleg;55,1,6
+task animator 0    z_llleg;55,1,7
+task animator 0    z_lftoe;55,1,8
+task animator 0    z_lrtoe;55,1,9
+task animator 0    z_head;55,1,10
+task animator 0    z_rarm;55,1,11
+task animator 0    z_larm;55,1,12
+
+hdpof z_hdpof
+ctpof z_ctpof
+rtpof z_rtpof
+ltpof z_ltpof
+lapof z_lapof
+rapof z_rapof
+ljpof z_ljpof
+rjpof z_rjpof
+
+eyeobj z_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile zeus
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of zeus.MEC
+
+

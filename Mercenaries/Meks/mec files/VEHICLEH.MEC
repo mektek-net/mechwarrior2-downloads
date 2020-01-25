@@ -1,0 +1,91 @@
+#     Ouput for vehicleh.MEC
+#     Thu May  4 04:18:42 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object vehicleh=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden  world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object v_main=vh1_main   1,1,1   0,0,0   0,210,0   0      .      vehicleh
+Object v_winsh=vh1winsh   1,1,1   0,0,0   120,120,320   0      .      v_main
+Object v_lfwhl=vh1lfwhl   1,1,1   0,0,0   -232,-130,210   0      .      v_main
+Object v_rfwhl=vh1rfwhl   1,1,1   0,0,0   244,-130,210   0      .      v_main
+Object v_lrwhl=vh1lrwhl   1,1,1   0,0,0   -232,-130,-350   0      .      v_main
+Object v_rrwhl=vh1rrwhl   1,1,1   0,0,0   244,-130,-350   0      .      v_main
+Object v_llthg=vh1llthg   1,1,1   0,0,0   -196,80,350   0      .      v_main
+Object v_mlthg=vh1mlthg   1,1,1   0,0,0   124,0,-840   0      .      v_llthg
+Object v_ulthg=vh1ulthg   1,1,1   0,0,0   -16,0,920   0      .      v_mlthg
+Object v_pltfm=vh1pltfm   1,1,1   0,0,0   0,-60,20   0      .      v_ulthg
+
+rep
+
+Object v_main=vh2_main   1,1,1   0,0,0   0,210,0   0      .      vehicleh
+Object v_winsh=vh2winsh   1,1,1   0,0,0   120,120,320   0      .      v_main
+Object v_lfwhl=vh2lfwhl   1,1,1   0,0,0   -232,-130,210   0      .      v_main
+Object v_rfwhl=vh2rfwhl   1,1,1   0,0,0   244,-130,210   0      .      v_main
+Object v_lrwhl=vh2lrwhl   1,1,1   0,0,0   -232,-130,-350   0      .      v_main
+Object v_rrwhl=vh2rrwhl   1,1,1   0,0,0   244,-130,-350   0      .      v_main
+Object v_llthg=vh2llthg   1,1,1   0,0,0   -196,80,350   0      .      v_main
+Object v_mlthg=vh2mlthg   1,1,1   0,0,0   124,0,-840   0      .      v_llthg
+Object v_ulthg=vh2ulthg   1,1,1   0,0,0   -16,0,920   0      .      v_mlthg
+Object v_pltfm=vh2pltfm   1,1,1   0,0,0   0,-60,20   0      .      v_ulthg
+
+rep
+
+Object v_main=vh3_main   1,1,1   0,0,0   0,210,0   0      .      vehicleh
+Object v_winsh=vh3winsh   1,1,1   0,0,0   120,120,320   0      .      v_main
+Object v_lfwhl=vh3lfwhl   1,1,1   0,0,0   -232,-130,210   0      .      v_main
+Object v_rfwhl=vh3rfwhl   1,1,1   0,0,0   244,-130,210   0      .      v_main
+Object v_lrwhl=vh3lrwhl   1,1,1   0,0,0   -232,-130,-350   0      .      v_main
+Object v_rrwhl=vh3rrwhl   1,1,1   0,0,0   244,-130,-350   0      .      v_main
+Object v_llthg=vh3llthg   1,1,1   0,0,0   -196,80,350   0      .      v_main
+Object v_mlthg=vh3mlthg   1,1,1   0,0,0   124,0,-840   0      .      v_llthg
+Object v_ulthg=vh3ulthg   1,1,1   0,0,0   -16,0,920   0      .      v_mlthg
+Object v_pltfm=vh3pltfm   1,1,1   0,0,0   0,-60,20   0      .      v_ulthg
+
+rep
+
+Object v_main=vh4_main   1,1,1   0,0,0   0,210,0   0      .      vehicleh
+Object v_winsh=vh4winsh   1,1,1   0,0,0   120,120,320   0      .      v_main
+Object v_lfwhl=vh4lfwhl   1,1,1   0,0,0   -232,-130,210   0      .      v_main
+Object v_rfwhl=vh4rfwhl   1,1,1   0,0,0   244,-130,210   0      .      v_main
+Object v_lrwhl=vh4lrwhl   1,1,1   0,0,0   -232,-130,-350   0      .      v_main
+Object v_rrwhl=vh4rrwhl   1,1,1   0,0,0   244,-130,-350   0      .      v_main
+Object v_llthg=vh4llthg   1,1,1   0,0,0   -196,80,350   0      .      v_main
+Object v_mlthg=vh4mlthg   1,1,1   0,0,0   124,0,-840   0      .      v_llthg
+Object v_ulthg=vh4ulthg   1,1,1   0,0,0   -16,0,920   0      .      v_mlthg
+Object v_pltfm=vh4pltfm   1,1,1   0,0,0   0,-60,20   0      .      v_ulthg
+
+endrep
+
+gamepiece vehicleh mw2truck                 
+
+objloc v_winsh  hd
+objloc v_main   ct
+objloc v_llthg  ct
+objloc v_mlthg  ct
+objloc v_ulthg  ct
+objloc v_lfwhl  ll
+objloc v_lrwhl  ll
+objloc v_rfwhl  rl
+objloc v_rrwhl  rl
+
+animfile vehhanim 
+
+# task animators go here....
+
+task animator 0    v_main;60,129,0
+
+eyeobj v_winsh
+
+mgdfile vehicleh
+
+mangle_off
+
+#end of vehicleh.MEC

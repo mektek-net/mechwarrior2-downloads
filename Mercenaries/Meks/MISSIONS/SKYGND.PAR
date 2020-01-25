@@ -1,0 +1,234 @@
+#
+# pound signs denote comments (IMPORTANT: only one pound sign per line please)
+#
+#
+#  mission name				mission
+#  ...
+#       ambient light color     amb=R,G,B (0-255)
+#       world light A           wa=R,G,B,T,X,Y,Z        RGB(0-255) T=type (Point or Directional) XYZ=point or direction
+#       world light BA          wb=R,G,B,T,X,Y,Z        RGB(0-255) T=type (Point or Directional) XYZ=point or direction
+#       fog color               fog=R,G,B                       RGB(0-255)
+#       inverse fog density     density=Y,M,Z           Y=density along Y axis  Y<0 = ground fog
+#                                                                               Y>0 = low cloud
+#                                                       M=minimum Y 1/density 0 = all fog
+#                                                                           255 = no fog
+#                                                       Z=density along Z axis  0 - ?
+#	
+#
+
+#Normal fog
+#mission=mcc1 globalintensity=130 tile_ground=15000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=25,25,25 wa=25,25,25,D,-1,-1,0 wb=50,25,40,P,0,100,0 fog=128,48,0 density=0,0,4000
+
+#Ground fog
+#mission=mcc1 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=30,10,10 wa=130,0,0,D,-1,-1,0 wb=250,120,20,D,1,1,0 fog=75,40,30 density=400,0,0
+
+#wildflashyfog=234,213,193 density=1000,100,200
+
+#Boris carlof fog density=-0.002,0.25,0 fog=234,213,193 density=1000,0,0
+#haze fog=200,200,200 density=8000,0,128000
+#Normal & ground fog
+#mission=mcc1 globalintensity=130 tile_ground=15000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=25,25,25 wa=25,25,25,D,-1,-1,0 wb=50,25,40,P,0,100,0 fog=128,48,0 density=-0.005,0.1,4000
+
+#Low Cloud fog  (Make sure you've got jump jets)
+#mission=mcc1 globalintensity=130 tile_ground=15000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=25,25,25 wa=25,25,25,D,-1,-1,0 wb=50,25,40,P,0,100,0 fog=128,48,0 density=1000,0,0
+
+mission=mcc1 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=30,30,40 wa=255,255,200,D,-1,-1,-1 wb=100,100,50,D,1,-1,1 fog=234,213,193 density=0,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=mcc2 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=10,10,10 wa=35,35,55,D,-1,-1,0 wb=0,0,30,D,1,1,0 fog=0,0,10 density=0,0,64000 sky=0,0,20 skyAnim=.01,.05
+
+mission=mcc3 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=10,10,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=134,113,93 density=4000,0,4000 sky=64,64,255 skyAnim=.01,.05
+
+mission=mcc4 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=10,10,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=134,113,93 density=1000,0,32000 sky=64,64,255 skyAnim=.01,.05
+
+mission=mcc5 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=mcc6 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=10,10,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=134,113,93 density=4000,0,4000 sky=64,64,255 skyAnim=.01,.05
+
+mission=mcc7 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=10,10,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=134,113,93 density=1000,0,32000 sky=64,64,255 skyAnim=.01,.05
+
+mission=iva1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=70,70,90 wa=230,255,230,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=230,230,255 density=5000,0,20000 sky=64,64,255 skyAnim=.01,.05
+
+mission=iva2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=70,70,90 wa=230,255,230,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=230,230,255 density=5000,0,20000 sky=64,64,255 skyAnim=.01,.05
+
+mission=iva3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=70,70,90 wa=230,255,230,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=230,230,255 density=20000,0,20000 sky=64,64,255 skyAnim=.01,.05
+
+mission=iva4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=70,70,90 wa=230,255,230,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=230,230,255 density=5000,0,20000 sky=64,64,255 skyAnim=.01,.05
+
+mission=iva5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=70,70,90 wa=230,255,230,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=230,230,255 density=20000,0,20000 sky=64,64,255 skyAnim=.01,.05
+
+mission=spa1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,30 wa=255,255,255,D,0,-1,0 wb=180,180,180,D,-1,-1,-1 fog=0,0,0 density=0,0,0 sky=0,0,0 skyAnim=0,0
+
+mission=spa2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,30 wa=255,255,255,D,0,-1,0 wb=180,180,180,D,-1,-1,-1 fog=0,0,0 density=0,0,0 sky=0,0,0 skyAnim=0,0
+
+mission=spa3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=40,40,50 wa=255,255,255,D,-1,-1,0 wb=155,155,255,D,1,1,0 fog=255,255,255 density=0,0,0 sky=0,0,0 skyAnim=.01,.05
+
+mission=sig1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=8000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=sig2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=8000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=sig3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=8000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=sig4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=8000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=sig5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=8000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=wol1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=84,75,17 wa=205,220,129,D,-1,-1,0 wb=100,100,100,D,1,1,0 fog=126,136,78 density=-0.005,0.1,0 sky=97,94,59 skyAnim=.01,.05
+
+mission=wol2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=84,75,17 wa=205,220,129,D,-1,-1,0 wb=100,100,100,D,1,1,0 fog=126,136,78 density=-0.005,0.1,0 sky=97,94,59 skyAnim=.01,.05
+
+mission=wol3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=84,75,17 wa=205,220,129,D,-1,-1,0 wb=100,100,100,D,1,1,0 fog=126,136,78 density=-0.005,0.1,0 sky=97,94,59 skyAnim=.01,.05
+
+mission=wol4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=84,75,17 wa=205,220,129,D,-1,-1,0 wb=100,100,100,D,1,1,0 fog=126,136,78 density=-0.005,0.1,0 sky=97,94,59 skyAnim=.01,.05
+
+mission=wol5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=84,75,17 wa=205,220,129,D,-1,-1,0 wb=100,100,100,D,1,1,0 fog=126,136,78 density=-0.005,0.1,0 sky=97,94,59 skyAnim=.01,.05
+
+mission=lut1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=50,50,50 density=2000,0,80000 sky=64,64,255 skyAnim=.01,.05
+
+mission=lut2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=25,25,25 density=1000,0,40000 sky=64,64,255 skyAnim=.01,.05
+
+mission=lut3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=15,10,5 wa=200,200,200,D,-1,-1,0 wb=40,0,0,D,1,1,0 fog=40,5,0 density=4000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=lut4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=15,10,5 wa=200,200,200,D,-1,-1,0 wb=40,0,0,D,1,1,0 fog=40,5,0 density=4000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=lut5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=50,50,50 density=2000,0,80000 sky=64,64,255 skyAnim=.01,.05
+
+mission=lut6 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=15,10,5 wa=200,200,200,D,-1,-1,0 wb=40,0,0,D,1,1,0 fog=40,5,0 density=4000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=sol1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=255,0,0 density=1000,100,200 sky=64,64,255 skyAnim=.01,.05
+
+mission=sol2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=sol3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=0,0,0 wa=55,55,0,D,-1,-1,0 wb=10,10,10,D,1,1,0 fog=0,0,0 density=0,0,0 sky=0,0,15 skyAnim=.01,.05
+
+mission=sol4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=sol5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=sol6 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=bet1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=1000,0,80000 sky=64,64,255 skyAnim=.01,.05
+
+mission=bet2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=0,0,10 wa=20,20,55,D,-1,-1,0 wb=55,55,55,D,1,1,0 fog=0,0,0 density=0,0,0 sky=0,0,15 skyAnim=.01,.05
+
+mission=bet3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=0,0,80000 sky=64,64,255 skyAnim=.01,.05
+
+mission=bet4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=0,0,10 wa=20,20,55,D,-1,-1,0 wb=55,55,55,D,1,1,0 fog=0,0,0 density=0,0,0 sky=0,0,15 skyAnim=.01,.05
+
+mission=bet5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=0,0,80000 sky=64,64,255 skyAnim=.01,.05
+
+mission=gra1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=252,236,143,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=251,113,45 skyAnim=.01,.05
+
+mission=gra2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=0,0,0 wa=55,55,55,D,-1,-1,0 wb=25,35,25,D,1,1,0 fog=0,0,0 density=0,0,0 sky=7,5,1 skyAnim=.01,.05
+
+mission=gra3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=252,236,143,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=251,113,45 skyAnim=.01,.05
+
+mission=gra4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=252,236,143,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=251,113,45 skyAnim=.01,.05
+
+mission=gra5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=0,0,0 wa=55,55,55,D,-1,-1,0 wb=25,35,25,D,1,1,0 fog=0,0,0 density=0,0,0 sky=7,5,1 skyAnim=.01,.05
+
+mission=out1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=out2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=out3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=0,0,0 wa=55,55,55,D,-1,-1,0 wb=25,35,25,D,1,1,0 fog=0,0,0 density=0,0,0 sky=0,0,15 skyAnim=.01,.05
+
+mission=out4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=tra1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=2000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=tra2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=5000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=tra3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=0,0,10 wa=20,20,55,D,-1,-1,0 wb=55,55,55,D,1,1,0 fog=0,0,0 density=0,0,40000 sky=0,0,15 skyAnim=.01,.05
+
+mission=tra4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=10000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=big1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=buz1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 sky=64,64,255
+
+mission=dom1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=dou1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=dow2 globalintensity=60 tile_ground=7000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=med1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=mou1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=40000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=myb1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=rec1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=rec2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=rev1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=rog1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=sur1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=wou1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=bas1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=0,0,8000 sky=250,200,150 skyAnim=.01,.05
+
+mission=bas2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=0,0,8000 sky=250,200,150 skyAnim=.01,.05
+
+mission=bas3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=0,0,8000 sky=250,200,150 skyAnim=.01,.05
+
+mission=bas4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=0,0,8000 sky=250,200,150 skyAnim=.01,.05
+
+mission=bas5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=0,0,8000 sky=250,200,150 skyAnim=.01,.05
+
+mission=fal1 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=10,10,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=40,5,0 density=16000,0,16000 sky=64,64,255 skyAnim=.01,.05
+
+mission=kin1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=0,0,8000 sky=200,200,200 skyAnim=.01,.05
+
+mission=avo1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,255 density=0,0,3000 sky=200,200,255 skyAnim=.01,.05
+
+mission=fre1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=0,0,80000 sky=64,64,255 skyAnim=.01,.05
+
+mission=fre2 globalintensity=130 tile_ground=7000 grounddelta=10 ground_max=160000 shadowtable=15 gclip=1500,500000,500000 amb=30,30,40 wa=255,255,200,D,-1,-1,-1 wb=100,100,50,D,1,-1,1 fog=234,213,193 density=0,0,6000 sky=234,213,193 skyAnim=.01,.05
+
+mission=fre3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=fre4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=15000,500000,500000 amb=50,50,20 wa=255,255,200,D,-1,-1,0 wb=100,100,50,D,1,1,0 fog=250,200,150 density=0,0,8000 sky=250,200,150 skyAnim=.01,.05
+
+mission=fre5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=70,70,90 wa=230,255,230,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=230,230,255 density=5000,0,20000 sky=64,64,255 skyAnim=.01,.05
+
+mission=fre6 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=255,0,0 density=1000,100,200 sky=64,64,255 skyAnim=.01,.05
+
+mission=fre7 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=0,0,0 density=0,0,0 sky=64,64,255 skyAnim=.01,.05
+
+mission=fre8 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=0,0,0 wa=55,55,0,D,-1,-1,0 wb=10,10,10,D,1,1,0 fog=0,0,0 density=0,0,0 sky=0,0,15 skyAnim=.01,.05
+
+mission=frea globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=0,0,3000 sky=200,200,200 skyAnim=.01,.05
+
+mission=freb globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=0,0,4000 sky=200,200,200 skyAnim=.01,.05
+
+mission=ran0 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran1 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran2 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran3 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran4 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran5 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran6 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran7 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran8 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=ran9 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=30,30,35 wa=255,255,200,D,-1,-1,0 wb=155,155,155,D,1,1,0 fog=200,200,200 density=24000,0,128000 sky=64,64,255 skyAnim=.01,.05
+
+mission=lm01 globalintensity=60 tile_ground=15000 grounddelta=60 ground_max=160000 shadowtable=7 gclip=5000,500000,500000 amb=84,75,17 wa=205,220,129,D,-1,-1,0 wb=100,100,100,D,1,1,0 fog=150,190,165 density=0,0,8000 sky=16,32,24 skyAnim=.01,.05
+
+mission=foz2 globalintensity=20 tile_ground=15000 grounddelta=60 ground_max=300000 shadowtable=7 gclip=9000,800000,800000 amb=30,30,30 wa=200,200,200,D,-1,-1,0 wb=150,150,150,D,1,1,0 fog=220,120,140 density=28000,0,15000 sky=54,18,62 skyAnim=.01,.05
+
+mission=foz3 globalintensity=40 tile_ground=15000 grounddelta=60 ground_max=1200000 shadowtable=7 gclip=10000,800000,800000 amb=40,30,30 wa=240,200,200,D,-1,-1,0 wb=150,100,100,D,1,1,0 fog=140,30,30 density=70000,0,20000 sky=24,16,16 skyAnim=.01,.03
+

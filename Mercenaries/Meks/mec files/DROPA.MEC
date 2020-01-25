@@ -1,0 +1,182 @@
+#     Ouput for dropa.MEC
+#     Thu May 25 21:33:23 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object dropa=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object p_main=DUMMY   1,1,1   0,0,0   0,1115,0   0   hidden   dropa
+Object p_rtbdy=pa1rtbdy   1,1,1   0,0,0   0,459,-900   0      .      p_main
+Object p_rbbdy=pa1rbbdy   1,1,1   0,0,0   0,-449,-900   0      .      p_main
+Object p_ftbdy=pa1ftbdy   1,1,1   0,0,0   0,378,3000   0      .      p_main
+Object p_fbbdy=pa1fbbdy   1,1,1   0,0,0   0,-520,3000   0      .      p_main
+Object p_winsh=pa1winsh   1,1,1   0,0,0   0,687,3300   0      .      p_main
+Object p_rwing=pa1rwing   1,1,1   0,0,0   2100,-642,-2000   0      .      p_main
+Object p_lwing=pa1lwing   1,1,1   0,0,0   -2100,-642,-2000   0      .      p_main
+Object p_rfin=pa1_rfin   1,1,1   0,0,0   1400,-427,2500   0      .      p_main
+Object p_lfin=pa1_lfin   1,1,1   0,0,0   -1400,-427,2500   0      .      p_main
+Object p_rueng=pa1rueng   1,1,1   0,0,0   800,166,-3700   0      .      p_main
+Object p_rmeng=pa1rmeng   1,1,1   0,0,0   1500,616,-1800   0      .      p_main
+Object p_rleng=pa1rleng   1,1,1   0,0,0   1500,-546,-2000   0      .      p_main
+Object p_lueng=pa1lueng   1,1,1   0,0,0   -800,166,-3700   0      .      p_main
+Object p_lmeng=pa1lmeng   1,1,1   0,0,0   -1500,616,-1800   0      .      p_main
+Object p_lleng=pa1lleng   1,1,1   0,0,0   -1500,-546,-2000   0      .      p_main
+Object p_ckpit=pa1ckpit   1,1,1   0,0,0   0,450,3500   0      .      p_main
+Object p_decll=pa1decll   1,1,1   0,0,0   -1400,588,900   0      .      p_main
+Object p_declr=pa1declr   1,1,1   0,0,0   1400,588,900   0      .      p_main
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,0,0   0   hidden   p_main
+Object p_rwpof=DUMMY   1,1,1   0,0,0   3324,-800,-1800   0   hidden   p_daddy
+Object p_lwpof=DUMMY   1,1,1   0,0,0   -3376,-800,-1800   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   1324,-800,4100   0   hidden   p_daddy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -1376,-800,4100   0   hidden   p_daddy
+Object p_rjpof=DUMMY   1,1,1   0,0,0   824,100,-4100   0   hidden   p_daddy
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -876,100,-4100   0   hidden   p_daddy
+Object p_hdpof=DUMMY   1,1,1   0,0,0   0,0,4900   0   hidden   p_daddy
+Object p_ctpof=DUMMY   1,1,1   0,0,0   0,-1033,3100   0   hidden   p_daddy
+
+rep
+
+Object p_main=DUMMY   1,1,1   0,0,0   0,1115,0   0   hidden   dropa
+Object p_rtbdy=pa2rtbdy   1,1,1   0,0,0   0,459,-900   0      .      p_main
+Object p_rbbdy=pa2rbbdy   1,1,1   0,0,0   0,-449,-900   0      .      p_main
+Object p_ftbdy=pa2ftbdy   1,1,1   0,0,0   0,378,3000   0      .      p_main
+Object p_fbbdy=pa2fbbdy   1,1,1   0,0,0   0,-520,3000   0      .      p_main
+Object p_winsh=pa2winsh   1,1,1   0,0,0   0,687,3300   0      .      p_main
+Object p_rwing=pa2rwing   1,1,1   0,0,0   2100,-642,-2000   0      .      p_main
+Object p_lwing=pa2lwing   1,1,1   0,0,0   -2100,-642,-2000   0      .      p_main
+Object p_rfin=pa2_rfin   1,1,1   0,0,0   1400,-427,2500   0      .      p_main
+Object p_lfin=pa2_lfin   1,1,1   0,0,0   -1400,-427,2500   0      .      p_main
+Object p_rueng=pa2rueng   1,1,1   0,0,0   800,166,-3700   0      .      p_main
+Object p_rmeng=pa2rmeng   1,1,1   0,0,0   1500,616,-1800   0      .      p_main
+Object p_rleng=pa2rleng   1,1,1   0,0,0   1500,-546,-2000   0      .      p_main
+Object p_lueng=pa2lueng   1,1,1   0,0,0   -800,166,-3700   0      .      p_main
+Object p_lmeng=pa2lmeng   1,1,1   0,0,0   -1500,616,-1800   0      .      p_main
+Object p_lleng=pa2lleng   1,1,1   0,0,0   -1500,-546,-2000   0      .      p_main
+Object p_ckpit=pa2ckpit   1,1,1   0,0,0   0,450,3500   0      .      p_main
+Object p_decll=pa2decll   1,1,1   0,0,0   -1400,588,900   0      .      p_main
+Object p_declr=pa2declr   1,1,1   0,0,0   1400,588,900   0      .      p_main
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,0,0   0   hidden   p_main
+Object p_rwpof=DUMMY   1,1,1   0,0,0   3324,-800,-1800   0   hidden   p_daddy
+Object p_lwpof=DUMMY   1,1,1   0,0,0   -3376,-800,-1800   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   1324,-800,4100   0   hidden   p_daddy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -1376,-800,4100   0   hidden   p_daddy
+Object p_rjpof=DUMMY   1,1,1   0,0,0   824,100,-4100   0   hidden   p_daddy
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -876,100,-4100   0   hidden   p_daddy
+Object p_hdpof=DUMMY   1,1,1   0,0,0   0,0,4900   0   hidden   p_daddy
+Object p_ctpof=DUMMY   1,1,1   0,0,0   0,-1033,3100   0   hidden   p_daddy
+
+rep
+
+Object p_main=DUMMY   1,1,1   0,0,0   0,1115,0   0   hidden   dropa
+Object p_rtbdy=pa3rtbdy   1,1,1   0,0,0   0,459,-900   0      .      p_main
+Object p_rbbdy=pa3rbbdy   1,1,1   0,0,0   0,-449,-900   0      .      p_main
+Object p_ftbdy=pa3ftbdy   1,1,1   0,0,0   0,378,3000   0      .      p_main
+Object p_fbbdy=pa3fbbdy   1,1,1   0,0,0   0,-520,3000   0      .      p_main
+Object p_winsh=pa3winsh   1,1,1   0,0,0   0,687,3300   0      .      p_main
+Object p_rwing=pa3rwing   1,1,1   0,0,0   2100,-642,-2000   0      .      p_main
+Object p_lwing=pa3lwing   1,1,1   0,0,0   -2100,-642,-2000   0      .      p_main
+Object p_rfin=pa3_rfin   1,1,1   0,0,0   1400,-427,2500   0      .      p_main
+Object p_lfin=pa3_lfin   1,1,1   0,0,0   -1400,-427,2500   0      .      p_main
+Object p_rueng=pa3rueng   1,1,1   0,0,0   800,166,-3700   0      .      p_main
+Object p_rmeng=pa3rmeng   1,1,1   0,0,0   1500,616,-1800   0      .      p_main
+Object p_rleng=pa3rleng   1,1,1   0,0,0   1500,-546,-2000   0      .      p_main
+Object p_lueng=pa3lueng   1,1,1   0,0,0   -800,166,-3700   0      .      p_main
+Object p_lmeng=pa3lmeng   1,1,1   0,0,0   -1500,616,-1800   0      .      p_main
+Object p_lleng=pa3lleng   1,1,1   0,0,0   -1500,-546,-2000   0      .      p_main
+Object p_ckpit=pa3ckpit   1,1,1   0,0,0   0,450,3500   0      .      p_main
+Object p_decll=pa3decll   1,1,1   0,0,0   -1400,588,900   0      .      p_main
+Object p_declr=pa3declr   1,1,1   0,0,0   1400,588,900   0      .      p_main
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,0,0   0   hidden   p_main
+Object p_rwpof=DUMMY   1,1,1   0,0,0   3324,-800,-1800   0   hidden   p_daddy
+Object p_lwpof=DUMMY   1,1,1   0,0,0   -3376,-800,-1800   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   1324,-800,4100   0   hidden   p_daddy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -1376,-800,4100   0   hidden   p_daddy
+Object p_rjpof=DUMMY   1,1,1   0,0,0   824,100,-4100   0   hidden   p_daddy
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -876,100,-4100   0   hidden   p_daddy
+Object p_hdpof=DUMMY   1,1,1   0,0,0   0,0,4900   0   hidden   p_daddy
+Object p_ctpof=DUMMY   1,1,1   0,0,0   0,-1033,3100   0   hidden   p_daddy
+
+rep
+
+Object p_main=DUMMY   1,1,1   0,0,0   0,1115,0   0   hidden   dropa
+Object p_rtbdy=pa4rtbdy   1,1,1   0,0,0   0,459,-900   0      .      p_main
+Object p_rbbdy=pa4rbbdy   1,1,1   0,0,0   0,-449,-900   0      .      p_main
+Object p_ftbdy=pa4ftbdy   1,1,1   0,0,0   0,378,3000   0      .      p_main
+Object p_fbbdy=pa4fbbdy   1,1,1   0,0,0   0,-520,3000   0      .      p_main
+Object p_winsh=pa4winsh   1,1,1   0,0,0   0,687,3300   0      .      p_main
+Object p_rwing=pa4rwing   1,1,1   0,0,0   2100,-642,-2000   0      .      p_main
+Object p_lwing=pa4lwing   1,1,1   0,0,0   -2100,-642,-2000   0      .      p_main
+Object p_rfin=pa4_rfin   1,1,1   0,0,0   1400,-427,2500   0      .      p_main
+Object p_lfin=pa4_lfin   1,1,1   0,0,0   -1400,-427,2500   0      .      p_main
+Object p_rueng=pa4rueng   1,1,1   0,0,0   800,166,-3700   0      .      p_main
+Object p_rmeng=pa4rmeng   1,1,1   0,0,0   1500,616,-1800   0      .      p_main
+Object p_rleng=pa4rleng   1,1,1   0,0,0   1500,-546,-2000   0      .      p_main
+Object p_lueng=pa4lueng   1,1,1   0,0,0   -800,166,-3700   0      .      p_main
+Object p_lmeng=pa4lmeng   1,1,1   0,0,0   -1500,616,-1800   0      .      p_main
+Object p_lleng=pa4lleng   1,1,1   0,0,0   -1500,-546,-2000   0      .      p_main
+Object p_ckpit=pa4ckpit   1,1,1   0,0,0   0,450,3500   0      .      p_main
+Object p_decll=pa4decll   1,1,1   0,0,0   -1400,588,900   0      .      p_main
+Object p_declr=pa4declr   1,1,1   0,0,0   1400,588,900   0      .      p_main
+Object p_daddy=DUMMY   1,1,1   0,0,0   0,0,0   0   hidden   p_main
+Object p_rwpof=DUMMY   1,1,1   0,0,0   3324,-800,-1800   0   hidden   p_daddy
+Object p_lwpof=DUMMY   1,1,1   0,0,0   -3376,-800,-1800   0   hidden   p_daddy
+Object p_rtpof=DUMMY   1,1,1   0,0,0   1324,-800,4100   0   hidden   p_daddy
+Object p_ltpof=DUMMY   1,1,1   0,0,0   -1376,-800,4100   0   hidden   p_daddy
+Object p_rjpof=DUMMY   1,1,1   0,0,0   824,100,-4100   0   hidden   p_daddy
+Object p_ljpof=DUMMY   1,1,1   0,0,0   -876,100,-4100   0   hidden   p_daddy
+Object p_hdpof=DUMMY   1,1,1   0,0,0   0,0,4900   0   hidden   p_daddy
+Object p_ctpof=DUMMY   1,1,1   0,0,0   0,-1033,3100   0   hidden   p_daddy
+
+endrep
+
+thing p_daddy
+thing p_daddy
+
+gamepiece dropa mw2truck
+
+objloc p_rtbdy  ct
+objloc p_rbbdy  ct
+objloc p_ftbdy  ct
+objloc p_fbbdy  ct
+objloc p_lueng  ct
+objloc p_rueng  ct
+objloc p_lmeng  ct
+objloc p_rmeng  ct
+objloc p_winsh  ct
+objloc p_ckpit  ct
+objloc p_lfin   ct
+objloc p_rfin   ct
+objloc p_rwing  ra
+objloc p_lwing  la
+objloc p_rleng  ra
+objloc p_lleng  la
+
+animfile dropanim 
+
+# task animators go here....
+
+task animator 0    p_main;60,129,0
+
+lapof p_lwpof
+rapof p_rwpof
+hdpof p_hdpof
+ctpof p_ctpof
+ltpof p_ltpof
+rtpof p_rtpof
+rjpof p_rjpof
+ljpof p_ljpof
+
+eyeobj p_daddy
+
+mgdfile dropa
+
+mangle_off
+
+#end of dropa.MEC

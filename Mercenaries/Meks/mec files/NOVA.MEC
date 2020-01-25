@@ -1,0 +1,209 @@
+#   nova.MEC
+#   geometry for the Nova 'Mech
+
+#       size = 925cm
+#       677 to put Nova's feet on ground
+
+mangle_on
+
+#   obj name  .plg file    scale   rotate   xlate  sort (null) parent
+object nova=dummy          1,1,1   0,0,0   0,0,0     0  hidden world
+
+rep
+
+Object n_hips=nv1_hips   1,1,1   0,0,0   0,677,-23   0      .      nova
+Object n_luleg=nv1luleg   1,1,1   0,0,0   -278,0,0   0      .      n_hips
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -55,-375,-250   0   hidden   n_luleg
+Object n_llleg=nv1llleg   1,1,1   0,0,0   1,-279,-196   0      .      n_luleg
+Object n_lfoot=nv1lfoot   1,1,1   0,0,0   38,-313,256   0      .      n_llleg
+Object n_lftoe=nv1lftoe   1,1,1   0,0,0   0,0,80   0      .      n_lfoot
+Object n_ruleg=nv1ruleg   1,1,1   0,0,0   273,0,0   0      .      n_hips
+Object n_rjpof=DUMMY   1,1,1   0,0,0   49,-320,-217   0   hidden   n_ruleg
+Object n_rlleg=nv1rlleg   1,1,1   0,0,0   0,-279,-196   0      .      n_ruleg
+Object n_rfoot=nv1rfoot   1,1,1   0,0,0   -43,-313,256   0      .      n_rlleg
+Object n_rftoe=nv1rftoe   1,1,1   0,0,0   0,0,80   0      .      n_rfoot
+Object n_head=nv1_head   1,1,1   0,0,0   0,0,0   0      .      n_hips
+Object n_winsh=nv1winsh   1,1,1   0,0,0   0,23,23   0      .      n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   1,-161,558   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   -68,-224,471   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   57,-224,471   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   -1,74,272   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   -3,9,265   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   -7,-32,0   0   hidden   n_head
+Object n_larm=nv1_larm   1,1,1   0,0,0   -446,31,0   0      .      n_daddy
+Object n_decll=nv1decll   1,1,1   0,0,0   -160,-275,344   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -65,-289,525   0   hidden   n_larm
+Object n_rarm=nv1_rarm   1,1,1   0,0,0   464,31,0   0      .      n_daddy
+Object n_declr=nv1declr   1,1,1   0,0,0   154,-275,344   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   58,-289,437   0   hidden   n_rarm
+
+rep
+
+Object n_hips=nv2_hips   1,1,1   0,0,0   0,677,-23   0      .      nova
+Object n_luleg=nv2luleg   1,1,1   0,0,0   -278,0,0   0      .      n_hips
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -55,-375,-250   0   hidden   n_luleg
+Object n_llleg=nv2llleg   1,1,1   0,0,0   1,-279,-196   0      .      n_luleg
+Object n_lfoot=nv2lfoot   1,1,1   0,0,0   38,-313,256   0      .      n_llleg
+Object n_lftoe=nv2lftoe   1,1,1   0,0,0   0,0,80   0      .      n_lfoot
+Object n_ruleg=nv2ruleg   1,1,1   0,0,0   273,0,0   0      .      n_hips
+Object n_rjpof=DUMMY   1,1,1   0,0,0   49,-320,-217   0   hidden   n_ruleg
+Object n_rlleg=nv2rlleg   1,1,1   0,0,0   0,-279,-196   0      .      n_ruleg
+Object n_rfoot=nv2rfoot   1,1,1   0,0,0   -43,-313,256   0      .      n_rlleg
+Object n_rftoe=nv2rftoe   1,1,1   0,0,0   0,0,80   0      .      n_rfoot
+Object n_head=nv2_head   1,1,1   0,0,0   0,0,0   0      .      n_hips
+Object n_winsh=nv2winsh   1,1,1   0,0,0   0,23,23   0      .      n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   1,-161,558   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   -68,-224,471   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   57,-224,471   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   -1,74,272   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   -3,9,265   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   -7,-32,0   0   hidden   n_head
+Object n_larm=nv2_larm   1,1,1   0,0,0   -446,31,0   0      .      n_daddy
+Object n_decll=nv2decll   1,1,1   0,0,0   -160,-275,344   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -65,-289,525   0   hidden   n_larm
+Object n_rarm=nv2_rarm   1,1,1   0,0,0   464,31,0   0      .      n_daddy
+Object n_declr=nv2declr   1,1,1   0,0,0   154,-275,344   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   58,-289,437   0   hidden   n_rarm
+
+rep
+
+Object n_hips=nv3_hips   1,1,1   0,0,0   5,658,0   0      .      nova
+Object n_luleg=nv3luleg   1,1,1   0,0,0   -255,0,0   0      .      n_hips
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -82,-302,-240   0   hidden   n_luleg
+Object n_llleg=nv3llleg   1,1,1   0,0,0   0,-278,-171   0      .      n_luleg
+Object n_lfoot=nv3lfoot   1,1,1   0,0,0   37,-314,256   0      .      n_llleg
+Object n_lftoe=nv3lftoe   1,1,1   0,0,0   0,0,80   0      .      n_lfoot
+Object n_ruleg=nv3ruleg   1,1,1   0,0,0   273,0,0   0      .      n_hips
+Object n_rjpof=DUMMY   1,1,1   0,0,0   43,-302,-240   0   hidden   n_ruleg
+Object n_rlleg=nv3rlleg   1,1,1   0,0,0   0,-278,-171   0      .      n_ruleg
+Object n_rfoot=nv3rfoot   1,1,1   0,0,0   -37,-314,256   0      .      n_rlleg
+Object n_rftoe=nv3rftoe   1,1,1   0,0,0   0,0,80   0      .      n_rfoot
+Object n_head=nv3_head   1,1,1   0,0,0   0,0,0   0      .      n_hips
+Object n_winsh=nv3winsh   1,1,1   0,0,0   -5,42,0   0      .      n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   -15,-143,447   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   -332,25,92   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   321,25,92   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   -6,92,161   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   -8,28,242   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   -12,-13,-23   0   hidden   n_head
+Object n_larm=nv3_larm   1,1,1   0,0,0   -367,14,49   0      .      n_daddy
+Object n_decll=nv3decll   1,1,1   0,0,0   -256,-258,192   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -159,-272,285   0   hidden   n_larm
+Object n_rarm=nv3_rarm   1,1,1   0,0,0   408,14,49   0      .      n_daddy
+Object n_declr=nv3declr   1,1,1   0,0,0   220,-258,192   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   123,-272,285   0   hidden   n_rarm
+
+rep
+
+Object n_hips=nv4_hips   1,1,1   0,0,0   3,659,0   0      .      nova
+Object n_luleg=nv4luleg   1,1,1   0,0,0   -278,0,0   0      .      n_hips
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -58,-302,-240   0   hidden   n_luleg
+Object n_llleg=nv4llleg   1,1,1   0,0,0   1,-278,-171   0      .      n_luleg
+Object n_lfoot=nv4lfoot   1,1,1   0,0,0   38,-314,256   0      .      n_llleg
+Object n_lftoe=nv4lftoe   1,1,1   0,0,0   0,0,80   0      .      n_lfoot
+Object n_ruleg=nv4ruleg   1,1,1   0,0,0   273,0,0   0      .      n_hips
+Object n_rjpof=DUMMY   1,1,1   0,0,0   45,-302,-240   0   hidden   n_ruleg
+Object n_rlleg=nv4rlleg   1,1,1   0,0,0   0,-278,-171   0      .      n_ruleg
+Object n_rfoot=nv4rfoot   1,1,1   0,0,0   -37,-314,256   0      .      n_rlleg
+Object n_rftoe=nv4rftoe   1,1,1   0,0,0   0,0,80   0      .      n_rfoot
+Object n_head=nv4_head   1,1,1   0,0,0   -3,41,0   0      .      n_hips
+Object n_winsh=nv4winsh   1,1,1   0,0,0   0,0,0   0      .      n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   -9,-185,447   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   -327,-17,92   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   326,-17,92   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   -1,50,161   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   -3,-14,242   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   -7,-55,-23   0   hidden   n_head
+Object n_larm=nv4_larm   1,1,1   0,0,0   -392,16,-39   0      .      n_daddy
+Object n_decll=nv4decll   1,1,1   0,0,0   -232,-261,279   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -134,-275,373   0   hidden   n_larm
+Object n_rarm=nv4_rarm   1,1,1   0,0,0   406,15,49   0      .      n_daddy
+Object n_declr=nv4declr   1,1,1   0,0,0   222,-259,192   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   125,-273,285   0   hidden   n_rarm
+
+rep
+
+Object n_hips=nv5_hips   1,1,1   0,0,0   0,677,-23   0      .      nova
+Object n_luleg=nv5luleg   1,1,1   0,0,0   -278,0,0   0      .      n_hips
+Object n_ljpof=DUMMY   1,1,1   0,0,0   -55,-320,-217   0   hidden   n_luleg
+Object n_llleg=nv5llleg   1,1,1   0,0,0   1,-279,-196   0      .      n_luleg
+Object n_lfoot=nv5lfoot   1,1,1   0,0,0   38,-313,256   0      .      n_llleg
+Object n_lftoe=nv5lftoe   1,1,1   0,0,0   0,0,80   0      .      n_lfoot
+Object n_ruleg=nv5ruleg   1,1,1   0,0,0   273,0,0   0      .      n_hips
+Object n_rjpof=DUMMY   1,1,1   0,0,0   49,-320,-217   0   hidden   n_ruleg
+Object n_rlleg=nv5rlleg   1,1,1   0,0,0   0,-279,-196   0      .      n_ruleg
+Object n_rfoot=nv5rfoot   1,1,1   0,0,0   -43,-313,256   0      .      n_rlleg
+Object n_rftoe=nv5rftoe   1,1,1   0,0,0   0,0,80   0      .      n_rfoot
+Object n_head=nv5_head   1,1,1   0,0,0   0,0,0   0    near     n_hips
+Object n_winsh=nv5winsh   1,1,1   0,0,0   0,23,23   0      .      n_head
+Object n_ctpof=DUMMY   1,1,1   0,0,0   -9,-161,470   0   hidden   n_head
+Object n_rtpof=DUMMY   1,1,1   0,0,0   -327,6,114   0   hidden   n_head
+Object n_ltpof=DUMMY   1,1,1   0,0,0   326,6,114   0   hidden   n_head
+Object n_hdpof=DUMMY   1,1,1   0,0,0   -1,74,184   0   hidden   n_head
+Object n_cppov=DUMMY   1,1,1   0,0,0   -3,9,265   0   hidden   n_head
+Object n_daddy=DUMMY   1,1,1   0,0,0   -7,-25,0   0   hidden   n_head
+Object n_larm=nv5_larm   1,1,1   0,0,0   -446,25,0   0      .      n_daddy
+Object n_decll=nv5decll   1,1,1   0,0,0   -160,-275,344   0      .      n_larm
+Object n_lapof=DUMMY   1,1,1   0,0,0   -80,-289,334   0   hidden   n_larm
+Object n_rarm=nv5_rarm   1,1,1   0,0,0   464,25,0   0      .      n_daddy
+Object n_declr=nv5declr   1,1,1   0,0,0   154,-275,344   0      .      n_rarm
+Object n_rapof=DUMMY   1,1,1   0,0,0   67,-289,334   0   hidden   n_rarm
+
+endrep
+
+thing n_head
+thing n_daddy
+
+gamepiece nova mw2mech
+
+objloc n_head   ct
+objloc n_hips   ct
+objloc n_winsh  hd
+objloc n_larm   la
+objloc n_rarm   ra
+objloc n_luleg  ll
+objloc n_llleg  ll
+objloc n_ruleg  rl
+objloc n_rlleg  rl
+objloc n_lfoot  ll
+objloc n_lftoe  ll
+objloc n_rfoot  rl
+objloc n_rftoe  rl
+
+animfile novaanim
+
+# animations to follow
+
+task animator 0    n_hips;44,129,0
+task animator 0    n_hips;44,1,1
+task animator 0    n_luleg;44,1,2
+task animator 0    n_llleg;44,1,3
+task animator 0    n_lfoot;44,1,4
+task animator 0    n_lftoe;44,1,5
+task animator 0    n_ruleg;44,1,6
+task animator 0    n_rlleg;44,1,7
+task animator 0    n_rfoot;44,1,8
+task animator 0    n_rftoe;44,1,9
+                   
+ljpof  n_ljpof
+rjpof  n_rjpof
+lapof  n_lapof
+rapof  n_rapof
+rtpof  n_rtpof
+ltpof  n_ltpof
+ctpof  n_ctpof
+hdpof  n_hdpof
+
+eyeobj n_cppov
+       
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile nova
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of nova.mec

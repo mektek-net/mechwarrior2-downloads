@@ -1,0 +1,94 @@
+#     Ouput for tankg.MEC
+#     Thu Mar 30 15:57:51 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object tankg=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+
+rep
+
+Object k_body=kg1_body   1,1,1   0,0,0   0,260,-40   0      .      tankg
+Object k_decll=kg1decll   1,1,1   0,0,0   -338,19,45   0      .      k_body
+Object k_declr=kg1declr   1,1,1   0,0,0   338,19,45   0      .      k_body
+Object k_lfwhl=kg1lfwhl   1,1,1   0,0,0   -212,-132,425   0      .      k_body
+Object k_lrwhl=kg1lrwhl   1,1,1   0,0,0   -212,-132,-352   0      .      k_body
+Object k_rrwhl=kg1rrwhl   1,1,1   0,0,0   223,-132,-352   0      .      k_body
+Object k_rfwhl=kg1rfwhl   1,1,1   0,0,0   223,-132,425   0      .      k_body
+Object k_daddy=DUMMY   1,1,1   0,0,0   1,192,-405   0   hidden   k_body
+Object k_turrt=kg1turrt   1,1,1   0,0,0   -1,8,5   0      .      k_daddy
+Object k_srpof=DUMMY   1,1,1   0,0,0   -374,45,339   0   hidden   k_turrt
+Object k_lrpof=DUMMY   1,1,1   0,0,0   -1,111,370   0   hidden   k_turrt
+
+rep
+
+Object k_body=kg2_body   1,1,1   0,0,0   0,260,-40   0      .      tankg
+Object k_decll=kg2decll   1,1,1   0,0,0   -338,19,45   0      .      k_body
+Object k_declr=kg2declr   1,1,1   0,0,0   338,19,45   0      .      k_body
+Object k_lfwhl=kg2lfwhl   1,1,1   0,0,0   -212,-132,425   0      .      k_body
+Object k_lrwhl=kg2lrwhl   1,1,1   0,0,0   -212,-132,-352   0      .      k_body
+Object k_rrwhl=kg2rrwhl   1,1,1   0,0,0   223,-132,-352   0      .      k_body
+Object k_rfwhl=kg2rfwhl   1,1,1   0,0,0   223,-132,425   0      .      k_body
+Object k_daddy=DUMMY   1,1,1   0,0,0   1,192,-405   0   hidden   k_body
+Object k_turrt=kg2turrt   1,1,1   0,0,0   -1,8,5   0      .      k_daddy
+Object k_srpof=DUMMY   1,1,1   0,0,0   -374,45,339   0   hidden   k_turrt
+Object k_lrpof=DUMMY   1,1,1   0,0,0   -1,111,370   0   hidden   k_turrt
+
+rep
+
+Object k_body=kg3_body   1,1,1   0,0,0   0,260,-40   0      .      tankg
+Object k_decll=kg3decll   1,1,1   0,0,0   -338,19,45   0      .      k_body
+Object k_declr=kg3declr   1,1,1   0,0,0   338,19,45   0      .      k_body
+Object k_lfwhl=kg3lfwhl   1,1,1   0,0,0   -212,-132,425   0      .      k_body
+Object k_lrwhl=kg3lrwhl   1,1,1   0,0,0   -212,-132,-352   0      .      k_body
+Object k_rrwhl=kg3rrwhl   1,1,1   0,0,0   223,-132,-352   0      .      k_body
+Object k_rfwhl=kg3rfwhl   1,1,1   0,0,0   223,-132,425   0      .      k_body
+Object k_daddy=DUMMY   1,1,1   0,0,0   1,192,-405   0   hidden   k_body
+Object k_turrt=kg3turrt   1,1,1   0,0,0   -1,8,5   0      .      k_daddy
+Object k_srpof=DUMMY   1,1,1   0,0,0   -374,45,339   0   hidden   k_turrt
+Object k_lrpof=DUMMY   1,1,1   0,0,0   -1,111,370   0   hidden   k_turrt
+
+rep
+
+Object k_body=kg4_body   1,1,1   0,0,0   0,260,-40   0      .      tankg
+Object k_decll=kg4decll   1,1,1   0,0,0   -338,19,45   0      .      k_body
+Object k_declr=kg4declr   1,1,1   0,0,0   338,19,45   0      .      k_body
+Object k_lfwhl=kg4lfwhl   1,1,1   0,0,0   -212,-132,425   0      .      k_body
+Object k_lrwhl=kg4lrwhl   1,1,1   0,0,0   -212,-132,-352   0      .      k_body
+Object k_rrwhl=kg4rrwhl   1,1,1   0,0,0   223,-132,-352   0      .      k_body
+Object k_rfwhl=kg4rfwhl   1,1,1   0,0,0   223,-132,425   0      .      k_body
+Object k_daddy=DUMMY   1,1,1   0,0,0   1,192,-405   0   hidden   k_body
+Object k_turrt=kg4turrt   1,1,1   0,0,0   -1,8,5   0      .      k_daddy
+Object k_srpof=DUMMY   1,1,1   0,0,0   -374,45,339   0   hidden   k_turrt
+Object k_lrpof=DUMMY   1,1,1   0,0,0   -1,111,370   0   hidden   k_turrt
+
+endrep
+
+thing k_daddy
+thing k_turrt
+
+gamepiece tankg mw2tank
+
+objloc k_body  ct
+objloc k_turrt ct
+objloc k_rfwhl rl
+objloc k_rrwhl rl
+objloc k_lfwhl ll
+objloc k_lrwhl ll
+
+animfile tnkbanim
+
+task animator 0 k_body;75,129,0
+
+ltpof k_srpof
+rtpof k_lrpof
+
+eyeobj k_turrt
+
+mgdfile tankg
+
+mangle_off
+
+#end of tankg.MEC

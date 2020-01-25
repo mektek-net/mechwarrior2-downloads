@@ -1,0 +1,47 @@
+#     Ouput for vehicleb.MEC
+#     Mon Apr 24 15:58:32 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object vehicleb=DUMMY       1,1,1    0,0,0    0,0,0   2   hidden world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object v_main=vb1_main   1,1,1   0,0,0   0,147,-100   2      .      vehicleb
+Object v_winsh=vb1winsh   1,1,1   0,0,0   0,47,100   2      .      v_main
+Object v_rrfin=vb1rrfin   1,1,1   0,0,0   199,-52,-203   2      .      v_main
+Object v_rlfin=vb1rlfin   1,1,1   0,0,0   -195,-52,-203   2      .      v_main
+Object v_frfin=vb1frfin   1,1,1   0,0,0   199,-52,454   2      .      v_main
+Object v_flfin=vb1flfin   1,1,1   0,0,0   -195,-52,454   2      .      v_main
+Object v_strut=vb1strut   1,1,1   0,0,0   0,52,400   2      .      v_main
+
+endrep
+
+gamepiece vehicleb mw2mech
+
+objloc v_winsh  hd
+objloc v_main   ct
+objloc v_strut  ct
+objloc v_frfin  ra
+objloc v_rrfin  ra
+objloc v_flfin  la
+objloc v_rlfin  la
+
+animfile hovranim 
+
+# task animators go here....
+
+task animator 0    v_main;60,129,0
+
+mgdfile vehicleb
+
+mangle_off
+
+#AnimSound mecfstx2
+
+# end of vehicleb.mec

@@ -1,0 +1,55 @@
+#     Ouput for suba.MEC
+#     Tue May 16 18:56:04 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object suba=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden   world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object s_main=sa1_main   1,1,1   0,0,0   0,470,-309   0      .      suba
+Object s_decll=sa1decll   1,1,1   0,0,0   -1077,-156,-196   0      .      s_main
+Object s_declr=sa1declr   1,1,1   0,0,0   1135,-156,-194   0      .      s_main
+Object s_engin=sa1engin   1,1,1   0,0,0   0,-290,2   0      .      s_main
+Object s_winsh=sa1winsh   1,1,1   0,0,0   0,130,1529   0      .      s_main
+Object s_rwing=sa1rwing   1,1,1   0,0,0   550,-90,-271   0      .      s_main
+Object s_lwing=sa1lwing   1,1,1   0,0,0   -550,-90,-271   0      .      s_main
+Object s_ckpit=sa1ckpit   1,1,1   0,0,0   0,50,939   0      .      s_main
+Object s_dummy=DUMMY   1,1,1   0,0,0   0,-196,838   0   hidden   s_ckpit
+Object s_daddy=DUMMY   1,1,1   0,0,0   0,-3,20   0   hidden   s_dummy
+Object s_rpof=DUMMY   1,1,1   0,0,0   95,-1,32   0   hidden   s_daddy
+Object s_lpof=DUMMY   1,1,1   0,0,0   -99,-1,32   0   hidden   s_daddy
+
+endrep
+
+thing s_daddy
+thing s_daddy
+
+gamepiece suba mw2truck
+
+objloc s_main   ct
+objloc s_engin  ct
+objloc s_winsh  ct
+objloc s_rwing  ra
+objloc s_lwing  la
+
+animfile chpranim 
+
+# task animators go here....
+
+task animator 0    s_main;60,129,0
+
+ltpof s_lpof
+rtpof s_rpof
+
+eyeobj s_daddy
+
+mgdfile suba
+
+mangle_off
+
+#end of suba.MEC

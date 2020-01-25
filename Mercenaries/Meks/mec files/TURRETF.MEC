@@ -1,0 +1,94 @@
+#     Ouput for turretf.MEC
+#     Sat Apr  1 13:29:15 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object turretf=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object t_main=tf1_main   1,1,1   0,0,0   0,108,0   0      .      turretf
+Object t_rfleg=tf1rfleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_rrleg=tf1rrleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_lfleg=tf1lfleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_lrleg=tf1lrleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,17,-4   0   hidden   t_main
+Object t_turrt=tf1turrt   1,1,1   0,0,0   0,0,4   0      .      t_daddy
+Object t_rgun=tf1_rgun   1,1,1   0,0,0   18,43,93   0      .      t_turrt
+Object t_rgpof=DUMMY   1,1,1   0,0,0   0,-2,459   0   hidden   t_rgun
+Object t_lgun=tf1_lgun   1,1,1   0,0,0   -26,74,93   0      .      t_turrt
+Object t_lgpof=DUMMY   1,1,1   0,0,0   0,-2,210   0   hidden   t_lgun
+
+rep
+
+Object t_main=tf2_main   1,1,1   0,0,0   0,108,0   0      .      turretf
+Object t_rfleg=tf2rfleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_rrleg=tf2rrleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_lfleg=tf2lfleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_lrleg=tf2lrleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,17,-4   0   hidden   t_main
+Object t_turrt=tf2turrt   1,1,1   0,0,0   0,0,4   0      .      t_daddy
+Object t_rgun=tf2_rgun   1,1,1   0,0,0   18,43,93   0      .      t_turrt
+Object t_rgpof=DUMMY   1,1,1   0,0,0   0,-2,459   0   hidden   t_rgun
+Object t_lgun=tf2_lgun   1,1,1   0,0,0   -26,74,93   0      .      t_turrt
+Object t_lgpof=DUMMY   1,1,1   0,0,0   0,-2,210   0   hidden   t_lgun
+
+rep
+
+Object t_main=tf3_main   1,1,1   0,0,0   0,108,0   0      .      turretf
+Object t_rfleg=tf3rfleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_rrleg=tf3rrleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_lfleg=tf3lfleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_lrleg=tf3lrleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,17,-4   0   hidden   t_main
+Object t_turrt=tf3turrt   1,1,1   0,0,0   0,0,4   0      .      t_daddy
+Object t_rgun=tf3_rgun   1,1,1   0,0,0   18,43,93   0      .      t_turrt
+Object t_rgpof=DUMMY   1,1,1   0,0,0   0,-2,459   0   hidden   t_rgun
+Object t_lgun=tf3_lgun   1,1,1   0,0,0   -26,74,93   0      .      t_turrt
+Object t_lgpof=DUMMY   1,1,1   0,0,0   0,-2,210   0   hidden   t_lgun
+
+rep
+
+Object t_main=tf4_main   1,1,1   0,0,0   0,108,0   0      .      turretf
+Object t_rfleg=tf4rfleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_rrleg=tf4rrleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_lfleg=tf4lfleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_lrleg=tf4lrleg   1,1,1   0,0,0   0,-43,0   0      .      t_main
+Object t_daddy=DUMMY   1,1,1   0,0,0   0,17,-4   0   hidden   t_main
+Object t_turrt=tf4turrt   1,1,1   0,0,0   0,0,4   0      .      t_daddy
+Object t_rgun=tf4_rgun   1,1,1   0,0,0   18,43,93   0      .      t_turrt
+Object t_rgpof=DUMMY   1,1,1   0,0,0   0,-2,459   0   hidden   t_rgun
+Object t_lgun=tf4_lgun   1,1,1   0,0,0   -26,74,93   0      .      t_turrt
+Object t_lgpof=DUMMY   1,1,1   0,0,0   0,-2,210   0   hidden   t_lgun
+
+endrep
+
+thing t_daddy
+thing t_turrt
+
+gamepiece turretf mw2artillery
+
+objloc t_main  ct
+objloc t_turrt ct
+objloc t_rgun  ra
+objloc t_lgun  la
+objloc t_rfleg rl
+objloc t_rrleg rl
+objloc t_lfleg ll
+objloc t_lrleg ll
+
+lapof t_lgpof
+rapof t_rgpof
+
+eyeobj t_daddy
+
+mgdfile turretf
+
+mangle_off
+
+#end of turretf.MEC

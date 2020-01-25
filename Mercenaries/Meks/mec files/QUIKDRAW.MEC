@@ -1,0 +1,211 @@
+#   quikdraw.MEC
+#   geometry for the quikdraw 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object quikdraw=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object q_hips=qd1_hips   1,1,1   0,0,0   0,615,2   0      .      quikdraw
+Object q_luleg=qd1luleg   1,1,1   0,0,0   -120,-15,-2   0      .      q_hips
+Object q_decll=qd1decll   1,1,1   0,0,0   -99,-132,8   0      .      q_luleg
+Object q_llleg=qd1llleg   1,1,1   0,0,0   -30,-220,0   0      .      q_luleg
+Object q_lrtoe=qd1lrtoe   1,1,1   0,0,0   10,-299,-10   0      .      q_llleg
+Object q_lftoe=qd1lftoe   1,1,1   0,0,0   0,-27,10   0      .      q_lrtoe
+Object q_ruleg=qd1ruleg   1,1,1   0,0,0   120,-15,-2   0      .      q_hips
+Object q_declr=qd1declr   1,1,1   0,0,0   93,-132,8   0      .      q_ruleg
+Object q_rlleg=qd1rlleg   1,1,1   0,0,0   30,-220,0   0      .      q_ruleg
+Object q_rrtoe=qd1rrtoe   1,1,1   0,0,0   -10,-299,-10   0      .      q_rlleg
+Object q_rftoe=qd1rftoe   1,1,1   0,0,0   0,-27,10   0      .      q_rrtoe
+Object q_head=qd1_head   1,1,1   0,0,0   0,55,7   0      .      q_hips
+Object q_winsh=qd1winsh   1,1,1   0,0,0   0,306,37   0      .      q_head
+Object q_ljpof=DUMMY   1,1,1   0,0,0   -71,-76,-147   0   hidden   q_head
+Object q_rjpof=DUMMY   1,1,1   0,0,0   68,-76,-147   0   hidden   q_head
+Object q_cppov=DUMMY   1,1,1   0,0,0   0,306,18   0   hidden   q_head
+Object q_hdpof=DUMMY   1,1,1   0,0,0   0,355,73   0   hidden   q_head
+Object q_ctpof=DUMMY   1,1,1   0,0,0   0,27,171   0   hidden   q_head
+Object q_ltpof=DUMMY   1,1,1   0,0,0   -126,168,86   0   hidden   q_head
+Object q_rtpof=DUMMY   1,1,1   0,0,0   128,205,86   0   hidden   q_head
+Object q_daddy=DUMMY   1,1,1   0,0,0   -4,241,-28   0   hidden   q_head
+Object q_larm=qd1_larm   1,1,1   0,0,0   -186,-1,-1   0      .      q_daddy
+Object q_lapof=DUMMY   1,1,1   0,0,0   -99,-152,194   0   hidden   q_larm
+Object q_rarm=qd1_rarm   1,1,1   0,0,0   194,-1,-1   0      .      q_daddy
+Object q_rapof=DUMMY   1,1,1   0,0,0   103,-152,194   0   hidden   q_rarm
+
+rep
+
+Object q_hips=qd2_hips   1,1,1   0,0,0   0,615,2   0      .      quikdraw
+Object q_luleg=qd2luleg   1,1,1   0,0,0   -120,-15,-2   0      .      q_hips
+Object q_decll=qd2decll   1,1,1   0,0,0   -96,-132,8   0      .      q_luleg
+Object q_llleg=qd2llleg   1,1,1   0,0,0   -30,-220,0   0      .      q_luleg
+Object q_lrtoe=qd2lrtoe   1,1,1   0,0,0   10,-299,-10   0      .      q_llleg
+Object q_lftoe=qd2lftoe   1,1,1   0,0,0   0,-27,10   0      .      q_lrtoe
+Object q_ruleg=qd2ruleg   1,1,1   0,0,0   120,-15,-2   0      .      q_hips
+Object q_declr=qd2declr   1,1,1   0,0,0   90,-132,8   0      .      q_ruleg
+Object q_rlleg=qd2rlleg   1,1,1   0,0,0   30,-220,0   0      .      q_ruleg
+Object q_rrtoe=qd2rrtoe   1,1,1   0,0,0   -10,-299,-10   0      .      q_rlleg
+Object q_rftoe=qd2rftoe   1,1,1   0,0,0   0,-27,10   0      .      q_rrtoe
+Object q_head=qd2_head   1,1,1   0,0,0   0,55,7   0      .      q_hips
+Object q_winsh=qd2winsh   1,1,1   0,0,0   0,306,37   0      .      q_head
+Object q_ljpof=DUMMY   1,1,1   0,0,0   -71,-76,-147   0   hidden   q_head
+Object q_rjpof=DUMMY   1,1,1   0,0,0   68,-76,-147   0   hidden   q_head
+Object q_cppov=DUMMY   1,1,1   0,0,0   0,306,18   0   hidden   q_head
+Object q_hdpof=DUMMY   1,1,1   0,0,0   0,355,73   0   hidden   q_head
+Object q_ctpof=DUMMY   1,1,1   0,0,0   0,27,171   0   hidden   q_head
+Object q_ltpof=DUMMY   1,1,1   0,0,0   -126,168,86   0   hidden   q_head
+Object q_rtpof=DUMMY   1,1,1   0,0,0   128,205,86   0   hidden   q_head
+Object q_daddy=DUMMY   1,1,1   0,0,0   -4,241,-28   0   hidden   q_head
+Object q_larm=qd2_larm   1,1,1   0,0,0   -186,-1,-1   0      .      q_daddy
+Object q_lapof=DUMMY   1,1,1   0,0,0   -99,-152,194   0   hidden   q_larm
+Object q_rarm=qd2_rarm   1,1,1   0,0,0   194,-1,-1   0      .      q_daddy
+Object q_rapof=DUMMY   1,1,1   0,0,0   103,-152,194   0   hidden   q_rarm
+
+rep
+
+Object q_hips=qd3_hips   1,1,1   0,0,0   0,615,2   0      .      quikdraw
+Object q_luleg=qd3luleg   1,1,1   0,0,0   -120,-15,-2   0      .      q_hips
+Object q_decll=qd3decll   1,1,1   0,0,0   -65,-132,8   0      .      q_luleg
+Object q_llleg=qd3llleg   1,1,1   0,0,0   -30,-220,0   0      .      q_luleg
+Object q_lrtoe=qd3lrtoe   1,1,1   0,0,0   10,-299,-10   0      .      q_llleg
+Object q_lftoe=qd3lftoe   1,1,1   0,0,0   0,-27,10   0      .      q_lrtoe
+Object q_ruleg=qd3ruleg   1,1,1   0,0,0   120,-15,-2   0      .      q_hips
+Object q_declr=qd3declr   1,1,1   0,0,0   60,-132,8   0      .      q_ruleg
+Object q_rlleg=qd3rlleg   1,1,1   0,0,0   30,-220,0   0      .      q_ruleg
+Object q_rrtoe=qd3rrtoe   1,1,1   0,0,0   -10,-299,-10   0      .      q_rlleg
+Object q_rftoe=qd3rftoe   1,1,1   0,0,0   0,-27,10   0      .      q_rrtoe
+Object q_head=qd3_head   1,1,1   0,0,0   0,55,7   0      .      q_hips
+Object q_winsh=qd3winsh   1,1,1   0,0,0   0,306,37   0      .      q_head
+Object q_ljpof=DUMMY   1,1,1   0,0,0   -71,-76,-147   0   hidden   q_head
+Object q_rjpof=DUMMY   1,1,1   0,0,0   68,-76,-147   0   hidden   q_head
+Object q_cppov=DUMMY   1,1,1   0,0,0   0,306,18   0   hidden   q_head
+Object q_hdpof=DUMMY   1,1,1   0,0,0   0,355,73   0   hidden   q_head
+Object q_ctpof=DUMMY   1,1,1   0,0,0   0,27,171   0   hidden   q_head
+Object q_ltpof=DUMMY   1,1,1   0,0,0   -126,168,86   0   hidden   q_head
+Object q_rtpof=DUMMY   1,1,1   0,0,0   128,205,86   0   hidden   q_head
+Object q_daddy=DUMMY   1,1,1   0,0,0   -4,241,-28   0   hidden   q_head
+Object q_larm=qd3_larm   1,1,1   0,0,0   -186,-1,-1   0      .      q_daddy
+Object q_lapof=DUMMY   1,1,1   0,0,0   -99,-152,194   0   hidden   q_larm
+Object q_rarm=qd3_rarm   1,1,1   0,0,0   194,-1,-1   0      .      q_daddy
+Object q_rapof=DUMMY   1,1,1   0,0,0   103,-152,194   0   hidden   q_rarm
+
+rep
+
+Object q_hips=qd4_hips   1,1,1   0,0,0   0,615,2   0      .      quikdraw
+Object q_luleg=qd4luleg   1,1,1   0,0,0   -120,-15,-2   0      .      q_hips
+Object q_decll=qd4decll   1,1,1   0,0,0   -65,-132,8   0      .      q_luleg
+Object q_llleg=qd4llleg   1,1,1   0,0,0   -30,-220,0   0      .      q_luleg
+Object q_lrtoe=qd4lrtoe   1,1,1   0,0,0   10,-299,-10   0      .      q_llleg
+Object q_lftoe=qd4lftoe   1,1,1   0,0,0   0,-27,10   0      .      q_lrtoe
+Object q_ruleg=qd4ruleg   1,1,1   0,0,0   120,-15,-2   0      .      q_hips
+Object q_declr=qd4declr   1,1,1   0,0,0   60,-132,8   0      .      q_ruleg
+Object q_rlleg=qd4rlleg   1,1,1   0,0,0   30,-220,0   0      .      q_ruleg
+Object q_rrtoe=qd4rrtoe   1,1,1   0,0,0   -10,-299,-10   0      .      q_rlleg
+Object q_rftoe=qd4rftoe   1,1,1   0,0,0   0,-27,10   0      .      q_rrtoe
+Object q_head=qd4_head   1,1,1   0,0,0   0,55,7   0      .      q_hips
+Object q_winsh=qd4winsh   1,1,1   0,0,0   0,306,37   0      .      q_head
+Object q_ljpof=DUMMY   1,1,1   0,0,0   -71,-76,-147   0   hidden   q_head
+Object q_rjpof=DUMMY   1,1,1   0,0,0   68,-76,-147   0   hidden   q_head
+Object q_cppov=DUMMY   1,1,1   0,0,0   0,306,18   0   hidden   q_head
+Object q_hdpof=DUMMY   1,1,1   0,0,0   0,355,73   0   hidden   q_head
+Object q_ctpof=DUMMY   1,1,1   0,0,0   0,27,171   0   hidden   q_head
+Object q_ltpof=DUMMY   1,1,1   0,0,0   -126,168,86   0   hidden   q_head
+Object q_rtpof=DUMMY   1,1,1   0,0,0   128,205,86   0   hidden   q_head
+Object q_daddy=DUMMY   1,1,1   0,0,0   -4,241,-28   0   hidden   q_head
+Object q_larm=qd4_larm   1,1,1   0,0,0   -186,-1,-1   0      .      q_daddy
+Object q_lapof=DUMMY   1,1,1   0,0,0   -99,-152,194   0   hidden   q_larm
+Object q_rarm=qd4_rarm   1,1,1   0,0,0   194,-1,-1   0      .      q_daddy
+Object q_rapof=DUMMY   1,1,1   0,0,0   103,-152,194   0   hidden   q_rarm
+
+rep
+
+Object q_hips=qd5_hips   1,1,1   0,0,0   0,615,2   0      .      quikdraw
+Object q_luleg=qd5luleg   1,1,1   0,0,0   -120,-15,-2   0      .      q_hips
+Object q_decll=qd5decll   1,1,1   0,0,0   -98,-132,8   0      .      q_luleg
+Object q_llleg=qd5llleg   1,1,1   0,0,0   -30,-220,0   0      .      q_luleg
+Object q_lrtoe=qd5lrtoe   1,1,1   0,0,0   10,-299,-10   0      .      q_llleg
+Object q_lftoe=qd5lftoe   1,1,1   0,0,0   0,-27,10   0      .      q_lrtoe
+Object q_ruleg=qd5ruleg   1,1,1   0,0,0   120,-15,-2   0      .      q_hips
+Object q_declr=qd5declr   1,1,1   0,0,0   91,-132,8   0      .      q_ruleg
+Object q_rlleg=qd5rlleg   1,1,1   0,0,0   30,-220,0   0      .      q_ruleg
+Object q_rrtoe=qd5rrtoe   1,1,1   0,0,0   -10,-299,-10   0      .      q_rlleg
+Object q_rftoe=qd5rftoe   1,1,1   0,0,0   0,-27,10   0      .      q_rrtoe
+Object q_head=qd5_head   1,1,1   0,0,0   0,55,7   0    near     q_hips
+Object q_winsh=qd5winsh   1,1,1   0,0,0   0,306,37   0      .      q_head
+Object q_ljpof=DUMMY   1,1,1   0,0,0   -71,-76,-147   0   hidden   q_head
+Object q_rjpof=DUMMY   1,1,1   0,0,0   68,-76,-147   0   hidden   q_head
+Object q_cppov=DUMMY   1,1,1   0,0,0   0,306,18   0   hidden   q_head
+Object q_hdpof=DUMMY   1,1,1   0,0,0   0,355,73   0   hidden   q_head
+Object q_ctpof=DUMMY   1,1,1   0,0,0   0,27,171   0   hidden   q_head
+Object q_ltpof=DUMMY   1,1,1   0,0,0   -126,168,86   0   hidden   q_head
+Object q_rtpof=DUMMY   1,1,1   0,0,0   128,205,86   0   hidden   q_head
+Object q_daddy=DUMMY   1,1,1   0,0,0   -4,241,-28   0   hidden   q_head
+Object q_larm=qd5_larm   1,1,1   0,0,0   -186,-1,-1   0      .      q_daddy
+Object q_lapof=DUMMY   1,1,1   0,0,0   -99,-152,194   0   hidden   q_larm
+Object q_rarm=qd5_rarm   1,1,1   0,0,0   194,-1,-1   0      .      q_daddy
+Object q_rapof=DUMMY   1,1,1   0,0,0   103,-152,194   0   hidden   q_rarm
+
+endrep
+
+thing q_head
+thing q_daddy
+
+gamepiece quikdraw mw2mech 
+
+objloc q_head   ct
+objloc q_hips   ct
+objloc q_winsh  hd
+objloc q_larm   la
+objloc q_rarm   ra
+objloc q_luleg  ll
+objloc q_ruleg  rl
+objloc q_llleg  ll
+objloc q_rlleg  rl
+objloc q_lftoe  ll
+objloc q_rftoe  rl
+objloc q_lrtoe  ll
+objloc q_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    q_hips;55,129,0
+task animator 0    q_hips;55,1,1
+task animator 0    q_ruleg;55,1,2
+task animator 0    q_rlleg;55,1,3
+task animator 0    q_rftoe;55,1,4
+task animator 0    q_rrtoe;55,1,5
+task animator 0    q_luleg;55,1,6
+task animator 0    q_llleg;55,1,7
+task animator 0    q_lftoe;55,1,8
+task animator 0    q_lrtoe;55,1,9
+task animator 0    q_head;55,1,10
+task animator 0    q_rarm;55,1,11
+task animator 0    q_larm;55,1,12
+
+hdpof q_hdpof
+ctpof q_ctpof
+rtpof q_rtpof
+ltpof q_ltpof
+lapof q_lapof
+rapof q_rapof
+ljpof q_ljpof
+rjpof q_rjpof
+
+eyeobj q_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile quikdraw
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of quikdraw.MEC
+
+

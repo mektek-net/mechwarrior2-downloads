@@ -1,0 +1,64 @@
+#     Ouput for minelayr.MEC
+#     Mon Apr 24 15:58:32 1995
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate         sort (null) parent
+Object minelayr=DUMMY       1,1,1    0,0,0    0,0,0   0   hidden world
+# --- If you want a carrot it goes here ---
+
+
+rep
+
+Object m_main=ml1_main   1,1,1   0,0,0   0,504,-2   0      .      minelayr
+Object m_layer=ml1layer   1,1,1   0,0,0   0,-123,-1190   0      .      m_main
+Object m_rstrt=ml1rstrt   1,1,1   0,0,0   730,-99,2   0      .      m_main
+Object m_lstrt=ml1lstrt   1,1,1   0,0,0   -722,-99,2   0      .      m_main
+Object m_winsh=ml1winsh   1,1,1   0,0,0   0,123,1111   0      .      m_main
+
+rep
+
+Object m_main=ml2_main   1,1,1   0,0,0   0,504,-2   0      .      minelayr
+Object m_layer=ml2layer   1,1,1   0,0,0   0,-123,-1190   0      .      m_main
+Object m_rstrt=ml2rstrt   1,1,1   0,0,0   730,-99,2   0      .      m_main
+Object m_lstrt=ml2lstrt   1,1,1   0,0,0   -722,-99,2   0      .      m_main
+Object m_winsh=ml2winsh   1,1,1   0,0,0   0,123,1111   0      .      m_main
+
+rep
+
+Object m_main=ml3_main   1,1,1   0,0,0   0,504,-2   0      .      minelayr
+Object m_layer=ml3layer   1,1,1   0,0,0   0,-123,-1190   0      .      m_main
+Object m_rstrt=ml3rstrt   1,1,1   0,0,0   730,-99,2   0      .      m_main
+Object m_lstrt=ml3lstrt   1,1,1   0,0,0   -722,-99,2   0      .      m_main
+Object m_winsh=ml3winsh   1,1,1   0,0,0   0,123,1111   0      .      m_main
+
+rep
+
+Object m_main=ml4_main   1,1,1   0,0,0   0,504,-2   0      .      minelayr
+Object m_layer=ml4layer   1,1,1   0,0,0   0,-123,-1190   0      .      m_main
+Object m_rstrt=ml4rstrt   1,1,1   0,0,0   730,-99,2   0      .      m_main
+Object m_lstrt=ml4lstrt   1,1,1   0,0,0   -722,-99,2   0      .      m_main
+Object m_winsh=ml4winsh   1,1,1   0,0,0   0,123,1111   0      .      m_main
+
+endrep
+
+gamepiece minelayr mw2truck                 
+
+objloc m_main  hd
+objloc m_layer  ct
+objloc m_rstrt  ra
+objloc m_lstrt  la
+
+animfile trckanim 
+
+# task animators go here....
+
+task animator 0    m_main;60,129,0
+
+mgdfile minelayr
+
+mangle_off
+
+# end of minelayr.mec

@@ -1,0 +1,206 @@
+#   isjenner.MEC
+#   geometry for the isjenner 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null) parent
+object isjenner=dummy         1,1,1   0,0,0   0,0,0  0   hidden world
+
+rep
+
+Object i_hips=ij1_hips   1,1,1   0,0,0   0,636,-50   0      .      isjenner
+Object i_ljpof=DUMMY   1,1,1   0,0,0   -37,-15,-157   0   hidden   i_hips
+Object i_rjpof=DUMMY   1,1,1   0,0,0   37,-15,-157   0   hidden   i_hips
+Object i_luleg=ij1luleg   1,1,1   0,0,0   -124,-67,4   0      .      i_hips
+Object i_lknee=DUMMY   1,1,1   0,0,0   -64,-224,65   0   hidden   i_luleg
+Object i_llleg=ij1llleg   1,1,1   0,0,0   -68,-211,23   0      .      i_luleg
+Object i_lfoot=ij1lfoot   1,1,1   0,0,0   7,-290,-27   0      .      i_llleg
+Object i_ruleg=ij1ruleg   1,1,1   0,0,0   123,-67,4   0      .      i_hips
+Object i_rknee=DUMMY   1,1,1   0,0,0   66,-224,65   0   hidden   i_ruleg
+Object i_rlleg=ij1rlleg   1,1,1   0,0,0   68,-211,23   0      .      i_ruleg
+Object i_rfoot=ij1rfoot   1,1,1   0,0,0   -9,-290,-27   0      .      i_rlleg
+Object i_head=ij1_head   1,1,1   0,0,0   -1,69,25   0      .      i_hips
+Object i_winsh=ij1winsh   1,1,1   0,0,0   1,59,362   0      .      i_head
+Object i_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   i_head
+Object i_ltpof=DUMMY   1,1,1   0,0,0   -208,84,71   0   hidden   i_head
+Object i_rtpof=DUMMY   1,1,1   0,0,0   213,84,71   0   hidden   i_head
+Object i_hdpof=DUMMY   1,1,1   0,0,0   1,-59,386   0   hidden   i_head
+Object i_ctpof=DUMMY   1,1,1   0,0,0   1,156,62   0   hidden   i_head
+Object i_daddy=DUMMY   1,1,1   0,0,0   2,75,-58   0   hidden   i_head
+Object i_larm=ij1_larm   1,1,1   0,0,0   -169,1,0   0      .      i_daddy
+Object i_lapof=DUMMY   1,1,1   0,0,0   -143,38,178   0   hidden   i_larm
+Object i_decll=ij1decll   1,1,1   0,0,0   -190,43,-3   0      .      i_larm
+Object i_rarm=ij1_rarm   1,1,1   0,0,0   166,1,0   0      .      i_daddy
+Object i_rapof=DUMMY   1,1,1   0,0,0   146,39,178   0   hidden   i_rarm
+Object i_declr=ij1declr   1,1,1   0,0,0   190,43,-3   0      .      i_rarm
+
+rep
+
+Object i_hips=ij2_hips   1,1,1   0,0,0   0,636,-50   0      .      isjenner
+Object i_ljpof=DUMMY   1,1,1   0,0,0   -37,-15,-157   0   hidden   i_hips
+Object i_rjpof=DUMMY   1,1,1   0,0,0   37,-15,-157   0   hidden   i_hips
+Object i_luleg=ij2luleg   1,1,1   0,0,0   -124,-67,4   0      .      i_hips
+Object i_lknee=DUMMY   1,1,1   0,0,0   -64,-224,65   0   hidden   i_luleg
+Object i_llleg=ij2llleg   1,1,1   0,0,0   -68,-211,23   0      .      i_luleg
+Object i_lfoot=ij2lfoot   1,1,1   0,0,0   7,-290,-27   0      .      i_llleg
+Object i_ruleg=ij2ruleg   1,1,1   0,0,0   123,-67,4   0      .      i_hips
+Object i_rknee=DUMMY   1,1,1   0,0,0   66,-224,65   0   hidden   i_ruleg
+Object i_rlleg=ij2rlleg   1,1,1   0,0,0   68,-211,23   0      .      i_ruleg
+Object i_rfoot=ij2rfoot   1,1,1   0,0,0   -9,-290,-27   0      .      i_rlleg
+Object i_head=ij2_head   1,1,1   0,0,0   -1,69,25   0      .      i_hips
+Object i_winsh=ij2winsh   1,1,1   0,0,0   1,59,362   0      .      i_head
+Object i_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   i_head
+Object i_ltpof=DUMMY   1,1,1   0,0,0   -208,84,71   0   hidden   i_head
+Object i_rtpof=DUMMY   1,1,1   0,0,0   213,84,71   0   hidden   i_head
+Object i_hdpof=DUMMY   1,1,1   0,0,0   1,-59,386   0   hidden   i_head
+Object i_ctpof=DUMMY   1,1,1   0,0,0   1,156,62   0   hidden   i_head
+Object i_daddy=DUMMY   1,1,1   0,0,0   2,75,-58   0   hidden   i_head
+Object i_larm=ij2_larm   1,1,1   0,0,0   -169,1,0   0      .      i_daddy
+Object i_lapof=DUMMY   1,1,1   0,0,0   -143,38,178   0   hidden   i_larm
+Object i_decll=ij2decll   1,1,1   0,0,0   -190,43,-3   0      .      i_larm
+Object i_rarm=ij2_rarm   1,1,1   0,0,0   166,1,0   0      .      i_daddy
+Object i_rapof=DUMMY   1,1,1   0,0,0   146,39,178   0   hidden   i_rarm
+Object i_declr=ij2declr   1,1,1   0,0,0   190,43,-3   0      .      i_rarm
+
+rep
+
+Object i_hips=ij3_hips   1,1,1   0,0,0   0,636,-50   0      .      isjenner
+Object i_ljpof=DUMMY   1,1,1   0,0,0   -37,-15,-157   0   hidden   i_hips
+Object i_rjpof=DUMMY   1,1,1   0,0,0   37,-15,-157   0   hidden   i_hips
+Object i_luleg=ij3luleg   1,1,1   0,0,0   -124,-67,4   0      .      i_hips
+Object i_lknee=DUMMY   1,1,1   0,0,0   -64,-224,65   0   hidden   i_luleg
+Object i_llleg=ij3llleg   1,1,1   0,0,0   -68,-211,23   0      .      i_luleg
+Object i_lfoot=ij3lfoot   1,1,1   0,0,0   7,-290,-27   0      .      i_llleg
+Object i_ruleg=ij3ruleg   1,1,1   0,0,0   123,-67,4   0      .      i_hips
+Object i_rknee=DUMMY   1,1,1   0,0,0   66,-224,65   0   hidden   i_ruleg
+Object i_rlleg=ij3rlleg   1,1,1   0,0,0   68,-211,23   0      .      i_ruleg
+Object i_rfoot=ij3rfoot   1,1,1   0,0,0   -9,-290,-27   0      .      i_rlleg
+Object i_head=ij3_head   1,1,1   0,0,0   -1,69,25   0      .      i_hips
+Object i_winsh=ij3winsh   1,1,1   0,0,0   1,59,362   0      .      i_head
+Object i_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   i_head
+Object i_ltpof=DUMMY   1,1,1   0,0,0   -208,84,71   0   hidden   i_head
+Object i_rtpof=DUMMY   1,1,1   0,0,0   213,84,71   0   hidden   i_head
+Object i_hdpof=DUMMY   1,1,1   0,0,0   1,-59,386   0   hidden   i_head
+Object i_ctpof=DUMMY   1,1,1   0,0,0   1,156,62   0   hidden   i_head
+Object i_daddy=DUMMY   1,1,1   0,0,0   2,75,-58   0   hidden   i_head
+Object i_larm=ij3_larm   1,1,1   0,0,0   -169,1,0   0      .      i_daddy
+Object i_lapof=DUMMY   1,1,1   0,0,0   -143,38,178   0   hidden   i_larm
+Object i_decll=ij3decll   1,1,1   0,0,0   -190,43,-3   0      .      i_larm
+Object i_rarm=ij3_rarm   1,1,1   0,0,0   166,1,0   0      .      i_daddy
+Object i_rapof=DUMMY   1,1,1   0,0,0   146,39,178   0   hidden   i_rarm
+Object i_declr=ij3declr   1,1,1   0,0,0   190,43,-3   0      .      i_rarm
+
+rep
+
+Object i_hips=ij4_hips   1,1,1   0,0,0   0,636,-50   0      .      isjenner
+Object i_ljpof=DUMMY   1,1,1   0,0,0   -37,-15,-157   0   hidden   i_hips
+Object i_rjpof=DUMMY   1,1,1   0,0,0   37,-15,-157   0   hidden   i_hips
+Object i_luleg=ij4luleg   1,1,1   0,0,0   -124,-67,4   0      .      i_hips
+Object i_lknee=DUMMY   1,1,1   0,0,0   -64,-224,65   0   hidden   i_luleg
+Object i_llleg=ij4llleg   1,1,1   0,0,0   -68,-211,23   0      .      i_luleg
+Object i_lfoot=ij4lfoot   1,1,1   0,0,0   7,-290,-27   0      .      i_llleg
+Object i_ruleg=ij4ruleg   1,1,1   0,0,0   123,-67,4   0      .      i_hips
+Object i_rknee=DUMMY   1,1,1   0,0,0   66,-224,65   0   hidden   i_ruleg
+Object i_rlleg=ij4rlleg   1,1,1   0,0,0   68,-211,23   0      .      i_ruleg
+Object i_rfoot=ij4rfoot   1,1,1   0,0,0   -9,-290,-27   0      .      i_rlleg
+Object i_head=ij4_head   1,1,1   0,0,0   -1,69,25   0      .      i_hips
+Object i_winsh=ij4winsh   1,1,1   0,0,0   1,59,362   0      .      i_head
+Object i_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   i_head
+Object i_ltpof=DUMMY   1,1,1   0,0,0   -208,84,71   0   hidden   i_head
+Object i_rtpof=DUMMY   1,1,1   0,0,0   213,84,71   0   hidden   i_head
+Object i_hdpof=DUMMY   1,1,1   0,0,0   1,-59,386   0   hidden   i_head
+Object i_ctpof=DUMMY   1,1,1   0,0,0   1,156,62   0   hidden   i_head
+Object i_daddy=DUMMY   1,1,1   0,0,0   2,75,-58   0   hidden   i_head
+Object i_larm=ij4_larm   1,1,1   0,0,0   -169,1,0   0      .      i_daddy
+Object i_lapof=DUMMY   1,1,1   0,0,0   -143,38,178   0   hidden   i_larm
+Object i_decll=ij4decll   1,1,1   0,0,0   -190,43,-3   0      .      i_larm
+Object i_rarm=ij4_rarm   1,1,1   0,0,0   166,1,0   0      .      i_daddy
+Object i_rapof=DUMMY   1,1,1   0,0,0   146,39,178   0   hidden   i_rarm
+Object i_declr=ij4declr   1,1,1   0,0,0   190,43,-3   0      .      i_rarm
+
+rep
+
+Object i_hips=ij5_hips   1,1,1   0,0,0   0,636,-50   0      .      isjenner
+Object i_ljpof=DUMMY   1,1,1   0,0,0   -37,-15,-157   0   hidden   i_hips
+Object i_rjpof=DUMMY   1,1,1   0,0,0   37,-15,-157   0   hidden   i_hips
+Object i_luleg=ij5luleg   1,1,1   0,0,0   -124,-67,4   0      .      i_hips
+Object i_lknee=DUMMY   1,1,1   0,0,0   -64,-220,-55   0   hidden   i_luleg
+Object i_llleg=ij5llleg   1,1,1   0,0,0   -68,-211,23   0      .      i_luleg
+Object i_lfoot=ij5lfoot   1,1,1   0,0,0   7,-290,-27   0      .      i_llleg
+Object i_ruleg=ij5ruleg   1,1,1   0,0,0   123,-67,4   0      .      i_hips
+Object i_rknee=DUMMY   1,1,1   0,0,0   66,-16,227   0   hidden   i_ruleg
+Object i_rlleg=ij5rlleg   1,1,1   0,0,0   68,-211,23   0      .      i_ruleg
+Object i_rfoot=ij5rfoot   1,1,1   0,0,0   -9,-290,-27   0      .      i_rlleg
+Object i_head=ij5_head   1,1,1   0,0,0   -1,69,25   0    near     i_hips
+Object i_winsh=ij5winsh   1,1,1   0,0,0   1,59,362   0      .      i_head
+Object i_cppov=DUMMY   1,1,1   0,0,0   1,54,352   0   hidden   i_head
+Object i_ltpof=DUMMY   1,1,1   0,0,0   -208,84,71   0   hidden   i_head
+Object i_rtpof=DUMMY   1,1,1   0,0,0   213,84,71   0   hidden   i_head
+Object i_hdpof=DUMMY   1,1,1   0,0,0   1,-59,386   0   hidden   i_head
+Object i_ctpof=DUMMY   1,1,1   0,0,0   1,156,62   0   hidden   i_head
+Object i_daddy=DUMMY   1,1,1   0,0,0   2,75,-58   0   hidden   i_head
+Object i_larm=ij5_larm   1,1,1   0,0,0   -169,1,0   0      .      i_daddy
+Object i_lapof=DUMMY   1,1,1   0,0,0   -143,38,178   0   hidden   i_larm
+Object i_decll=ij5decll   1,1,1   0,0,0   -190,43,-3   0      .      i_larm
+Object i_rarm=ij5_rarm   1,1,1   0,0,0   166,1,0   0      .      i_daddy
+Object i_rapof=DUMMY   1,1,1   0,0,0   146,39,178   0   hidden   i_rarm
+Object i_declr=ij5declr   1,1,1   0,0,0   190,43,-3   0      .      i_rarm
+
+endrep
+
+thing i_head
+thing i_daddy
+
+gamepiece isjenner mw2mech                 
+
+objloc i_head   ct
+objloc i_hips   ct
+objloc i_winsh  hd
+objloc i_rarm   ra
+objloc i_larm   la
+objloc i_ruleg  rl
+objloc i_rknee  rl
+objloc i_rlleg  rl
+objloc i_rfoot  rl
+objloc i_luleg  ll
+objloc i_lknee  ll
+objloc i_llleg  ll
+objloc i_lfoot  ll
+
+animfile jennanim 
+
+# task animators go here....
+
+task animator 0    i_hips;42,129,0
+task animator 0    i_hips;42,1,1
+task animator 0    i_luleg;42,1,2
+task animator 0    i_lknee;42,1,3
+task animator 0    i_llleg;42,1,4
+task animator 0    i_lfoot;42,1,5
+task animator 0    i_ruleg;42,1,6
+task animator 0    i_rknee;42,1,7
+task animator 0    i_rlleg;42,1,8
+task animator 0    i_rfoot;42,1,9
+
+ljpof i_ljpof
+rjpof i_rjpof
+lapof i_lapof
+rapof i_rapof
+rtpof i_rtpof
+ltpof i_ltpof
+hdpof i_hdpof
+ctpof i_ctpof
+
+eyeobj i_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile isjenner
+pitfile mw2pit
+
+mangle_off
+
+AnimSound  meclight
+
+# end of isjenner.mec

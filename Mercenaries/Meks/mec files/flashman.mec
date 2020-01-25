@@ -1,0 +1,187 @@
+#   flashman.MEC
+#   geometry for the flashman 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate   sort  (null)   parent
+object flashman=dummy       1,1,1   0,0,0   0,0,0  0     hidden   world
+
+rep
+
+Object f_hips=fl1_hips   1,1,1   0,0,0   0,582,-34   0      .      flashman
+Object f_luleg=fl1luleg   1,1,1   0,0,0   -139,3,-2   0      .      f_hips
+Object f_llleg=fl1llleg   1,1,1   0,0,0   -102,-202,15   0      .      f_luleg
+Object f_lfoot=fl1lfoot   1,1,1   0,0,0   2,-301,225   0      .      f_llleg
+Object f_ruleg=fl1ruleg   1,1,1   0,0,0   140,3,-2   0      .      f_hips
+Object f_rlleg=fl1rlleg   1,1,1   0,0,0   102,-202,15   0      .      f_ruleg
+Object f_rfoot=fl1rfoot   1,1,1   0,0,0   -2,-301,225   0      .      f_rlleg
+Object f_head=fl1_head   1,1,1   0,0,0   0,105,0   0      .      f_hips
+Object f_winsh=fl1winsh   1,1,1   0,0,0   0,281,184   0      .      f_head
+Object f_declf=fl1declf   1,1,1   0,0,0   0,191,185   0      .      f_head
+Object f_ljpof=DUMMY   1,1,1   0,0,0   -73,-236,-76   0   hidden   f_head
+Object f_rjpof=DUMMY   1,1,1   0,0,0   71,-236,-76   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   0,285,151   0   hidden   f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   -1,366,183   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   1,176,229   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   124,159,187   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -126,159,187   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   -6,230,7   0   hidden   f_head
+Object f_larm=fl1_larm   1,1,1   0,0,0   -175,-1,1   0      .      f_daddy
+Object f_lapof=DUMMY   1,1,1   0,0,0   -220,-84,474   0   hidden   f_larm
+Object f_rarm=fl1_rarm   1,1,1   0,0,0   188,-1,1   0      .      f_daddy
+Object f_rapof=DUMMY   1,1,1   0,0,0   220,-84,474   0   hidden   f_rarm
+
+rep
+
+Object f_hips=fl2_hips   1,1,1   0,0,0   0,582,-34   0      .      flashman
+Object f_luleg=fl2luleg   1,1,1   0,0,0   -139,3,-2   0      .      f_hips
+Object f_llleg=fl2llleg   1,1,1   0,0,0   -102,-202,15   0      .      f_luleg
+Object f_lfoot=fl2lfoot   1,1,1   0,0,0   2,-301,225   0      .      f_llleg
+Object f_ruleg=fl2ruleg   1,1,1   0,0,0   140,3,-2   0      .      f_hips
+Object f_rlleg=fl2rlleg   1,1,1   0,0,0   102,-202,15   0      .      f_ruleg
+Object f_rfoot=fl2rfoot   1,1,1   0,0,0   -2,-301,225   0      .      f_rlleg
+Object f_head=fl2_head   1,1,1   0,0,0   0,105,0   0      .      f_hips
+Object f_winsh=fl2winsh   1,1,1   0,0,0   0,281,184   0      .      f_head
+Object f_declf=fl2declf   1,1,1   0,0,0   0,191,185   0      .      f_head
+Object f_ljpof=DUMMY   1,1,1   0,0,0   -73,-236,-76   0   hidden   f_head
+Object f_rjpof=DUMMY   1,1,1   0,0,0   71,-236,-76   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   0,285,151   0   hidden   f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   -1,366,183   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   1,176,229   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   124,159,187   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -126,159,187   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   -6,230,7   0   hidden   f_head
+Object f_larm=fl2_larm   1,1,1   0,0,0   -175,-1,1   0      .      f_daddy
+Object f_lapof=DUMMY   1,1,1   0,0,0   -220,-84,474   0   hidden   f_larm
+Object f_rarm=fl2_rarm   1,1,1   0,0,0   188,-1,1   0      .      f_daddy
+Object f_rapof=DUMMY   1,1,1   0,0,0   220,-84,474   0   hidden   f_rarm
+
+rep
+
+Object f_hips=fl3_hips   1,1,1   0,0,0   0,582,-34   0      .      flashman
+Object f_luleg=fl3luleg   1,1,1   0,0,0   -139,3,-2   0      .      f_hips
+Object f_llleg=fl3llleg   1,1,1   0,0,0   -102,-202,15   0      .      f_luleg
+Object f_lfoot=fl3lfoot   1,1,1   0,0,0   2,-301,225   0      .      f_llleg
+Object f_ruleg=fl3ruleg   1,1,1   0,0,0   140,3,-2   0      .      f_hips
+Object f_rlleg=fl3rlleg   1,1,1   0,0,0   102,-202,15   0      .      f_ruleg
+Object f_rfoot=fl3rfoot   1,1,1   0,0,0   -2,-301,225   0      .      f_rlleg
+Object f_head=fl3_head   1,1,1   0,0,0   0,105,0   0      .      f_hips
+Object f_winsh=fl3winsh   1,1,1   0,0,0   0,281,184   0      .      f_head
+Object f_declf=fl3declf   1,1,1   0,0,0   0,191,185   0      .      f_head
+Object f_ljpof=DUMMY   1,1,1   0,0,0   -73,-236,-76   0   hidden   f_head
+Object f_rjpof=DUMMY   1,1,1   0,0,0   71,-236,-76   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   0,285,151   0   hidden   f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   -1,366,183   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   1,176,229   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   124,159,187   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -126,159,187   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   -6,230,7   0   hidden   f_head
+Object f_larm=fl3_larm   1,1,1   0,0,0   -175,-1,1   0      .      f_daddy
+Object f_lapof=DUMMY   1,1,1   0,0,0   -220,-84,474   0   hidden   f_larm
+Object f_rarm=fl3_rarm   1,1,1   0,0,0   188,-1,1   0      .      f_daddy
+Object f_rapof=DUMMY   1,1,1   0,0,0   220,-84,474   0   hidden   f_rarm
+
+rep
+
+Object f_hips=fl4_hips   1,1,1   0,0,0   0,582,-34   0      .      flashman
+Object f_luleg=fl4luleg   1,1,1   0,0,0   -139,3,-2   0      .      f_hips
+Object f_llleg=fl4llleg   1,1,1   0,0,0   -102,-202,15   0      .      f_luleg
+Object f_lfoot=fl4lfoot   1,1,1   0,0,0   2,-301,225   0      .      f_llleg
+Object f_ruleg=fl4ruleg   1,1,1   0,0,0   140,3,-2   0      .      f_hips
+Object f_rlleg=fl4rlleg   1,1,1   0,0,0   102,-202,15   0      .      f_ruleg
+Object f_rfoot=fl4rfoot   1,1,1   0,0,0   -2,-301,225   0      .      f_rlleg
+Object f_head=fl4_head   1,1,1   0,0,0   0,105,0   0      .      f_hips
+Object f_winsh=fl4winsh   1,1,1   0,0,0   0,281,184   0      .      f_head
+Object f_declf=fl4declf   1,1,1   0,0,0   0,191,185   0      .      f_head
+Object f_ljpof=DUMMY   1,1,1   0,0,0   -73,-236,-76   0   hidden   f_head
+Object f_rjpof=DUMMY   1,1,1   0,0,0   71,-236,-76   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   0,285,151   0   hidden   f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   -1,366,183   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   1,176,229   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   124,159,187   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -126,159,187   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   -6,230,7   0   hidden   f_head
+Object f_larm=fl4_larm   1,1,1   0,0,0   -175,-1,1   0      .      f_daddy
+Object f_lapof=DUMMY   1,1,1   0,0,0   -220,-84,474   0   hidden   f_larm
+Object f_rarm=fl4_rarm   1,1,1   0,0,0   188,-1,1   0      .      f_daddy
+Object f_rapof=DUMMY   1,1,1   0,0,0   220,-84,474   0   hidden   f_rarm
+
+rep
+
+Object f_hips=fl5_hips   1,1,1   0,0,0   0,582,-34   0      .      flashman
+Object f_luleg=fl5luleg   1,1,1   0,0,0   -139,3,-2   0      .      f_hips
+Object f_llleg=fl5llleg   1,1,1   0,0,0   -102,-202,15   0      .      f_luleg
+Object f_lfoot=fl5lfoot   1,1,1   0,0,0   2,-301,225   0      .      f_llleg
+Object f_ruleg=fl5ruleg   1,1,1   0,0,0   140,3,-2   0      .      f_hips
+Object f_rlleg=fl5rlleg   1,1,1   0,0,0   102,-202,15   0      .      f_ruleg
+Object f_rfoot=fl5rfoot   1,1,1   0,0,0   -2,-301,225   0      .      f_rlleg
+Object f_head=fl5_head   1,1,1   0,0,0   0,105,0   0    near     f_hips
+Object f_winsh=fl5winsh   1,1,1   0,0,0   0,281,184   0      .      f_head
+Object f_declf=fl5declf   1,1,1   0,0,0   0,191,185   0      .      f_head
+Object f_ljpof=DUMMY   1,1,1   0,0,0   -73,-236,-76   0   hidden   f_head
+Object f_rjpof=DUMMY   1,1,1   0,0,0   71,-236,-76   0   hidden   f_head
+Object f_cppov=DUMMY   1,1,1   0,0,0   0,285,151   0   hidden   f_head
+Object f_hdpof=DUMMY   1,1,1   0,0,0   -1,366,183   0   hidden   f_head
+Object f_ctpof=DUMMY   1,1,1   0,0,0   1,176,229   0   hidden   f_head
+Object f_rtpof=DUMMY   1,1,1   0,0,0   124,159,187   0   hidden   f_head
+Object f_ltpof=DUMMY   1,1,1   0,0,0   -126,159,187   0   hidden   f_head
+Object f_daddy=DUMMY   1,1,1   0,0,0   -6,230,7   0   hidden   f_head
+Object f_larm=fl5_larm   1,1,1   0,0,0   -175,-1,1   0      .      f_daddy
+Object f_lapof=DUMMY   1,1,1   0,0,0   -220,-84,474   0   hidden   f_larm
+Object f_rarm=fl5_rarm   1,1,1   0,0,0   188,-1,1   0      .      f_daddy
+Object f_rapof=DUMMY   1,1,1   0,0,0   220,-84,474   0   hidden   f_rarm
+
+endrep
+
+thing f_head
+thing f_daddy
+
+gamepiece flashman mw2mech                 
+
+objloc f_winsh  hd
+objloc f_head   ct
+objloc f_hips   ct
+objloc f_rarm   ra
+objloc f_larm   la
+objloc f_ruleg  rl
+objloc f_rlleg  rl
+objloc f_rfoot  rl
+objloc f_luleg  ll
+objloc f_llleg  ll
+objloc f_lfoot  ll
+
+animfile thuganim
+
+# task animators go here....
+
+task animator 0    f_hips;51,129,0
+task animator 0    f_hips;51,1,1
+task animator 0    f_luleg;51,1,2
+task animator 0    f_llleg;51,1,3
+task animator 0    f_lfoot;51,1,4
+task animator 0    f_ruleg;51,1,5
+task animator 0    f_rlleg;51,1,6
+task animator 0    f_rfoot;51,1,7
+
+ljpof f_ljpof
+rjpof f_rjpof
+lapof f_lapof
+rapof f_rapof
+rtpof f_rtpof
+ltpof f_ltpof
+hdpof f_hdpof
+ctpof f_ctpof
+
+eyeobj f_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile flashman
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of flashman.mec

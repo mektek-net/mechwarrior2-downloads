@@ -1,0 +1,221 @@
+#   KITFOX.MEC
+#   geometry for the KITFOX 'Mech
+#   Last modified on 1/14 by BP
+#   finishing touches 1/16 BP
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate   sort (null) parent
+object kitfox=dummy          1,1,1   0,0,0   0,0,0  0   hidden  world
+
+rep
+
+Object k_hips=DUMMY   1,1,1   0,0,0   0,614,-30   0   hidden   kitfox
+Object k_lhip=kf1_lhip   1,1,1   0,0,0   -138,-3,21   0      .      k_hips
+Object k_luleg=kf1luleg   1,1,1   0,0,0   -118,-121,-22   0      .      k_lhip
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -43,-262,-374   0   hidden   k_luleg
+Object k_llleg=kf1llleg   1,1,1   0,0,0   0,-162,-267   0      .      k_luleg
+Object k_lfoot=kf1lfoot   1,1,1   0,0,0   29,-233,298   0      .      k_llleg
+Object k_lftoe=kf1lftoe   1,1,1   0,0,0   0,-29,92   0      .      k_lfoot
+Object k_rhip=kf1_rhip   1,1,1   0,0,0   141,-3,21   0      .      k_hips
+Object k_ruleg=kf1ruleg   1,1,1   0,0,0   118,-121,-22   0      .      k_rhip
+Object k_rjpof=DUMMY   1,1,1   0,0,0   43,-262,-374   0   hidden   k_ruleg
+Object k_rlleg=kf1rlleg   1,1,1   0,0,0   0,-162,-267   0      .      k_ruleg
+Object k_rfoot=kf1rfoot   1,1,1   0,0,0   -29,-233,298   0      .      k_rlleg
+Object k_rftoe=kf1rftoe   1,1,1   0,0,0   0,-29,92   0      .      k_rfoot
+Object k_head=kf1_head   1,1,1   0,0,0   0,-34,-1   0      .      k_hips
+Object k_winsh=kf1winsh   1,1,1   0,0,0   0,120,31   0      .      k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,107,209   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   0,234,177   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   0,9,321   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   -124,188,163   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   129,188,163   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,44,34   0   hidden   k_head
+Object k_larm=kf1_larm   1,1,1   0,0,0   -256,15,0   0      .      k_daddy
+Object k_decll=kf1decll   1,1,1   0,0,0   -239,-151,145   0      .      k_larm
+Object k_lapof=DUMMY   1,1,1   0,0,0   -199,-124,360   0   hidden   k_larm
+Object k_rarm=kf1_rarm   1,1,1   0,0,0   259,15,0   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   210,-178,593   0   hidden   k_rarm
+Object k_declr=kf1declr   1,1,1   0,0,0   251,-164,146   0      .      k_rarm
+
+rep
+
+Object k_hips=DUMMY   1,1,1   0,0,0   0,614,-30   0   hidden   kitfox
+Object k_lhip=kf2_lhip   1,1,1   0,0,0   -138,-3,21   0      .      k_hips
+Object k_luleg=kf2luleg   1,1,1   0,0,0   -118,-121,-22   0      .      k_lhip
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -43,-262,-374   0   hidden   k_luleg
+Object k_llleg=kf2llleg   1,1,1   0,0,0   0,-162,-267   0      .      k_luleg
+Object k_lfoot=kf2lfoot   1,1,1   0,0,0   29,-233,298   0      .      k_llleg
+Object k_lftoe=kf2lftoe   1,1,1   0,0,0   0,-29,92   0      .      k_lfoot
+Object k_rhip=kf2_rhip   1,1,1   0,0,0   141,-3,21   0      .      k_hips
+Object k_ruleg=kf2ruleg   1,1,1   0,0,0   118,-121,-22   0      .      k_rhip
+Object k_rjpof=DUMMY   1,1,1   0,0,0   43,-262,-374   0   hidden   k_ruleg
+Object k_rlleg=kf2rlleg   1,1,1   0,0,0   0,-162,-267   0      .      k_ruleg
+Object k_rfoot=kf2rfoot   1,1,1   0,0,0   -29,-233,298   0      .      k_rlleg
+Object k_rftoe=kf2rftoe   1,1,1   0,0,0   0,-29,92   0      .      k_rfoot
+Object k_head=kf2_head   1,1,1   0,0,0   0,-34,-1   0      .      k_hips
+Object k_winsh=kf2winsh   1,1,1   0,0,0   0,120,31   0      .      k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,107,209   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   0,234,177   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   0,9,321   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   -124,188,163   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   129,188,163   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,44,34   0   hidden   k_head
+Object k_larm=kf2_larm   1,1,1   0,0,0   -256,15,0   0      .      k_daddy
+Object k_decll=kf2decll   1,1,1   0,0,0   -239,-151,145   0      .      k_larm
+Object k_lapof=DUMMY   1,1,1   0,0,0   -199,-124,360   0   hidden   k_larm
+Object k_rarm=kf2_rarm   1,1,1   0,0,0   259,15,0   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   210,-178,593   0   hidden   k_rarm
+Object k_declr=kf2declr   1,1,1   0,0,0   251,-164,146   0      .      k_rarm
+
+rep
+
+Object k_hips=DUMMY   1,1,1   0,0,0   0,614,-30   0   hidden   kitfox
+Object k_lhip=kf3_lhip   1,1,1   0,0,0   -138,0,21   0      .      k_hips
+Object k_luleg=kf3luleg   1,1,1   0,0,0   -118,-121,-22   0      .      k_lhip
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -43,-217,-371   0   hidden   k_luleg
+Object k_llleg=kf3llleg   1,1,1   0,0,0   0,-162,-267   0      .      k_luleg
+Object k_lfoot=kf3lfoot   1,1,1   0,0,0   29,-233,298   0      .      k_llleg
+Object k_lftoe=kf3lftoe   1,1,1   0,0,0   0,-29,92   0      .      k_lfoot
+Object k_rhip=kf3_rhip   1,1,1   0,0,0   141,0,21   0      .      k_hips
+Object k_ruleg=kf3ruleg   1,1,1   0,0,0   118,-121,-22   0      .      k_rhip
+Object k_rjpof=DUMMY   1,1,1   0,0,0   43,-217,-371   0   hidden   k_ruleg
+Object k_rlleg=kf3rlleg   1,1,1   0,0,0   0,-162,-267   0      .      k_ruleg
+Object k_rfoot=kf3rfoot   1,1,1   0,0,0   -29,-233,298   0      .      k_rlleg
+Object k_rftoe=kf3rftoe   1,1,1   0,0,0   0,-29,92   0      .      k_rfoot
+Object k_head=kf3_head   1,1,1   0,0,0   0,-30,-1   0      .      k_hips
+Object k_winsh=kf3winsh   1,1,1   0,0,0   0,117,31   0      .      k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,104,209   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   0,230,126   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   0,6,269   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   -124,184,111   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   129,184,111   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,40,34   0   hidden   k_head
+Object k_larm=kf3_larm   1,1,1   0,0,0   -256,18,0   0      .      k_daddy
+Object k_decll=kf3decll   1,1,1   0,0,0   -86,-172,-96   0      .      k_larm
+Object k_lapof=DUMMY   1,1,1   0,0,0   -199,-127,309   0   hidden   k_larm
+Object k_rarm=kf3_rarm   1,1,1   0,0,0   259,18,0   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   210,-182,541   0   hidden   k_rarm
+Object k_declr=kf3declr   1,1,1   0,0,0   87,-172,-96   0      .      k_rarm
+
+rep
+
+Object k_hips=DUMMY   1,1,1   0,0,0   0,614,-30   0   hidden   kitfox
+Object k_lhip=kf4_lhip   1,1,1   0,0,0   -138,-1,21   0      .      k_hips
+Object k_luleg=kf4luleg   1,1,1   0,0,0   -118,-121,-22   0      .      k_lhip
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -43,-215,-371   0   hidden   k_luleg
+Object k_llleg=kf4llleg   1,1,1   0,0,0   0,-162,-267   0      .      k_luleg
+Object k_lfoot=kf4lfoot   1,1,1   0,0,0   29,-233,298   0      .      k_llleg
+Object k_lftoe=kf4lftoe   1,1,1   0,0,0   0,-29,92   0      .      k_lfoot
+Object k_rhip=kf4_rhip   1,1,1   0,0,0   141,-1,21   0      .      k_hips
+Object k_ruleg=kf4ruleg   1,1,1   0,0,0   118,-121,-22   0      .      k_rhip
+Object k_rjpof=DUMMY   1,1,1   0,0,0   43,-215,-371   0   hidden   k_ruleg
+Object k_rlleg=kf4rlleg   1,1,1   0,0,0   0,-162,-267   0      .      k_ruleg
+Object k_rfoot=kf4rfoot   1,1,1   0,0,0   -29,-233,298   0      .      k_rlleg
+Object k_rftoe=kf4rftoe   1,1,1   0,0,0   0,-29,92   0      .      k_rfoot
+Object k_head=kf4_head   1,1,1   0,0,0   0,-32,-1   0      .      k_hips
+Object k_winsh=kf4winsh   1,1,1   0,0,0   0,118,31   0      .      k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,106,209   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   0,232,126   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   0,8,269   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   -124,186,111   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   129,186,111   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,42,34   0   hidden   k_head
+Object k_larm=kf4_larm   1,1,1   0,0,0   -256,16,0   0      .      k_daddy
+Object k_decll=kf4decll   1,1,1   0,0,0   -86,-170,-96   0      .      k_larm
+Object k_lapof=DUMMY   1,1,1   0,0,0   -199,-126,309   0   hidden   k_larm
+Object k_rarm=kf4_rarm   1,1,1   0,0,0   259,16,0   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   210,-180,541   0   hidden   k_rarm
+Object k_declr=kf4declr   1,1,1   0,0,0   87,-170,-96   0      .      k_rarm
+
+rep
+
+Object k_hips=DUMMY   1,1,1   0,0,0   0,614,-30   0   hidden   kitfox
+Object k_lhip=kf5_lhip   1,1,1   0,0,0   -138,-3,21   0      .      k_hips
+Object k_luleg=kf5luleg   1,1,1   0,0,0   -118,-121,-22   0      .      k_lhip
+Object k_ljpof=DUMMY   1,1,1   0,0,0   -43,-213,-371   0   hidden   k_luleg
+Object k_llleg=kf5llleg   1,1,1   0,0,0   0,-162,-267   0      .      k_luleg
+Object k_lfoot=kf5lfoot   1,1,1   0,0,0   29,-233,298   0      .      k_llleg
+Object k_lftoe=kf5lftoe   1,1,1   0,0,0   0,-29,92   0      .      k_lfoot
+Object k_rhip=kf5_rhip   1,1,1   0,0,0   141,-3,21   0      .      k_hips
+Object k_ruleg=kf5ruleg   1,1,1   0,0,0   118,-121,-22   0      .      k_rhip
+Object k_rjpof=DUMMY   1,1,1   0,0,0   43,-213,-371   0   hidden   k_ruleg
+Object k_rlleg=kf5rlleg   1,1,1   0,0,0   0,-162,-267   0      .      k_ruleg
+Object k_rfoot=kf5rfoot   1,1,1   0,0,0   -29,-233,298   0      .      k_rlleg
+Object k_rftoe=kf5rftoe   1,1,1   0,0,0   0,-29,92   0      .      k_rfoot
+Object k_head=kf5_head   1,1,1   0,0,0   0,-34,-1   0    near     k_hips
+Object k_winsh=kf5winsh   1,1,1   0,0,0   0,120,31   0      .      k_head
+Object k_cppov=DUMMY   1,1,1   0,0,0   0,107,209   0   hidden   k_head
+Object k_hdpof=DUMMY   1,1,1   0,0,0   0,234,126   0   hidden   k_head
+Object k_ctpof=DUMMY   1,1,1   0,0,0   0,10,269   0   hidden   k_head
+Object k_ltpof=DUMMY   1,1,1   0,0,0   -124,188,111   0   hidden   k_head
+Object k_rtpof=DUMMY   1,1,1   0,0,0   129,188,111   0   hidden   k_head
+Object k_daddy=DUMMY   1,1,1   0,0,0   0,44,34   0   hidden   k_head
+Object k_larm=kf5_larm   1,1,1   0,0,0   -256,14,0   0      .      k_daddy
+Object k_decll=kf5decll   1,1,1   0,0,0   602,-169,-96   0      .      k_larm
+Object k_lapof=DUMMY   1,1,1   0,0,0   -199,-124,309   0   hidden   k_larm
+Object k_rarm=kf5_rarm   1,1,1   0,0,0   259,14,0   0      .      k_daddy
+Object k_rapof=DUMMY   1,1,1   0,0,0   210,-178,541   0   hidden   k_rarm
+Object k_declr=kf5declr   1,1,1   0,0,0   -601,-169,-96   0      .      k_rarm
+
+endrep
+
+thing k_head
+thing k_daddy
+
+gamepiece kitfox mw2mech
+
+objloc k_head   ct
+objloc k_lhip   ct
+objloc k_rhip   ct
+objloc k_winsh  hd
+objloc k_larm   la
+objloc k_rarm   ra
+objloc k_luleg  ll
+objloc k_ruleg  rl
+objloc k_llleg  ll
+objloc k_rlleg  rl
+objloc k_lfoot  ll
+objloc k_rfoot  rl
+objloc k_lftoe  ll
+objloc k_rftoe  rl
+
+animfile kitfanim
+
+# animations ...
+
+task animator 0    k_hips;37,129,0
+task animator 0    k_hips;37,1,1
+task animator 0    k_lhip;37,1,2
+task animator 0    k_luleg;37,1,3
+task animator 0    k_llleg;37,1,4
+task animator 0    k_lftoe;37,1,5
+task animator 0    k_lfoot;37,1,6
+task animator 0    k_rhip;37,1,7
+task animator 0    k_ruleg;37,1,8
+task animator 0    k_rlleg;37,1,9
+task animator 0    k_rfoot;37,1,10
+task animator 0    k_rftoe;37,1,11
+
+hdpof k_hdpof
+ctpof k_ctpof
+ltpof k_ltpof
+rtpof k_rtpof
+lapof k_lapof
+rapof k_rapof
+ljpof k_ljpof
+rjpof k_rjpof
+
+eyeobj k_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile kitfox
+pitfile mw2pit
+
+mangle_off
+
+AnimSound  meclight
+
+# end of KITFOX.MEC

@@ -1,0 +1,211 @@
+#   Executioner.MEC
+#   geometry for the executnr 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object executnr=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object e_hips=ex1_hips   1,1,1   0,0,0   0,721,0   0      .      executnr
+Object e_luleg=ex1luleg   1,1,1   0,0,0   -100,-41,0   0      .      e_hips
+Object e_llleg=ex1llleg   1,1,1   0,0,0   -85,-267,0   0      .      e_luleg
+Object e_decll=ex1decll   1,1,1   0,0,0   -61,-151,7   0      .      e_llleg
+Object e_lftoe=ex1lftoe   1,1,1   0,0,0   5,-307,93   0      .      e_llleg
+Object e_lrtoe=ex1lrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_lftoe
+Object e_ruleg=ex1ruleg   1,1,1   0,0,0   100,-41,0   0      .      e_hips
+Object e_rlleg=ex1rlleg   1,1,1   0,0,0   78,-267,0   0      .      e_ruleg
+Object e_declr=ex1declr   1,1,1   0,0,0   73,-151,7   0      .      e_rlleg
+Object e_rftoe=ex1rftoe   1,1,1   0,0,0   2,-307,93   0      .      e_rlleg
+Object e_rrtoe=ex1rrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_rftoe
+Object e_head=ex1_head   1,1,1   0,0,0   0,51,0   0      .      e_hips
+Object e_winsh=ex1winsh   1,1,1   0,0,0   0,418,138   0      .      e_head
+Object e_ljpof=DUMMY   1,1,1   0,0,0   -43,-215,-253   0   hidden   e_head
+Object e_rjpof=DUMMY   1,1,1   0,0,0   43,-215,-253   0   hidden   e_head
+Object e_cppov=DUMMY   1,1,1   0,0,0   -8,412,110   0   hidden   e_head
+Object e_hdpof=DUMMY   1,1,1   0,0,0   -6,262,176   0   hidden   e_head
+Object e_ctpof=DUMMY   1,1,1   0,0,0   -4,125,173   0   hidden   e_head
+Object e_rtpof=DUMMY   1,1,1   0,0,0   174,359,-45   0   hidden   e_head
+Object e_ltpof=DUMMY   1,1,1   0,0,0   -190,359,-45   0   hidden   e_head
+Object e_daddy=DUMMY   1,1,1   0,0,0   -4,259,-58   0   hidden   e_head
+Object e_larm=ex1_larm   1,1,1   0,0,0   -250,15,0   0      .      e_daddy
+Object e_lapof=DUMMY   1,1,1   0,0,0   -54,-298,554   0   hidden   e_larm
+Object e_rarm=ex1_rarm   1,1,1   0,0,0   252,15,0   0      .      e_daddy
+Object e_rapof=DUMMY   1,1,1   0,0,0   49,-263,516   0   hidden   e_rarm
+
+rep
+
+Object e_hips=ex2_hips   1,1,1   0,0,0   0,721,0   0      .      executnr
+Object e_luleg=ex2luleg   1,1,1   0,0,0   -100,-41,0   0      .      e_hips
+Object e_llleg=ex2llleg   1,1,1   0,0,0   -85,-267,0   0      .      e_luleg
+Object e_decll=ex2decll   1,1,1   0,0,0   -61,-151,7   0      .      e_llleg
+Object e_lftoe=ex2lftoe   1,1,1   0,0,0   5,-307,93   0      .      e_llleg
+Object e_lrtoe=ex2lrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_lftoe
+Object e_ruleg=ex2ruleg   1,1,1   0,0,0   100,-41,0   0      .      e_hips
+Object e_rlleg=ex2rlleg   1,1,1   0,0,0   78,-267,0   0      .      e_ruleg
+Object e_declr=ex2declr   1,1,1   0,0,0   73,-151,7   0      .      e_rlleg
+Object e_rftoe=ex2rftoe   1,1,1   0,0,0   2,-307,93   0      .      e_rlleg
+Object e_rrtoe=ex2rrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_rftoe
+Object e_head=ex2_head   1,1,1   0,0,0   0,51,0   0      .      e_hips
+Object e_winsh=ex2winsh   1,1,1   0,0,0   0,418,138   0      .      e_head
+Object e_ljpof=DUMMY   1,1,1   0,0,0   -43,-215,-253   0   hidden   e_head
+Object e_rjpof=DUMMY   1,1,1   0,0,0   43,-215,-253   0   hidden   e_head
+Object e_cppov=DUMMY   1,1,1   0,0,0   -8,412,110   0   hidden   e_head
+Object e_hdpof=DUMMY   1,1,1   0,0,0   -6,262,176   0   hidden   e_head
+Object e_ctpof=DUMMY   1,1,1   0,0,0   -4,125,173   0   hidden   e_head
+Object e_rtpof=DUMMY   1,1,1   0,0,0   174,359,-45   0   hidden   e_head
+Object e_ltpof=DUMMY   1,1,1   0,0,0   -190,359,-45   0   hidden   e_head
+Object e_daddy=DUMMY   1,1,1   0,0,0   -4,259,-58   0   hidden   e_head
+Object e_larm=ex2_larm   1,1,1   0,0,0   -250,15,0   0      .      e_daddy
+Object e_lapof=DUMMY   1,1,1   0,0,0   -54,-298,554   0   hidden   e_larm
+Object e_rarm=ex2_rarm   1,1,1   0,0,0   252,15,0   0      .      e_daddy
+Object e_rapof=DUMMY   1,1,1   0,0,0   49,-263,516   0   hidden   e_rarm
+
+rep
+
+Object e_hips=ex3_hips   1,1,1   0,0,0   0,721,0   0      .      executnr
+Object e_luleg=ex3luleg   1,1,1   0,0,0   -100,-41,0   0      .      e_hips
+Object e_llleg=ex3llleg   1,1,1   0,0,0   -85,-267,0   0      .      e_luleg
+Object e_decll=ex3decll   1,1,1   0,0,0   -61,-151,7   0      .      e_llleg
+Object e_lftoe=ex3lftoe   1,1,1   0,0,0   5,-307,93   0      .      e_llleg
+Object e_lrtoe=ex3lrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_lftoe
+Object e_ruleg=ex3ruleg   1,1,1   0,0,0   100,-41,0   0      .      e_hips
+Object e_rlleg=ex3rlleg   1,1,1   0,0,0   78,-267,0   0      .      e_ruleg
+Object e_declr=ex3declr   1,1,1   0,0,0   73,-151,7   0      .      e_rlleg
+Object e_rftoe=ex3rftoe   1,1,1   0,0,0   2,-307,93   0      .      e_rlleg
+Object e_rrtoe=ex3rrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_rftoe
+Object e_head=ex3_head   1,1,1   0,0,0   0,51,0   0      .      e_hips
+Object e_winsh=ex3winsh   1,1,1   0,0,0   0,418,138   0      .      e_head
+Object e_ljpof=DUMMY   1,1,1   0,0,0   -43,-215,-253   0   hidden   e_head
+Object e_rjpof=DUMMY   1,1,1   0,0,0   43,-215,-253   0   hidden   e_head
+Object e_cppov=DUMMY   1,1,1   0,0,0   43,412,110   0   hidden   e_head
+Object e_hdpof=DUMMY   1,1,1   0,0,0   -6,262,176   0   hidden   e_head
+Object e_ctpof=DUMMY   1,1,1   0,0,0   -4,125,173   0   hidden   e_head
+Object e_rtpof=DUMMY   1,1,1   0,0,0   174,359,-45   0   hidden   e_head
+Object e_ltpof=DUMMY   1,1,1   0,0,0   -190,359,-45   0   hidden   e_head
+Object e_daddy=DUMMY   1,1,1   0,0,0   -4,259,-58   0   hidden   e_head
+Object e_larm=ex3_larm   1,1,1   0,0,0   -250,15,0   0      .      e_daddy
+Object e_lapof=DUMMY   1,1,1   0,0,0   -54,-298,554   0   hidden   e_larm
+Object e_rarm=ex3_rarm   1,1,1   0,0,0   252,15,0   0      .      e_daddy
+Object e_rapof=DUMMY   1,1,1   0,0,0   49,-263,516   0   hidden   e_rarm
+
+rep
+
+Object e_hips=ex4_hips   1,1,1   0,0,0   0,721,0   0      .      executnr
+Object e_luleg=ex4luleg   1,1,1   0,0,0   -100,-41,0   0      .      e_hips
+Object e_llleg=ex4llleg   1,1,1   0,0,0   -85,-267,0   0      .      e_luleg
+Object e_decll=ex4decll   1,1,1   0,0,0   -61,-151,7   0      .      e_llleg
+Object e_lftoe=ex4lftoe   1,1,1   0,0,0   5,-307,93   0      .      e_llleg
+Object e_lrtoe=ex4lrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_lftoe
+Object e_ruleg=ex4ruleg   1,1,1   0,0,0   100,-41,0   0      .      e_hips
+Object e_rlleg=ex4rlleg   1,1,1   0,0,0   78,-267,0   0      .      e_ruleg
+Object e_declr=ex4declr   1,1,1   0,0,0   73,-151,7   0      .      e_rlleg
+Object e_rftoe=ex4rftoe   1,1,1   0,0,0   2,-307,93   0      .      e_rlleg
+Object e_rrtoe=ex4rrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_rftoe
+Object e_head=ex4_head   1,1,1   0,0,0   0,51,0   0      .      e_hips
+Object e_winsh=ex4winsh   1,1,1   0,0,0   0,418,138   0      .      e_head
+Object e_ljpof=DUMMY   1,1,1   0,0,0   -43,-215,-253   0   hidden   e_head
+Object e_rjpof=DUMMY   1,1,1   0,0,0   43,-215,-253   0   hidden   e_head
+Object e_cppov=DUMMY   1,1,1   0,0,0   43,412,110   0   hidden   e_head
+Object e_hdpof=DUMMY   1,1,1   0,0,0   -6,262,176   0   hidden   e_head
+Object e_ctpof=DUMMY   1,1,1   0,0,0   -4,125,173   0   hidden   e_head
+Object e_rtpof=DUMMY   1,1,1   0,0,0   174,359,-45   0   hidden   e_head
+Object e_ltpof=DUMMY   1,1,1   0,0,0   -190,359,-45   0   hidden   e_head
+Object e_daddy=DUMMY   1,1,1   0,0,0   -4,259,-58   0   hidden   e_head
+Object e_larm=ex4_larm   1,1,1   0,0,0   -250,15,0   0      .      e_daddy
+Object e_lapof=DUMMY   1,1,1   0,0,0   -54,-298,554   0   hidden   e_larm
+Object e_rarm=ex4_rarm   1,1,1   0,0,0   252,15,0   0      .      e_daddy
+Object e_rapof=DUMMY   1,1,1   0,0,0   49,-263,516   0   hidden   e_rarm
+
+rep
+
+Object e_hips=ex5_hips   1,1,1   0,0,0   0,721,0   0      .      executnr
+Object e_luleg=ex5luleg   1,1,1   0,0,0   -100,-41,0   0      .      e_hips
+Object e_llleg=ex5llleg   1,1,1   0,0,0   -85,-267,0   0      .      e_luleg
+Object e_decll=ex5decll   1,1,1   0,0,0   -61,-151,7   0      .      e_llleg
+Object e_lftoe=ex5lftoe   1,1,1   0,0,0   5,-307,93   0      .      e_llleg
+Object e_lrtoe=ex5lrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_lftoe
+Object e_ruleg=ex5ruleg   1,1,1   0,0,0   100,-41,0   0      .      e_hips
+Object e_rlleg=ex5rlleg   1,1,1   0,0,0   78,-267,0   0      .      e_ruleg
+Object e_declr=ex5declr   1,1,1   0,0,0   73,-151,7   0      .      e_rlleg
+Object e_rftoe=ex5rftoe   1,1,1   0,0,0   2,-307,93   0      .      e_rlleg
+Object e_rrtoe=ex5rrtoe   1,1,1   0,0,0   0,32,-130   0      .      e_rftoe
+Object e_head=ex5_head   1,1,1   0,0,0   0,51,0   0    near     e_hips
+Object e_winsh=ex5winsh   1,1,1   0,0,0   0,418,138   0      .      e_head
+Object e_ljpof=DUMMY   1,1,1   0,0,0   -43,-215,-253   0   hidden   e_head
+Object e_rjpof=DUMMY   1,1,1   0,0,0   43,-215,-253   0   hidden   e_head
+Object e_cppov=DUMMY   1,1,1   0,0,0   -8,412,110   0   hidden   e_head
+Object e_hdpof=DUMMY   1,1,1   0,0,0   -6,262,176   0   hidden   e_head
+Object e_ctpof=DUMMY   1,1,1   0,0,0   -4,125,173   0   hidden   e_head
+Object e_rtpof=DUMMY   1,1,1   0,0,0   174,359,-45   0   hidden   e_head
+Object e_ltpof=DUMMY   1,1,1   0,0,0   -190,359,-45   0   hidden   e_head
+Object e_daddy=DUMMY   1,1,1   0,0,0   -4,259,-58   0   hidden   e_head
+Object e_larm=ex5_larm   1,1,1   0,0,0   -250,15,0   0      .      e_daddy
+Object e_lapof=DUMMY   1,1,1   0,0,0   -54,-298,554   0   hidden   e_larm
+Object e_rarm=ex5_rarm   1,1,1   0,0,0   252,15,0   0      .      e_daddy
+Object e_rapof=DUMMY   1,1,1   0,0,0   49,-263,516   0   hidden   e_rarm
+
+endrep
+
+thing e_head
+thing e_daddy
+
+gamepiece executnr mw2mech 
+
+objloc e_head   ct
+objloc e_hips   ct
+objloc e_winsh  hd
+objloc e_larm   la
+objloc e_rarm   ra
+objloc e_luleg  ll
+objloc e_ruleg  rl
+objloc e_llleg  ll
+objloc e_rlleg  rl
+objloc e_lftoe  ll
+objloc e_rftoe  rl
+objloc e_lrtoe  ll
+objloc e_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    e_hips;55,129,0
+task animator 0    e_hips;55,1,1
+task animator 0    e_ruleg;55,1,2
+task animator 0    e_rlleg;55,1,3
+task animator 0    e_rftoe;55,1,4
+task animator 0    e_rrtoe;55,1,5
+task animator 0    e_luleg;55,1,6
+task animator 0    e_llleg;55,1,7
+task animator 0    e_lftoe;55,1,8
+task animator 0    e_lrtoe;55,1,9
+task animator 0    e_head;55,1,10
+task animator 0    e_rarm;55,1,11
+task animator 0    e_larm;55,1,12
+
+hdpof e_hdpof
+ctpof e_ctpof
+rtpof e_rtpof
+ltpof e_ltpof
+lapof e_lapof
+rapof e_rapof
+ljpof e_ljpof
+rjpof e_rjpof
+
+eyeobj e_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile executnr
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of executnr.MEC
+
+

@@ -1,0 +1,205 @@
+#   orion.MEC
+#   geometry for the orion 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object orion=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object o_hips=or1_hips   1,1,1   0,0,0   0,590,0   0      .      orion
+Object o_luleg=or1luleg   1,1,1   0,0,0   -90,10,0   0      .      o_hips
+Object o_llleg=or1llleg   1,1,1   0,0,0   -50,-240,0   0      .      o_luleg
+Object o_lftoe=or1lftoe   1,1,1   0,0,0   0,-304,0   0      .      o_llleg
+Object o_lrtoe=or1lrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_lftoe
+Object o_ruleg=or1ruleg   1,1,1   0,0,0   90,10,0   0      .      o_hips
+Object o_rlleg=or1rlleg   1,1,1   0,0,0   50,-240,0   0      .      o_ruleg
+Object o_rftoe=or1rftoe   1,1,1   0,0,0   0,-304,0   0      .      o_rlleg
+Object o_rrtoe=or1rrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_rftoe
+Object o_head=or1_head   1,1,1   0,0,0   0,110,0   0      .      o_hips
+Object o_winsh=or1winsh   1,1,1   0,0,0   0,369,169   0      .      o_head
+Object o_declf=or1declf   1,1,1   0,0,0   2,213,186   0      .      o_head
+Object o_ljpof=DUMMY   1,1,1   0,0,0   -146,134,-198   0   hidden   o_head
+Object o_rjpof=DUMMY   1,1,1   0,0,0   141,134,-198   0   hidden   o_head
+Object o_cppov=DUMMY   1,1,1   0,0,0   31,369,156   0   hidden   o_head
+Object o_hdpof=DUMMY   1,1,1   0,0,0   -5,453,97   0   hidden   o_head
+Object o_ctpof=DUMMY   1,1,1   0,0,0   -2,30,171   0   hidden   o_head
+Object o_rtpof=DUMMY   1,1,1   0,0,0   132,50,257   0   hidden   o_head
+Object o_ltpof=DUMMY   1,1,1   0,0,0   -220,346,200   0   hidden   o_head
+Object o_daddy=DUMMY   1,1,1   0,0,0   -2,307,-52   0   hidden   o_head
+Object o_larm=or1_larm   1,1,1   0,0,0   -228,3,-2   0      .      o_daddy
+Object o_lapof=DUMMY   1,1,1   0,0,0   -115,-239,571   0   hidden   o_larm
+Object o_rarm=or1_rarm   1,1,1   0,0,0   192,3,-2   0      .      o_daddy
+Object o_rapof=DUMMY   1,1,1   0,0,0   174,-188,481   0   hidden   o_rarm
+
+rep
+
+Object o_hips=or2_hips   1,1,1   0,0,0   0,590,0   0      .      orion
+Object o_luleg=or2luleg   1,1,1   0,0,0   -90,10,0   0      .      o_hips
+Object o_llleg=or2llleg   1,1,1   0,0,0   -50,-240,0   0      .      o_luleg
+Object o_lftoe=or2lftoe   1,1,1   0,0,0   0,-304,0   0      .      o_llleg
+Object o_lrtoe=or2lrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_lftoe
+Object o_ruleg=or2ruleg   1,1,1   0,0,0   90,10,0   0      .      o_hips
+Object o_rlleg=or2rlleg   1,1,1   0,0,0   50,-240,0   0      .      o_ruleg
+Object o_rftoe=or2rftoe   1,1,1   0,0,0   0,-304,0   0      .      o_rlleg
+Object o_rrtoe=or2rrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_rftoe
+Object o_head=or2_head   1,1,1   0,0,0   0,110,0   0      .      o_hips
+Object o_winsh=or2winsh   1,1,1   0,0,0   0,369,169   0      .      o_head
+Object o_declf=or2declf   1,1,1   0,0,0   2,213,186   0      .      o_head
+Object o_ljpof=DUMMY   1,1,1   0,0,0   -146,134,-198   0   hidden   o_head
+Object o_rjpof=DUMMY   1,1,1   0,0,0   141,134,-198   0   hidden   o_head
+Object o_cppov=DUMMY   1,1,1   0,0,0   31,369,156   0   hidden   o_head
+Object o_hdpof=DUMMY   1,1,1   0,0,0   -5,453,97   0   hidden   o_head
+Object o_ctpof=DUMMY   1,1,1   0,0,0   -2,30,171   0   hidden   o_head
+Object o_rtpof=DUMMY   1,1,1   0,0,0   132,50,257   0   hidden   o_head
+Object o_ltpof=DUMMY   1,1,1   0,0,0   -220,346,200   0   hidden   o_head
+Object o_daddy=DUMMY   1,1,1   0,0,0   -2,307,-52   0   hidden   o_head
+Object o_larm=or2_larm   1,1,1   0,0,0   -228,3,-2   0      .      o_daddy
+Object o_lapof=DUMMY   1,1,1   0,0,0   -115,-239,571   0   hidden   o_larm
+Object o_rarm=or2_rarm   1,1,1   0,0,0   192,3,-2   0      .      o_daddy
+Object o_rapof=DUMMY   1,1,1   0,0,0   174,-188,481   0   hidden   o_rarm
+
+rep
+
+Object o_hips=or3_hips   1,1,1   0,0,0   0,590,0   0      .      orion
+Object o_luleg=or3luleg   1,1,1   0,0,0   -90,10,0   0      .      o_hips
+Object o_llleg=or3llleg   1,1,1   0,0,0   -50,-240,0   0      .      o_luleg
+Object o_lftoe=or3lftoe   1,1,1   0,0,0   0,-304,0   0      .      o_llleg
+Object o_lrtoe=or3lrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_lftoe
+Object o_ruleg=or3ruleg   1,1,1   0,0,0   90,10,0   0      .      o_hips
+Object o_rlleg=or3rlleg   1,1,1   0,0,0   50,-240,0   0      .      o_ruleg
+Object o_rftoe=or3rftoe   1,1,1   0,0,0   0,-304,0   0      .      o_rlleg
+Object o_rrtoe=or3rrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_rftoe
+Object o_head=or3_head   1,1,1   0,0,0   0,110,0   0      .      o_hips
+Object o_winsh=or3winsh   1,1,1   0,0,0   0,369,169   0      .      o_head
+Object o_declf=or3declf   1,1,1   0,0,0   2,213,186   0      .      o_head
+Object o_ljpof=DUMMY   1,1,1   0,0,0   -146,134,-198   0   hidden   o_head
+Object o_rjpof=DUMMY   1,1,1   0,0,0   141,134,-198   0   hidden   o_head
+Object o_cppov=DUMMY   1,1,1   0,0,0   31,369,156   0   hidden   o_head
+Object o_hdpof=DUMMY   1,1,1   0,0,0   -5,453,97   0   hidden   o_head
+Object o_ctpof=DUMMY   1,1,1   0,0,0   -2,30,171   0   hidden   o_head
+Object o_rtpof=DUMMY   1,1,1   0,0,0   132,50,257   0   hidden   o_head
+Object o_ltpof=DUMMY   1,1,1   0,0,0   -220,346,200   0   hidden   o_head
+Object o_daddy=DUMMY   1,1,1   0,0,0   -2,307,-52   0   hidden   o_head
+Object o_larm=or3_larm   1,1,1   0,0,0   -228,3,-2   0      .      o_daddy
+Object o_lapof=DUMMY   1,1,1   0,0,0   -115,-239,571   0   hidden   o_larm
+Object o_rarm=or3_rarm   1,1,1   0,0,0   192,3,-2   0      .      o_daddy
+Object o_rapof=DUMMY   1,1,1   0,0,0   174,-188,481   0   hidden   o_rarm
+
+rep
+
+Object o_hips=or4_hips   1,1,1   0,0,0   0,590,0   0      .      orion
+Object o_luleg=or4luleg   1,1,1   0,0,0   -90,10,0   0      .      o_hips
+Object o_llleg=or4llleg   1,1,1   0,0,0   -50,-240,0   0      .      o_luleg
+Object o_lftoe=or4lftoe   1,1,1   0,0,0   0,-304,0   0      .      o_llleg
+Object o_lrtoe=or4lrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_lftoe
+Object o_ruleg=or4ruleg   1,1,1   0,0,0   90,10,0   0      .      o_hips
+Object o_rlleg=or4rlleg   1,1,1   0,0,0   50,-240,0   0      .      o_ruleg
+Object o_rftoe=or4rftoe   1,1,1   0,0,0   0,-304,0   0      .      o_rlleg
+Object o_rrtoe=or4rrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_rftoe
+Object o_head=or4_head   1,1,1   0,0,0   0,110,0   0      .      o_hips
+Object o_winsh=or4winsh   1,1,1   0,0,0   0,369,169   0      .      o_head
+Object o_declf=or4declf   1,1,1   0,0,0   2,213,186   0      .      o_head
+Object o_ljpof=DUMMY   1,1,1   0,0,0   -146,134,-198   0   hidden   o_head
+Object o_rjpof=DUMMY   1,1,1   0,0,0   141,134,-198   0   hidden   o_head
+Object o_cppov=DUMMY   1,1,1   0,0,0   31,369,156   0   hidden   o_head
+Object o_hdpof=DUMMY   1,1,1   0,0,0   -5,453,97   0   hidden   o_head
+Object o_ctpof=DUMMY   1,1,1   0,0,0   -2,30,171   0   hidden   o_head
+Object o_rtpof=DUMMY   1,1,1   0,0,0   132,50,257   0   hidden   o_head
+Object o_ltpof=DUMMY   1,1,1   0,0,0   -220,346,200   0   hidden   o_head
+Object o_daddy=DUMMY   1,1,1   0,0,0   -2,307,-52   0   hidden   o_head
+Object o_larm=or4_larm   1,1,1   0,0,0   -228,3,-2   0      .      o_daddy
+Object o_lapof=DUMMY   1,1,1   0,0,0   -115,-239,571   0   hidden   o_larm
+Object o_rarm=or4_rarm   1,1,1   0,0,0   192,3,-2   0      .      o_daddy
+Object o_rapof=DUMMY   1,1,1   0,0,0   174,-188,481   0   hidden   o_rarm
+
+rep
+
+Object o_hips=or5_hips   1,1,1   0,0,0   0,590,0   0      .      orion
+Object o_luleg=or5luleg   1,1,1   0,0,0   -90,10,0   0      .      o_hips
+Object o_llleg=or5llleg   1,1,1   0,0,0   -50,-240,0   0      .      o_luleg
+Object o_lftoe=or5lftoe   1,1,1   0,0,0   0,-304,0   0      .      o_llleg
+Object o_lrtoe=or5lrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_lftoe
+Object o_ruleg=or5ruleg   1,1,1   0,0,0   90,10,0   0      .      o_hips
+Object o_rlleg=or5rlleg   1,1,1   0,0,0   50,-240,0   0      .      o_ruleg
+Object o_rftoe=or5rftoe   1,1,1   0,0,0   0,-304,0   0      .      o_rlleg
+Object o_rrtoe=or5rrtoe   1,1,1   0,0,0   0,0,-60   0      .      o_rftoe
+Object o_head=or5_head   1,1,1   0,0,0   0,110,0   0    near     o_hips
+Object o_winsh=or5winsh   1,1,1   0,0,0   0,369,169   0      .      o_head
+Object o_ljpof=DUMMY   1,1,1   0,0,0   -146,134,-198   0   hidden   o_head
+Object o_rjpof=DUMMY   1,1,1   0,0,0   141,134,-198   0   hidden   o_head
+Object o_cppov=DUMMY   1,1,1   0,0,0   31,369,156   0   hidden   o_head
+Object o_hdpof=DUMMY   1,1,1   0,0,0   -5,453,97   0   hidden   o_head
+Object o_ctpof=DUMMY   1,1,1   0,0,0   -2,30,171   0   hidden   o_head
+Object o_rtpof=DUMMY   1,1,1   0,0,0   132,50,257   0   hidden   o_head
+Object o_ltpof=DUMMY   1,1,1   0,0,0   -220,346,200   0   hidden   o_head
+Object o_daddy=DUMMY   1,1,1   0,0,0   -2,307,-52   0   hidden   o_head
+Object o_larm=or5_larm   1,1,1   0,0,0   -228,3,-2   0      .      o_daddy
+Object o_lapof=DUMMY   1,1,1   0,0,0   -115,-239,571   0   hidden   o_larm
+Object o_rarm=or5_rarm   1,1,1   0,0,0   192,3,-2   0      .      o_daddy
+Object o_rapof=DUMMY   1,1,1   0,0,0   174,-188,481   0   hidden   o_rarm
+
+endrep
+
+thing o_head
+thing o_daddy
+
+gamepiece orion mw2mech 
+
+objloc o_head   ct
+objloc o_hips   ct
+objloc o_winsh  hd
+objloc o_larm   la
+objloc o_rarm   ra
+objloc o_luleg  ll
+objloc o_ruleg  rl
+objloc o_llleg  ll
+objloc o_rlleg  rl
+objloc o_lftoe  ll
+objloc o_rftoe  rl
+objloc o_lrtoe  ll
+objloc o_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    o_hips;55,129,0
+task animator 0    o_hips;55,1,1
+task animator 0    o_ruleg;55,1,2
+task animator 0    o_rlleg;55,1,3
+task animator 0    o_rftoe;55,1,4
+task animator 0    o_rrtoe;55,1,5
+task animator 0    o_luleg;55,1,6
+task animator 0    o_llleg;55,1,7
+task animator 0    o_lftoe;55,1,8
+task animator 0    o_lrtoe;55,1,9
+task animator 0    o_head;55,1,10
+task animator 0    o_rarm;55,1,11
+task animator 0    o_larm;55,1,12
+
+hdpof o_hdpof
+ctpof o_ctpof
+rtpof o_rtpof
+ltpof o_ltpof
+lapof o_lapof
+rapof o_rapof
+ljpof o_ljpof
+rjpof o_rjpof
+
+eyeobj o_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile orion
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mechvft1
+
+# end of orion.MEC
+
+

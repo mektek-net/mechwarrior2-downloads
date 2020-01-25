@@ -1,0 +1,241 @@
+#   raven.MEC
+#   geometry for the raven 'Mech
+#   last modified 4/11/94 JB
+#   finishing touches 4/11 JB
+
+#       size = 1300cm
+#       490 to put raven's feet on ground
+
+
+mangle_on
+
+
+#   obj name  .plg file   scale   rotate   xlate  sort (null) parent
+object raven=dummy         1,1,1   0,0,0   0,0,0  0   hidden world
+
+rep
+
+Object r_hips=rv1_hips   1,1,1   0,0,0   0,490,0   0      .      raven
+Object r_luleg=rv1luleg   1,1,1   0,0,0   -150,10,0   0      .      r_hips
+Object r_llleg=rv1llleg   1,1,1   0,0,0   0,-140,-140   0      .      r_luleg
+Object r_lfoot=rv1lfoot   1,1,1   0,0,0   10,-320,250   0      .      r_llleg
+Object r_lrtoe=rv1lrtoe   1,1,1   0,0,0   24,-10,44   0      .      r_lfoot
+Object r_lltoe=rv1lltoe   1,1,1   0,0,0   -29,-10,44   0      .      r_lfoot
+Object r_lbtoe=rv1lbtoe   1,1,1   0,0,0   -3,-10,-53   0      .      r_lfoot
+Object r_ruleg=rv1ruleg   1,1,1   0,0,0   140,10,0   0      .      r_hips
+Object r_rlleg=rv1rlleg   1,1,1   0,0,0   0,-140,-140   0      .      r_ruleg
+Object r_rfoot=rv1rfoot   1,1,1   0,0,0   -10,-320,250   0      .      r_rlleg
+Object r_rrtoe=rv1rrtoe   1,1,1   0,0,0   28,-10,44   0      .      r_rfoot
+Object r_rltoe=rv1rltoe   1,1,1   0,0,0   -25,-10,44   0      .      r_rfoot
+Object r_rbtoe=rv1rbtoe   1,1,1   0,0,0   1,-10,-53   0      .      r_rfoot
+Object r_head=rv1_head   1,1,1   0,0,0   0,50,0   0      .      r_hips
+Object r_winsh=rv1winsh   1,1,1   0,0,0   0,90,330   0      .      r_head
+Object r_ljpof=DUMMY   1,1,1   0,0,0   -43,-155,9   0   hidden   r_head
+Object r_rjpof=DUMMY   1,1,1   0,0,0   43,-155,9   0   hidden   r_head
+Object r_cppov=DUMMY   1,1,1   0,0,0   -8,106,306   0   hidden   r_head
+Object r_hdpof=DUMMY   1,1,1   0,0,0   -6,-4,451   0   hidden   r_head
+Object r_ctpof=DUMMY   1,1,1   0,0,0   -4,-64,173   0   hidden   r_head
+Object r_rtpof=DUMMY   1,1,1   0,0,0   187,136,152   0   hidden   r_head
+Object r_ltpof=DUMMY   1,1,1   0,0,0   -144,119,233   0   hidden   r_head
+Object r_daddy=DUMMY   1,1,1   0,0,0   -4,132,1   0   hidden   r_head
+Object r_larm=rv1_larm   1,1,1   0,0,0   -146,18,-1   0      .      r_daddy
+Object r_lapof=DUMMY   1,1,1   0,0,0   -36,-16,163   0   hidden   r_larm
+Object r_decll=rv1decll   1,1,1   0,0,0   -92,-9,-1   0      .      r_larm
+Object r_rarm=rv1_rarm   1,1,1   0,0,0   144,18,-1   0      .      r_daddy
+Object r_rapof=DUMMY   1,1,1   0,0,0   124,55,268   0   hidden   r_rarm
+Object r_declr=rv1declr   1,1,1   0,0,0   143,74,24   0      .      r_rarm
+
+rep
+
+Object r_hips=rv2_hips   1,1,1   0,0,0   0,490,0   0      .      raven
+Object r_luleg=rv2luleg   1,1,1   0,0,0   -150,10,0   0      .      r_hips
+Object r_llleg=rv2llleg   1,1,1   0,0,0   0,-140,-140   0      .      r_luleg
+Object r_lfoot=rv2lfoot   1,1,1   0,0,0   10,-320,250   0      .      r_llleg
+Object r_lrtoe=rv2lrtoe   1,1,1   0,0,0   24,-10,44   0      .      r_lfoot
+Object r_lltoe=rv2lltoe   1,1,1   0,0,0   -29,-10,44   0      .      r_lfoot
+Object r_lbtoe=rv2lbtoe   1,1,1   0,0,0   -3,-10,-53   0      .      r_lfoot
+Object r_ruleg=rv2ruleg   1,1,1   0,0,0   140,10,0   0      .      r_hips
+Object r_rlleg=rv2rlleg   1,1,1   0,0,0   0,-140,-140   0      .      r_ruleg
+Object r_rfoot=rv2rfoot   1,1,1   0,0,0   -10,-320,250   0      .      r_rlleg
+Object r_rrtoe=rv2rrtoe   1,1,1   0,0,0   28,-10,44   0      .      r_rfoot
+Object r_rltoe=rv2rltoe   1,1,1   0,0,0   -25,-10,44   0      .      r_rfoot
+Object r_rbtoe=rv2rbtoe   1,1,1   0,0,0   1,-10,-53   0      .      r_rfoot
+Object r_head=rv2_head   1,1,1   0,0,0   0,50,0   0      .      r_hips
+Object r_winsh=rv2winsh   1,1,1   0,0,0   0,90,330   0      .      r_head
+Object r_ljpof=DUMMY   1,1,1   0,0,0   -43,-155,9   0   hidden   r_head
+Object r_rjpof=DUMMY   1,1,1   0,0,0   43,-155,9   0   hidden   r_head
+Object r_cppov=DUMMY   1,1,1   0,0,0   -8,106,306   0   hidden   r_head
+Object r_hdpof=DUMMY   1,1,1   0,0,0   -6,-4,451   0   hidden   r_head
+Object r_ctpof=DUMMY   1,1,1   0,0,0   -4,-64,173   0   hidden   r_head
+Object r_rtpof=DUMMY   1,1,1   0,0,0   187,136,152   0   hidden   r_head
+Object r_ltpof=DUMMY   1,1,1   0,0,0   -144,119,233   0   hidden   r_head
+Object r_daddy=DUMMY   1,1,1   0,0,0   -4,132,1   0   hidden   r_head
+Object r_larm=rv2_larm   1,1,1   0,0,0   -146,18,-1   0      .      r_daddy
+Object r_lapof=DUMMY   1,1,1   0,0,0   -36,-16,163   0   hidden   r_larm
+Object r_decll=rv2decll   1,1,1   0,0,0   -92,-9,-1   0      .      r_larm
+Object r_rarm=rv2_rarm   1,1,1   0,0,0   144,18,-1   0      .      r_daddy
+Object r_rapof=DUMMY   1,1,1   0,0,0   124,55,268   0   hidden   r_rarm
+Object r_declr=rv2declr   1,1,1   0,0,0   143,74,24   0      .      r_rarm
+
+rep
+
+Object r_hips=rv3_hips   1,1,1   0,0,0   0,490,0   0      .      raven
+Object r_luleg=rv3luleg   1,1,1   0,0,0   -150,10,0   0      .      r_hips
+Object r_llleg=rv3llleg   1,1,1   0,0,0   0,-140,-140   0      .      r_luleg
+Object r_lfoot=rv3lfoot   1,1,1   0,0,0   10,-320,250   0      .      r_llleg
+Object r_lrtoe=rv3lrtoe   1,1,1   0,0,0   24,-10,44   0      .      r_lfoot
+Object r_lltoe=rv3lltoe   1,1,1   0,0,0   -29,-10,44   0      .      r_lfoot
+Object r_lbtoe=rv3lbtoe   1,1,1   0,0,0   -3,-10,-53   0      .      r_lfoot
+Object r_ruleg=rv3ruleg   1,1,1   0,0,0   140,10,0   0      .      r_hips
+Object r_rlleg=rv3rlleg   1,1,1   0,0,0   0,-140,-140   0      .      r_ruleg
+Object r_rfoot=rv3rfoot   1,1,1   0,0,0   -10,-320,250   0      .      r_rlleg
+Object r_rrtoe=rv3rrtoe   1,1,1   0,0,0   28,-10,44   0      .      r_rfoot
+Object r_rltoe=rv3rltoe   1,1,1   0,0,0   -25,-10,44   0      .      r_rfoot
+Object r_rbtoe=rv3rbtoe   1,1,1   0,0,0   1,-10,-53   0      .      r_rfoot
+Object r_head=rv3_head   1,1,1   0,0,0   0,50,0   0      .      r_hips
+Object r_winsh=rv3winsh   1,1,1   0,0,0   0,90,330   0      .      r_head
+Object r_ljpof=DUMMY   1,1,1   0,0,0   -43,-155,9   0   hidden   r_head
+Object r_rjpof=DUMMY   1,1,1   0,0,0   43,-155,9   0   hidden   r_head
+Object r_cppov=DUMMY   1,1,1   0,0,0   -8,106,306   0   hidden   r_head
+Object r_hdpof=DUMMY   1,1,1   0,0,0   -6,-4,451   0   hidden   r_head
+Object r_ctpof=DUMMY   1,1,1   0,0,0   -4,-64,173   0   hidden   r_head
+Object r_rtpof=DUMMY   1,1,1   0,0,0   187,136,152   0   hidden   r_head
+Object r_ltpof=DUMMY   1,1,1   0,0,0   -144,119,233   0   hidden   r_head
+Object r_daddy=DUMMY   1,1,1   0,0,0   -4,132,1   0   hidden   r_head
+Object r_larm=rv3_larm   1,1,1   0,0,0   -146,18,-1   0      .      r_daddy
+Object r_lapof=DUMMY   1,1,1   0,0,0   -36,-16,163   0   hidden   r_larm
+Object r_decll=rv3decll   1,1,1   0,0,0   -92,-9,-1   0      .      r_larm
+Object r_rarm=rv3_rarm   1,1,1   0,0,0   144,18,-1   0      .      r_daddy
+Object r_rapof=DUMMY   1,1,1   0,0,0   124,55,259   0   hidden   r_rarm
+Object r_declr=rv3declr   1,1,1   0,0,0   143,74,24   0      .      r_rarm
+
+rep
+
+Object r_hips=rv4_hips   1,1,1   0,0,0   0,490,0   0      .      raven
+Object r_luleg=rv4luleg   1,1,1   0,0,0   -150,10,0   0      .      r_hips
+Object r_llleg=rv4llleg   1,1,1   0,0,0   0,-140,-140   0      .      r_luleg
+Object r_lfoot=rv4lfoot   1,1,1   0,0,0   10,-320,250   0      .      r_llleg
+Object r_lrtoe=rv4lrtoe   1,1,1   0,0,0   24,-10,44   0      .      r_lfoot
+Object r_lltoe=rv4lltoe   1,1,1   0,0,0   -29,-10,44   0      .      r_lfoot
+Object r_lbtoe=rv4lbtoe   1,1,1   0,0,0   -3,-10,-53   0      .      r_lfoot
+Object r_ruleg=rv4ruleg   1,1,1   0,0,0   140,10,0   0      .      r_hips
+Object r_rlleg=rv4rlleg   1,1,1   0,0,0   0,-140,-140   0      .      r_ruleg
+Object r_rfoot=rv4rfoot   1,1,1   0,0,0   -10,-320,250   0      .      r_rlleg
+Object r_rrtoe=rv4rrtoe   1,1,1   0,0,0   28,-10,44   0      .      r_rfoot
+Object r_rltoe=rv4rltoe   1,1,1   0,0,0   -25,-10,44   0      .      r_rfoot
+Object r_rbtoe=rv4rbtoe   1,1,1   0,0,0   1,-10,-53   0      .      r_rfoot
+Object r_head=rv4_head   1,1,1   0,0,0   0,50,0   0      .      r_hips
+Object r_winsh=rv4winsh   1,1,1   0,0,0   0,90,330   0      .      r_head
+Object r_ljpof=DUMMY   1,1,1   0,0,0   -43,-155,9   0   hidden   r_head
+Object r_rjpof=DUMMY   1,1,1   0,0,0   43,-155,9   0   hidden   r_head
+Object r_cppov=DUMMY   1,1,1   0,0,0   -8,106,306   0   hidden   r_head
+Object r_hdpof=DUMMY   1,1,1   0,0,0   -6,-4,451   0   hidden   r_head
+Object r_ctpof=DUMMY   1,1,1   0,0,0   -4,-64,173   0   hidden   r_head
+Object r_rtpof=DUMMY   1,1,1   0,0,0   187,136,152   0   hidden   r_head
+Object r_ltpof=DUMMY   1,1,1   0,0,0   -144,119,233   0   hidden   r_head
+Object r_daddy=DUMMY   1,1,1   0,0,0   -4,132,1   0   hidden   r_head
+Object r_larm=rv4_larm   1,1,1   0,0,0   -146,18,-1   0      .      r_daddy
+Object r_lapof=DUMMY   1,1,1   0,0,0   -36,-16,163   0   hidden   r_larm
+Object r_decll=rv4decll   1,1,1   0,0,0   -92,-9,-1   0      .      r_larm
+Object r_rarm=rv4_rarm   1,1,1   0,0,0   144,18,-1   0      .      r_daddy
+Object r_rapof=DUMMY   1,1,1   0,0,0   124,55,254   0   hidden   r_rarm
+Object r_declr=rv4declr   1,1,1   0,0,0   143,74,24   0      .      r_rarm
+
+rep
+
+Object r_hips=rv5_hips   1,1,1   0,0,0   0,490,0   0      .      raven
+Object r_luleg=rv5luleg   1,1,1   0,0,0   -150,10,0   0      .      r_hips
+Object r_llleg=rv5llleg   1,1,1   0,0,0   0,-140,-140   0      .      r_luleg
+Object r_lfoot=rv5lfoot   1,1,1   0,0,0   10,-320,250   0      .      r_llleg
+Object r_lrtoe=rv5lrtoe   1,1,1   0,0,0   24,-10,44   0      .      r_lfoot
+Object r_lltoe=rv5lltoe   1,1,1   0,0,0   -29,-10,44   0      .      r_lfoot
+Object r_lbtoe=rv5lbtoe   1,1,1   0,0,0   -3,-10,-53   0      .      r_lfoot
+Object r_ruleg=rv5ruleg   1,1,1   0,0,0   140,10,0   0      .      r_hips
+Object r_rlleg=rv5rlleg   1,1,1   0,0,0   0,-140,-140   0      .      r_ruleg
+Object r_rfoot=rv5rfoot   1,1,1   0,0,0   -10,-320,250   0      .      r_rlleg
+Object r_rrtoe=rv5rrtoe   1,1,1   0,0,0   28,-10,44   0      .      r_rfoot
+Object r_rltoe=rv5rltoe   1,1,1   0,0,0   -25,-10,44   0      .      r_rfoot
+Object r_rbtoe=rv5rbtoe   1,1,1   0,0,0   1,-10,-53   0      .      r_rfoot
+Object r_head=rv5_head   1,1,1   0,0,0   0,50,0   0    near     r_hips
+Object r_winsh=rv5winsh   1,1,1   0,0,0   0,90,330   0      .      r_head
+Object r_ljpof=DUMMY   1,1,1   0,0,0   -43,-155,9   0   hidden   r_head
+Object r_rjpof=DUMMY   1,1,1   0,0,0   43,-155,9   0   hidden   r_head
+Object r_cppov=DUMMY   1,1,1   0,0,0   -8,106,306   0   hidden   r_head
+Object r_hdpof=DUMMY   1,1,1   0,0,0   -6,-4,451   0   hidden   r_head
+Object r_ctpof=DUMMY   1,1,1   0,0,0   -4,-64,173   0   hidden   r_head
+Object r_rtpof=DUMMY   1,1,1   0,0,0   187,136,152   0   hidden   r_head
+Object r_ltpof=DUMMY   1,1,1   0,0,0   -144,119,233   0   hidden   r_head
+Object r_daddy=DUMMY   1,1,1   0,0,0   -4,132,1   0   hidden   r_head
+Object r_larm=rv5_larm   1,1,1   0,0,0   -146,18,-1   0      .      r_daddy
+Object r_lapof=DUMMY   1,1,1   0,0,0   -36,-16,163   0   hidden   r_larm
+Object r_decll=rv5decll   1,1,1   0,0,0   -92,-9,-1   0      .      r_larm
+Object r_rarm=rv5_rarm   1,1,1   0,0,0   144,18,-1   0      .      r_daddy
+Object r_rapof=DUMMY   1,1,1   0,0,0   124,55,373   0   hidden   r_rarm
+Object r_declr=rv5declr   1,1,1   0,0,0   143,74,24   0      .      r_rarm
+
+endrep
+
+thing r_head
+thing r_daddy
+
+gamepiece raven mw2mech                 
+
+objloc r_head   ct
+objloc r_hips   ct
+objloc r_winsh  hd
+objloc r_rarm   ra
+objloc r_larm   la
+objloc r_ruleg  rl
+objloc r_rlleg  rl
+objloc r_rfoot  rl
+objloc r_rrtoe  rl
+objloc r_rltoe  rl
+objloc r_rbtoe  rl
+objloc r_luleg  ll
+objloc r_llleg  ll
+objloc r_lfoot  ll
+objloc r_lrtoe  ll
+objloc r_lltoe  ll
+objloc r_lbtoe  ll
+
+animfile ravnanim 
+
+# task animators go here....
+
+task animator 0    r_hips;42,129,0
+task animator 0    r_hips;42,1,1
+task animator 0    r_luleg;42,1,2
+task animator 0    r_llleg;42,1,3
+task animator 0    r_lfoot;42,1,4
+task animator 0    r_lltoe;42,1,5
+task animator 0    r_lrtoe;42,1,6
+task animator 0    r_lbtoe;42,1,7
+task animator 0    r_ruleg;42,1,8
+task animator 0    r_rlleg;42,1,9
+task animator 0    r_rfoot;42,1,10
+task animator 0    r_rltoe;42,1,11
+task animator 0    r_rrtoe;42,1,12
+task animator 0    r_rbtoe;42,1,13
+
+ljpof r_ljpof
+rjpof r_rjpof
+lapof r_lapof
+rapof r_rapof
+rtpof r_rtpof
+ltpof r_ltpof
+hdpof r_hdpof
+ctpof r_ctpof
+
+eyeobj r_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile raven
+pitfile mw2pit
+
+mangle_off
+
+AnimSound  meclight
+
+# end of raven.mec

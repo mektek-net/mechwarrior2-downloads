@@ -1,0 +1,211 @@
+#   grimreap.MEC
+#   geometry for the grimreap 'Mech
+
+mangle_on
+
+#   obj name  .plg file   scale   rotate   xlate    sort (null)  parent
+Object grimreap=DUMMY       1,1,1    0,0,0    0,0,0  0   hidden  world
+# --- If you want a carrot it goes here ---
+
+rep
+
+Object g_hips=gp1_hips   1,1,1   0,0,0   0,582,-43   0      .      grimreap
+Object g_luleg=gp1luleg   1,1,1   0,0,0   -70,-2,-10   0      .      g_hips
+Object g_llleg=gp1llleg   1,1,1   0,0,0   -110,-283,34   0      .      g_luleg
+Object g_decll=gp1decll   1,1,1   0,0,0   -36,-186,-13   0      .      g_llleg
+Object g_lftoe=gp1lftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_llleg
+Object g_lrtoe=gp1lrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_lftoe
+Object g_ruleg=gp1ruleg   1,1,1   0,0,0   70,-2,-10   0      .      g_hips
+Object g_rlleg=gp1rlleg   1,1,1   0,0,0   110,-283,34   0      .      g_ruleg
+Object g_declr=gp1declr   1,1,1   0,0,0   39,-186,-13   0      .      g_rlleg
+Object g_rftoe=gp1rftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_rlleg
+Object g_rrtoe=gp1rrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_rftoe
+Object g_head=gp1_head   1,1,1   0,0,0   0,52,-11   0      .      g_hips
+Object g_winsh=gp1winsh   1,1,1   0,0,0   0,303,105   0      .      g_head
+Object g_ljpof=DUMMY   1,1,1   0,0,0   -145,90,-149   0   hidden   g_head
+Object g_rjpof=DUMMY   1,1,1   0,0,0   135,85,-149   0   hidden   g_head
+Object g_cppov=DUMMY   1,1,1   0,0,0   0,298,96   0   hidden   g_head
+Object g_hdpof=DUMMY   1,1,1   0,0,0   -1,361,73   0   hidden   g_head
+Object g_ctpof=DUMMY   1,1,1   0,0,0   2,189,153   0   hidden   g_head
+Object g_rtpof=DUMMY   1,1,1   0,0,0   -59,57,282   0   hidden   g_head
+Object g_ltpof=DUMMY   1,1,1   0,0,0   60,58,282   0   hidden   g_head
+Object g_daddy=DUMMY   1,1,1   0,0,0   -12,189,-66   0   hidden   g_head
+Object g_larm=gp1_larm   1,1,1   0,0,0   -168,-4,7   0      .      g_daddy
+Object g_lapof=DUMMY   1,1,1   0,0,0   -185,-97,510   0   hidden   g_larm
+Object g_rarm=gp1_rarm   1,1,1   0,0,0   192,-4,7   0      .      g_daddy
+Object g_rapof=DUMMY   1,1,1   0,0,0   194,-98,510   0   hidden   g_rarm
+
+rep
+
+Object g_hips=gp2_hips   1,1,1   0,0,0   0,582,-43   0      .      grimreap
+Object g_luleg=gp2luleg   1,1,1   0,0,0   -70,-2,-10   0      .      g_hips
+Object g_llleg=gp2llleg   1,1,1   0,0,0   -110,-283,34   0      .      g_luleg
+Object g_decll=gp2decll   1,1,1   0,0,0   -36,-186,-13   0      .      g_llleg
+Object g_lftoe=gp2lftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_llleg
+Object g_lrtoe=gp2lrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_lftoe
+Object g_ruleg=gp2ruleg   1,1,1   0,0,0   70,-2,-10   0      .      g_hips
+Object g_rlleg=gp2rlleg   1,1,1   0,0,0   110,-283,34   0      .      g_ruleg
+Object g_declr=gp2declr   1,1,1   0,0,0   39,-186,-13   0      .      g_rlleg
+Object g_rftoe=gp2rftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_rlleg
+Object g_rrtoe=gp2rrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_rftoe
+Object g_head=gp2_head   1,1,1   0,0,0   0,52,-11   0      .      g_hips
+Object g_winsh=gp2winsh   1,1,1   0,0,0   0,303,105   0      .      g_head
+Object g_ljpof=DUMMY   1,1,1   0,0,0   -145,90,-149   0   hidden   g_head
+Object g_rjpof=DUMMY   1,1,1   0,0,0   135,85,-149   0   hidden   g_head
+Object g_cppov=DUMMY   1,1,1   0,0,0   0,298,96   0   hidden   g_head
+Object g_hdpof=DUMMY   1,1,1   0,0,0   -1,361,73   0   hidden   g_head
+Object g_ctpof=DUMMY   1,1,1   0,0,0   2,189,153   0   hidden   g_head
+Object g_rtpof=DUMMY   1,1,1   0,0,0   -59,57,282   0   hidden   g_head
+Object g_ltpof=DUMMY   1,1,1   0,0,0   60,58,282   0   hidden   g_head
+Object g_daddy=DUMMY   1,1,1   0,0,0   -12,189,-66   0   hidden   g_head
+Object g_larm=gp2_larm   1,1,1   0,0,0   -168,-4,7   0      .      g_daddy
+Object g_lapof=DUMMY   1,1,1   0,0,0   -185,-97,510   0   hidden   g_larm
+Object g_rarm=gp2_rarm   1,1,1   0,0,0   192,-4,7   0      .      g_daddy
+Object g_rapof=DUMMY   1,1,1   0,0,0   194,-98,510   0   hidden   g_rarm
+
+rep
+
+Object g_hips=gp3_hips   1,1,1   0,0,0   0,582,-43   0      .      grimreap
+Object g_luleg=gp3luleg   1,1,1   0,0,0   -70,-2,-10   0      .      g_hips
+Object g_llleg=gp3llleg   1,1,1   0,0,0   -110,-283,34   0      .      g_luleg
+Object g_decll=gp3decll   1,1,1   0,0,0   -36,-186,-13   0      .      g_llleg
+Object g_lftoe=gp3lftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_llleg
+Object g_lrtoe=gp3lrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_lftoe
+Object g_ruleg=gp3ruleg   1,1,1   0,0,0   70,-2,-10   0      .      g_hips
+Object g_rlleg=gp3rlleg   1,1,1   0,0,0   110,-283,34   0      .      g_ruleg
+Object g_declr=gp3declr   1,1,1   0,0,0   39,-186,-13   0      .      g_rlleg
+Object g_rftoe=gp3rftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_rlleg
+Object g_rrtoe=gp3rrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_rftoe
+Object g_head=gp3_head   1,1,1   0,0,0   0,52,-11   0      .      g_hips
+Object g_winsh=gp3winsh   1,1,1   0,0,0   0,303,105   0      .      g_head
+Object g_ljpof=DUMMY   1,1,1   0,0,0   -145,90,-149   0   hidden   g_head
+Object g_rjpof=DUMMY   1,1,1   0,0,0   135,85,-149   0   hidden   g_head
+Object g_cppov=DUMMY   1,1,1   0,0,0   0,298,96   0   hidden   g_head
+Object g_hdpof=DUMMY   1,1,1   0,0,0   -1,361,73   0   hidden   g_head
+Object g_ctpof=DUMMY   1,1,1   0,0,0   2,189,153   0   hidden   g_head
+Object g_rtpof=DUMMY   1,1,1   0,0,0   -59,57,282   0   hidden   g_head
+Object g_ltpof=DUMMY   1,1,1   0,0,0   60,58,282   0   hidden   g_head
+Object g_daddy=DUMMY   1,1,1   0,0,0   -12,189,-66   0   hidden   g_head
+Object g_larm=gp3_larm   1,1,1   0,0,0   -168,-4,7   0      .      g_daddy
+Object g_lapof=DUMMY   1,1,1   0,0,0   -185,-97,510   0   hidden   g_larm
+Object g_rarm=gp3_rarm   1,1,1   0,0,0   192,-4,7   0      .      g_daddy
+Object g_rapof=DUMMY   1,1,1   0,0,0   194,-98,510   0   hidden   g_rarm
+
+rep
+
+Object g_hips=gp4_hips   1,1,1   0,0,0   0,582,-43   0      .      grimreap
+Object g_luleg=gp4luleg   1,1,1   0,0,0   -70,-2,-10   0      .      g_hips
+Object g_llleg=gp4llleg   1,1,1   0,0,0   -110,-283,34   0      .      g_luleg
+Object g_decll=gp4decll   1,1,1   0,0,0   -36,-186,-13   0      .      g_llleg
+Object g_lftoe=gp4lftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_llleg
+Object g_lrtoe=gp4lrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_lftoe
+Object g_ruleg=gp4ruleg   1,1,1   0,0,0   70,-2,-10   0      .      g_hips
+Object g_rlleg=gp4rlleg   1,1,1   0,0,0   110,-283,34   0      .      g_ruleg
+Object g_declr=gp4declr   1,1,1   0,0,0   39,-186,-13   0      .      g_rlleg
+Object g_rftoe=gp4rftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_rlleg
+Object g_rrtoe=gp4rrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_rftoe
+Object g_head=gp4_head   1,1,1   0,0,0   0,52,-11   0      .      g_hips
+Object g_winsh=gp4winsh   1,1,1   0,0,0   0,303,105   0      .      g_head
+Object g_ljpof=DUMMY   1,1,1   0,0,0   -145,90,-149   0   hidden   g_head
+Object g_rjpof=DUMMY   1,1,1   0,0,0   135,85,-149   0   hidden   g_head
+Object g_cppov=DUMMY   1,1,1   0,0,0   0,298,96   0   hidden   g_head
+Object g_hdpof=DUMMY   1,1,1   0,0,0   -1,361,73   0   hidden   g_head
+Object g_ctpof=DUMMY   1,1,1   0,0,0   2,189,153   0   hidden   g_head
+Object g_rtpof=DUMMY   1,1,1   0,0,0   -59,57,282   0   hidden   g_head
+Object g_ltpof=DUMMY   1,1,1   0,0,0   60,58,282   0   hidden   g_head
+Object g_daddy=DUMMY   1,1,1   0,0,0   -12,189,-66   0   hidden   g_head
+Object g_larm=gp4_larm   1,1,1   0,0,0   -168,-4,7   0      .      g_daddy
+Object g_lapof=DUMMY   1,1,1   0,0,0   -185,-97,510   0   hidden   g_larm
+Object g_rarm=gp4_rarm   1,1,1   0,0,0   192,-4,7   0      .      g_daddy
+Object g_rapof=DUMMY   1,1,1   0,0,0   194,-98,510   0   hidden   g_rarm
+
+rep
+
+Object g_hips=gp5_hips   1,1,1   0,0,0   0,582,-43   0      .      grimreap
+Object g_luleg=gp5luleg   1,1,1   0,0,0   -70,-2,-10   0      .      g_hips
+Object g_llleg=gp5llleg   1,1,1   0,0,0   -110,-283,34   0      .      g_luleg
+Object g_decll=gp5decll   1,1,1   0,0,0   -36,-186,-13   0      .      g_llleg
+Object g_lftoe=gp5lftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_llleg
+Object g_lrtoe=gp5lrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_lftoe
+Object g_ruleg=gp5ruleg   1,1,1   0,0,0   70,-2,-10   0      .      g_hips
+Object g_rlleg=gp5rlleg   1,1,1   0,0,0   110,-283,34   0      .      g_ruleg
+Object g_declr=gp5declr   1,1,1   0,0,0   39,-186,-13   0      .      g_rlleg
+Object g_rftoe=gp5rftoe   1,1,1   0,0,0   0,-256,-32   0      .      g_rlleg
+Object g_rrtoe=gp5rrtoe   1,1,1   0,0,0   0,0,-10   0      .      g_rftoe
+Object g_head=gp5_head   1,1,1   0,0,0   0,52,-11   0    near     g_hips
+Object g_winsh=gp5winsh   1,1,1   0,0,0   0,303,105   0      .      g_head
+Object g_ljpof=DUMMY   1,1,1   0,0,0   -145,90,-149   0   hidden   g_head
+Object g_rjpof=DUMMY   1,1,1   0,0,0   135,85,-149   0   hidden   g_head
+Object g_cppov=DUMMY   1,1,1   0,0,0   0,298,96   0   hidden   g_head
+Object g_hdpof=DUMMY   1,1,1   0,0,0   -1,361,73   0   hidden   g_head
+Object g_ctpof=DUMMY   1,1,1   0,0,0   2,189,153   0   hidden   g_head
+Object g_rtpof=DUMMY   1,1,1   0,0,0   -59,57,282   0   hidden   g_head
+Object g_ltpof=DUMMY   1,1,1   0,0,0   60,58,282   0   hidden   g_head
+Object g_daddy=DUMMY   1,1,1   0,0,0   -12,189,-66   0   hidden   g_head
+Object g_larm=gp5_larm   1,1,1   0,0,0   -168,-4,7   0      .      g_daddy
+Object g_lapof=DUMMY   1,1,1   0,0,0   -185,-97,510   0   hidden   g_larm
+Object g_rarm=gp5_rarm   1,1,1   0,0,0   192,-4,7   0      .      g_daddy
+Object g_rapof=DUMMY   1,1,1   0,0,0   194,-98,510   0   hidden   g_rarm
+
+endrep
+
+thing g_head
+thing g_daddy
+
+gamepiece grimreap mw2mech 
+
+objloc g_head   ct
+objloc g_hips   ct
+objloc g_winsh  hd
+objloc g_larm   la
+objloc g_rarm   ra
+objloc g_luleg  ll
+objloc g_ruleg  rl
+objloc g_llleg  ll
+objloc g_rlleg  rl
+objloc g_lftoe  ll
+objloc g_rftoe  rl
+objloc g_lrtoe  ll
+objloc g_rrtoe  rl
+
+animfile garganim
+
+# task animators go here....
+task animator 0    g_hips;55,129,0
+task animator 0    g_hips;55,1,1
+task animator 0    g_ruleg;55,1,2
+task animator 0    g_rlleg;55,1,3
+task animator 0    g_rftoe;55,1,4
+task animator 0    g_rrtoe;55,1,5
+task animator 0    g_luleg;55,1,6
+task animator 0    g_llleg;55,1,7
+task animator 0    g_lftoe;55,1,8
+task animator 0    g_lrtoe;55,1,9
+task animator 0    g_head;55,1,10
+task animator 0    g_rarm;55,1,11
+task animator 0    g_larm;55,1,12
+
+hdpof g_hdpof
+ctpof g_ctpof
+rtpof g_rtpof
+ltpof g_ltpof
+lapof g_lapof
+rapof g_rapof
+ljpof g_ljpof
+rjpof g_rjpof
+
+eyeobj g_cppov
+
+vptfile mw2mech
+cptfile mw2mech
+hudfile mw2hud
+mgdfile grimreap
+pitfile mw2pit
+
+mangle_off
+
+AnimSound mecfsmed
+
+# end of grimreap.MEC
+
+
