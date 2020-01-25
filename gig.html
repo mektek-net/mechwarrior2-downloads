@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Vmaxx">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (Win95; I) [Netscape]">
+   <TITLE>Troubleshooting Mechwarrior</TITLE>
+</HEAD>
+<BODY TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#FFFF00" VLINK="#C0C0C0" ALINK="#C0FFC0" BACKGROUND="stars.jpg">
+<CENTER><IMG SRC="graphics/debug.gif" width="464" height="32"></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">The most common thing I can think of is Memory Management problems</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">so I am putting forth this information to help those who are less fortunate</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">than us technoweenies who know this stuff.</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">One word of warning though, this information goes with this restriction,</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">USE AT YOUR OWN RISK.</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">If you feel uncomfortable in modifying your startup files</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">then DON'T.</FONT></CENTER>
+<CENTER><IMG SRC="graphics/pulse.gif" HEIGHT=18 WIDTH=462></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">A little tip from the wise Make backup copies of your autoexec.bat</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">and config.sys before you edit them.</FONT></CENTER>
+<CENTER><IMG SRC="graphics/pulse.gif" HEIGHT=18 WIDTH=462></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">This information below only applies to IBM PC Compatibles</FONT></CENTER>
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">The first thing to know is:</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">Your working memory is only 1MB.</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">what this means is, no matter how much memory you buy and stick in your</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">machine the processor will only access directly the first Megabyte of memory.</FONT></CENTER>
+<CENTER><IMG SRC="graphics/onemeg.gif" HEIGHT=50 WIDTH=300></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">Most program will run within the first 640k of memory.</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">The 384k left was meant for adapter space, meaning adapters like a</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">network card would take up its ROM/RAM space in that space.</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">This would allow the processor to read from the RAM space and make</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">calls to the ROM and get pertenant information for networking operations.</FONT></CENTER>
+<CENTER>
+<HR NOSHADE WIDTH="25%"></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">Someone figured out however that, "hey, if the processor can see it there,</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">then why can't a program run there?" So most of those Terminate and Stay</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">Ready (TSRs) were being shoved up into that space and leaving the 640k block</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">for the more important, actual programs. They even gave it a name the Upper</FONT></CENTER>
+<CENTER><FONT FACE="Arial,Helvetica">Memory Block (UMB).</FONT></CENTER>
+<CENTER>
+<HR NOSHADE WIDTH="25%"></CENTER>
+
+<UL><FONT FACE="Arial,Helvetica">The two handy tools of memory adjustment
+are Microsoft Diagnotics and the old MEM command from DOS. If you don't
+have MSD get it from the Microsoft Site.&nbsp; It came with DOS 5.0 or
+Windows 3.1 and higher (I think). However I know that a fresh Windows 95
+install doesn't come it.</FONT>
+<BR><FONT FACE="Arial,Helvetica">What does MSD give you? After running
+MSD you'll get lots of generic info but what you're after is memory, so
+hit M and it will show something like below:</FONT>
+<BR><IMG SRC="graphics/msd1.gif" HEIGHT=254 WIDTH=481><FONT FACE="Arial,Helvetica"></FONT>
+<UL><FONT FACE="Arial,Helvetica">and page down for:</FONT></UL>
+<IMG SRC="graphics/msd2.gif" HEIGHT=252 WIDTH=482><FONT FACE="Arial,Helvetica"></FONT>
+<BR><FONT FACE="Arial,Helvetica">If you'll notice the usual space for upper
+memory that is normally available to load stuff into is C000-EFFF.&nbsp;
+Usually A000-BFFF is Monochrome and</FONT>
+<BR><FONT FACE="Arial,Helvetica">Text video memory (if you try to use that
+space it will likely lock up when tried in use).&nbsp; Monochrome Video
+space is sometimes available from B000-B7FF (usually it shows an open space
+here (ie. no dots))&nbsp;&nbsp; As you can see I have some adapters taking
+up some space as ROM from C000-CC7E and its all continguous (which is good).&nbsp;
+If it is chunked up meaning lots of blank spaces between ROM segments then
+it reduces your size of your programs you can load up there.&nbsp; Notice
+also, that from CC7F-D13B is dotted (as possibly available) often this
+is actually adapter RAM space and shouldn't be used.&nbsp; Since I ran
+this under Windows 95 and everything is loaded you can see the U's which
+stand for used Upper memory blocks.&nbsp; Normally under DOS and not loading
+anything (ie hitting F5 or F8 to not load Config.sys or autoexec.bat) that
+area would show up blank.</FONT>
+<BR><FONT FACE="Arial,Helvetica">So what does this mean?</FONT>
+<BR><FONT FACE="Arial,Helvetica">My good area to work with is actually
+D000-EFFF because via DOS the little range from D000-D13B which shows up
+as dots above are blank.</FONT>
+<BR><FONT FACE="Arial,Helvetica">What do I do about it? In your CONFIG.SYS
+you should show this:</FONT>
+<BR><FONT FACE="Arial,Helvetica">Making sure that the paths are correct!</FONT>
+<BR><TT>-----------------</TT>
+<BR><B><TT>DEVICE=C:\WINDOWS\HIMEM.SYS</TT></B>
+<BR><B><TT>DEVICE=C:\WINDOWS\EMM386.EXE NOEMS I=D000-EFFF X=A000-CFFF</TT></B>
+<BR><B><TT>DOS=HIGH</TT></B>
+<BR><B><TT>DOS=UMB</TT></B>
+<BR><TT>-----------------</TT>
+<BR><FONT FACE="Arial,Helvetica">This will ensure that you are using all
+of your available upper memory block.</FONT>
+<BR><FONT FACE="Arial,Helvetica">When you have to load TSRs you can try
+to load them by puting the command LH in front of them.</FONT>
+<BR><FONT FACE="Arial,Helvetica">for example:</FONT>
+<BR><B><TT>MOUSE&nbsp;&nbsp;&nbsp;&nbsp; &lt;before</TT></B>
+<BR><B><TT>LH MOUSE&nbsp; &lt;after</TT></B>
+<BR><FONT FACE="Arial,Helvetica">In the config.sys drivers can be loaded
+in the upper memory area by using the DEVICEHIGH command.</FONT>
+<BR><FONT FACE="Arial,Helvetica">for example:</FONT>
+<BR><B><TT>DEVICE=C:\DOS\ANSI.SYS&nbsp;&nbsp;&nbsp;&nbsp; &lt;before</TT></B>
+<BR><B><TT>DEVICEHIGH=C:\DOS\ANSI.SYS &lt;after</TT></B>
+<CENTER><FONT FACE="Arial,Helvetica">If any of this drivel helps e-mail
+me and let me know how I</FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">can improve it.&nbsp; Otherwise just
+ignore it. =0)</FONT></CENTER>
+
+</BODY>
+</HTML>
